@@ -1,0 +1,11 @@
+@import '../../sass/styles.scss';
+
+.title {
+  font-family: 'Roboto';
+  @include font(24px, 700, 1.17, 0);
+  color: $white-color;
+
+  @include tablet {
+    @include font(32px, 700, 1.38, 0);
+  }
+}
