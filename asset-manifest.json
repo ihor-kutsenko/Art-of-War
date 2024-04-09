@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/Art-of-War/static/css/main.1698f8ce.css",
-    "main.js": "/Art-of-War/static/js/main.ad11a285.js",
-    "static/css/24.033569b6.chunk.css": "/Art-of-War/static/css/24.033569b6.chunk.css",
-    "static/js/24.15f62f88.chunk.js": "/Art-of-War/static/js/24.15f62f88.chunk.js",
+    "main.js": "/Art-of-War/static/js/main.1743f6fb.js",
+    "static/css/239.40231018.chunk.css": "/Art-of-War/static/css/239.40231018.chunk.css",
+    "static/js/239.566e1c66.chunk.js": "/Art-of-War/static/js/239.566e1c66.chunk.js",
     "static/js/622.f43b2ac3.chunk.js": "/Art-of-War/static/js/622.f43b2ac3.chunk.js",
     "static/js/75.efb708e2.chunk.js": "/Art-of-War/static/js/75.efb708e2.chunk.js",
     "static/css/463.4a7951ca.chunk.css": "/Art-of-War/static/css/463.4a7951ca.chunk.css",
     "static/js/463.620dd684.chunk.js": "/Art-of-War/static/js/463.620dd684.chunk.js",
     "static/js/413.57f6f2ee.chunk.js": "/Art-of-War/static/js/413.57f6f2ee.chunk.js",
+    "static/media/main.jpg": "/Art-of-War/static/media/main.2b60506fe1e656e77de8.jpg",
     "index.html": "/Art-of-War/index.html",
     "static/media/sprite.svg": "/Art-of-War/static/media/sprite.d77709f9ac184374b9f38772f9fb270a.svg",
     "main.1698f8ce.css.map": "/Art-of-War/static/css/main.1698f8ce.css.map",
-    "main.ad11a285.js.map": "/Art-of-War/static/js/main.ad11a285.js.map",
-    "24.033569b6.chunk.css.map": "/Art-of-War/static/css/24.033569b6.chunk.css.map",
-    "24.15f62f88.chunk.js.map": "/Art-of-War/static/js/24.15f62f88.chunk.js.map",
+    "main.1743f6fb.js.map": "/Art-of-War/static/js/main.1743f6fb.js.map",
+    "239.40231018.chunk.css.map": "/Art-of-War/static/css/239.40231018.chunk.css.map",
+    "239.566e1c66.chunk.js.map": "/Art-of-War/static/js/239.566e1c66.chunk.js.map",
     "622.f43b2ac3.chunk.js.map": "/Art-of-War/static/js/622.f43b2ac3.chunk.js.map",
     "75.efb708e2.chunk.js.map": "/Art-of-War/static/js/75.efb708e2.chunk.js.map",
     "463.4a7951ca.chunk.css.map": "/Art-of-War/static/css/463.4a7951ca.chunk.css.map",
@@ -23,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.1698f8ce.css",
-    "static/js/main.ad11a285.js"
+    "static/js/main.1743f6fb.js"
   ]
 }
