@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Art-of-War/static/css/main.7acaea2f.css",
+    "main.js": "/Art-of-War/static/js/main.07d3183d.js",
+    "index.html": "/Art-of-War/index.html",
+    "main.7acaea2f.css.map": "/Art-of-War/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/Art-of-War/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
