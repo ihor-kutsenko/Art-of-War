@@ -10,9 +10,6 @@ const Item = () => {
 
   return (
     <div>
-      <p>10</p>
-      <p>20</p>
-      <p>30</p>
       <p>name</p>
       <Button
         text="Learn More"
