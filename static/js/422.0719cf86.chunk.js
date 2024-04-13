@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[422],{422:function(r,e,i){i.r(e);i(791);var n=i(184);e.default=function(){return(0,n.jsx)("div",{children:(0,n.jsxs)("ul",{children:[(0,n.jsx)("li",{children:"Tournament"}),(0,n.jsx)("li",{children:"Blitz-Tournament"}),(0,n.jsx)("li",{children:"Skirmish"}),(0,n.jsx)("li",{children:"Orders"}),(0,n.jsx)("li",{children:"Leagues"})]})})}}}]);
+//# sourceMappingURL=422.0719cf86.chunk.js.map

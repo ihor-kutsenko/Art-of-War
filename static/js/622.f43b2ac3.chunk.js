@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[622],{622:function(r,a,e){e.r(a);e(791);var n=e(184);a.default=function(){return(0,n.jsx)("div",{children:"Sign Up Page"})}}}]);
-//# sourceMappingURL=622.f43b2ac3.chunk.js.map

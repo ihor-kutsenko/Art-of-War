@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[413],{413:function(r,a,e){e.r(a);var t=e(184);a.default=function(){return(0,t.jsx)("div",{children:"Favorite page"})}}}]);
-//# sourceMappingURL=413.57f6f2ee.chunk.js.map

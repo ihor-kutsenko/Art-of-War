@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/75.efb708e2.chunk.js","mappings":"qIAMA,UAJmB,WACjB,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,gBACd,C","sources":["pages/SignInPage/SignInPage.jsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst SignInPage = () => {\r\n  return <div>Sign In Page</div>;\r\n};\r\n\r\nexport default SignInPage;\r\n"],"names":["_jsx","children"],"sourceRoot":""}
