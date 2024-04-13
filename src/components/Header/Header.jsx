@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
 import {
   WELCOME_PAGE_ROUTE,
-  CATALOG_ROUTE,
-  FAVORITES_ROUTE,
-  SIGN_IN_ROUTE,
-  SIGN_UP_ROUTE,
+  HEROES_ROUTE,
+  MAPS_ROUTE,
+  MEDALS_ROUTE,
+  UNITS_ROUTE,
 } from 'routes/routes';
 
 const Header = () => {
@@ -26,10 +26,10 @@ const Header = () => {
         }}
       >
         <NavLink to={WELCOME_PAGE_ROUTE}>Home</NavLink>
-        <NavLink to={CATALOG_ROUTE}>Catalog</NavLink>
-        <NavLink to={FAVORITES_ROUTE}>Favorites</NavLink>
-        <NavLink to={SIGN_IN_ROUTE}>Sign In page</NavLink>
-        <NavLink to={SIGN_UP_ROUTE}>Sign Up page</NavLink>
+        <NavLink to={MAPS_ROUTE}>Maps</NavLink>
+        <NavLink to={MEDALS_ROUTE}>Medals</NavLink>
+        <NavLink to={HEROES_ROUTE}>Heroes</NavLink>
+        <NavLink to={UNITS_ROUTE}>Units</NavLink>
       </nav>
     </div>
   );

@@ -1,18 +1,16 @@
 import { lazy } from 'react';
 
 const WelcomePage = lazy(() => import('../pages/WelcomePage/WelcomePage'));
-const SignUpPage = lazy(() => import('../pages/SignUpPage/SignUpPage'));
-const SignInPage = lazy(() => import('../pages/SignInPage/SignInPage'));
-const CatalogPage = lazy(() => import('../pages/CatalogPage/CatalogPage'));
-const FavoritesPage = lazy(() =>
-  import('../pages/FavoritesPage/FavoritesPage')
-);
+const UnitsPage = lazy(() => import('../pages/UnitsPage/UnitsPage'));
+const MedalsPage = lazy(() => import('../pages/MedalsPage/MedalsPage'));
+const HeroesPage = lazy(() => import('../pages/HeroesPage/HeroesPage'));
+const MapsPage = lazy(() => import('../pages/MapsPage/MapsPage'));
 
 export const WELCOME_PAGE_ROUTE = '/';
-export const SIGN_UP_ROUTE = '/sign-up';
-export const SIGN_IN_ROUTE = '/sign-in';
-export const CATALOG_ROUTE = '/catalog';
-export const FAVORITES_ROUTE = '/favorites';
+export const UNITS_ROUTE = '/units';
+export const MEDALS_ROUTE = '/medals';
+export const HEROES_ROUTE = '/heroes';
+export const MAPS_ROUTE = '/maps';
 
 export const appRoutes = [
   {
@@ -20,19 +18,19 @@ export const appRoutes = [
     element: <WelcomePage />,
   },
   {
-    path: SIGN_UP_ROUTE,
-    element: <SignUpPage />,
+    path: UNITS_ROUTE,
+    element: <UnitsPage />,
   },
   {
-    path: SIGN_IN_ROUTE,
-    element: <SignInPage />,
+    path: MEDALS_ROUTE,
+    element: <MedalsPage />,
   },
   {
-    path: CATALOG_ROUTE,
-    element: <CatalogPage />,
+    path: HEROES_ROUTE,
+    element: <HeroesPage />,
   },
   {
-    path: FAVORITES_ROUTE,
-    element: <FavoritesPage />,
+    path: MAPS_ROUTE,
+    element: <MapsPage />,
   },
 ];
