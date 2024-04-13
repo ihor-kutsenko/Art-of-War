@@ -6,30 +6,32 @@ import {
   MEDALS_ROUTE,
   UNITS_ROUTE,
 } from 'routes/routes';
+import logo from '../../images/logo/aow_logo_04.png';
+import styles from './Header.module.scss';
 
 const Header = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        gap: '15px',
-        marginBottom: '20px',
-      }}
-    >
-      <NavLink to={WELCOME_PAGE_ROUTE}> Logo</NavLink>
-      <nav
-        style={{
-          display: 'flex',
-
-          gap: '15px',
-        }}
-      >
-        <NavLink to={WELCOME_PAGE_ROUTE}>Home</NavLink>
-        <NavLink to={MAPS_ROUTE}>Maps</NavLink>
-        <NavLink to={MEDALS_ROUTE}>Medals</NavLink>
-        <NavLink to={HEROES_ROUTE}>Heroes</NavLink>
-        <NavLink to={UNITS_ROUTE}>Units</NavLink>
+    <div className={styles.header}>
+      <NavLink to={WELCOME_PAGE_ROUTE} className={styles.logo}>
+        {' '}
+        <img src={logo} className={styles.logo_img} alt="logo" />
+      </NavLink>
+      <nav>
+        <NavLink to={WELCOME_PAGE_ROUTE} className={styles.link}>
+          Home
+        </NavLink>
+        <NavLink to={MAPS_ROUTE} className={styles.link}>
+          Maps
+        </NavLink>
+        <NavLink to={MEDALS_ROUTE} className={styles.link}>
+          Medals
+        </NavLink>
+        <NavLink to={HEROES_ROUTE} className={styles.link}>
+          Heroes
+        </NavLink>
+        <NavLink to={UNITS_ROUTE} className={styles.link}>
+          Units
+        </NavLink>
       </nav>
     </div>
   );
