@@ -11,8 +11,13 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-          {appRoutes.map(({ path, element }) => (
-            <Route key={path} path={path} element={element} />
+          {appRoutes.map(({ path, element, children }) => (
+            <Route key={path} path={path} element={element}>
+              {children &&
+                children.map(({ path, element }) => (
+                  <Route key={path} path={path} element={element} />
+                ))}
+            </Route>
           ))}
         </Route>
         <Route path="*" element={<NotFoundPage />} />
