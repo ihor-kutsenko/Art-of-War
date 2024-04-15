@@ -24,8 +24,8 @@ const LeaguesPage = lazy(() =>
 export const WELCOME_PAGE_ROUTE = '/';
 export const UNITS_ROUTE = '/units';
 export const MEDALS_ROUTE = '/medals';
-export const TOURNAMENT_ROUTE = '/medals/tournament';
-export const BLITZ_TOURNAMENT_ROUTE = '/medals/blitz-tournament';
+export const TOURNAMENT_ROUTE = '/medals/tournaments';
+export const BLITZ_TOURNAMENT_ROUTE = '/medals/blitz-tournaments';
 export const SKIRMISH_ROUTE = '/medals/skirmish';
 export const ORDERS_ROUTE = '/medals/orders';
 export const LEAGUES_ROUTE = '/medals/leagues';

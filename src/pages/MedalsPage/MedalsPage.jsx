@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import { Outlet } from 'react-router-dom';
 // import { useState, useEffect } from 'react';
+import Container from 'components/Container/Container';
+import NavigationPage from 'components/NavigationPage/NavigationPage';
 import {
   TOURNAMENT_ROUTE,
   BLITZ_TOURNAMENT_ROUTE,
@@ -9,29 +9,19 @@ import {
   LEAGUES_ROUTE,
 } from 'routes/routes';
 
+const links = [
+  { path: TOURNAMENT_ROUTE, label: 'Tournaments' },
+  { path: BLITZ_TOURNAMENT_ROUTE, label: 'Blitz-Tournaments' },
+  { path: SKIRMISH_ROUTE, label: 'Skirmish' },
+  { path: ORDERS_ROUTE, label: 'Orders' },
+  { path: LEAGUES_ROUTE, label: 'Leagues' },
+];
+
 const MedalsPage = () => {
   return (
-    <div>
-      <ul style={{ display: 'flex', gap: '8px' }}>
-        <li>
-          <Link to={TOURNAMENT_ROUTE}>Tournaments</Link>
-        </li>
-        <li>
-          <Link to={BLITZ_TOURNAMENT_ROUTE}>Blitz-Tournaments</Link>
-        </li>
-        <li>
-          <Link to={SKIRMISH_ROUTE}>Skirmish</Link>
-        </li>
-        <li>
-          <Link to={ORDERS_ROUTE}>Orders</Link>
-        </li>
-        <li>
-          <Link to={LEAGUES_ROUTE}>Leagues</Link>
-        </li>
-      </ul>
-
-      <Outlet />
-    </div>
+    <Container>
+      <NavigationPage links={links} />
+    </Container>
   );
 };
 
