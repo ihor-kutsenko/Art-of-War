@@ -29,14 +29,31 @@
   }
 }
 
-.link {
-  padding: 8px 16px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 700;
-  color: $white-color;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  @include hover {
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  @include tablet {
+    display: flex;
+    gap: 8px;
+  }
+
+  &_link {
+    padding: 8px 26px;
+    border-radius: $border-radius;
+    border: $border-active;
+    text-decoration: none;
+    font-weight: 700;
+    color: $white-color;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include hover {
+      color: $blue-2-color;
+      background-color: $orange-2-color;
+      border: transparent;
+    }
+  }
+  .active {
     color: $blue-2-color;
     background-color: $orange-2-color;
   }
