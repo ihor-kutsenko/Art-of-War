@@ -16,8 +16,8 @@
 }
 
 .link {
-  padding: 4px 8px;
-  border-radius: 25px;
+  padding: 8px 16px;
+  border-radius: $border-radius;
   text-decoration: none;
   font-weight: 700;
   color: $orange-2-color;
@@ -27,7 +27,8 @@
     background-color: $blue-2-color;
   }
 
-  @include tablet {
-    padding: 8px 16px;
+  &.active {
+    color: $white-color;
+    background-color: $blue-2-color;
   }
 }

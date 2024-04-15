@@ -8,7 +8,12 @@ const NavigationPage = ({ links }) => {
     <Container>
       <nav className={styles.navigation}>
         {links.map(({ path, label }) => (
-          <NavLink key={path} className={styles.link} to={path}>
+          <NavLink
+            key={path}
+            className={styles.link}
+            to={path}
+            activeClassName={styles.active}
+          >
             {label}
           </NavLink>
         ))}
