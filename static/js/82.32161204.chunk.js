@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[82],{4082:function(r,e,a){a.r(e);a(2791);var n=a(184);e.default=function(){return(0,n.jsx)("div",{children:"WinterPage"})}}}]);
+//# sourceMappingURL=82.32161204.chunk.js.map
