@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[253],{253:function(n,i,l){l.r(i);var r=l(184);i.default=function(){return(0,r.jsx)("div",{children:(0,r.jsxs)("ul",{children:[(0,r.jsx)("li",{children:"Autumn maps"}),(0,r.jsx)("li",{children:"Winter maps"}),(0,r.jsx)("li",{children:"Midland maps"}),(0,r.jsx)("li",{children:"Jungle maps"})]})})}}}]);
-//# sourceMappingURL=253.f40bdae2.chunk.js.map
