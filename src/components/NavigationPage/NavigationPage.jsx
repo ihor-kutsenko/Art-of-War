@@ -12,7 +12,7 @@ const NavigationPage = ({ links }) => {
             key={path}
             className={styles.link}
             to={path}
-            activeClassName={styles.active}
+            activeclassname={styles.active}
           >
             {label}
           </NavLink>
