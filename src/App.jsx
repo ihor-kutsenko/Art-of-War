@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom';
 import { appRoutes } from 'routes/routes';
 
 import NotFoundPage from 'pages/NotFoundPage/NotFoundPage';
-
 import SharedLayout from 'components/SharedLayout/SharedLayout';
 
 const App = () => {

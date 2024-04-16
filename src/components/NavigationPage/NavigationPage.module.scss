@@ -6,6 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
   row-gap: 4px;
+  margin-bottom: 8px;
   @include tablet {
     justify-content: space-between;
   }
