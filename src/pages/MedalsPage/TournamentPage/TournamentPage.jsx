@@ -1,10 +1,11 @@
 import Item from 'components/Item/Item';
+import nautilus from '../../../images/tournaments/nautilus/nautilus.jpg';
 
 const TournamentPage = () => {
   return (
     <div>
       <p>Tournaments</p>
-      <Item />
+      <Item title="Nautilus" imageUrl={nautilus} buttonText="medals" />
     </div>
   );
 };
