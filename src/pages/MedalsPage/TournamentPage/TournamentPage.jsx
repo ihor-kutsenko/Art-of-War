@@ -1,5 +1,5 @@
 import Item from 'components/Item/Item';
-import { tournaments } from 'data/tournaments/tournaments';
+import { tournaments } from 'data/tournaments';
 
 const TournamentPage = () => {
   return (

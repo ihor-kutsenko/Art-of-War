@@ -1,5 +1,5 @@
-import nautilusImage from '../../images/tournaments/nautilus/nautilus.jpg';
-import { nautilusMedals } from './nautilus';
+import nautilusImage from '../images/tournaments/nautilus/nautilus.jpg';
+import { nautilusMedals } from './tournaments/nautilus';
 export const tournaments = [
   {
     title: 'Nautilus search',

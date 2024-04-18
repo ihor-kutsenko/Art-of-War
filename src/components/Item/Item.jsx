@@ -3,10 +3,20 @@ import { useState } from 'react';
 import Button from 'components/Button/Button';
 import Modal from 'components/Modal/Modal';
 import styles from './Item.module.scss';
+import MedalList from 'components/MedalList/MedalList';
+import MedalGrid from 'components/MedalGrid/MedalGrid';
 
 const Item = ({ title, imageUrl, buttonText, medals }) => {
   const [showModal, setShowModal] = useState(false);
+  const [selectedMedal, setSelectedMedal] = useState(null);
+
+  const selectedMedalLower = selectedMedal ? selectedMedal.toLowerCase() : null;
+
   const toggleModal = () => setShowModal(!showModal);
+
+  const handleMedalSelect = medal => {
+    setSelectedMedal(medal);
+  };
 
   return (
     <div className={styles.item}>
@@ -18,7 +28,16 @@ const Item = ({ title, imageUrl, buttonText, medals }) => {
         className={styles.button}
         onClick={toggleModal}
       />
-      {showModal && <Modal onClose={toggleModal} medals={medals}></Modal>}
+      {showModal && (
+        <Modal onClose={() => setShowModal(false)}>
+          <MedalList onSelect={handleMedalSelect} />
+          {selectedMedal && (
+            <div>
+              <MedalGrid images={medals[selectedMedalLower]} />
+            </div>
+          )}
+        </Modal>
+      )}
     </div>
   );
 };
