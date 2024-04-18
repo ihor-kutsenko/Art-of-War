@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import Modal from 'components/Modal/Modal';
+
 import styles from './MedalList.module.scss';
 
 const MedalList = ({ onSelect }) => {
