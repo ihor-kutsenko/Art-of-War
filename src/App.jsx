@@ -1,9 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
-
-import { appRoutes } from 'routes/routes';
+import ScrollToTop from 'react-scroll-up';
+import { RxThickArrowUp } from 'react-icons/rx';
 
 import NotFoundPage from 'pages/NotFoundPage/NotFoundPage';
 import SharedLayout from 'components/SharedLayout/SharedLayout';
+import ScrollWrapper from 'components/ScrollToUp/ScrollWrapper';
+import scrollToTopStyle from 'components/ScrollToUp/ScrollToTopStyle';
+
+import { appRoutes } from 'routes/routes';
 
 const App = () => {
   return (
@@ -21,6 +25,12 @@ const App = () => {
         </Route>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+
+      <ScrollToTop showUnder={100} style={scrollToTopStyle}>
+        <ScrollWrapper>
+          <RxThickArrowUp size="28" strokeWidth="0.2px" />
+        </ScrollWrapper>
+      </ScrollToTop>
     </>
   );
 };
