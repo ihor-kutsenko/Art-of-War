@@ -1,32 +1,32 @@
-import steel1 from '../../images/tournaments/Vanguard/steel1.png';
-import steel2 from '../../images/tournaments/Vanguard/steel2.png';
-import steel3 from '../../images/tournaments/Vanguard/steel3.png';
-import steel4 from '../../images/tournaments/Vanguard/steel4.png';
+import steel1 from '../../images/tournaments/vanguard/steel1.png';
+import steel2 from '../../images/tournaments/vanguard/steel2.png';
+import steel3 from '../../images/tournaments/vanguard/steel3.png';
+import steel4 from '../../images/tournaments/vanguard/steel4.png';
 
-import bronze1 from '../../images/tournaments/Vanguard/bronze1.png';
-import bronze2 from '../../images/tournaments/Vanguard/bronze2.png';
-import bronze3 from '../../images/tournaments/Vanguard/bronze3.png';
-import bronze4 from '../../images/tournaments/Vanguard/bronze4.png';
+import bronze1 from '../../images/tournaments/vanguard/bronze1.png';
+import bronze2 from '../../images/tournaments/vanguard/bronze2.png';
+import bronze3 from '../../images/tournaments/vanguard/bronze3.png';
+import bronze4 from '../../images/tournaments/vanguard/bronze4.png';
 
-import silver1 from '../../images/tournaments/Vanguard/silver1.png';
-import silver2 from '../../images/tournaments/Vanguard/silver2.png';
-import silver3 from '../../images/tournaments/Vanguard/silver3.png';
-import silver4 from '../../images/tournaments/Vanguard/silver4.png';
+import silver1 from '../../images/tournaments/vanguard/silver1.png';
+import silver2 from '../../images/tournaments/vanguard/silver2.png';
+import silver3 from '../../images/tournaments/vanguard/silver3.png';
+import silver4 from '../../images/tournaments/vanguard/silver4.png';
 
-import gold1 from '../../images/tournaments/Vanguard/gold1.png';
-import gold2 from '../../images/tournaments/Vanguard/gold2.png';
-import gold3 from '../../images/tournaments/Vanguard/gold3.png';
-import gold4 from '../../images/tournaments/Vanguard/gold4.png';
+import gold1 from '../../images/tournaments/vanguard/gold1.png';
+import gold2 from '../../images/tournaments/vanguard/gold2.png';
+import gold3 from '../../images/tournaments/vanguard/gold3.png';
+import gold4 from '../../images/tournaments/vanguard/gold4.png';
 
-import diamond1 from '../../images/tournaments/Vanguard/diamond1.png';
-import diamond2 from '../../images/tournaments/Vanguard/diamond2.png';
-import diamond3 from '../../images/tournaments/Vanguard/diamond3.png';
-import diamond4 from '../../images/tournaments/Vanguard/diamond4.png';
+import diamond1 from '../../images/tournaments/vanguard/diamond1.png';
+import diamond2 from '../../images/tournaments/vanguard/diamond2.png';
+import diamond3 from '../../images/tournaments/vanguard/diamond3.png';
+import diamond4 from '../../images/tournaments/vanguard/diamond4.png';
 
-import star1 from '../../images/tournaments/Vanguard/star1.png';
-import star2 from '../../images/tournaments/Vanguard/star2.png';
-import star3 from '../../images/tournaments/Vanguard/star3.png';
-import star4 from '../../images/tournaments/Vanguard/star4.png';
+import star1 from '../../images/tournaments/vanguard/star1.png';
+import star2 from '../../images/tournaments/vanguard/star2.png';
+import star3 from '../../images/tournaments/vanguard/star3.png';
+import star4 from '../../images/tournaments/vanguard/star4.png';
 
 export const vanguardMedals = {
   steel: [steel1, steel2, steel3, steel4],
