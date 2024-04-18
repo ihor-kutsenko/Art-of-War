@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ImageGrid = ({ images }) => {
+const MedalGrid = ({ images }) => {
   return (
     <div
       style={{
@@ -21,4 +21,4 @@ const ImageGrid = ({ images }) => {
   );
 };
 
-export default ImageGrid;
+export default MedalGrid;

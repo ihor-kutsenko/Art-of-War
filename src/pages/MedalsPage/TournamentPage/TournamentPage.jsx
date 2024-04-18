@@ -1,11 +1,19 @@
 import Item from 'components/Item/Item';
-import nautilus from '../../../images/tournaments/nautilus/nautilus.jpg';
+import { tournaments } from 'data/tournaments/tournaments';
 
 const TournamentPage = () => {
   return (
     <div>
       <p>Tournaments</p>
-      <Item title="Nautilus" imageUrl={nautilus} buttonText="medals" />
+      {tournaments.map((tournament, index) => (
+        <Item
+          key={index}
+          title={tournament.title}
+          imageUrl={tournament.imageUrl}
+          buttonText={tournament.buttonText}
+          medals={tournament.medals}
+        />
+      ))}
     </div>
   );
 };

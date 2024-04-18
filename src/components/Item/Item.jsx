@@ -4,7 +4,7 @@ import Button from 'components/Button/Button';
 import Modal from 'components/Modal/Modal';
 import styles from './Item.module.scss';
 
-const Item = ({ title, imageUrl, buttonText }) => {
+const Item = ({ title, imageUrl, buttonText, medals }) => {
   const [showModal, setShowModal] = useState(false);
   const toggleModal = () => setShowModal(!showModal);
 
@@ -18,7 +18,7 @@ const Item = ({ title, imageUrl, buttonText }) => {
         className={styles.button}
         onClick={toggleModal}
       />
-      {showModal && <Modal onClose={toggleModal}></Modal>}
+      {showModal && <Modal onClose={toggleModal} medals={medals}></Modal>}
     </div>
   );
 };
