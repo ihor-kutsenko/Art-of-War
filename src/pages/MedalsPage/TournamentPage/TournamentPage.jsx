@@ -1,10 +1,10 @@
 import Item from 'components/Item/Item';
 import { tournaments } from 'data/tournaments';
+import styles from './TournamentPage.module.scss';
 
 const TournamentPage = () => {
   return (
-    <div>
-      <p>Tournaments</p>
+    <div className={styles.list}>
       {tournaments.map((tournament, index) => (
         <Item
           key={index}

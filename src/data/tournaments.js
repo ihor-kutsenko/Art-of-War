@@ -1,9 +1,5 @@
 import nautilusImage from '../images/tournaments/nautilus.jpg';
-import { nautilusMedals } from './tournaments/nautilus';
-
 import vanguardImage from '../images/tournaments/vanguard.jpg';
-import { vanguardMedals } from './tournaments/vanguard';
-
 import battleRoyaleImage from '../images/tournaments/battle-royale.jpg';
 import fifthAnniversaryImage from '../images/tournaments/5th-anniversary.jpg';
 import allForTheFrontImage from '../images/tournaments/all-for-the-front.jpg';
@@ -23,6 +19,9 @@ import reliablePartnerImage from '../images/tournaments/reliable-partner.jpg';
 import totalControlImage from '../images/tournaments/total-control.jpg';
 import twoCitadelsImage from '../images/tournaments/two-citadels.jpg';
 import birthdayImage from '../images/tournaments/birthday.jpg';
+
+import { nautilusMedals } from './tournaments/nautilus';
+import { vanguardMedals } from './tournaments/vanguard';
 
 export const tournaments = [
   {

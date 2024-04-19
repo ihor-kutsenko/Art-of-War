@@ -4,38 +4,61 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 20px 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .title {
-  font-size: 1.5rem;
   margin-bottom: 10px;
   text-align: center;
+  @include font(24px, 700, 1.19);
+  @include tablet {
+    @include font(28px, 700, 1.28);
+  }
+  @include desktop {
+    @include font(36px, 700, 1.28);
+  }
 }
 
 .image {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
   margin-bottom: 10px;
+  border-radius: $border-radius;
+  @include tablet {
+    max-width: 746px;
+  }
+  @include desktop {
+    max-width: 1430px;
+  }
 }
 
 .button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 99px;
+  padding: 10px 99px;
   width: 274px;
-  height: 44px;
-  border-radius: 12px;
-  @include font(14px, 600, 1.43);
-  color: #fff;
-  background-color: green;
-  transition: background-color 250ms linear;
+  @include font(16px, 600, 1.5);
+  border-radius: $border-radius;
+  color: $white-color;
+  background-color: $green-color;
+  transition: background-color $transition;
   @include hover {
-    background-color: tomato;
+    background-color: $blue-3-color;
+  }
+
+  @include tablet {
+    padding: 16px 99px;
+    width: 365px;
+    @include font(20px, 600, 1.5);
+  }
+
+  @include desktop {
+    width: 550px;
+    @include font(24px, 600, 1.5);
   }
 }

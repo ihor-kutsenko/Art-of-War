@@ -1,21 +1,31 @@
-import { NavLink } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
+import { useState } from 'react';
 import Container from 'components/Container/Container';
 import styles from './NavigationPage.module.scss';
 
 const NavigationPage = ({ links }) => {
+  const { pathname } = useLocation();
+  const [activeLink, setActiveLink] = useState(pathname);
+
+  const handleLinkClick = path => {
+    setActiveLink(path);
+  };
+
   return (
     <Container>
       <nav className={styles.navigation}>
         {links.map(({ path, label }) => (
-          <NavLink
+          <Link
             key={path}
-            className={styles.link}
+            className={`${styles.link} ${
+              activeLink === path ? styles.active : ''
+            }`}
             to={path}
-            activeclassname={styles.active}
+            onClick={() => handleLinkClick(path)}
           >
             {label}
-          </NavLink>
+          </Link>
         ))}
       </nav>
       <Outlet />
