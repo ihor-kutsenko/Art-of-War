@@ -26,30 +26,6 @@ import birthdayImage from '../images/tournaments/birthday.jpg';
 
 export const tournaments = [
   {
-    title: 'Searching the Nautilus ',
-    imageUrl: nautilusImage,
-    buttonText: 'Medals',
-    medals: nautilusMedals,
-  },
-  {
-    title: 'Vanguard',
-    imageUrl: vanguardImage,
-    buttonText: 'Medals',
-    medals: vanguardMedals,
-  },
-  {
-    title: 'Battle Royale',
-    imageUrl: battleRoyaleImage,
-    buttonText: 'Medals',
-    medals: nautilusMedals,
-  },
-  {
-    title: '5th Anniversary',
-    imageUrl: fifthAnniversaryImage,
-    buttonText: 'Medals',
-    medals: nautilusMedals,
-  },
-  {
     title: 'All for the Front',
     imageUrl: allForTheFrontImage,
     buttonText: 'Medals',
@@ -62,20 +38,14 @@ export const tournaments = [
     medals: nautilusMedals,
   },
   {
-    title: 'New Years Alarm',
-    imageUrl: newYearImage,
+    title: 'Battle Royale',
+    imageUrl: battleRoyaleImage,
     buttonText: 'Medals',
     medals: nautilusMedals,
   },
   {
     title: 'Behind the Wall',
     imageUrl: behindTheWallImage,
-    buttonText: 'Medals',
-    medals: nautilusMedals,
-  },
-  {
-    title: 'Nice Loot',
-    imageUrl: niceLootImage,
     buttonText: 'Medals',
     medals: nautilusMedals,
   },
@@ -98,6 +68,12 @@ export const tournaments = [
     medals: nautilusMedals,
   },
   {
+    title: 'Game Birthday',
+    imageUrl: birthdayImage,
+    buttonText: 'Medals',
+    medals: nautilusMedals,
+  },
+  {
     title: 'Joker',
     imageUrl: jokerImage,
     buttonText: 'Medals',
@@ -112,6 +88,18 @@ export const tournaments = [
   {
     title: 'Large Reserves',
     imageUrl: largeReservesImage,
+    buttonText: 'Medals',
+    medals: nautilusMedals,
+  },
+  {
+    title: 'New Years Alarm',
+    imageUrl: newYearImage,
+    buttonText: 'Medals',
+    medals: nautilusMedals,
+  },
+  {
+    title: 'Nice Loot',
+    imageUrl: niceLootImage,
     buttonText: 'Medals',
     medals: nautilusMedals,
   },
@@ -134,6 +122,12 @@ export const tournaments = [
     medals: nautilusMedals,
   },
   {
+    title: 'Searching the Nautilus ',
+    imageUrl: nautilusImage,
+    buttonText: 'Medals',
+    medals: nautilusMedals,
+  },
+  {
     title: 'Total Control',
     imageUrl: totalControlImage,
     buttonText: 'Medals',
@@ -146,8 +140,14 @@ export const tournaments = [
     medals: nautilusMedals,
   },
   {
-    title: 'Game Birthday',
-    imageUrl: birthdayImage,
+    title: 'Vanguard',
+    imageUrl: vanguardImage,
+    buttonText: 'Medals',
+    medals: vanguardMedals,
+  },
+  {
+    title: '5th Anniversary',
+    imageUrl: fifthAnniversaryImage,
     buttonText: 'Medals',
     medals: nautilusMedals,
   },
