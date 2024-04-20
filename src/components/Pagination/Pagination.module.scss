@@ -1,0 +1,39 @@
+@import '../../sass/styles.scss';
+
+.pagination_list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 32px;
+}
+
+.pagination_item {
+  margin: 0 4px;
+}
+
+.pagination_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  font-size: 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:not(.active) {
+    background-color: $gray-color;
+  }
+
+  &:disabled {
+    display: none;
+  }
+
+  @include hover {
+    background-color: #0056b3;
+  }
+}
