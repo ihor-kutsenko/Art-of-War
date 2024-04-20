@@ -1,6 +1,7 @@
-// import { useState, useEffect } from 'react';
 import Container from 'components/Container/Container';
+import Item from 'components/Item/Item';
 import NavigationPage from 'components/NavigationPage/NavigationPage';
+
 import {
   TOURNAMENT_ROUTE,
   BLITZ_TOURNAMENT_ROUTE,

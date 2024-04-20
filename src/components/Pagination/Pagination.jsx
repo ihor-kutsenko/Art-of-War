@@ -1,4 +1,4 @@
-import SvgIcon from 'components/SvgIcon/SvgIcon';
+import { FcPrevious, FcNext } from 'react-icons/fc';
 
 import styles from './Pagination.module.scss';
 
@@ -22,19 +22,33 @@ const Pagination = ({
         <li className={styles.pagination_item}>
           <button
             className={styles.pagination_btn}
-            onClick={() => handlePageChange(currentPage - 1)}
+            onClick={() => {
+              handlePageChange(currentPage - 1);
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+              });
+            }}
             disabled={currentPage === 1}
           >
-            <SvgIcon iconId={'icon-pagination'} />
+            <FcPrevious size="24" /> Previous page
           </button>
         </li>
         <li className={styles.pagination_item}>
           <button
             className={styles.pagination_btn}
-            onClick={() => handlePageChange(currentPage + 1)}
+            onClick={() => {
+              handlePageChange(currentPage + 1);
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+              });
+            }}
             disabled={currentPage === totalPages}
           >
-            <SvgIcon iconId={'icon-pagination'} />
+            {' '}
+            Next page
+            <FcNext size="24" />
           </button>
         </li>
       </ul>
