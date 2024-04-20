@@ -8,22 +8,27 @@ const modalRoot = document.querySelector('#modal-root');
 
 const Modal = ({ onClose, children }) => {
   useEffect(() => {
-    window.addEventListener('keydown', closeModal);
-    return () => {
-      window.removeEventListener('keydown', closeModal);
+    const handleKeyDown = event => {
+      if (event.code === 'Escape') {
+        onClose();
+      }
     };
-  });
 
-  const closeModal = ({ target, currentTarget, code }) => {
-    if (target === currentTarget || code === 'Escape') {
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [onClose]);
+
+  const handleBackdropClick = event => {
+    if (event.currentTarget === event.target) {
       onClose();
-      document.body.style.overflow = 'visible';
     }
   };
-  document.body.style.overflow = 'hidden';
 
   return createPortal(
-    <div className={styles.overlay} onClick={closeModal}>
+    <div className={styles.overlay} onClick={handleBackdropClick}>
       <div className={styles.modal}>
         <button className={styles.button} type="button" onClick={onClose}>
           <SvgIcon className={styles.iconClose} iconId={'icon-close'} />
