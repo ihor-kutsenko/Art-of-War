@@ -11,6 +11,7 @@
 }
 
 .title {
+  margin-bottom: 10px;
   text-align: center;
   @include font(24px, 700, 1.19);
   @include tablet {
@@ -32,7 +33,6 @@
   }
   @include desktop {
     max-width: 1430px;
-    // height: 350px;
   }
 }
 
