@@ -9,7 +9,7 @@ const useItemsPerPage = () => {
       if (windowWidth >= 768 && windowWidth <= 1439) {
         return 5;
       } else if (windowWidth < 375 || windowWidth >= 1440) {
-        return 7;
+        return 5;
       } else {
         return 5;
       }

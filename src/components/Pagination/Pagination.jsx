@@ -14,6 +14,10 @@ const Pagination = ({
     if (newPage >= 1 && newPage <= totalPages) {
       onPageChange(newPage);
     }
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   return (
@@ -24,10 +28,6 @@ const Pagination = ({
             className={styles.pagination_btn}
             onClick={() => {
               handlePageChange(currentPage - 1);
-              window.scrollTo({
-                top: 0,
-                behavior: 'smooth',
-              });
             }}
             disabled={currentPage === 1}
           >
@@ -39,10 +39,6 @@ const Pagination = ({
             className={styles.pagination_btn}
             onClick={() => {
               handlePageChange(currentPage + 1);
-              window.scrollTo({
-                top: 0,
-                behavior: 'smooth',
-              });
             }}
             disabled={currentPage === totalPages}
           >

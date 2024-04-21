@@ -14,15 +14,15 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 184px;
   gap: 20px;
   padding: 8px 5px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: $border-radius;
   text-align: center;
   border: none;
   cursor: pointer;
-  @include font(18px, 700, 1.19);
+  @include font(16px, 700, 1.19);
   color: $white-color;
   background-color: $gray-color;
   transition: color 0.2s ease, background-color 0.2s ease;
@@ -33,5 +33,13 @@
 
   &:disabled {
     display: none;
+  }
+
+  @include tablet {
+    width: 200px;
+    gap: 20px;
+    padding: 8px 5px;
+    margin-top: 20px;
+    @include font(18px, 700, 1.19);
   }
 }
