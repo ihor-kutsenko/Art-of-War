@@ -18,12 +18,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 541px;
   max-height: 752px;
   padding: 40px;
   border-radius: 24px;
-
-  background-color: #fff;
+  background-color: $modal-color;
   overflow: hidden;
 }
 

@@ -13,13 +13,15 @@ const MedalList = ({ onSelect }) => {
   const medals = ['Steel', 'Bronze', 'Silver', 'Gold', 'Diamond', 'Star'];
 
   return (
-    <div className={styles.medalList}>
-      <ul>
+    <div className={styles.container}>
+      <ul className={styles.list}>
         {medals.map(medal => (
           <li
             key={medal}
             onClick={() => handleClick(medal)}
-            className={activeMedal === medal ? styles.active : ''}
+            className={`${styles.link} ${
+              activeMedal === medal ? styles.active : ''
+            }`}
           >
             {medal}
           </li>

@@ -1,0 +1,32 @@
+@import '../../sass/styles.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  @include tablet {
+    flex-direction: row;
+    gap: 0;
+    padding: 0;
+  }
+}
+
+.img {
+  width: 100%;
+  @include tablet {
+    width: 29%;
+  }
+  @include desktop {
+    width: 23%;
+  }
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  @include tablet {
+    display: none;
+  }
+}

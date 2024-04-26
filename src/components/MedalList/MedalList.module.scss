@@ -1,1 +1,36 @@
 @import '../../sass/styles.scss';
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  @include font(16px, 700, 1.5);
+
+  @include tablet {
+    @include font(24px, 700, 1.5);
+    gap: 16px;
+  }
+  @include desktop {
+    @include font(32px, 700, 1.5);
+    gap: 20px;
+  }
+}
+
+.link {
+  padding: 8px 16px;
+  border-radius: $border-radius;
+  text-decoration: none;
+  font-weight: 700;
+  color: $orange-2-color;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include hover {
+    color: $white-color;
+    background-color: $blue-2-color;
+  }
+
+  &.active {
+    color: $white-color;
+    background-color: $blue-2-color;
+  }
+}

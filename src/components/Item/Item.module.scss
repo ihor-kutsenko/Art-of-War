@@ -62,3 +62,13 @@
     @include font(24px, 600, 1.5);
   }
 }
+
+.modal_container {
+  width: 290px;
+  @include tablet {
+    width: 685px;
+  }
+  @include desktop {
+    width: 1358px;
+  }
+}

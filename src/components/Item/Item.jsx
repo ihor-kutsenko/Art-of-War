@@ -30,12 +30,14 @@ const Item = ({ title, imageUrl, buttonText, medals }) => {
       />
       {showModal && (
         <Modal onClose={() => setShowModal(false)}>
-          <MedalList onSelect={handleMedalSelect} />
-          {selectedMedal && (
-            <div>
-              <MedalGrid images={medals[selectedMedalLower]} />
-            </div>
-          )}
+          <div className={styles.modal_container}>
+            <MedalList onSelect={handleMedalSelect} />
+            {selectedMedal && (
+              <div>
+                <MedalGrid images={medals[selectedMedalLower]} />
+              </div>
+            )}
+          </div>
         </Modal>
       )}
     </div>
