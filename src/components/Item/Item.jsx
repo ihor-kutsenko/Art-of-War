@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import Button from 'components/Button/Button';
 import Modal from 'components/Modal/Modal';
@@ -9,6 +9,12 @@ import MedalGrid from 'components/MedalGrid/MedalGrid';
 const Item = ({ title, imageUrl, buttonText, medals }) => {
   const [showModal, setShowModal] = useState(false);
   const [selectedMedal, setSelectedMedal] = useState(null);
+  const [activeMedal, setActiveMedal] = useState(null);
+
+  useEffect(() => {
+    setSelectedMedal('Steel');
+    setActiveMedal('Steel');
+  }, []);
 
   const selectedMedalLower = selectedMedal ? selectedMedal.toLowerCase() : null;
 
@@ -16,6 +22,7 @@ const Item = ({ title, imageUrl, buttonText, medals }) => {
 
   const handleMedalSelect = medal => {
     setSelectedMedal(medal);
+    setActiveMedal(medal);
   };
 
   return (
@@ -31,7 +38,7 @@ const Item = ({ title, imageUrl, buttonText, medals }) => {
       {showModal && (
         <Modal onClose={() => setShowModal(false)}>
           <div className={styles.modal_container}>
-            <MedalList onSelect={handleMedalSelect} />
+            <MedalList onSelect={handleMedalSelect} activeMedal={activeMedal} />
             {selectedMedal && (
               <div>
                 <MedalGrid images={medals[selectedMedalLower]} />

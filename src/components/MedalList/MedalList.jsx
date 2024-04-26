@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
-
 import styles from './MedalList.module.scss';
 
-const MedalList = ({ onSelect }) => {
-  const [activeMedal, setActiveMedal] = useState(null);
-
+const MedalList = ({ onSelect, activeMedal }) => {
   const handleClick = medal => {
-    setActiveMedal(medal);
     onSelect(medal);
   };
 
