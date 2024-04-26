@@ -25,8 +25,25 @@
 
 .pagination {
   display: flex;
+  justify-content: center;
   gap: 10px;
   @include tablet {
     display: none;
+  }
+}
+
+.pagination_btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  @include font(18px, 500, 1.18);
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+
+  @include hover {
+    background-color: $blue-4-color;
+    color: $orange-color;
   }
 }

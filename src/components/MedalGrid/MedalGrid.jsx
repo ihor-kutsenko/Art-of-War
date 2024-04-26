@@ -17,7 +17,9 @@ const MedalGrid = ({ images }) => {
     paginationButtons.push(
       <button
         key={i}
-        className={currentPage === i ? styles.active : ''}
+        className={`${styles.pagination_btn} ${
+          currentPage === i ? styles.active : ''
+        }`}
         onClick={() => changePage(i)}
       >
         {i}
