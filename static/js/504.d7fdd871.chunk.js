@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[504],{19504:function(r,a,e){e.r(a);e(72791);var n=e(80184);a.default=function(){return(0,n.jsx)("div",{children:"Skirmish"})}}}]);
-//# sourceMappingURL=504.d7fdd871.chunk.js.map
