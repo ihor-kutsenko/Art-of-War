@@ -5,6 +5,7 @@ import {
   MAPS_ROUTE,
   MEDALS_ROUTE,
   UNITS_ROUTE,
+  TOURNAMENT_ROUTE,
 } from 'routes/routes';
 import logo from '../../images/logo/aow_logo_04.png';
 import styles from './Header.module.scss';
@@ -38,7 +39,7 @@ const Header = () => {
         </Link>
         <Link
           className={`${styles.nav_link} ${isActive(MEDALS_ROUTE)}`}
-          to={MEDALS_ROUTE}
+          to={TOURNAMENT_ROUTE}
         >
           Medals
         </Link>
