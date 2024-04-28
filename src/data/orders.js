@@ -6,7 +6,7 @@ import persistence from '../images/orders/award-for-Persistence.png';
 import contribution from '../images/orders/award-for-Contribution-to-Game-Development.png';
 import correspondent from '../images/orders/award-for-the-Best-War-Correspondent.png';
 
-export const medalOrders = [
+export const orders = [
   { name: 'Award for a Contest Winner 1', image: winner1 },
   { name: 'Award for a Contest Winner 2', image: winner2 },
   { name: 'Award for a Contest Winner 3', image: winner3 },
