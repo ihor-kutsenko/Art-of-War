@@ -1,7 +1,7 @@
-import React from 'react';
+import Blitz from 'components/Blitz/Blitz';
 
 const BlitzTournamentPage = () => {
-  return <div>Blitz-Tournament</div>;
+  return <Blitz />;
 };
 
 export default BlitzTournamentPage;

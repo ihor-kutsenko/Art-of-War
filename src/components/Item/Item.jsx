@@ -6,7 +6,7 @@ import styles from './Item.module.scss';
 import MedalList from 'components/MedalList/MedalList';
 import MedalGrid from 'components/MedalGrid/MedalGrid';
 
-const Item = ({ title, imageUrl, buttonText, medals }) => {
+const Item = ({ title, imageUrl, buttonText, medals, disabled }) => {
   const [showModal, setShowModal] = useState(false);
   const [selectedMedal, setSelectedMedal] = useState(null);
   const [activeMedal, setActiveMedal] = useState(null);
@@ -34,6 +34,7 @@ const Item = ({ title, imageUrl, buttonText, medals }) => {
         type="button"
         className={styles.button}
         onClick={toggleModal}
+        disabled={disabled}
       />
       {showModal && (
         <Modal onClose={() => setShowModal(false)}>
