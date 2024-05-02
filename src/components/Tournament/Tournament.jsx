@@ -1,11 +1,12 @@
 import { useState } from 'react';
+
 import PaginationContainer from 'components/Pagination/PaginationContainer';
+import Pagination from 'components/Pagination/Pagination';
 import useItemsPerPage from 'components/Pagination/PaginationHooks';
+import Item from 'components/Item/Item';
+import ItemList from 'components/ItemList/ItemList';
 
 import { tournaments } from 'data/tournaments';
-import styles from './Tournament.module.scss';
-import Item from 'components/Item/Item';
-import Pagination from 'components/Pagination/Pagination';
 
 const Tournament = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -20,7 +21,7 @@ const Tournament = () => {
   };
   return (
     <PaginationContainer>
-      <div className={styles.list}>
+      <ItemList>
         {currentItems.map((tournament, index) => (
           <Item
             key={index}
@@ -36,7 +37,7 @@ const Tournament = () => {
           currentPage={currentPage}
           onPageChange={handlePageChange}
         />
-      </div>
+      </ItemList>
     </PaginationContainer>
   );
 };
