@@ -89,7 +89,7 @@ export const tournaments = [
     title: 'Game Birthday',
     imageUrl: birthdayImage,
     buttonText: 'Medals',
-    medals: nautilusMedals,
+    medals: [],
   },
   {
     title: 'Joker',
@@ -101,7 +101,7 @@ export const tournaments = [
     title: 'Judgment Day',
     imageUrl: judgmentDayImage,
     buttonText: 'Medals',
-    medals: nautilusMedals,
+    medals: [],
   },
   {
     title: 'Large Reserves',

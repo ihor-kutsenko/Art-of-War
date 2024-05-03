@@ -7,10 +7,6 @@ import ItemList from 'components/ItemList/ItemList';
 import { blitz } from 'data/blitz';
 
 const Blitz = () => {
-  const disabled = medals => {
-    return medals && medals.length > 0;
-  };
-
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = useItemsPerPage();
 
@@ -32,7 +28,7 @@ const Blitz = () => {
             imageUrl={blitz.imageUrl}
             buttonText={blitz.buttonText}
             medals={blitz.medals}
-            disabled={disabled}
+            disabled={blitz.medals.length === 0}
           />
         ))}
         <Pagination

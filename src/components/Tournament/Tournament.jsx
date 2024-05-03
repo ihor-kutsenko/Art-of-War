@@ -29,6 +29,7 @@ const Tournament = () => {
             imageUrl={tournament.imageUrl}
             buttonText={tournament.buttonText}
             medals={tournament.medals}
+            disabled={tournament.medals.length === 0}
           />
         ))}
         <Pagination

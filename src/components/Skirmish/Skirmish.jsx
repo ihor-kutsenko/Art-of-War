@@ -11,6 +11,7 @@ const Skirmish = () => {
           imageUrl={skirmish.imageUrl}
           buttonText={skirmish.buttonText}
           medals={skirmish.medals}
+          disabled={skirmish.medals.length === 0}
         />
       ))}
     </div>
