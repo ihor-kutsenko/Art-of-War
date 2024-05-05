@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[118],{93118:function(e,r,a){a.r(r);a(72791);var u=a(80184);r.default=function(){return(0,u.jsx)("div",{children:"Leagues"})}}}]);
-//# sourceMappingURL=118.bb5aa113.chunk.js.map
