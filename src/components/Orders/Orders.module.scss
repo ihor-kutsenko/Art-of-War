@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  padding-bottom: 15px;
   @include tablet {
     justify-content: center;
-    gap: 20px;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
   }
 }
 

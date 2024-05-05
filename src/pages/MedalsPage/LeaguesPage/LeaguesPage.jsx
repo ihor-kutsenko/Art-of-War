@@ -1,7 +1,11 @@
-import React from 'react';
+import Leagues from 'components/Leagues/Leagues';
 
 const LeaguesPage = () => {
-  return <div>Leagues</div>;
+  return (
+    <>
+      <Leagues />
+    </>
+  );
 };
 
 export default LeaguesPage;
