@@ -22,6 +22,21 @@
   }
 }
 
-.title {
+.title,
+.hero,
+.class > td {
   text-align: center;
+  font-weight: bold;
+}
+
+.t1 {
+  color: $t1-hero-color;
+}
+
+.t2 {
+  color: $t2-hero-color;
+}
+
+.t3 {
+  color: $t3-hero-color;
 }

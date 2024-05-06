@@ -5,15 +5,15 @@ const Blueprints = () => {
     <table className={styles.table}>
       <thead>
         <tr>
-          <td>Hero</td>
+          <td className={styles.title}>Hero</td>
           <td colSpan="12" className={styles.title}>
             Amount of blueprints
           </td>
-          <td>Total:</td>
+          <td className={styles.title}>Total:</td>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr className={styles.class}>
           <td className={styles.hero}>Class hero</td>
           <td>1</td>
           <td>2</td>
@@ -30,7 +30,7 @@ const Blueprints = () => {
           <td></td>
         </tr>
         <tr>
-          <td className={styles.hero}>
+          <td className={`${styles.hero} ${styles.t1}`}>
             Beholder/ <br />
             Wolverine
           </td>
@@ -44,12 +44,12 @@ const Blueprints = () => {
           <td>?</td>
           <td>41000</td>
           <td>80000</td>
-          <td>195000</td>
+          <td>157000</td>
           <td>311000</td>
-          <td>654500</td>
+          <td>616500</td>
         </tr>
         <tr>
-          <td className={styles.hero}>
+          <td className={`${styles.hero} ${styles.t1}`}>
             Cerberus/ <br />
             Wasp
           </td>
@@ -68,7 +68,7 @@ const Blueprints = () => {
           <td>153550</td>
         </tr>
         <tr>
-          <td className={styles.hero}>
+          <td className={`${styles.hero} ${styles.t2}`}>
             Seraphim/ <br />
             Mole
           </td>
@@ -87,7 +87,7 @@ const Blueprints = () => {
           <td>41810</td>
         </tr>
         <tr>
-          <td className={styles.hero}>
+          <td className={`${styles.hero} ${styles.t3}`}>
             Solaris/ <br /> Leviathan
           </td>
           <td>25</td>
