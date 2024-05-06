@@ -1,7 +1,12 @@
+import Blueprints from 'components/Blueprints/Blueprints';
 import React from 'react';
 
 const BlueprintsPage = () => {
-  return <div>BlueprintsPage</div>;
+  return (
+    <>
+      <Blueprints />
+    </>
+  );
 };
 
 export default BlueprintsPage;
