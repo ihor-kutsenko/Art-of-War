@@ -29,6 +29,9 @@ import avatar28 from '../../images/avatars/resistance/28.png';
 import avatar29 from '../../images/avatars/resistance/29.png';
 import avatar30 from '../../images/avatars/resistance/30.png';
 import avatar31 from '../../images/avatars/resistance/31.png';
+import avatar32 from '../../images/avatars/resistance/32.png';
+import avatar33 from '../../images/avatars/resistance/33.png';
+import avatar34 from '../../images/avatars/resistance/34.png';
 
 export const avatarsResistance = [
   avatar1,
@@ -62,4 +65,7 @@ export const avatarsResistance = [
   avatar29,
   avatar30,
   avatar31,
+  avatar32,
+  avatar33,
+  avatar34,
 ];
