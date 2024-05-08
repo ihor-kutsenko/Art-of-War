@@ -1,11 +1,11 @@
 import Avatars from 'components/Avatars/Avatars';
-import React from 'react';
+import { avatarsResistance } from 'data/avatars/resistance';
 
 const ConfUnitsPage = () => {
   return (
     <div>
       ConfederationPage
-      <Avatars />
+      <Avatars avatars={avatarsResistance} />
     </div>
   );
 };

@@ -1,16 +1,13 @@
 import { useState } from 'react';
-import image1 from '../../images/avatars/sopr_28.png';
-import image2 from '../../images/avatars/sopr_29.png';
-import image3 from '../../images/avatars/sopr_30.png';
+import SvgIcon from 'components/SvgIcon/SvgIcon';
+
 import styles from './Avatars.module.scss';
-import Modal from 'components/Modal/Modal';
 
-const Avatars = () => {
+const Avatars = ({ avatars }) => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const images = [image1, image2, image3];
 
-  const openImage = image => {
-    setSelectedImage(image);
+  const openImage = avatar => {
+    setSelectedImage(avatar);
   };
 
   const closeImage = () => {
@@ -19,24 +16,25 @@ const Avatars = () => {
 
   return (
     <div className={styles.gallery}>
-      {images.map((image, index) => (
+      {avatars.map((avatar, index) => (
         <img
           key={index}
-          src={image}
+          src={avatar}
           alt="avatar"
-          onClick={() => openImage(image)}
+          onClick={() => openImage(avatar)}
           className={styles.image}
         />
       ))}
       {selectedImage && (
         <div className={styles.modal} onClick={closeImage}>
-          <Modal>
-            <img
-              src={selectedImage}
-              alt="Selected"
-              className={styles.selectedImage}
-            />
-          </Modal>
+          <button className={styles.button} type="button" onClick={closeImage}>
+            <SvgIcon className={styles.iconClose} iconId={'icon-close'} />
+          </button>
+          <img
+            src={selectedImage}
+            alt="Selected"
+            className={styles.selectedImage}
+          />
         </div>
       )}
     </div>
