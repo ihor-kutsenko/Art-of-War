@@ -43,7 +43,7 @@ const Header = () => {
 
         <Link
           className={`${styles.nav_link} ${isActive(MEDALS_ROUTE)}`}
-          to={TOURNAMENT_ROUTE}
+          to={`${MEDALS_ROUTE}/${TOURNAMENT_ROUTE}`}
         >
           Medals
         </Link>
@@ -64,7 +64,7 @@ const Header = () => {
 
         <Link
           className={`${styles.nav_link} ${isActive(AVATARS_ROUTE)}`}
-          to={CONF_AVATARS_ROUTE}
+          to={`${AVATARS_ROUTE}/${CONF_AVATARS_ROUTE}`}
         >
           Avatars
         </Link>

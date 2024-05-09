@@ -67,31 +67,31 @@ const OtherAvatarsPage = lazy(() =>
 export const WELCOME_PAGE_ROUTE = '/';
 
 export const MAPS_ROUTE = '/maps';
-export const AUTUMN_ROUTE = '/maps/autumn';
-export const WINTER_ROUTE = '/maps/winter';
-export const MIDLAND_ROUTE = '/maps/midland';
-export const JUNGLE_ROUTE = '/maps/jungle';
+export const AUTUMN_ROUTE = 'autumn';
+export const WINTER_ROUTE = 'winter';
+export const MIDLAND_ROUTE = 'midland';
+export const JUNGLE_ROUTE = 'jungle';
 
 export const MEDALS_ROUTE = '/medals';
-export const TOURNAMENT_ROUTE = '/medals/tournaments';
-export const BLITZ_TOURNAMENT_ROUTE = '/medals/blitz-tournaments';
-export const SKIRMISH_ROUTE = '/medals/skirmish';
-export const ORDERS_ROUTE = '/medals/orders';
-export const LEAGUES_ROUTE = '/medals/leagues';
+export const TOURNAMENT_ROUTE = 'tournaments';
+export const BLITZ_TOURNAMENT_ROUTE = 'blitz-tournaments';
+export const SKIRMISH_ROUTE = 'skirmish';
+export const ORDERS_ROUTE = 'orders';
+export const LEAGUES_ROUTE = 'leagues';
 
 export const HEROES_ROUTE = '/heroes';
-export const CONF_HEROES_ROUTE = '/heroes/conf-heroes';
-export const RESIST_HEROES_ROUTE = '/heroes/resist-heroes';
-export const BLUEPRINTS_ROUTE = '/heroes/blueprints';
+export const CONF_HEROES_ROUTE = 'conf-heroes';
+export const RESIST_HEROES_ROUTE = 'resist-heroes';
+export const BLUEPRINTS_ROUTE = 'blueprints';
 
 export const UNITS_ROUTE = '/units';
-export const CONF_UNITS_ROUTE = '/units/confederation';
-export const RESIST_UNITS_ROUTE = '/units/resistance';
+export const CONF_UNITS_ROUTE = 'confederation';
+export const RESIST_UNITS_ROUTE = 'resistance';
 
 export const AVATARS_ROUTE = '/avatars';
-export const CONF_AVATARS_ROUTE = '/avatars/confederation';
-export const RESIST_AVATARS_ROUTE = '/avatars/resistance';
-export const OTHER_AVATARS_ROUTE = '/avatars/other';
+export const CONF_AVATARS_ROUTE = 'confederation';
+export const RESIST_AVATARS_ROUTE = 'resistance';
+export const OTHER_AVATARS_ROUTE = 'other';
 
 export const mapsRoutes = [
   { path: AUTUMN_ROUTE, element: <AutumnPage /> },

@@ -6,7 +6,7 @@ import styles from './NavigationPage.module.scss';
 
 const NavigationPage = ({ links }) => {
   const { pathname } = useLocation();
-  const [activeLink, setActiveLink] = useState(pathname);
+  const [, setActiveLink] = useState(pathname);
 
   const handleLinkClick = path => {
     setActiveLink(path);
@@ -19,7 +19,7 @@ const NavigationPage = ({ links }) => {
           <Link
             key={path}
             className={`${styles.link} ${
-              activeLink === path ? styles.active : ''
+              pathname.includes(path) ? styles.active : ''
             }`}
             to={path}
             onClick={() => handleLinkClick(path)}
