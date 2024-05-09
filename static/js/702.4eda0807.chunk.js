@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[702],{40702:function(e,r,a){a.r(r);var n=a(80184);r.default=function(){return(0,n.jsx)("div",{children:"ConfederationPage"})}}}]);
+//# sourceMappingURL=702.4eda0807.chunk.js.map

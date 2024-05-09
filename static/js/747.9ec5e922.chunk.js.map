@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/747.9ec5e922.chunk.js","mappings":"6IAMA,UAJyB,WACvB,OAAOA,EAAAA,EAAAA,KAAA,SACT,C","sources":["pages/AvatarsPage/OtherAvatarsPage/OtherAvatarsPage.jsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst OtherAvatarsPage = () => {\r\n  return <div></div>;\r\n};\r\n\r\nexport default OtherAvatarsPage;\r\n"],"names":["_jsx"],"sourceRoot":""}
