@@ -36,6 +36,10 @@
   gap: 12px;
   @include tablet {
     display: flex;
+    // gap: 8px;
+  }
+  @include desktop {
+    display: flex;
     gap: 8px;
   }
 

@@ -51,6 +51,17 @@ const ConfUnitsPage = lazy(() =>
 const ResistUnitsPage = lazy(() =>
   import('../pages/UnitsPage/ResistUnitsPage/ResistUnitsPage')
 );
+// Avatars page
+const AvatarsPage = lazy(() => import('../pages/AvatarsPage/AvatarsPage'));
+const ConfAvatarsPage = lazy(() =>
+  import('../pages/AvatarsPage/ConfAvatarsPage/ConfAvatarsPage')
+);
+const ResistAvatarsPage = lazy(() =>
+  import('../pages/AvatarsPage/ResistAvatarsPage/ResistAvatarsPage')
+);
+const OtherAvatarsPage = lazy(() =>
+  import('../pages/AvatarsPage/OtherAvatarsPage/OtherAvatarsPage')
+);
 
 // Routes
 export const WELCOME_PAGE_ROUTE = '/';
@@ -77,6 +88,11 @@ export const UNITS_ROUTE = '/units';
 export const CONF_UNITS_ROUTE = '/units/confederation';
 export const RESIST_UNITS_ROUTE = '/units/resistance';
 
+export const AVATARS_ROUTE = '/avatars';
+export const CONF_AVATARS_ROUTE = '/avatars/confederation';
+export const RESIST_AVATARS_ROUTE = '/avatars/resistance';
+export const OTHER_AVATARS_ROUTE = '/avatars/other';
+
 export const mapsRoutes = [
   { path: AUTUMN_ROUTE, element: <AutumnPage /> },
   { path: WINTER_ROUTE, element: <WinterPage /> },
@@ -101,6 +117,12 @@ export const heroesRoutes = [
 export const unitsRoutes = [
   { path: CONF_UNITS_ROUTE, element: <ConfUnitsPage /> },
   { path: RESIST_UNITS_ROUTE, element: <ResistUnitsPage /> },
+];
+
+export const avatarsRoutes = [
+  { path: CONF_AVATARS_ROUTE, element: <ConfAvatarsPage /> },
+  { path: RESIST_AVATARS_ROUTE, element: <ResistAvatarsPage /> },
+  { path: OTHER_AVATARS_ROUTE, element: <OtherAvatarsPage /> },
 ];
 
 export const appRoutes = [
@@ -136,6 +158,14 @@ export const appRoutes = [
     path: UNITS_ROUTE,
     element: <UnitsPage />,
     children: unitsRoutes.map(({ path, element }) => ({
+      path: path,
+      element: element,
+    })),
+  },
+  {
+    path: AVATARS_ROUTE,
+    element: <AvatarsPage />,
+    children: avatarsRoutes.map(({ path, element }) => ({
       path: path,
       element: element,
     })),

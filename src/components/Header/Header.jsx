@@ -1,10 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
 import {
   WELCOME_PAGE_ROUTE,
-  HEROES_ROUTE,
   MAPS_ROUTE,
   MEDALS_ROUTE,
+  HEROES_ROUTE,
   UNITS_ROUTE,
+  AVATARS_ROUTE,
   TOURNAMENT_ROUTE,
 } from 'routes/routes';
 import logo from '../../images/logo/aow_logo_04.png';
@@ -31,29 +32,40 @@ const Header = () => {
         >
           Home
         </Link>
+
         <Link
           className={`${styles.nav_link} ${isActive(MAPS_ROUTE)}`}
           to={MAPS_ROUTE}
         >
           Maps
         </Link>
+
         <Link
           className={`${styles.nav_link} ${isActive(MEDALS_ROUTE)}`}
           to={TOURNAMENT_ROUTE}
         >
           Medals
         </Link>
+
         <Link
           className={`${styles.nav_link} ${isActive(HEROES_ROUTE)}`}
           to={HEROES_ROUTE}
         >
           Heroes
         </Link>
+
         <Link
           className={`${styles.nav_link} ${isActive(UNITS_ROUTE)}`}
           to={UNITS_ROUTE}
         >
           Units
+        </Link>
+
+        <Link
+          className={`${styles.nav_link} ${isActive(AVATARS_ROUTE)}`}
+          to={AVATARS_ROUTE}
+        >
+          Avatars
         </Link>
       </nav>
     </div>
