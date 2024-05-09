@@ -7,6 +7,7 @@ import {
   UNITS_ROUTE,
   AVATARS_ROUTE,
   TOURNAMENT_ROUTE,
+  CONF_AVATARS_ROUTE,
 } from 'routes/routes';
 import logo from '../../images/logo/aow_logo_04.png';
 import styles from './Header.module.scss';
@@ -63,7 +64,7 @@ const Header = () => {
 
         <Link
           className={`${styles.nav_link} ${isActive(AVATARS_ROUTE)}`}
-          to={AVATARS_ROUTE}
+          to={CONF_AVATARS_ROUTE}
         >
           Avatars
         </Link>
