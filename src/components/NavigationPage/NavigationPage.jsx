@@ -1,8 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import Container from 'components/Container/Container';
 import styles from './NavigationPage.module.scss';
+import Loader from 'components/Loader/Loader';
 
 const NavigationPage = ({ links }) => {
   const { pathname } = useLocation();
@@ -28,7 +29,9 @@ const NavigationPage = ({ links }) => {
           </Link>
         ))}
       </nav>
-      <Outlet />
+      <Suspense fallback={<Loader />}>
+        <Outlet />
+      </Suspense>
     </Container>
   );
 };
