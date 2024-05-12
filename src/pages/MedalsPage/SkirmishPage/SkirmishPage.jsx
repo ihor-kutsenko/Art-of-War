@@ -1,7 +1,11 @@
 import Skirmish from 'components/Skirmish/Skirmish';
 
 const SkirmishPage = () => {
-  return <Skirmish />;
+  return (
+    <>
+      <Skirmish />
+    </>
+  );
 };
 
 export default SkirmishPage;

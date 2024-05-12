@@ -1,5 +1,4 @@
 import Container from 'components/Container/Container';
-
 import NavigationPage from 'components/NavigationPage/NavigationPage';
 
 import {

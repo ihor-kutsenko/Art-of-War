@@ -1,5 +1,4 @@
 import Blueprints from 'components/Blueprints/Blueprints';
-import React from 'react';
 
 const BlueprintsPage = () => {
   return (

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { WELCOME_PAGE_ROUTE } from 'routes/routes';
