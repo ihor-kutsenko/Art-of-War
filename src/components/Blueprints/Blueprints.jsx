@@ -39,14 +39,14 @@ const Blueprints = () => {
           <td>1200</td>
           <td>2100</td>
           <td>3600</td>
-          <td>8000</td>
+          <td>6000</td>
           <td>11000</td>
-          <td>?</td>
+          <td>21000</td>
           <td>41000</td>
           <td>80000</td>
           <td>157000</td>
           <td>311000</td>
-          <td>616500</td>
+          <td>635500</td>
         </tr>
         <tr>
           <td className={`${styles.hero} ${styles.t1}`}>
