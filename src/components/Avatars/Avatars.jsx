@@ -1,17 +1,29 @@
 import { useState } from 'react';
-import SvgIcon from 'components/SvgIcon/SvgIcon';
 
+import ImageModal from 'components/ImageModal/ImageModal';
 import styles from './Avatars.module.scss';
 
 const Avatars = ({ avatars }) => {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(null);
 
-  const openImage = avatar => {
-    setSelectedImage(avatar);
+  const openImage = index => {
+    setSelectedIndex(index);
   };
 
   const closeImage = () => {
-    setSelectedImage(null);
+    setSelectedIndex(null);
+  };
+
+  const goToNext = () => {
+    setSelectedIndex(prevIndex =>
+      prevIndex === avatars.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const goToPrevious = () => {
+    setSelectedIndex(prevIndex =>
+      prevIndex === 0 ? avatars.length - 1 : prevIndex - 1
+    );
   };
 
   return (
@@ -21,21 +33,18 @@ const Avatars = ({ avatars }) => {
           key={index}
           src={avatar}
           alt="avatar"
-          onClick={() => openImage(avatar)}
+          onClick={() => openImage(index)}
           className={styles.image}
         />
       ))}
-      {selectedImage && (
-        <div className={styles.modal} onClick={closeImage}>
-          <button className={styles.button} type="button" onClick={closeImage}>
-            <SvgIcon className={styles.iconClose} iconId={'icon-close'} />
-          </button>
-          <img
-            src={selectedImage}
-            alt="Selected"
-            className={styles.selectedImage}
-          />
-        </div>
+      {selectedIndex !== null && (
+        <ImageModal
+          images={avatars}
+          selectedIndex={selectedIndex}
+          onClose={closeImage}
+          onPrevious={goToPrevious}
+          onNext={goToNext}
+        />
       )}
     </div>
   );
