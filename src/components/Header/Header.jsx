@@ -8,6 +8,8 @@ import {
   AVATARS_ROUTE,
   TOURNAMENT_ROUTE,
   CONF_AVATARS_ROUTE,
+  AUTUMN_ROUTE,
+  BLUEPRINTS_ROUTE,
 } from 'routes/routes';
 import logo from '../../images/logo/aow_logo_04.png';
 import styles from './Header.module.scss';
@@ -36,7 +38,7 @@ const Header = () => {
 
         <Link
           className={`${styles.nav_link} ${isActive(MAPS_ROUTE)}`}
-          to={MAPS_ROUTE}
+          to={`${MAPS_ROUTE}/${AUTUMN_ROUTE}`}
         >
           Maps
         </Link>
@@ -50,7 +52,7 @@ const Header = () => {
 
         <Link
           className={`${styles.nav_link} ${isActive(HEROES_ROUTE)}`}
-          to={HEROES_ROUTE}
+          to={`${HEROES_ROUTE}/${BLUEPRINTS_ROUTE}`}
         >
           Heroes
         </Link>
