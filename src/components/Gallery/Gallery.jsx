@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import ImageModal from 'components/ImageModal/ImageModal';
-import styles from './Avatars.module.scss';
+import styles from './Gallery.module.scss';
 
-const Avatars = ({ avatars }) => {
+const Gallery = ({ images }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const openImage = index => {
@@ -16,30 +16,34 @@ const Avatars = ({ avatars }) => {
 
   const goToNext = () => {
     setSelectedIndex(prevIndex =>
-      prevIndex === avatars.length - 1 ? 0 : prevIndex + 1
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const goToPrevious = () => {
     setSelectedIndex(prevIndex =>
-      prevIndex === 0 ? avatars.length - 1 : prevIndex - 1
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
+  };
+
+  const getImageSrc = image => {
+    return typeof image === 'string' ? image : image.image;
   };
 
   return (
     <div className={styles.gallery}>
-      {avatars.map((avatar, index) => (
+      {images.map((image, index) => (
         <img
           key={index}
-          src={avatar}
-          alt="avatar"
+          src={getImageSrc(image)}
+          alt={typeof image === 'string' ? 'avatar' : image.title}
           onClick={() => openImage(index)}
           className={styles.image}
         />
       ))}
       {selectedIndex !== null && (
         <ImageModal
-          images={avatars}
+          images={images}
           selectedIndex={selectedIndex}
           onClose={closeImage}
           onPrevious={goToPrevious}
@@ -50,4 +54,4 @@ const Avatars = ({ avatars }) => {
   );
 };
 
-export default Avatars;
+export default Gallery;

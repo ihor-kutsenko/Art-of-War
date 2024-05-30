@@ -1,10 +1,10 @@
-import Avatars from 'components/Avatars/Avatars';
+import Gallery from 'components/Gallery/Gallery';
 import { avatarsConfederations } from 'data/avatars/confederation';
 
 const ConfAvatarsPage = () => {
   return (
     <>
-      <Avatars avatars={avatarsConfederations} />
+      <Gallery images={avatarsConfederations} />
     </>
   );
 };

@@ -1,11 +1,11 @@
-import Avatars from 'components/Avatars/Avatars';
+import Gallery from 'components/Gallery/Gallery';
 import { avatarsResistance } from 'data/avatars/resistance';
 import React from 'react';
 
 const ResistAvatarsPage = () => {
   return (
     <>
-      <Avatars avatars={avatarsResistance} />
+      <Gallery images={avatarsResistance} />
     </>
   );
 };

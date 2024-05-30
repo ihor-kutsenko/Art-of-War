@@ -1,11 +1,10 @@
-import Avatars from 'components/Avatars/Avatars';
+import Gallery from 'components/Gallery/Gallery';
 import { avatarsOther } from 'data/avatars/other';
-import React from 'react';
 
 const OtherAvatarsPage = () => {
   return (
     <>
-      <Avatars avatars={avatarsOther} />
+      <Gallery images={avatarsOther} />
     </>
   );
 };
