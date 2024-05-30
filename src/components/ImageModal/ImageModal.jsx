@@ -15,7 +15,6 @@ const ImageModal = ({ images, selectedIndex, onClose, onPrevious, onNext }) => {
       <button className={styles.closeButton} type="button" onClick={onClose}>
         <SvgIcon className={styles.iconClose} iconId="icon-close" />
       </button>
-
       <button
         className={`${styles.navButton} ${styles.prevButton}`}
         type="button"
@@ -24,16 +23,17 @@ const ImageModal = ({ images, selectedIndex, onClose, onPrevious, onNext }) => {
         <SvgIcon className={styles.iconNav} iconId="icon-previous" />
       </button>
 
+      {getImageTitle(images[selectedIndex]) && (
+        <h2 className={styles.imageTitle}>
+          {getImageTitle(images[selectedIndex])}
+        </h2>
+      )}
+
       <img
         src={getImageSrc(images[selectedIndex])}
         alt={getImageTitle(images[selectedIndex])}
         className={styles.selectedImage}
       />
-      {getImageTitle(images[selectedIndex]) && (
-        <div className={styles.imageTitle}>
-          {getImageTitle(images[selectedIndex])}
-        </div>
-      )}
 
       <button
         className={`${styles.navButton} ${styles.nextButton}`}
