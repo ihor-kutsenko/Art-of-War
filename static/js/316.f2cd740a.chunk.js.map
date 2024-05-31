@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/316.f2cd740a.chunk.js","mappings":"oIAIA,UAJoB,WAClB,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,eACd,C","sources":["pages/MapsPage/MidlandPage/MidlandPage.jsx"],"sourcesContent":["const MidlandPage = () => {\r\n  return <div>MidlandPage</div>;\r\n};\r\n\r\nexport default MidlandPage;\r\n"],"names":["_jsx","children"],"sourceRoot":""}
