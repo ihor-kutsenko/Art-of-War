@@ -26,6 +26,9 @@ const AutumnPage = lazy(() =>
 const WinterPage = lazy(() =>
   import('../pages/MapsPage/WinterPage/WinterPage')
 );
+const DesertPage = lazy(() =>
+  import('../pages/MapsPage/DesertPage/DesertPage')
+);
 const MidlandPage = lazy(() =>
   import('../pages/MapsPage/MidlandPage/MidlandPage')
 );
@@ -68,6 +71,7 @@ export const WELCOME_PAGE_ROUTE = '/';
 
 export const MAPS_ROUTE = '/maps';
 export const AUTUMN_ROUTE = 'autumn';
+export const DESERT_ROUTE = 'desert';
 export const WINTER_ROUTE = 'winter';
 export const MIDLAND_ROUTE = 'midland';
 export const JUNGLE_ROUTE = 'jungle';
@@ -96,6 +100,7 @@ export const OTHER_AVATARS_ROUTE = 'other';
 export const mapsRoutes = [
   { path: AUTUMN_ROUTE, element: <AutumnPage /> },
   { path: WINTER_ROUTE, element: <WinterPage /> },
+  { path: DESERT_ROUTE, element: <DesertPage /> },
   { path: MIDLAND_ROUTE, element: <MidlandPage /> },
   { path: JUNGLE_ROUTE, element: <JunglePage /> },
 ];

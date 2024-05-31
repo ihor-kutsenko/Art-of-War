@@ -5,11 +5,13 @@ import {
   WINTER_ROUTE,
   MIDLAND_ROUTE,
   JUNGLE_ROUTE,
+  DESERT_ROUTE,
 } from 'routes/routes';
 
 const links = [
   { path: AUTUMN_ROUTE, label: 'Autumn' },
   { path: WINTER_ROUTE, label: 'Winter' },
+  { path: DESERT_ROUTE, label: 'Desert' },
   { path: MIDLAND_ROUTE, label: 'Midland' },
   { path: JUNGLE_ROUTE, label: 'Jungle' },
 ];
