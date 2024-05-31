@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[796],{46796:function(r,e,a){a.r(e);a(72791);var t=a(80184);e.default=function(){return(0,t.jsx)("div",{children:"Desert maps"})}}}]);
+//# sourceMappingURL=796.bc87e2a7.chunk.js.map
