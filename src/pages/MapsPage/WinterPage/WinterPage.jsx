@@ -1,5 +1,12 @@
+import Gallery from 'components/Gallery/Gallery';
+import { winterMaps } from 'data/maps/winter';
+
 const WinterPage = () => {
-  return <div>WinterPage</div>;
+  return (
+    <>
+      <Gallery images={winterMaps} />
+    </>
+  );
 };
 
 export default WinterPage;
