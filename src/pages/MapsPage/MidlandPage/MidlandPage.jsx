@@ -1,5 +1,12 @@
+import Gallery from 'components/Gallery/Gallery';
+import { midlandMaps } from 'data/maps/midland';
+
 const MidlandPage = () => {
-  return <div>MidlandPage</div>;
+  return (
+    <>
+      <Gallery images={midlandMaps} />
+    </>
+  );
 };
 
 export default MidlandPage;
