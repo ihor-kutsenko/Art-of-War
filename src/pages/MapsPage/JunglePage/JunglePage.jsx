@@ -1,5 +1,12 @@
+import Gallery from 'components/Gallery/Gallery';
+import { jungleMaps } from 'data/maps/jungle';
+
 const JunglePage = () => {
-  return <div>JunglePage</div>;
+  return (
+    <>
+      <Gallery images={jungleMaps} />
+    </>
+  );
 };
 
 export default JunglePage;

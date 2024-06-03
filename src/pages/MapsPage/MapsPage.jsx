@@ -12,8 +12,8 @@ const links = [
   { path: AUTUMN_ROUTE, label: 'Autumn' },
   { path: WINTER_ROUTE, label: 'Winter' },
   { path: DESERT_ROUTE, label: 'Desert' },
-  { path: MIDLAND_ROUTE, label: 'Midland' },
   { path: JUNGLE_ROUTE, label: 'Jungle' },
+  { path: MIDLAND_ROUTE, label: 'Midland' },
 ];
 
 const MapsPage = () => {
