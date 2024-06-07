@@ -15,15 +15,18 @@ const UnitDetails = ({ unit, onClose }) => {
 
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.imageSection}>
         <h2>{unit.name}</h2>
-        <p>{unit.description}</p>
-        {unit.additionalInfo && <p>{unit.additionalInfo}</p>}
         <img
           src={unit.image}
           alt={unit.name}
           className={styles.selectedImage}
         />
+      </div>
+      <div className={styles.detailsSection}>
+        <p>{unit.description}</p>
+        {unit.additionalInfo && <p>{unit.additionalInfo}</p>}
+
         <label htmlFor="levelSelect">Select Level: </label>
         <select
           id="levelSelect"
@@ -47,8 +50,6 @@ const UnitDetails = ({ unit, onClose }) => {
             <p>Value 6: {selectedLevelData.value6}</p>
           </div>
         )}
-
-        <button onClick={onClose}>Close</button>
       </div>
     </div>
   );

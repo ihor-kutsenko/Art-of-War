@@ -31,14 +31,15 @@ const UnitsGallery = ({ units }) => {
     <div className={styles.gallery}>
       {units.map((unit, index) => (
         <>
-          <h2>{unit.name}</h2>
-          <img
-            key={unit.id}
-            src={unit.image}
-            alt={unit.name}
-            onClick={() => handleUnitClick(index)}
-            className={styles.image}
-          />
+          <div onClick={() => handleUnitClick(index)} className={styles.item}>
+            <h3 className={styles.title}>{unit.name}</h3>
+            <img
+              key={unit.id}
+              src={unit.image}
+              alt={unit.name}
+              className={styles.image}
+            />
+          </div>
         </>
       ))}
       {selectedUnit !== null && (
