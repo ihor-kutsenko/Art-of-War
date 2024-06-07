@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/702.4eda0807.chunk.js","mappings":"oIAIA,UAJsB,WACpB,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,qBACd,C","sources":["pages/UnitsPage/ConfUnitsPage/ConfUnitsPage.jsx"],"sourcesContent":["const ConfUnitsPage = () => {\r\n  return <div>ConfederationPage</div>;\r\n};\r\n\r\nexport default ConfUnitsPage;\r\n"],"names":["_jsx","children"],"sourceRoot":""}
