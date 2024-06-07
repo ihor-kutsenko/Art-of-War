@@ -1,16 +1,17 @@
 import { useState } from 'react';
 
 import styles from './UnitsGallery.module.scss';
-import ImageModal from 'components/ImageModal/ImageModal';
+
+import UnitModal from 'components/UnitModal/UnitModal';
 
 const UnitsGallery = ({ units }) => {
   const [selectedUnit, setSelectedUnit] = useState(null);
 
-  const openImage = index => {
+  const handleUnitClick = index => {
     setSelectedUnit(index);
   };
 
-  const closeImage = () => {
+  const closeModal = () => {
     setSelectedUnit(null);
   };
 
@@ -26,29 +27,25 @@ const UnitsGallery = ({ units }) => {
     );
   };
 
-  const getImageSrc = unit => {
-    return unit.image;
-  };
-
   return (
     <div className={styles.gallery}>
       {units.map((unit, index) => (
         <>
           <h2>{unit.name}</h2>
           <img
-            key={index}
-            src={getImageSrc(unit)}
-            alt={units.name}
-            onClick={() => openImage(index)}
+            key={unit.id}
+            src={unit.image}
+            alt={unit.name}
+            onClick={() => handleUnitClick(index)}
             className={styles.image}
           />
         </>
       ))}
       {selectedUnit !== null && (
-        <ImageModal
-          images={units}
+        <UnitModal
+          units={units}
           selectedIndex={selectedUnit}
-          onClose={closeImage}
+          onClose={closeModal}
           onPrevious={goToPrevious}
           onNext={goToNext}
         />

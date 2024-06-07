@@ -14,12 +14,16 @@ const UnitDetails = ({ unit, onClose }) => {
   );
 
   return (
-    <div className={styles.modalBackdrop} onClick={onClose}>
-      <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
+    <div className={styles.container}>
+      <div>
         <h2>{unit.name}</h2>
         <p>{unit.description}</p>
         {unit.additionalInfo && <p>{unit.additionalInfo}</p>}
-
+        <img
+          src={unit.image}
+          alt={unit.name}
+          className={styles.selectedImage}
+        />
         <label htmlFor="levelSelect">Select Level: </label>
         <select
           id="levelSelect"
