@@ -9,7 +9,7 @@ import cp from '../../images/icons/star.png';
 import styles from './UnitDetails.module.scss';
 
 const UnitDetails = ({ unit }) => {
-  const [selectedLevel, setSelectedLevel] = useState(1);
+  const [selectedLevel, setSelectedLevel] = useState(7);
 
   const handleLevelChange = event => {
     setSelectedLevel(parseInt(event.target.value, 10));
