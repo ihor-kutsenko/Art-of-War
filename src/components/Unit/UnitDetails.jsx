@@ -15,23 +15,23 @@ const UnitDetails = ({ unit, onClose }) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.imageSection}>
-        <h2>{unit.name}</h2>
+      <div className={styles.leftSection}>
+        <h2 className={styles.unitName}>{unit.name}</h2>
         <img
           src={unit.image}
           alt={unit.name}
           className={styles.selectedImage}
         />
       </div>
-      <div className={styles.detailsSection}>
-        <p>{unit.description}</p>
-        {unit.additionalInfo && <p>{unit.additionalInfo}</p>}
-
-        <label htmlFor="levelSelect">Select Level: </label>
+      <div className={styles.rightSection}>
+        <label htmlFor="levelSelect" className={styles.levelSelectLabel}>
+          Select Level:{' '}
+        </label>
         <select
           id="levelSelect"
           value={selectedLevel}
           onChange={handleLevelChange}
+          className={styles.levelSelect}
         >
           {unit.levels.map(level => (
             <option key={level.level} value={level.level}>
@@ -41,15 +41,45 @@ const UnitDetails = ({ unit, onClose }) => {
         </select>
 
         {selectedLevelData && (
-          <div className={styles.levelData}>
-            <p>Value 1: {selectedLevelData.value1}</p>
-            <p>Value 2: {selectedLevelData.value2}</p>
-            <p>Value 3: {selectedLevelData.value3}</p>
-            <p>Value 4: {selectedLevelData.value4}</p>
-            <p>Value 5: {selectedLevelData.value5}</p>
-            <p>Value 6: {selectedLevelData.value6}</p>
+          <div className={styles.unitStats}>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>HP:</span>
+              <span className={styles.statValue}>{selectedLevelData.hp}</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>Armor:</span>
+              <span className={styles.statValue}>
+                {selectedLevelData.armor}
+              </span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>Speed:</span>
+              <span className={styles.statValue}>
+                {selectedLevelData.speed}
+              </span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>View:</span>
+              <span className={styles.statValue}>{selectedLevelData.view}</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>Cost:</span>
+              <span className={styles.statValue}>{selectedLevelData.cost}</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>Time:</span>
+              <span className={styles.statValue}>{selectedLevelData.time}</span>
+            </div>
+            <div className={styles.statItem}>
+              <span className={styles.statLabel}>CP:</span>
+              <span className={styles.statValue}>{selectedLevelData.cp}</span>
+            </div>
           </div>
         )}
+        <div className={styles.unitDescription}>
+          <p>{unit.description}</p>
+          {unit.additionalInfo && <p>{unit.additionalInfo}</p>}
+        </div>
       </div>
     </div>
   );
