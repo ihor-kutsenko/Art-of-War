@@ -1,11 +1,15 @@
 import assault from '../../images/units/confederation/assault.png';
 import heavyAssault from '../../images/units/confederation/heavy-assault.png';
 
+// icons
+import armor1 from '../../images/icons/armor1.png';
+
 export const confederationUnits = [
   {
     id: 1,
     name: 'Assault',
     image: assault,
+    iconArmor: armor1,
     description: 'Description for Unit 1',
     levels: [
       {
@@ -36,6 +40,7 @@ export const confederationUnits = [
     id: 2,
     name: 'Heavy Assault',
     image: heavyAssault,
+    iconArmor: armor1,
     description: 'Description for Unit 2',
     levels: [
       {

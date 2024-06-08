@@ -31,7 +31,11 @@ const UnitsGallery = ({ units }) => {
     <div className={styles.gallery}>
       {units.map((unit, index) => (
         <>
-          <div onClick={() => handleUnitClick(index)} className={styles.item}>
+          <div
+            onClick={() => handleUnitClick(index)}
+            key={unit.id}
+            className={styles.item}
+          >
             <h3 className={styles.title}>{unit.name}</h3>
             <img
               key={unit.id}
