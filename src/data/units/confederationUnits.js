@@ -1,5 +1,18 @@
 import assault from '../../images/units/confederation/assault.png';
 import heavyAssault from '../../images/units/confederation/heavy-assault.png';
+import fireAssault from '../../images/units/confederation/fire-assault.png';
+import fortress from '../../images/units/confederation/fortress.png';
+import hammer from '../../images/units/confederation/hammer.png';
+import zeus from '../../images/units/confederation/zeus.png';
+import typhoon from '../../images/units/confederation/typhoon.png';
+import torrent from '../../images/units/confederation/torrent.png';
+import energyShield from '../../images/units/confederation/energy-shield.png';
+import cyclone from '../../images/units/confederation/cyclone.png';
+import vertex from '../../images/units/confederation/vertex.png';
+import thor from '../../images/units/confederation/thor.png';
+import delta from '../../images/units/confederation/delta.png';
+import viking from '../../images/units/confederation/viking.png';
+import poseidon from '../../images/units/confederation/poseidon.png';
 
 // icons
 import armor1 from '../../images/icons/armor1.png';
@@ -73,7 +86,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Fire Assault',
-    image: assault,
+    image: fireAssault,
     iconArmor: armor1,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -104,7 +117,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Fortress',
-    image: assault,
+    image: fortress,
     iconArmor: armor3,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -135,7 +148,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Hammer',
-    image: assault,
+    image: hammer,
     iconArmor: armor2,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -166,7 +179,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Zeus',
-    image: assault,
+    image: zeus,
     iconArmor: armor3,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -197,7 +210,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Typhoon',
-    image: assault,
+    image: typhoon,
     iconArmor: armor2,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -228,7 +241,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Torrent',
-    image: assault,
+    image: torrent,
     iconArmor: armor3,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -259,7 +272,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Energy Shield',
-    image: assault,
+    image: energyShield,
     iconArmor: armor3,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -290,7 +303,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Cyclone',
-    image: assault,
+    image: cyclone,
     iconArmor: armor2,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -321,7 +334,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Vertex',
-    image: assault,
+    image: vertex,
     iconArmor: armor2,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -352,7 +365,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Thor',
-    image: assault,
+    image: thor,
     iconArmor: armor3,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -383,7 +396,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Delta',
-    image: assault,
+    image: delta,
     iconArmor: armor2,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -414,7 +427,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Viking',
-    image: assault,
+    image: viking,
     iconArmor: armor3,
     description: 'Description for Unit',
     additionalInfo: null,
@@ -445,7 +458,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Poseidon',
-    image: assault,
+    image: poseidon,
     iconArmor: armor3,
     description: 'Description for Unit',
     additionalInfo: null,
