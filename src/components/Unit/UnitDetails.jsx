@@ -7,9 +7,11 @@ import cost from '../../images/icons/3d.png';
 import time from '../../images/icons/time.png';
 import cp from '../../images/icons/star.png';
 import styles from './UnitDetails.module.scss';
+import SvgIcon from 'components/SvgIcon/SvgIcon';
 
 const UnitDetails = ({ unit }) => {
   const [selectedLevel, setSelectedLevel] = useState(7);
+  const [selectedWeapons, setSelectedWeapons] = useState({});
 
   const handleLevelChange = event => {
     setSelectedLevel(parseInt(event.target.value, 10));
@@ -18,6 +20,13 @@ const UnitDetails = ({ unit }) => {
   const selectedLevelData = unit.levels.find(
     level => level.level === selectedLevel
   );
+
+  const handleWeaponClick = weapon => {
+    setSelectedWeapons(prevState => ({
+      ...prevState,
+      [weapon.type]: !prevState[weapon.type],
+    }));
+  };
 
   return (
     <div className={styles.container}>
@@ -28,6 +37,9 @@ const UnitDetails = ({ unit }) => {
           alt={unit.name}
           className={styles.selectedImage}
         />
+        <div className={styles.unitDescription}>
+          <p>{unit.description}</p>
+        </div>
       </div>
       <div className={styles.rightSection}>
         <label htmlFor="levelSelect" className={styles.levelSelectLabel}>
@@ -103,10 +115,25 @@ const UnitDetails = ({ unit }) => {
             </div>
           </div>
         )}
-        <div className={styles.unitDescription}>
-          <p>{unit.description}</p>
-          {unit.additionalInfo && <p>{unit.additionalInfo}</p>}
-        </div>
+        {unit.weapons &&
+          unit.weapons.map((weapon, index) => (
+            <div key={index} className={styles.additionalInfoItem}>
+              <h3 onClick={() => handleWeaponClick(weapon)}>
+                {weapon.type}
+                <button className={styles.button} type="button">
+                  <SvgIcon className={styles.iconNav} iconId="icon-previous" />
+                </button>
+              </h3>
+              {selectedWeapons[weapon.type] && (
+                <div className={styles.additionalInfo}>
+                  <div className={styles.additionalInfoItem}>
+                    <p>Damage: {weapon.damage}</p>
+                    <p>Range: {weapon.range}</p>
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
       </div>
     </div>
   );

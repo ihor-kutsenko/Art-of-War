@@ -99,3 +99,20 @@
 .unitDescription {
   margin-bottom: 20px;
 }
+
+.iconNav {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  @include tablet {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: rotate(-90deg);
+}

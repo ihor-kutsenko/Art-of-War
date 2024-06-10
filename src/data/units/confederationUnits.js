@@ -27,7 +27,18 @@ export const confederationUnits = [
     image: assault,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: [
+      {
+        type: 'Weapons 1',
+        damage: 279,
+        range: 6,
+      },
+      {
+        type: 'Weapons 2',
+        damage: 279,
+        range: 6,
+      },
+    ],
     levels: [
       {
         level: 7,
@@ -58,7 +69,7 @@ export const confederationUnits = [
     image: heavyAssault,
     iconArmor: armor1,
     description: 'Description for Unit ',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -89,7 +100,7 @@ export const confederationUnits = [
     image: fireAssault,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -120,7 +131,7 @@ export const confederationUnits = [
     image: fortress,
     iconArmor: armor3,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -151,7 +162,7 @@ export const confederationUnits = [
     image: hammer,
     iconArmor: armor2,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -182,7 +193,7 @@ export const confederationUnits = [
     image: zeus,
     iconArmor: armor3,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -213,7 +224,7 @@ export const confederationUnits = [
     image: typhoon,
     iconArmor: armor2,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -244,7 +255,7 @@ export const confederationUnits = [
     image: torrent,
     iconArmor: armor3,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -275,7 +286,7 @@ export const confederationUnits = [
     image: energyShield,
     iconArmor: armor3,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -306,7 +317,7 @@ export const confederationUnits = [
     image: cyclone,
     iconArmor: armor2,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -337,7 +348,7 @@ export const confederationUnits = [
     image: vertex,
     iconArmor: armor2,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -368,7 +379,7 @@ export const confederationUnits = [
     image: thor,
     iconArmor: armor3,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -399,7 +410,7 @@ export const confederationUnits = [
     image: delta,
     iconArmor: armor2,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -430,7 +441,7 @@ export const confederationUnits = [
     image: viking,
     iconArmor: armor3,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
@@ -461,7 +472,7 @@ export const confederationUnits = [
     image: poseidon,
     iconArmor: armor3,
     description: 'Description for Unit',
-    additionalInfo: null,
+    weapons: null,
     levels: [
       {
         level: 7,
