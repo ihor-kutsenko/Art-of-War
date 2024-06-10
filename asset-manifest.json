@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Art-of-War/static/css/main.335e2708.css",
-    "main.js": "/Art-of-War/static/js/main.ce06ff87.js",
+    "main.js": "/Art-of-War/static/js/main.a8b46aa5.js",
     "static/css/239.d009e092.chunk.css": "/Art-of-War/static/css/239.d009e092.chunk.css",
     "static/js/239.04762cc1.chunk.js": "/Art-of-War/static/js/239.04762cc1.chunk.js",
     "static/css/422.4b36b0fb.chunk.css": "/Art-of-War/static/css/422.4b36b0fb.chunk.css",
@@ -37,7 +37,7 @@
     "static/css/632.4b36b0fb.chunk.css": "/Art-of-War/static/css/632.4b36b0fb.chunk.css",
     "static/js/632.a0e957c2.chunk.js": "/Art-of-War/static/js/632.a0e957c2.chunk.js",
     "static/css/379.15dbcbd4.chunk.css": "/Art-of-War/static/css/379.15dbcbd4.chunk.css",
-    "static/js/379.c834c947.chunk.js": "/Art-of-War/static/js/379.c834c947.chunk.js",
+    "static/js/379.105eddca.chunk.js": "/Art-of-War/static/js/379.105eddca.chunk.js",
     "static/css/491.15dbcbd4.chunk.css": "/Art-of-War/static/css/491.15dbcbd4.chunk.css",
     "static/js/491.a63eac05.chunk.js": "/Art-of-War/static/js/491.a63eac05.chunk.js",
     "static/css/501.4b36b0fb.chunk.css": "/Art-of-War/static/css/501.4b36b0fb.chunk.css",
@@ -49,7 +49,7 @@
     "static/css/864.1b2b3ad8.chunk.css": "/Art-of-War/static/css/864.1b2b3ad8.chunk.css",
     "static/js/864.b58dbd85.chunk.js": "/Art-of-War/static/js/864.b58dbd85.chunk.js",
     "static/js/715.2620bce4.chunk.js": "/Art-of-War/static/js/715.2620bce4.chunk.js",
-    "static/js/750.bc2733ef.chunk.js": "/Art-of-War/static/js/750.bc2733ef.chunk.js",
+    "static/js/750.2810d8e4.chunk.js": "/Art-of-War/static/js/750.2810d8e4.chunk.js",
     "static/media/flight-recoder.png": "/Art-of-War/static/media/flight-recoder.163b39a6e35de8e72354.png",
     "static/media/only-by-chance.jpg": "/Art-of-War/static/media/only-by-chance.d00e190b8083ddb7d545.jpg",
     "static/media/survial.jpg": "/Art-of-War/static/media/survial.929b013994b99b3841e9.jpg",
@@ -309,7 +309,6 @@
     "static/media/vanguard-star2.png": "/Art-of-War/static/media/vanguard-star2.777ecb33875c8ea57b75.png",
     "static/media/nautilus-star4.png": "/Art-of-War/static/media/nautilus-star4.094fc2c5c14e1d4252a8.png",
     "static/media/total-control-star2.png": "/Art-of-War/static/media/total-control-star2.6a0f883957a290f9583f.png",
-    "static/media/armor1.png": "/Art-of-War/static/media/armor1.de0d8790aa9dd917bf55.png",
     "static/media/nice-loot-star4.png": "/Art-of-War/static/media/nice-loot-star4.ef8df0a489007e6aadd8.png",
     "static/media/behind-the-wall-star4.png": "/Art-of-War/static/media/behind-the-wall-star4.e90ceada59e591eca22a.png",
     "static/media/large-reserves-star4.png": "/Art-of-War/static/media/large-reserves-star4.2a78de8e89ec85e9cc0e.png",
@@ -381,6 +380,7 @@
     "static/media/all-the-front-gold2.png": "/Art-of-War/static/media/all-the-front-gold2.993ff90a98fbd69ffb8c.png",
     "static/media/behind-the-wall-gold2.png": "/Art-of-War/static/media/behind-the-wall-gold2.0f6a28b2c8b204d67773.png",
     "static/media/flight-recorder-steel2.png": "/Art-of-War/static/media/flight-recorder-steel2.dd7bda8e91ee765b0d5b.png",
+    "static/media/armor3.png": "/Art-of-War/static/media/armor3.bd5c53bbc5274ee13370.png",
     "static/media/large-reserves-gold2.png": "/Art-of-War/static/media/large-reserves-gold2.7b05ce3615b20caf68d7.png",
     "static/media/ai-steel1.png": "/Art-of-War/static/media/ai-steel1.ec1da2daa28605a8e884.png",
     "static/media/total-control-gold2.png": "/Art-of-War/static/media/total-control-gold2.f4a84e06e1243a3ba937.png",
@@ -502,6 +502,7 @@
     "static/media/flight-recorder-steel3.png": "/Art-of-War/static/media/flight-recorder-steel3.93b4e9eaa189f5c423a2.png",
     "static/media/flight-recorder-bronze2.png": "/Art-of-War/static/media/flight-recorder-bronze2.c6a61273e8850914a378.png",
     "static/media/joker-bronze2.png": "/Art-of-War/static/media/joker-bronze2.f003b1c5b37cf844e84e.png",
+    "static/media/armor2.png": "/Art-of-War/static/media/armor2.92c15420027a993a584a.png",
     "static/media/5th-anniversary-silver3.png": "/Art-of-War/static/media/5th-anniversary-silver3.6ea5d42efdb74a103fff.png",
     "static/media/behind-the-wall-gold3.png": "/Art-of-War/static/media/behind-the-wall-gold3.820d4aa81e35db215e1a.png",
     "static/media/pumpkin-silver2.png": "/Art-of-War/static/media/pumpkin-silver2.bdd52092107986c1a353.png",
@@ -678,6 +679,7 @@
     "static/media/battle-royale-bronze3.png": "/Art-of-War/static/media/battle-royale-bronze3.14a970e32aa58f52cc6f.png",
     "static/media/two-citadels-diamond4.png": "/Art-of-War/static/media/two-citadels-diamond4.b209bfe6d46d99771d63.png",
     "static/media/flight-recorder-bronze4.png": "/Art-of-War/static/media/flight-recorder-bronze4.7e4437bbcac426d27533.png",
+    "static/media/armor1.png": "/Art-of-War/static/media/armor1.51aab1820e2b636e5058.png",
     "static/media/assault-bronze4.png": "/Art-of-War/static/media/assault-bronze4.21e6fd89ee896a7d5588.png",
     "static/media/battle-royale-bronze4.png": "/Art-of-War/static/media/battle-royale-bronze4.a2187596b35a2d29c091.png",
     "static/media/5th-anniversary-bronze4.png": "/Art-of-War/static/media/5th-anniversary-bronze4.0a73700e73bc08b9c773.png",
@@ -714,8 +716,6 @@
     "static/media/ai-bronze3.png": "/Art-of-War/static/media/ai-bronze3.14305a2be1dcf8be55ea.png",
     "static/media/ai-bronze4.png": "/Art-of-War/static/media/ai-bronze4.82f56852100ecea7e27b.png",
     "static/media/award-for-the-Best-War-Correspondent.png": "/Art-of-War/static/media/award-for-the-Best-War-Correspondent.41db98047bf18eabc6c8.png",
-    "static/media/armor3.png": "/Art-of-War/static/media/armor3.edf09296a1dec46dd932.png",
-    "static/media/armor2.png": "/Art-of-War/static/media/armor2.2df052d2af811dc13df4.png",
     "static/media/award-for-Best-Topographer.png": "/Art-of-War/static/media/award-for-Best-Topographer.adab2c79ae5d360aa718.png",
     "static/media/time.png": "/Art-of-War/static/media/time.9641ba25d8331165666a.png",
     "static/media/eye.png": "/Art-of-War/static/media/eye.bbe76fc64d9edaf89a0d.png",
@@ -724,7 +724,7 @@
     "index.html": "/Art-of-War/index.html",
     "static/media/sprite.svg": "/Art-of-War/static/media/sprite.f7ba7a32de94a87d7e4580a6da141ed8.svg",
     "main.335e2708.css.map": "/Art-of-War/static/css/main.335e2708.css.map",
-    "main.ce06ff87.js.map": "/Art-of-War/static/js/main.ce06ff87.js.map",
+    "main.a8b46aa5.js.map": "/Art-of-War/static/js/main.a8b46aa5.js.map",
     "239.d009e092.chunk.css.map": "/Art-of-War/static/css/239.d009e092.chunk.css.map",
     "239.04762cc1.chunk.js.map": "/Art-of-War/static/js/239.04762cc1.chunk.js.map",
     "422.4b36b0fb.chunk.css.map": "/Art-of-War/static/css/422.4b36b0fb.chunk.css.map",
@@ -760,7 +760,7 @@
     "632.4b36b0fb.chunk.css.map": "/Art-of-War/static/css/632.4b36b0fb.chunk.css.map",
     "632.a0e957c2.chunk.js.map": "/Art-of-War/static/js/632.a0e957c2.chunk.js.map",
     "379.15dbcbd4.chunk.css.map": "/Art-of-War/static/css/379.15dbcbd4.chunk.css.map",
-    "379.c834c947.chunk.js.map": "/Art-of-War/static/js/379.c834c947.chunk.js.map",
+    "379.105eddca.chunk.js.map": "/Art-of-War/static/js/379.105eddca.chunk.js.map",
     "491.15dbcbd4.chunk.css.map": "/Art-of-War/static/css/491.15dbcbd4.chunk.css.map",
     "491.a63eac05.chunk.js.map": "/Art-of-War/static/js/491.a63eac05.chunk.js.map",
     "501.4b36b0fb.chunk.css.map": "/Art-of-War/static/css/501.4b36b0fb.chunk.css.map",
@@ -772,10 +772,10 @@
     "864.1b2b3ad8.chunk.css.map": "/Art-of-War/static/css/864.1b2b3ad8.chunk.css.map",
     "864.b58dbd85.chunk.js.map": "/Art-of-War/static/js/864.b58dbd85.chunk.js.map",
     "715.2620bce4.chunk.js.map": "/Art-of-War/static/js/715.2620bce4.chunk.js.map",
-    "750.bc2733ef.chunk.js.map": "/Art-of-War/static/js/750.bc2733ef.chunk.js.map"
+    "750.2810d8e4.chunk.js.map": "/Art-of-War/static/js/750.2810d8e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.335e2708.css",
-    "static/js/main.ce06ff87.js"
+    "static/js/main.a8b46aa5.js"
   ]
 }
