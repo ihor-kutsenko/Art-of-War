@@ -2,9 +2,15 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   padding-bottom: 20px;
+  @include tablet {
+    gap: 14px;
+  }
+  @include desktop {
+    gap: 18px;
+  }
 }
 
 .item {
@@ -12,11 +18,15 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 115px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  @include tablet {
+    width: auto;
+  }
 }
 
 .title {
