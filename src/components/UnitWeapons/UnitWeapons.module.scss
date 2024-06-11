@@ -1,0 +1,35 @@
+@import '../../sass/styles.scss';
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 24px;
+  height: 24px;
+  stroke: $blue-4-color;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  @include tablet {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.iconNav {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  transition: transform 0.3s ease;
+  @include tablet {
+    width: 36px;
+    height: 36px;
+  }
+}
+.rotatedIcon {
+  transform: rotate(180deg);
+}
