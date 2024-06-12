@@ -49,7 +49,9 @@ const UnitDetails = ({ unit }) => {
         {selectedLevelData && (
           <UnitStats selectedLevelData={selectedLevelData} unit={unit} />
         )}
-        {unit.weapons && <UnitWeapons weapons={unit.weapons} />}
+        {selectedLevelData && (
+          <UnitWeapons weapons={selectedLevelData.weapons} />
+        )}
       </div>
     </div>
   );

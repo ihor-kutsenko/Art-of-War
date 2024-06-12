@@ -1,0 +1,36 @@
+@import '../../sass/styles.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.statItem {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 10px;
+  background: #2e2e2e;
+  border-radius: 8px;
+}
+
+.statLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+}
+
+.statValue {
+  display: flex;
+  gap: 5px;
+}
+.statIcon {
+  height: 20px;
+  width: 20px;
+}

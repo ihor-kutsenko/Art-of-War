@@ -1,6 +1,7 @@
 import SvgIcon from 'components/SvgIcon/SvgIcon';
 import styles from './UnitWeapons.module.scss';
 import { useState } from 'react';
+import UnitWeaponsStats from 'components/UnitWeaponsStats/UnitWeaponsStats';
 
 const UnitWeapons = ({ weapons }) => {
   const [selectedWeapons, setSelectedWeapons] = useState({});
@@ -34,14 +35,7 @@ const UnitWeapons = ({ weapons }) => {
                 <SvgIcon className={iconClass} iconId="icon-previous" />
               </button>
             </h3>
-            {isSelected && (
-              <div className={styles.additionalInfo}>
-                <div className={styles.additionalInfoItem}>
-                  <p>Damage: {weapon.damage}</p>
-                  <p>Range: {weapon.range}</p>
-                </div>
-              </div>
-            )}
+            {isSelected && <UnitWeaponsStats weapon={weapon} />}
           </div>
         );
       })}

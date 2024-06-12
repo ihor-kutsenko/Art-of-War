@@ -27,18 +27,6 @@ export const confederationUnits = [
     image: assault,
     iconArmor: armor1,
     description: 'Description for Unit',
-    weapons: [
-      {
-        type: 'Weapons 1',
-        damage: 279,
-        range: 6,
-      },
-      {
-        type: 'Weapons 2',
-        damage: 279,
-        range: 6,
-      },
-    ],
     levels: [
       {
         level: 7,
@@ -49,6 +37,10 @@ export const confederationUnits = [
         cost: 40,
         time: 0,
         cp: 1,
+        weapons: [
+          { type: 'Weapon 1', damage: 100, range: 5 },
+          { type: 'Weapon 2', damage: 200, range: 6 },
+        ],
       },
       {
         level: 29,
@@ -59,6 +51,10 @@ export const confederationUnits = [
         cost: 40,
         time: 13,
         cp: 1,
+        weapons: [
+          { type: 'Weapon 1', damage: 150, range: 7 },
+          { type: 'Weapon 2', damage: 250, range: 8 },
+        ],
       },
     ],
   },
@@ -80,6 +76,7 @@ export const confederationUnits = [
         cost: 45,
         time: 0,
         cp: 1,
+        weapons: [{ type: 'Weapon 1', damage: 100, range: 5 }],
       },
       {
         level: 29,
@@ -90,6 +87,7 @@ export const confederationUnits = [
         cost: 45,
         time: 15,
         cp: 1,
+        weapons: [{ type: 'Weapon 1', damage: 100, range: 5 }],
       },
     ],
   },
