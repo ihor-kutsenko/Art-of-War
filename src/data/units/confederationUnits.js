@@ -28,6 +28,7 @@ export const confederationUnits = [
     iconArmor: armor1,
     description: 'Description for Unit',
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -38,10 +39,31 @@ export const confederationUnits = [
         time: 0,
         cp: 1,
         weapons: [
-          { type: 'Weapon 1', damage: 100, range: 5 },
-          { type: 'Weapon 2', damage: 200, range: 6 },
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+          {
+            type: 'Weapon 2',
+            damageArmor1: 70,
+            damageArmor2: 70,
+            damageArmor3: 900,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 80,
+            firingAccuracy2: 80,
+            explosionRadius: 15,
+          },
         ],
       },
+      // 29
       {
         level: 29,
         hp: 2059,
@@ -52,8 +74,17 @@ export const confederationUnits = [
         time: 13,
         cp: 1,
         weapons: [
-          { type: 'Weapon 1', damage: 150, range: 7 },
-          { type: 'Weapon 2', damage: 250, range: 8 },
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
         ],
       },
     ],
@@ -65,8 +96,8 @@ export const confederationUnits = [
     image: heavyAssault,
     iconArmor: armor1,
     description: 'Description for Unit ',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -76,8 +107,21 @@ export const confederationUnits = [
         cost: 45,
         time: 0,
         cp: 1,
-        weapons: [{ type: 'Weapon 1', damage: 100, range: 5 }],
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 2457,
@@ -87,7 +131,19 @@ export const confederationUnits = [
         cost: 45,
         time: 15,
         cp: 1,
-        weapons: [{ type: 'Weapon 1', damage: 100, range: 5 }],
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -98,8 +154,8 @@ export const confederationUnits = [
     image: fireAssault,
     iconArmor: armor1,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -109,7 +165,21 @@ export const confederationUnits = [
         cost: 55,
         time: 0,
         cp: 1,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 3036,
@@ -119,6 +189,19 @@ export const confederationUnits = [
         cost: 55,
         time: 17,
         cp: 1,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -129,8 +212,8 @@ export const confederationUnits = [
     image: fortress,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -140,7 +223,21 @@ export const confederationUnits = [
         cost: 140,
         time: 0,
         cp: 3,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 4365,
@@ -150,6 +247,19 @@ export const confederationUnits = [
         cost: 140,
         time: 24,
         cp: 3,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -160,8 +270,8 @@ export const confederationUnits = [
     image: hammer,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -171,7 +281,21 @@ export const confederationUnits = [
         cost: 120,
         time: 0,
         cp: 2,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 4082,
@@ -181,6 +305,19 @@ export const confederationUnits = [
         cost: 120,
         time: 27,
         cp: 2,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -191,8 +328,8 @@ export const confederationUnits = [
     image: zeus,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -202,7 +339,21 @@ export const confederationUnits = [
         cost: 240,
         time: 0,
         cp: 4,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 7286,
@@ -212,6 +363,19 @@ export const confederationUnits = [
         cost: 240,
         time: 35,
         cp: 4,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -222,8 +386,8 @@ export const confederationUnits = [
     image: typhoon,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -233,7 +397,21 @@ export const confederationUnits = [
         cost: 150,
         time: 0,
         cp: 2,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 4995,
@@ -243,6 +421,19 @@ export const confederationUnits = [
         cost: 150,
         time: 28,
         cp: 2,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -253,8 +444,8 @@ export const confederationUnits = [
     image: torrent,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -264,7 +455,21 @@ export const confederationUnits = [
         cost: 250,
         time: 0,
         cp: 4,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 4752,
@@ -274,6 +479,19 @@ export const confederationUnits = [
         cost: 250,
         time: 32,
         cp: 4,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -284,8 +502,8 @@ export const confederationUnits = [
     image: energyShield,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -295,7 +513,21 @@ export const confederationUnits = [
         cost: 350,
         time: 0,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 6376,
@@ -305,6 +537,19 @@ export const confederationUnits = [
         cost: 350,
         time: 53,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -315,8 +560,8 @@ export const confederationUnits = [
     image: cyclone,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -326,7 +571,21 @@ export const confederationUnits = [
         cost: 140,
         time: 0,
         cp: 3,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 4355,
@@ -336,6 +595,19 @@ export const confederationUnits = [
         cost: 140,
         time: 25,
         cp: 3,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -346,8 +618,8 @@ export const confederationUnits = [
     image: vertex,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -357,7 +629,21 @@ export const confederationUnits = [
         cost: 300,
         time: 0,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 5702,
@@ -367,6 +653,19 @@ export const confederationUnits = [
         cost: 300,
         time: 35,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -377,8 +676,8 @@ export const confederationUnits = [
     image: thor,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -388,7 +687,21 @@ export const confederationUnits = [
         cost: 450,
         time: 0,
         cp: 7,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 7286,
@@ -398,6 +711,19 @@ export const confederationUnits = [
         cost: 450,
         time: 42,
         cp: 7,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -408,8 +734,8 @@ export const confederationUnits = [
     image: delta,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -419,7 +745,21 @@ export const confederationUnits = [
         cost: 140,
         time: 0,
         cp: 2,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 3960,
@@ -429,6 +769,19 @@ export const confederationUnits = [
         cost: 140,
         time: 18,
         cp: 2,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -439,8 +792,8 @@ export const confederationUnits = [
     image: viking,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -450,7 +803,21 @@ export const confederationUnits = [
         cost: 320,
         time: 0,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 13306,
@@ -460,6 +827,19 @@ export const confederationUnits = [
         cost: 320,
         time: 35,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
@@ -470,8 +850,8 @@ export const confederationUnits = [
     image: poseidon,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -481,7 +861,21 @@ export const confederationUnits = [
         cost: 330,
         time: 0,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 15939,
@@ -491,6 +885,19 @@ export const confederationUnits = [
         cost: 330,
         time: 42,
         cp: 5,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 50,
+            damageArmor2: 20,
+            damageArmor3: 20,
+            firingRange: 5,
+            rateOfFire: 100,
+            firingAccuracy: 90,
+            firingAccuracy2: 90,
+            explosionRadius: 5,
+          },
+        ],
       },
     ],
   },
