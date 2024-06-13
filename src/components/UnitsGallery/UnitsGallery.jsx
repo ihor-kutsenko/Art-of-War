@@ -30,21 +30,14 @@ const UnitsGallery = ({ units }) => {
   return (
     <div className={styles.gallery}>
       {units.map((unit, index) => (
-        <>
-          <div
-            onClick={() => handleUnitClick(index)}
-            key={unit.id}
-            className={styles.item}
-          >
-            <h3 className={styles.title}>{unit.name}</h3>
-            <img
-              key={unit.id}
-              src={unit.image}
-              alt={unit.name}
-              className={styles.image}
-            />
-          </div>
-        </>
+        <div
+          onClick={() => handleUnitClick(index)}
+          key={unit.id}
+          className={styles.item}
+        >
+          <h3 className={styles.title}>{unit.name}</h3>
+          <img src={unit.image} alt={unit.name} className={styles.image} />
+        </div>
       ))}
       {selectedUnit !== null && (
         <UnitModal

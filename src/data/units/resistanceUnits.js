@@ -13,8 +13,8 @@ export const resistanceUnits = [
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -24,7 +24,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -34,6 +48,19 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
@@ -44,8 +71,8 @@ export const resistanceUnits = [
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit ',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -55,7 +82,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -65,18 +106,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Sniper
   {
-    id: 1,
+    id: 3,
     name: 'Sniper',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -86,7 +140,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -96,18 +164,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Coyote
   {
-    id: 1,
+    id: 4,
     name: 'Coyote',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -117,7 +198,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -127,18 +222,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Armadillo
   {
-    id: 1,
+    id: 5,
     name: 'Armadillo',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -148,7 +256,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -158,18 +280,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Jaguar
   {
-    id: 1,
+    id: 6,
     name: 'Jaguar',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -179,7 +314,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -189,18 +338,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Porcupine
   {
-    id: 1,
+    id: 7,
     name: 'Porcupine',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -210,7 +372,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -220,18 +396,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Mammoth
   {
-    id: 1,
+    id: 8,
     name: 'Mammoth',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -241,7 +430,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -251,18 +454,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Chameleon
   {
-    id: 1,
+    id: 9,
     name: 'Chameleon',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -272,7 +488,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -282,18 +512,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Dragonfly
   {
-    id: 1,
+    id: 10,
     name: 'Dragonfly',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -303,7 +546,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -313,18 +570,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Hawk
   {
-    id: 1,
+    id: 11,
     name: 'Hawk',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -334,7 +604,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -344,18 +628,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Albatross
   {
-    id: 1,
+    id: 12,
     name: 'Albatross',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -365,7 +662,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -375,18 +686,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Caiman
   {
-    id: 1,
+    id: 13,
     name: 'Caiman',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -396,7 +720,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -406,18 +744,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Alligator
   {
-    id: 1,
+    id: 14,
     name: 'Alligator',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -427,7 +778,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -437,18 +802,31 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
   // Barracuda
   {
-    id: 1,
+    id: 15,
     name: 'Barracuda',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    additionalInfo: null,
     levels: [
+      // 7
       {
         level: 7,
         hp: 0,
@@ -458,7 +836,21 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
+      // 29
       {
         level: 29,
         hp: 0,
@@ -468,6 +860,19 @@ export const resistanceUnits = [
         cost: 0,
         time: 0,
         cp: 0,
+        weapons: [
+          {
+            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
       },
     ],
   },
