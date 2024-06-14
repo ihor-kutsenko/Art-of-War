@@ -3,20 +3,20 @@ import styles from './UnitWeapons.module.scss';
 import { useState } from 'react';
 import UnitWeaponsStats from 'components/UnitWeaponsStats/UnitWeaponsStats';
 
-const UnitWeapons = ({ weapons }) => {
+const UnitWeapons = ({ weapons, selectedLevelData }) => {
   const [selectedWeapons, setSelectedWeapons] = useState({});
 
-  const handleWeaponClick = weapon => {
+  const handleWeaponClick = weaponIndex => {
     setSelectedWeapons(prevState => ({
       ...prevState,
-      [weapon.type]: !prevState[weapon.type],
+      [weaponIndex]: !prevState[weaponIndex],
     }));
   };
 
   return (
     <div className={styles.weaponsContainer}>
       {weapons.map((weapon, index) => {
-        const isSelected = selectedWeapons[weapon.type];
+        const isSelected = selectedWeapons[index];
         const buttonClass = `${styles.button} ${
           isSelected ? styles.activeButton : ''
         }`;
@@ -28,14 +28,18 @@ const UnitWeapons = ({ weapons }) => {
           <div key={index} className={styles.additionalInfoItem}>
             <h3
               className={styles.title}
-              onClick={() => handleWeaponClick(weapon)}
+              onClick={() => handleWeaponClick(index)}
             >
               {weapon.type}
               <button className={buttonClass} type="button">
                 <SvgIcon className={iconClass} iconId="icon-previous" />
               </button>
             </h3>
-            {isSelected && <UnitWeaponsStats weapon={weapon} />}
+            {isSelected && (
+              <UnitWeaponsStats
+                selectedLevelData={selectedLevelData.weapons[index]}
+              />
+            )}
           </div>
         );
       })}

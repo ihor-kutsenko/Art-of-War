@@ -27,6 +27,10 @@ export const confederationUnits = [
     image: assault,
     iconArmor: armor1,
     description: 'Description for Unit',
+    weapons: [
+      { type: 'M55 Personal Assault Rifle' },
+      { type: 'Anti-Personnel Grenade' },
+    ],
     levels: [
       // 7
       {
@@ -40,7 +44,6 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -51,7 +54,6 @@ export const confederationUnits = [
             explosionRadius: 0,
           },
           {
-            type: 'Weapon 2',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -75,7 +77,16 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            type: 'Weapon 1',
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 50,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+          {
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -96,6 +107,7 @@ export const confederationUnits = [
     image: heavyAssault,
     iconArmor: armor1,
     description: 'Description for Unit ',
+    weapons: [{ type: 'RL-100 Rocket Launcher' }],
     levels: [
       // 7
       {
@@ -109,7 +121,7 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            type: 'Weapon 1',
+            // type: 'RL-100 Rocket Launcher',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -133,7 +145,7 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            type: 'Weapon 1',
+            type: 'RL-100 Rocket Launcher',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,

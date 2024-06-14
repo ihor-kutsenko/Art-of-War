@@ -8,7 +8,7 @@ import diagonalArrow from '../../images/icons/diagonal-arrow.png';
 
 import styles from './UnitWeaponsStats.module.scss';
 
-const UnitWeaponsStats = ({ weapon }) => {
+const UnitWeaponsStats = ({ selectedLevelData }) => {
   return (
     <div className={styles.container}>
       <div className={styles.statItem}>
@@ -16,21 +16,27 @@ const UnitWeaponsStats = ({ weapon }) => {
           <img src={armor1} alt="armor" className={styles.statIcon} />
           Damage vs armor I:
         </span>
-        <span className={styles.statValue}>{weapon.damageArmor1} </span>
+        <span className={styles.statValue}>
+          {selectedLevelData.damageArmor1}{' '}
+        </span>
       </div>
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
           <img src={armor2} alt="armor" className={styles.statIcon} />
           Damage vs armor II:
         </span>
-        <span className={styles.statValue}>{weapon.damageArmor2}</span>
+        <span className={styles.statValue}>
+          {selectedLevelData.damageArmor2}
+        </span>
       </div>
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
           <img src={armor3} alt="armor" className={styles.statIcon} />
           Damage vs armor III:
         </span>
-        <span className={styles.statValue}>{weapon.damageArmor3}</span>
+        <span className={styles.statValue}>
+          {selectedLevelData.damageArmor3}
+        </span>
       </div>
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
@@ -42,14 +48,18 @@ const UnitWeaponsStats = ({ weapon }) => {
           />
           Firing range:
         </span>
-        <span className={styles.statValue}>{weapon.firingRange}</span>
+        <span className={styles.statValue}>
+          {selectedLevelData.firingRange}
+        </span>
       </div>
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
           <img src={bullets} alt="bullets" className={styles.statIcon} />
           Rate of fire:
         </span>
-        <span className={styles.statValue}>{weapon.rateOfFire} </span>
+        <span className={styles.statValue}>
+          {selectedLevelData.rateOfFire}{' '}
+        </span>
       </div>
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
@@ -57,8 +67,12 @@ const UnitWeaponsStats = ({ weapon }) => {
           Firing accuracy:
         </span>
         <div>
-          <span className={styles.statValue}>{weapon.firingAccuracy} </span>
-          <span className={styles.statValue}>{weapon.firingAccuracy2} </span>
+          <span className={styles.statValue}>
+            {selectedLevelData.firingAccuracy}{' '}
+          </span>
+          <span className={styles.statValue}>
+            {selectedLevelData.firingAccuracy2}{' '}
+          </span>
         </div>
       </div>
       <div className={styles.statItem}>
@@ -70,7 +84,9 @@ const UnitWeaponsStats = ({ weapon }) => {
           />
           Explosion radius:
         </span>
-        <span className={styles.statValue}>{weapon.explosionRadius}</span>
+        <span className={styles.statValue}>
+          {selectedLevelData.explosionRadius}
+        </span>
       </div>
     </div>
   );
