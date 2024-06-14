@@ -1,9 +1,23 @@
 import rifleman from '../../images/units/resistance/rifleman.png';
+import grenadier from '../../images/units/resistance/grenadier.png';
+import sniper from '../../images/units/resistance/sniper.png';
+import coyote from '../../images/units/resistance/coyote.png';
+import armadillo from '../../images/units/resistance/armadillo.png';
+import jaguar from '../../images/units/resistance/jaguar.png';
+import porcupine from '../../images/units/resistance/porcupine.png';
+import mammoth from '../../images/units/resistance/mammoth.png';
+import chameleon from '../../images/units/resistance/chameleon.png';
+import dragonfly from '../../images/units/resistance/dragonfly.png';
+import hawk from '../../images/units/resistance/hawk.png';
+import albatross from '../../images/units/resistance/albatross.png';
+import caiman from '../../images/units/resistance/caiman.png';
+import alligator from '../../images/units/resistance/alligator.png';
+import barracuda from '../../images/units/resistance/barracuda.png';
 
 // icons
 import armor1 from '../../images/icons/armor1.png';
-// import armor2 from '../../images/icons/armor2.png';
-// import armor3 from '../../images/icons/armor3.png';
+import armor2 from '../../images/icons/armor2.png';
+import armor3 from '../../images/icons/armor3.png';
 
 export const resistanceUnits = [
   // Rifleman
@@ -68,7 +82,7 @@ export const resistanceUnits = [
   {
     id: 2,
     name: 'Grenadier',
-    image: rifleman,
+    image: grenadier,
     iconArmor: armor1,
     description: 'Description for Unit ',
     levels: [
@@ -126,7 +140,7 @@ export const resistanceUnits = [
   {
     id: 3,
     name: 'Sniper',
-    image: rifleman,
+    image: sniper,
     iconArmor: armor1,
     description: 'Description for Unit',
     levels: [
@@ -184,8 +198,8 @@ export const resistanceUnits = [
   {
     id: 4,
     name: 'Coyote',
-    image: rifleman,
-    iconArmor: armor1,
+    image: coyote,
+    iconArmor: armor2,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -242,8 +256,8 @@ export const resistanceUnits = [
   {
     id: 5,
     name: 'Armadillo',
-    image: rifleman,
-    iconArmor: armor1,
+    image: armadillo,
+    iconArmor: armor2,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -300,8 +314,8 @@ export const resistanceUnits = [
   {
     id: 6,
     name: 'Jaguar',
-    image: rifleman,
-    iconArmor: armor1,
+    image: jaguar,
+    iconArmor: armor3,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -358,8 +372,8 @@ export const resistanceUnits = [
   {
     id: 7,
     name: 'Porcupine',
-    image: rifleman,
-    iconArmor: armor1,
+    image: porcupine,
+    iconArmor: armor2,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -416,8 +430,8 @@ export const resistanceUnits = [
   {
     id: 8,
     name: 'Mammoth',
-    image: rifleman,
-    iconArmor: armor1,
+    image: mammoth,
+    iconArmor: armor3,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -474,8 +488,8 @@ export const resistanceUnits = [
   {
     id: 9,
     name: 'Chameleon',
-    image: rifleman,
-    iconArmor: armor1,
+    image: chameleon,
+    iconArmor: armor2,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -532,8 +546,8 @@ export const resistanceUnits = [
   {
     id: 10,
     name: 'Dragonfly',
-    image: rifleman,
-    iconArmor: armor1,
+    image: dragonfly,
+    iconArmor: armor2,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -590,8 +604,8 @@ export const resistanceUnits = [
   {
     id: 11,
     name: 'Hawk',
-    image: rifleman,
-    iconArmor: armor1,
+    image: hawk,
+    iconArmor: armor2,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -648,8 +662,8 @@ export const resistanceUnits = [
   {
     id: 12,
     name: 'Albatross',
-    image: rifleman,
-    iconArmor: armor1,
+    image: albatross,
+    iconArmor: armor3,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -706,8 +720,8 @@ export const resistanceUnits = [
   {
     id: 13,
     name: 'Caiman',
-    image: rifleman,
-    iconArmor: armor1,
+    image: caiman,
+    iconArmor: armor2,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -764,8 +778,8 @@ export const resistanceUnits = [
   {
     id: 14,
     name: 'Alligator',
-    image: rifleman,
-    iconArmor: armor1,
+    image: alligator,
+    iconArmor: armor3,
     description: 'Description for Unit',
     levels: [
       // 7
@@ -822,8 +836,8 @@ export const resistanceUnits = [
   {
     id: 15,
     name: 'Barracuda',
-    image: rifleman,
-    iconArmor: armor1,
+    image: barracuda,
+    iconArmor: armor3,
     description: 'Description for Unit',
     levels: [
       // 7
