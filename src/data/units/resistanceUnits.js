@@ -27,6 +27,7 @@ export const resistanceUnits = [
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -40,7 +41,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -64,7 +64,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -85,6 +84,7 @@ export const resistanceUnits = [
     image: grenadier,
     iconArmor: armor1,
     description: 'Description for Unit ',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -98,7 +98,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -122,7 +121,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -143,6 +141,7 @@ export const resistanceUnits = [
     image: sniper,
     iconArmor: armor1,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -156,7 +155,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -180,7 +178,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -201,6 +198,7 @@ export const resistanceUnits = [
     image: coyote,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -214,7 +212,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -238,7 +235,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -259,6 +255,7 @@ export const resistanceUnits = [
     image: armadillo,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -272,7 +269,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -296,7 +292,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -317,6 +312,7 @@ export const resistanceUnits = [
     image: jaguar,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -330,7 +326,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -354,7 +349,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -375,6 +369,7 @@ export const resistanceUnits = [
     image: porcupine,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -388,7 +383,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -412,7 +406,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -433,6 +426,7 @@ export const resistanceUnits = [
     image: mammoth,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -446,7 +440,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -470,7 +463,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -491,6 +483,7 @@ export const resistanceUnits = [
     image: chameleon,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -504,7 +497,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -528,7 +520,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -549,6 +540,7 @@ export const resistanceUnits = [
     image: dragonfly,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -562,7 +554,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -586,7 +577,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -607,6 +597,7 @@ export const resistanceUnits = [
     image: hawk,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -620,7 +611,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -644,7 +634,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -665,6 +654,7 @@ export const resistanceUnits = [
     image: albatross,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -678,7 +668,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -702,7 +691,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -723,6 +711,7 @@ export const resistanceUnits = [
     image: caiman,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -736,7 +725,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -760,7 +748,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -781,6 +768,7 @@ export const resistanceUnits = [
     image: alligator,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -794,7 +782,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -818,7 +805,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -839,6 +825,7 @@ export const resistanceUnits = [
     image: barracuda,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -852,7 +839,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -876,7 +862,6 @@ export const resistanceUnits = [
         cp: 0,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,

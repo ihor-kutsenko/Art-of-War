@@ -79,7 +79,7 @@ export const confederationUnits = [
           {
             damageArmor1: 0,
             damageArmor2: 0,
-            damageArmor3: 50,
+            damageArmor3: 0,
             firingRange: 0,
             rateOfFire: 0,
             firingAccuracy: 0,
@@ -121,7 +121,6 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            // type: 'RL-100 Rocket Launcher',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -145,7 +144,6 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            type: 'RL-100 Rocket Launcher',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -166,6 +164,7 @@ export const confederationUnits = [
     image: fireAssault,
     iconArmor: armor1,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -179,7 +178,6 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -203,7 +201,6 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -224,6 +221,7 @@ export const confederationUnits = [
     image: fortress,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -237,7 +235,6 @@ export const confederationUnits = [
         cp: 3,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -261,7 +258,6 @@ export const confederationUnits = [
         cp: 3,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -282,6 +278,7 @@ export const confederationUnits = [
     image: hammer,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -295,7 +292,6 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -319,7 +315,6 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -340,6 +335,7 @@ export const confederationUnits = [
     image: zeus,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -353,7 +349,6 @@ export const confederationUnits = [
         cp: 4,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -377,7 +372,6 @@ export const confederationUnits = [
         cp: 4,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -398,6 +392,7 @@ export const confederationUnits = [
     image: typhoon,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -411,7 +406,6 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -435,7 +429,6 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -456,6 +449,7 @@ export const confederationUnits = [
     image: torrent,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -469,7 +463,6 @@ export const confederationUnits = [
         cp: 4,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -493,7 +486,6 @@ export const confederationUnits = [
         cp: 4,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -514,6 +506,7 @@ export const confederationUnits = [
     image: energyShield,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -527,7 +520,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -551,7 +543,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -572,6 +563,7 @@ export const confederationUnits = [
     image: cyclone,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -585,7 +577,6 @@ export const confederationUnits = [
         cp: 3,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -609,7 +600,6 @@ export const confederationUnits = [
         cp: 3,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -630,6 +620,7 @@ export const confederationUnits = [
     image: vertex,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -643,7 +634,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -667,7 +657,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -688,6 +677,7 @@ export const confederationUnits = [
     image: thor,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -701,7 +691,6 @@ export const confederationUnits = [
         cp: 7,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -725,7 +714,6 @@ export const confederationUnits = [
         cp: 7,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -746,6 +734,7 @@ export const confederationUnits = [
     image: delta,
     iconArmor: armor2,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -759,7 +748,6 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -783,7 +771,6 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -804,6 +791,7 @@ export const confederationUnits = [
     image: viking,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -817,7 +805,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -841,7 +828,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -862,6 +848,7 @@ export const confederationUnits = [
     image: poseidon,
     iconArmor: armor3,
     description: 'Description for Unit',
+    weapons: [{ type: 'Weapon 1' }],
     levels: [
       // 7
       {
@@ -875,7 +862,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
@@ -899,7 +885,6 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            type: 'Weapon 1',
             damageArmor1: 0,
             damageArmor2: 0,
             damageArmor3: 0,
