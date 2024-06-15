@@ -11,6 +11,8 @@ import {
   AUTUMN_ROUTE,
   CONF_HEROES_ROUTE,
   CONF_UNITS_ROUTE,
+  BUILDINGS_ROUTE,
+  CONF_BUILDINGS_ROUTE,
 } from 'routes/routes';
 import logo from '../../images/logo/aow_logo_04.png';
 import styles from './Header.module.scss';
@@ -30,13 +32,6 @@ const Header = () => {
         <img src={logo} className={styles.logo_img} alt="logo" />
       </Link>
       <nav className={styles.nav}>
-        <Link
-          className={`${styles.nav_link} ${isActive(WELCOME_PAGE_ROUTE)}`}
-          to={WELCOME_PAGE_ROUTE}
-        >
-          Home
-        </Link>
-
         <Link
           className={`${styles.nav_link} ${isActive(MAPS_ROUTE)}`}
           to={`${MAPS_ROUTE}/${AUTUMN_ROUTE}`}
@@ -63,6 +58,13 @@ const Header = () => {
           to={`${UNITS_ROUTE}/${CONF_UNITS_ROUTE}`}
         >
           Units
+        </Link>
+
+        <Link
+          className={`${styles.nav_link} ${isActive(BUILDINGS_ROUTE)}`}
+          to={`${BUILDINGS_ROUTE}/${CONF_BUILDINGS_ROUTE}`}
+        >
+          Buildings
         </Link>
 
         <Link

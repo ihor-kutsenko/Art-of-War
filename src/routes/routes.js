@@ -54,6 +54,18 @@ const ConfUnitsPage = lazy(() =>
 const ResistUnitsPage = lazy(() =>
   import('../pages/UnitsPage/ResistUnitsPage/ResistUnitsPage')
 );
+
+// Buildings page
+const BuildingsPage = lazy(() =>
+  import('../pages/BuildingsPage/BuildingsPage')
+);
+const ConfBuildingsPage = lazy(() =>
+  import('../pages/BuildingsPage/ConfBuildingsPage/ConfBuildingsPage')
+);
+const ResistBuildingsPage = lazy(() =>
+  import('../pages/BuildingsPage/ResistBuildingsPage/ResistBuildingsPage')
+);
+
 // Avatars page
 const AvatarsPage = lazy(() => import('../pages/AvatarsPage/AvatarsPage'));
 const ConfAvatarsPage = lazy(() =>
@@ -92,6 +104,10 @@ export const UNITS_ROUTE = '/units';
 export const CONF_UNITS_ROUTE = 'confederation';
 export const RESIST_UNITS_ROUTE = 'resistance';
 
+export const BUILDINGS_ROUTE = '/buildings';
+export const CONF_BUILDINGS_ROUTE = 'confederation';
+export const RESIST_BUILDINGS_ROUTE = 'resistance';
+
 export const AVATARS_ROUTE = '/avatars';
 export const CONF_AVATARS_ROUTE = 'confederation';
 export const RESIST_AVATARS_ROUTE = 'resistance';
@@ -122,6 +138,11 @@ export const heroesRoutes = [
 export const unitsRoutes = [
   { path: CONF_UNITS_ROUTE, element: <ConfUnitsPage /> },
   { path: RESIST_UNITS_ROUTE, element: <ResistUnitsPage /> },
+];
+
+export const buildingsRoutes = [
+  { path: CONF_BUILDINGS_ROUTE, element: <ConfBuildingsPage /> },
+  { path: RESIST_BUILDINGS_ROUTE, element: <ResistBuildingsPage /> },
 ];
 
 export const avatarsRoutes = [
@@ -163,6 +184,14 @@ export const appRoutes = [
     path: UNITS_ROUTE,
     element: <UnitsPage />,
     children: unitsRoutes.map(({ path, element }) => ({
+      path: path,
+      element: element,
+    })),
+  },
+  {
+    path: BUILDINGS_ROUTE,
+    element: <BuildingsPage />,
+    children: buildingsRoutes.map(({ path, element }) => ({
       path: path,
       element: element,
     })),
