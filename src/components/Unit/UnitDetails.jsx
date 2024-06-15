@@ -55,6 +55,10 @@ const UnitDetails = ({ unit }) => {
             weapons={unit.weapons}
           />
         )}
+
+        <div className={styles.unitDescriptionMobile}>
+          <p>{unit.description}</p>
+        </div>
       </div>
     </div>
   );

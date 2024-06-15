@@ -3,10 +3,11 @@
 .weaponsContainer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .additionalInfoItem {
-  width: 100%;
+  width: 50%;
 }
 
 .title {
