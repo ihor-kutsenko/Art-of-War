@@ -398,7 +398,7 @@ export const confederationUnits = [
     image: typhoon,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Sum Launcher' }, { type: 'Sum Launcher' }],
+    weapons: [{ type: 'Sam Launcher' }, { type: 'Sam Launcher' }],
     levels: [
       // 7
       {

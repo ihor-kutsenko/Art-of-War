@@ -27,7 +27,10 @@ export const resistanceUnits = [
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: 'Individual Combat Rifle' },
+      { type: 'Electro-Smoke Grenade' },
+    ],
     levels: [
       // 7
       {
@@ -84,7 +87,7 @@ export const resistanceUnits = [
     image: grenadier,
     iconArmor: armor1,
     description: 'Description for Unit ',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [{ type: 'Individual Grenadier Launcher' }],
     levels: [
       // 7
       {
@@ -141,7 +144,7 @@ export const resistanceUnits = [
     image: sniper,
     iconArmor: armor1,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [{ type: 'Sniper Rifle' }],
     levels: [
       // 7
       {
@@ -198,7 +201,7 @@ export const resistanceUnits = [
     image: coyote,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [{ type: '14.5MM Light Machine Gun' }],
     levels: [
       // 7
       {
@@ -255,7 +258,12 @@ export const resistanceUnits = [
     image: armadillo,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: '57MM Anti-Armor AutoCannon' },
+      { type: 'Scorpion Mine' },
+      { type: 'Frog Mine' },
+      { type: 'Lizard Mine' },
+    ],
     levels: [
       // 7
       {
@@ -312,7 +320,10 @@ export const resistanceUnits = [
     image: jaguar,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: '110MM Double-Barreled Gun' },
+      { type: '110MM Double-Barreled Gun' },
+    ],
     levels: [
       // 7
       {
@@ -369,7 +380,10 @@ export const resistanceUnits = [
     image: porcupine,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: 'Panoramic Sam Launcher' },
+      { type: '23MM Three-Barreled Rotary Gun' },
+    ],
     levels: [
       // 7
       {
@@ -426,7 +440,7 @@ export const resistanceUnits = [
     image: mammoth,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [{ type: '130MM Long-Range Howitzer' }],
     levels: [
       // 7
       {
@@ -483,7 +497,7 @@ export const resistanceUnits = [
     image: chameleon,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: null,
     levels: [
       // 7
       {
@@ -540,7 +554,10 @@ export const resistanceUnits = [
     image: dragonfly,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: 'Guided Missile Launcher' },
+      { type: '14.5MM Helicopter Machine Gun' },
+    ],
     levels: [
       // 7
       {
@@ -597,7 +614,10 @@ export const resistanceUnits = [
     image: hawk,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: 'Er Self-Guided Wing Missiles' },
+      { type: '23MM Fuselage Coaxial Cannon' },
+    ],
     levels: [
       // 7
       {
@@ -654,7 +674,7 @@ export const resistanceUnits = [
     image: albatross,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [{ type: 'Air Bomb' }],
     levels: [
       // 7
       {
@@ -711,7 +731,7 @@ export const resistanceUnits = [
     image: caiman,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [{ type: '14.5MM Machine Gun' }, { type: 'Triton Mine' }],
     levels: [
       // 7
       {
@@ -768,7 +788,10 @@ export const resistanceUnits = [
     image: alligator,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: '130MM Double-Barreled Naval Gun' },
+      { type: 'Sam Launcher' },
+    ],
     levels: [
       // 7
       {
@@ -825,7 +848,10 @@ export const resistanceUnits = [
     image: barracuda,
     iconArmor: armor3,
     description: 'Description for Unit',
-    weapons: [{ type: 'Weapon 1' }],
+    weapons: [
+      { type: 'Torpedo Launcher' },
+      { type: 'Vertical Launch Missile System' },
+    ],
     levels: [
       // 7
       {
