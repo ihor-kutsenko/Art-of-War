@@ -247,6 +247,16 @@ export const confederationUnits = [
             firingAccuracy2: 0,
             explosionRadius: 0,
           },
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
         ],
       },
       // 29
@@ -260,6 +270,16 @@ export const confederationUnits = [
         time: 24,
         cp: 3,
         weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
           {
             damageArmor1: 0,
             damageArmor2: 0,
@@ -364,6 +384,16 @@ export const confederationUnits = [
             firingAccuracy2: 0,
             explosionRadius: 0,
           },
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
         ],
       },
       // 29
@@ -377,6 +407,16 @@ export const confederationUnits = [
         time: 35,
         cp: 4,
         weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
           {
             damageArmor1: 0,
             damageArmor2: 0,
@@ -421,6 +461,16 @@ export const confederationUnits = [
             firingAccuracy2: 0,
             explosionRadius: 0,
           },
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
         ],
       },
       // 29
@@ -434,6 +484,16 @@ export const confederationUnits = [
         time: 28,
         cp: 2,
         weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
           {
             damageArmor1: 0,
             damageArmor2: 0,
@@ -823,6 +883,16 @@ export const confederationUnits = [
             firingAccuracy2: 0,
             explosionRadius: 0,
           },
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
         ],
       },
       // 29
@@ -836,6 +906,16 @@ export const confederationUnits = [
         time: 35,
         cp: 5,
         weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
           {
             damageArmor1: 0,
             damageArmor2: 0,
@@ -880,6 +960,16 @@ export const confederationUnits = [
             firingAccuracy2: 0,
             explosionRadius: 0,
           },
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
         ],
       },
       // 29
@@ -893,6 +983,16 @@ export const confederationUnits = [
         time: 42,
         cp: 5,
         weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
           {
             damageArmor1: 0,
             damageArmor2: 0,
