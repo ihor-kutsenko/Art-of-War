@@ -32,7 +32,8 @@
 .title {
   margin-bottom: 10px;
   text-align: center;
-  @include font(24px, 700, 1.19);
+
+  @include font(16px, 700, 1.19);
   @include tablet {
     @include font(28px, 700, 1.28);
   }

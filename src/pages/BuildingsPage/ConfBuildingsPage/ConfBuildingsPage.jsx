@@ -1,7 +1,12 @@
-import React from 'react';
+import BuildingsGallery from 'components/Buildings/BuildingsGallery/BuildingsGallery';
+import { confederationBuildings } from 'data/buildings/confederationBuildings';
 
 const ConfBuildingsPage = () => {
-  return <div>conf</div>;
+  return (
+    <>
+      <BuildingsGallery buildings={confederationBuildings} />
+    </>
+  );
 };
 
 export default ConfBuildingsPage;

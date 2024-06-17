@@ -1,12 +1,12 @@
-import hp from '../../images/icons/heart.png';
-import speed from '../../images/icons/arrow-right.png';
-import view from '../../images/icons/eye.png';
-import cost from '../../images/icons/3d.png';
-import time from '../../images/icons/time.png';
-import cp from '../../images/icons/star.png';
-import styles from './UnitStats.module.scss';
+import hp from '../../../images/icons/heart.png';
+import speed from '../../../images/icons/arrow-right.png';
+import view from '../../../images/icons/eye.png';
+import cost from '../../../images/icons/3d.png';
+import time from '../../../images/icons/time.png';
 
-const UnitStats = ({ unit, selectedLevelData }) => {
+import styles from '../../UnitStats/UnitStats.module.scss';
+
+const BuildingStats = ({ building, selectedLevelData }) => {
   return (
     <>
       <div className={styles.unitStats}>
@@ -20,22 +20,26 @@ const UnitStats = ({ unit, selectedLevelData }) => {
         <div className={styles.statItem}>
           <span className={styles.statLabel}>Armor:</span>
           <span className={styles.statValue}>
-            <img src={unit.iconArmor} alt="armor" className={styles.statIcon} />
+            <img
+              src={building.iconArmor}
+              alt="armor"
+              className={styles.statIcon}
+            />
             {selectedLevelData.armor}
           </span>
         </div>
         <div className={styles.statItem}>
-          <span className={styles.statLabel}>Speed:</span>
+          <span className={styles.statLabel}>Energy:</span>
           <span className={styles.statValue}>
-            <img src={speed} alt="speed" className={styles.statIcon} />
-            {selectedLevelData.speed}
+            <img src={speed} alt="energy" className={styles.statIcon} />
+            {selectedLevelData.energy}
           </span>
         </div>
         <div className={styles.statItem}>
-          <span className={styles.statLabel}>View:</span>
+          <span className={styles.statLabel}>Size:</span>
           <span className={styles.statValue}>
-            <img src={view} alt="view" className={styles.statIcon} />
-            {selectedLevelData.view}
+            <img src={view} alt="size" className={styles.statIcon} />
+            {selectedLevelData.size}
           </span>
         </div>
         <div className={styles.statItem}>
@@ -52,16 +56,9 @@ const UnitStats = ({ unit, selectedLevelData }) => {
             {selectedLevelData.time}{' '}
           </span>
         </div>
-        <div className={styles.statItem}>
-          <span className={styles.statLabel}>CP:</span>
-          <span className={styles.statValue}>
-            <img src={cp} alt="cp" className={styles.statIcon} />
-            {selectedLevelData.cp}
-          </span>
-        </div>
       </div>
     </>
   );
 };
 
-export default UnitStats;
+export default BuildingStats;
