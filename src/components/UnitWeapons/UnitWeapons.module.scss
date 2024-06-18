@@ -4,16 +4,28 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto 10px;
 }
 
 .additionalInfoItem {
-  width: 50%;
+  @include mobile {
+    width: 88%;
+  }
+  @include tablet {
+    width: 100%;
+  }
 }
 
 .title {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 5px;
+  margin: 0 auto;
+  @include tablet {
+    width: 71%;
+  }
 }
 
 .button {
