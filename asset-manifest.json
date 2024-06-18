@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Art-of-War/static/css/main.335e2708.css",
-    "main.js": "/Art-of-War/static/js/main.0cc14bd0.js",
+    "main.js": "/Art-of-War/static/js/main.378272ae.js",
     "static/css/239.d009e092.chunk.css": "/Art-of-War/static/css/239.d009e092.chunk.css",
     "static/js/239.04762cc1.chunk.js": "/Art-of-War/static/js/239.04762cc1.chunk.js",
     "static/css/422.5822e8f4.chunk.css": "/Art-of-War/static/css/422.5822e8f4.chunk.css",
@@ -36,13 +36,13 @@
     "static/js/877.4825cdc0.chunk.js": "/Art-of-War/static/js/877.4825cdc0.chunk.js",
     "static/css/632.5822e8f4.chunk.css": "/Art-of-War/static/css/632.5822e8f4.chunk.css",
     "static/js/632.a0e957c2.chunk.js": "/Art-of-War/static/js/632.a0e957c2.chunk.js",
-    "static/css/619.c1d33b17.chunk.css": "/Art-of-War/static/css/619.c1d33b17.chunk.css",
+    "static/css/619.8ef75c9d.chunk.css": "/Art-of-War/static/css/619.8ef75c9d.chunk.css",
     "static/js/619.03dfb55e.chunk.js": "/Art-of-War/static/js/619.03dfb55e.chunk.js",
-    "static/css/372.c1d33b17.chunk.css": "/Art-of-War/static/css/372.c1d33b17.chunk.css",
+    "static/css/372.8ef75c9d.chunk.css": "/Art-of-War/static/css/372.8ef75c9d.chunk.css",
     "static/js/372.c058e38b.chunk.js": "/Art-of-War/static/js/372.c058e38b.chunk.js",
     "static/css/166.5822e8f4.chunk.css": "/Art-of-War/static/css/166.5822e8f4.chunk.css",
     "static/js/166.b7e04bc4.chunk.js": "/Art-of-War/static/js/166.b7e04bc4.chunk.js",
-    "static/css/542.07535752.chunk.css": "/Art-of-War/static/css/542.07535752.chunk.css",
+    "static/css/542.1d0fbf90.chunk.css": "/Art-of-War/static/css/542.1d0fbf90.chunk.css",
     "static/js/542.af9dbcbf.chunk.js": "/Art-of-War/static/js/542.af9dbcbf.chunk.js",
     "static/js/281.4b82383c.chunk.js": "/Art-of-War/static/js/281.4b82383c.chunk.js",
     "static/css/501.5822e8f4.chunk.css": "/Art-of-War/static/css/501.5822e8f4.chunk.css",
@@ -746,7 +746,7 @@
     "index.html": "/Art-of-War/index.html",
     "static/media/sprite.svg": "/Art-of-War/static/media/sprite.f7ba7a32de94a87d7e4580a6da141ed8.svg",
     "main.335e2708.css.map": "/Art-of-War/static/css/main.335e2708.css.map",
-    "main.0cc14bd0.js.map": "/Art-of-War/static/js/main.0cc14bd0.js.map",
+    "main.378272ae.js.map": "/Art-of-War/static/js/main.378272ae.js.map",
     "239.d009e092.chunk.css.map": "/Art-of-War/static/css/239.d009e092.chunk.css.map",
     "239.04762cc1.chunk.js.map": "/Art-of-War/static/js/239.04762cc1.chunk.js.map",
     "422.5822e8f4.chunk.css.map": "/Art-of-War/static/css/422.5822e8f4.chunk.css.map",
@@ -781,13 +781,13 @@
     "877.4825cdc0.chunk.js.map": "/Art-of-War/static/js/877.4825cdc0.chunk.js.map",
     "632.5822e8f4.chunk.css.map": "/Art-of-War/static/css/632.5822e8f4.chunk.css.map",
     "632.a0e957c2.chunk.js.map": "/Art-of-War/static/js/632.a0e957c2.chunk.js.map",
-    "619.c1d33b17.chunk.css.map": "/Art-of-War/static/css/619.c1d33b17.chunk.css.map",
+    "619.8ef75c9d.chunk.css.map": "/Art-of-War/static/css/619.8ef75c9d.chunk.css.map",
     "619.03dfb55e.chunk.js.map": "/Art-of-War/static/js/619.03dfb55e.chunk.js.map",
-    "372.c1d33b17.chunk.css.map": "/Art-of-War/static/css/372.c1d33b17.chunk.css.map",
+    "372.8ef75c9d.chunk.css.map": "/Art-of-War/static/css/372.8ef75c9d.chunk.css.map",
     "372.c058e38b.chunk.js.map": "/Art-of-War/static/js/372.c058e38b.chunk.js.map",
     "166.5822e8f4.chunk.css.map": "/Art-of-War/static/css/166.5822e8f4.chunk.css.map",
     "166.b7e04bc4.chunk.js.map": "/Art-of-War/static/js/166.b7e04bc4.chunk.js.map",
-    "542.07535752.chunk.css.map": "/Art-of-War/static/css/542.07535752.chunk.css.map",
+    "542.1d0fbf90.chunk.css.map": "/Art-of-War/static/css/542.1d0fbf90.chunk.css.map",
     "542.af9dbcbf.chunk.js.map": "/Art-of-War/static/js/542.af9dbcbf.chunk.js.map",
     "281.4b82383c.chunk.js.map": "/Art-of-War/static/js/281.4b82383c.chunk.js.map",
     "501.5822e8f4.chunk.css.map": "/Art-of-War/static/css/501.5822e8f4.chunk.css.map",
@@ -803,6 +803,6 @@
   },
   "entrypoints": [
     "static/css/main.335e2708.css",
-    "static/js/main.0cc14bd0.js"
+    "static/js/main.378272ae.js"
   ]
 }
