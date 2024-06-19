@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from '../../Unit/UnitDetails.module.scss';
 import BuildingStats from '../BuildingStats/BuildingStats';
 import BuildingWeapons from '../BuildingWeapons/BuildingWeapons';
+import BuildingProduceList from '../BuildingProduceList/BuildingProduceList';
 
 const BuildingsDetails = ({ building }) => {
   const [selectedLevel, setSelectedLevel] = useState(7);
@@ -82,22 +83,23 @@ const BuildingsDetails = ({ building }) => {
             )}
 
             {selectedSubLevelData.produces && (
-              <>
-                <span className={styles.produceTitle}>Produced</span>
-                <div className={styles.produceItem}>
-                  {selectedSubLevelData.produces.map((produce, index) => (
-                    <div className={styles.produceText} key={index}>
-                      <img
-                        src={produce.icon}
-                        alt={produce.type}
-                        className={styles.produceImage}
-                      />
-                      <span>{produce.amount}</span>
-                      <span>{produce.type}</span>
-                    </div>
-                  ))}
-                </div>
-              </>
+              <BuildingProduceList produces={selectedSubLevelData.produces} />
+              // <>
+              //   <span className={styles.produceTitle}>Produced</span>
+              //   <div className={styles.produceItem}>
+              //     {selectedSubLevelData.produces.map((produce, index) => (
+              //       <div className={styles.produceText} key={index}>
+              //         <img
+              //           src={produce.icon}
+              //           alt={produce.type}
+              //           className={styles.produceImage}
+              //         />
+              //         <span>{produce.amount}</span>
+              //         <span>{produce.type}</span>
+              //       </div>
+              //     ))}
+              //   </div>
+              // </>
             )}
           </div>
         )}
