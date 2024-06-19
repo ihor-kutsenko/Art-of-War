@@ -1,12 +1,13 @@
 import hp from '../../../images/icons/heart.png';
-import speed from '../../../images/icons/arrow-right.png';
-import view from '../../../images/icons/eye.png';
+import armor3 from '../../../images/icons/armor3.png';
+import energy from '../../../images/icons/green-energy.png';
+import size from '../../../images/icons/arrow-four.png';
 import cost from '../../../images/icons/3d.png';
 import time from '../../../images/icons/time.png';
 
 import styles from '../../UnitStats/UnitStats.module.scss';
 
-const BuildingStats = ({ building, selectedLevelData }) => {
+const BuildingStats = ({ stats }) => {
   return (
     <>
       <div className={styles.unitStats}>
@@ -14,46 +15,42 @@ const BuildingStats = ({ building, selectedLevelData }) => {
           <span className={styles.statLabel}>HP:</span>
           <span className={styles.statValue}>
             <img src={hp} alt="hp" className={styles.statIcon} />
-            {selectedLevelData.hp}{' '}
+            {stats.hp}{' '}
           </span>
         </div>
         <div className={styles.statItem}>
           <span className={styles.statLabel}>Armor:</span>
           <span className={styles.statValue}>
-            <img
-              src={building.iconArmor}
-              alt="armor"
-              className={styles.statIcon}
-            />
-            {selectedLevelData.armor}
+            <img src={armor3} alt="armor" className={styles.statIcon} />
+            {stats.armor}
           </span>
         </div>
         <div className={styles.statItem}>
           <span className={styles.statLabel}>Energy:</span>
           <span className={styles.statValue}>
-            <img src={speed} alt="energy" className={styles.statIcon} />
-            {selectedLevelData.energy}
+            <img src={energy} alt="energy" className={styles.statIcon} />
+            {stats.energy}
           </span>
         </div>
         <div className={styles.statItem}>
           <span className={styles.statLabel}>Size:</span>
           <span className={styles.statValue}>
-            <img src={view} alt="size" className={styles.statIcon} />
-            {selectedLevelData.size}
+            <img src={size} alt="size" className={styles.statIcon} />
+            {stats.size}
           </span>
         </div>
         <div className={styles.statItem}>
           <span className={styles.statLabel}>Cost:</span>
           <span className={styles.statValue}>
             <img src={cost} alt="cost" className={styles.statIcon} />
-            {selectedLevelData.cost}{' '}
+            {stats.cost}{' '}
           </span>
         </div>
         <div className={styles.statItem}>
           <span className={styles.statLabel}>Time:</span>
           <span className={styles.statValue}>
             <img src={time} alt="time" className={styles.statIcon} />
-            {selectedLevelData.time}{' '}
+            {stats.time}{' '}
           </span>
         </div>
       </div>

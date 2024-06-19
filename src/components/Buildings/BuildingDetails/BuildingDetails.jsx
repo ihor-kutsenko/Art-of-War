@@ -1,17 +1,26 @@
 import { useState } from 'react';
 import styles from '../../Unit/UnitDetails.module.scss';
 import BuildingStats from '../BuildingStats/BuildingStats';
-import UnitWeapons from 'components/UnitWeapons/UnitWeapons';
+import BuildingWeapons from '../BuildingWeapons/BuildingWeapons';
 
 const BuildingsDetails = ({ building }) => {
-  const [selectedLevel, setSelectedLevel] = useState(1);
+  const [selectedLevel, setSelectedLevel] = useState(7);
+  const [selectedSubLevel, setSelectedSubLevel] = useState(1);
 
   const handleLevelChange = event => {
     setSelectedLevel(parseInt(event.target.value, 10));
+    setSelectedSubLevel(1);
+  };
+
+  const handleSubLevelChange = event => {
+    setSelectedSubLevel(parseInt(event.target.value, 10));
   };
 
   const selectedLevelData = building.levels.find(
     level => level.level === selectedLevel
+  );
+  const selectedSubLevelData = selectedLevelData?.subLevels.find(
+    subLevel => subLevel.subLevel === selectedSubLevel
   );
 
   return (
@@ -45,17 +54,52 @@ const BuildingsDetails = ({ building }) => {
           ))}
         </select>
 
-        {selectedLevelData && (
-          <BuildingStats
-            selectedLevelData={selectedLevelData}
-            building={building}
-          />
+        {selectedLevelData && selectedLevelData.subLevels.length > 1 && (
+          <>
+            <label htmlFor="subLevelSelect" className={styles.levelSelectLabel}>
+              Select the building Level:{' '}
+            </label>
+            <select
+              id="subLevelSelect"
+              value={selectedSubLevel}
+              onChange={handleSubLevelChange}
+              className={styles.levelSelect}
+            >
+              {selectedLevelData.subLevels.map(subLevel => (
+                <option key={subLevel.subLevel} value={subLevel.subLevel}>
+                  {subLevel.subLevel}
+                </option>
+              ))}
+            </select>
+          </>
         )}
-        {building.weapons && (
-          <UnitWeapons
-            selectedLevelData={selectedLevelData}
-            weapons={building.weapons}
-          />
+
+        {selectedSubLevelData && (
+          <div>
+            <BuildingStats stats={selectedSubLevelData} />
+            {selectedSubLevelData.weapons && (
+              <BuildingWeapons weapons={selectedSubLevelData.weapons} />
+            )}
+
+            {selectedSubLevelData.produces && (
+              <>
+                <span className={styles.produceTitle}>Produced</span>
+                <div className={styles.produceItem}>
+                  {selectedSubLevelData.produces.map((produce, index) => (
+                    <div className={styles.produceText} key={index}>
+                      <img
+                        src={produce.icon}
+                        alt={produce.type}
+                        className={styles.produceImage}
+                      />
+                      <span>{produce.amount}</span>
+                      <span>{produce.type}</span>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
         )}
 
         <div className={styles.unitDescriptionMobile}>
