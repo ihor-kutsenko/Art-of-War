@@ -1,7 +1,12 @@
-import React from 'react';
+import BuildingsGallery from 'components/Buildings/BuildingsGallery/BuildingsGallery';
+import { resistanceBuildings } from 'data/buildings/resistanceBuildings';
 
 const ResistBuildingsPage = () => {
-  return <div>Resist</div>;
+  return (
+    <>
+      <BuildingsGallery buildings={resistanceBuildings} />
+    </>
+  );
 };
 
 export default ResistBuildingsPage;
