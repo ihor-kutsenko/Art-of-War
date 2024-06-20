@@ -2,15 +2,51 @@ import cp from '../../images/icons/star.png';
 import resources from '../../images/icons/3d.png';
 import energy from '../../images/icons/green-energy.png';
 import radius from '../../images/icons/grid.png';
-
+// buildings
+import hq from '../../images/buildings/confederation/hq.png';
+import constructionYard from '../../images/buildings/confederation/construction-yard.png';
+import powerPlant from '../../images/buildings/confederation/power-plant.png';
+import supplyCenter from '../../images/buildings/confederation/supply-center.png';
+import barracks from '../../images/buildings/confederation/barracks.png';
+import assaultVehicleFactory from '../../images/buildings/confederation/assault-vehicle-factory.png';
+import specialVehicleFactory from '../../images/buildings/confederation/special-vehicle-factory.png';
+import aviaFactory from '../../images/buildings/confederation/avia-factory.png';
+import airfield from '../../images/buildings/confederation/airfield.png';
+import shipyard from '../../images/buildings/confederation/shipyard.png';
+import xFacility from '../../images/buildings/confederation/x-facility.png';
+import spaceSystem from '../../images/buildings/confederation/space-system.png';
+import wall from '../../images/buildings/confederation/wall.png';
+import bunker from '../../images/buildings/confederation/bunker.png';
+import rocketTower from '../../images/buildings/confederation/rocket-tower.png';
+import airDefense from '../../images/buildings/confederation/air-defense.png';
+import torpedoPlatform from '../../images/buildings/confederation/torpedo-platform.png';
+// units
 import assault from '../../images/units/confederation/assault.png';
+import heavyAssault from '../../images/units/confederation/heavy-assault.png';
+import fireAssault from '../../images/units/confederation/fire-assault.png';
+import fortress from '../../images/units/confederation/fortress.png';
+import hammer from '../../images/units/confederation/hammer.png';
+import zeus from '../../images/units/confederation/zeus.png';
+import typhoon from '../../images/units/confederation/typhoon.png';
+import torrent from '../../images/units/confederation/torrent.png';
+import energyShield from '../../images/units/confederation/energy-shield.png';
+import cyclone from '../../images/units/confederation/cyclone.png';
+import vertex from '../../images/units/confederation/vertex.png';
+import thor from '../../images/units/confederation/thor.png';
+import delta from '../../images/units/confederation/delta.png';
+import viking from '../../images/units/confederation/viking.png';
+import poseidon from '../../images/units/confederation/poseidon.png';
+import cerberus from '../../images/hero/cerberus.png';
+import beholder from '../../images/hero/beholder.png';
+import seraphim from '../../images/hero/seraphim.png';
+import solaris from '../../images/hero/solaris.png';
 
 export const confederationBuildings = [
   // headquarters
   {
     id: 1,
     name: 'Headquarters',
-    image: assault,
+    image: hq,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'CP' }, { type: 'Resources' }, { type: 'Energy' }],
@@ -153,7 +189,7 @@ export const confederationBuildings = [
   {
     id: 2,
     name: 'Construction Yard',
-    image: assault,
+    image: constructionYard,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'Radius' }],
@@ -198,7 +234,7 @@ export const confederationBuildings = [
   {
     id: 3,
     name: 'Power Plant',
-    image: assault,
+    image: powerPlant,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'Energy' }],
@@ -243,7 +279,7 @@ export const confederationBuildings = [
   {
     id: 4,
     name: 'Supply Center',
-    image: assault,
+    image: supplyCenter,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'Resources' }],
@@ -288,7 +324,7 @@ export const confederationBuildings = [
   {
     id: 5,
     name: 'Barracks',
-    image: assault,
+    image: barracks,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -319,7 +355,7 @@ export const confederationBuildings = [
             weapons: null,
             produces: [
               { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: assault },
+              { type: 'Heavy-assault', icon: heavyAssault },
             ],
           },
           {
@@ -333,8 +369,8 @@ export const confederationBuildings = [
             weapons: null,
             produces: [
               { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: assault },
-              { type: 'Fire-assault', icon: assault },
+              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'Fire-assault', icon: fireAssault },
             ],
           },
         ],
@@ -365,7 +401,7 @@ export const confederationBuildings = [
             weapons: null,
             produces: [
               { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: assault },
+              { type: 'Heavy-assault', icon: heavyAssault },
             ],
           },
           {
@@ -379,8 +415,8 @@ export const confederationBuildings = [
             weapons: null,
             produces: [
               { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: assault },
-              { type: 'Fire-assault', icon: assault },
+              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'Fire-assault', icon: fireAssault },
             ],
           },
         ],
@@ -391,7 +427,7 @@ export const confederationBuildings = [
   {
     id: 6,
     name: 'Assault Vehicle Factory',
-    image: assault,
+    image: assaultVehicleFactory,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -409,7 +445,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: assault }],
+            produces: [{ type: 'Fortress', icon: fortress }],
           },
           {
             subLevel: 2,
@@ -421,8 +457,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: assault },
-              { type: 'Hammer', icon: assault },
+              { type: 'Fortress', icon: fortress },
+              { type: 'Hammer', icon: hammer },
             ],
           },
           {
@@ -435,9 +471,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: assault },
-              { type: 'Hammer', icon: assault },
-              { type: 'Zeus', icon: assault },
+              { type: 'Fortress', icon: fortress },
+              { type: 'Hammer', icon: hammer },
+              { type: 'Zeus', icon: zeus },
             ],
           },
         ],
@@ -455,7 +491,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: assault }],
+            produces: [{ type: 'Fortress', icon: fortress }],
           },
           {
             subLevel: 2,
@@ -467,8 +503,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: assault },
-              { type: 'Hammer', icon: assault },
+              { type: 'Fortress', icon: fortress },
+              { type: 'Hammer', icon: hammer },
             ],
           },
           {
@@ -481,9 +517,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: assault },
-              { type: 'Hammer', icon: assault },
-              { type: 'Zeus', icon: assault },
+              { type: 'Fortress', icon: fortress },
+              { type: 'Hammer', icon: hammer },
+              { type: 'Zeus', icon: zeus },
             ],
           },
         ],
@@ -494,7 +530,7 @@ export const confederationBuildings = [
   {
     id: 7,
     name: 'Special Vehicle Factory',
-    image: assault,
+    image: specialVehicleFactory,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -512,7 +548,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: assault }],
+            produces: [{ type: 'Typhon', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -524,8 +560,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: assault },
-              { type: 'Torrent', icon: assault },
+              { type: 'Typhon', icon: typhoon },
+              { type: 'Torrent', icon: torrent },
             ],
           },
           {
@@ -538,9 +574,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: assault },
-              { type: 'Torrent', icon: assault },
-              { type: 'Energy Shield', icon: assault },
+              { type: 'Typhon', icon: typhoon },
+              { type: 'Torrent', icon: torrent },
+              { type: 'Energy Shield', icon: energyShield },
             ],
           },
         ],
@@ -558,7 +594,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: assault }],
+            produces: [{ type: 'Typhon', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -570,8 +606,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: assault },
-              { type: 'Torrent', icon: assault },
+              { type: 'Typhon', icon: typhoon },
+              { type: 'Torrent', icon: torrent },
             ],
           },
           {
@@ -584,9 +620,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: assault },
-              { type: 'Torrent', icon: assault },
-              { type: 'Energy Shield', icon: assault },
+              { type: 'Typhon', icon: typhoon },
+              { type: 'Torrent', icon: torrent },
+              { type: 'Energy Shield', icon: energyShield },
             ],
           },
         ],
@@ -597,7 +633,7 @@ export const confederationBuildings = [
   {
     id: 8,
     name: 'Avia Factory',
-    image: assault,
+    image: aviaFactory,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -615,7 +651,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: assault }],
+            produces: [{ type: 'Cyclone', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -627,8 +663,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: assault },
-              { type: 'Vertex', icon: assault },
+              { type: 'Cyclone', icon: cyclone },
+              { type: 'Vertex', icon: vertex },
             ],
           },
           {
@@ -641,9 +677,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: assault },
-              { type: 'Vertex', icon: assault },
-              { type: 'Thor', icon: assault },
+              { type: 'Cyclone', icon: cyclone },
+              { type: 'Vertex', icon: vertex },
+              { type: 'Thor', icon: thor },
             ],
           },
         ],
@@ -661,7 +697,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: assault }],
+            produces: [{ type: 'Cyclone', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -673,8 +709,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: assault },
-              { type: 'Vertex', icon: assault },
+              { type: 'Cyclone', icon: cyclone },
+              { type: 'Vertex', icon: vertex },
             ],
           },
           {
@@ -687,9 +723,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: assault },
-              { type: 'Vertex', icon: assault },
-              { type: 'Thor', icon: assault },
+              { type: 'Cyclone', icon: cyclone },
+              { type: 'Vertex', icon: vertex },
+              { type: 'Thor', icon: thor },
             ],
           },
         ],
@@ -700,7 +736,7 @@ export const confederationBuildings = [
   {
     id: 9,
     name: 'Airfield',
-    image: assault,
+    image: airfield,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -745,7 +781,7 @@ export const confederationBuildings = [
   {
     id: 10,
     name: 'Shipyard',
-    image: assault,
+    image: shipyard,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -763,7 +799,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Delta', icon: assault }],
+            produces: [{ type: 'Delta', icon: delta }],
           },
           {
             subLevel: 2,
@@ -775,8 +811,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: assault },
-              { type: 'Viking', icon: assault },
+              { type: 'Delta', icon: delta },
+              { type: 'Viking', icon: viking },
             ],
           },
           {
@@ -789,9 +825,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: assault },
-              { type: 'Viking', icon: assault },
-              { type: 'Poseidon', icon: assault },
+              { type: 'Delta', icon: delta },
+              { type: 'Viking', icon: viking },
+              { type: 'Poseidon', icon: poseidon },
             ],
           },
         ],
@@ -809,7 +845,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Delta', icon: assault }],
+            produces: [{ type: 'Delta', icon: delta }],
           },
           {
             subLevel: 2,
@@ -821,8 +857,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: assault },
-              { type: 'Viking', icon: assault },
+              { type: 'Delta', icon: delta },
+              { type: 'Viking', icon: viking },
             ],
           },
           {
@@ -835,9 +871,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: assault },
-              { type: 'Viking', icon: assault },
-              { type: 'Poseidon', icon: assault },
+              { type: 'Delta', icon: delta },
+              { type: 'Viking', icon: viking },
+              { type: 'Poseidon', icon: poseidon },
             ],
           },
         ],
@@ -848,7 +884,7 @@ export const confederationBuildings = [
   {
     id: 11,
     name: 'X-Facility',
-    image: assault,
+    image: xFacility,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -866,7 +902,7 @@ export const confederationBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: assault }],
+            produces: [{ type: 'Cerberus', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -878,9 +914,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: assault },
-              { type: 'Beholder', icon: assault },
-              { type: 'Seraphim', icon: assault },
+              { type: 'Cerberus', icon: cerberus },
+              { type: 'Beholder', icon: beholder },
+              { type: 'Seraphim', icon: seraphim },
             ],
           },
           {
@@ -893,10 +929,10 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: assault },
-              { type: 'Beholder', icon: assault },
-              { type: 'Seraphim', icon: assault },
-              { type: 'Solaris', icon: assault },
+              { type: 'Cerberus', icon: cerberus },
+              { type: 'Beholder', icon: beholder },
+              { type: 'Seraphim', icon: seraphim },
+              { type: 'Solaris', icon: solaris },
             ],
           },
         ],
@@ -915,8 +951,8 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: assault },
-              { type: 'Beholder', icon: assault },
+              { type: 'Cerberus', icon: cerberus },
+              { type: 'Beholder', icon: beholder },
             ],
           },
           {
@@ -929,9 +965,9 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: assault },
-              { type: 'Beholder', icon: assault },
-              { type: 'Seraphim', icon: assault },
+              { type: 'Cerberus', icon: cerberus },
+              { type: 'Beholder', icon: beholder },
+              { type: 'Seraphim', icon: seraphim },
             ],
           },
           {
@@ -944,10 +980,10 @@ export const confederationBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: assault },
-              { type: 'Beholder', icon: assault },
-              { type: 'Seraphim', icon: assault },
-              { type: 'Solaris', icon: assault },
+              { type: 'Cerberus', icon: cerberus },
+              { type: 'Beholder', icon: beholder },
+              { type: 'Seraphim', icon: seraphim },
+              { type: 'Solaris', icon: solaris },
             ],
           },
         ],
@@ -958,7 +994,7 @@ export const confederationBuildings = [
   {
     id: 12,
     name: 'Space System',
-    image: assault,
+    image: spaceSystem,
     description: 'Description for Building',
     weapons: [{ type: 'Space Strike' }],
     produces: null,
@@ -1027,7 +1063,7 @@ export const confederationBuildings = [
   {
     id: 13,
     name: 'Wall',
-    image: assault,
+    image: wall,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -1072,7 +1108,7 @@ export const confederationBuildings = [
   {
     id: 14,
     name: 'Bunker',
-    image: assault,
+    image: bunker,
     description: 'Description for Building',
     weapons: [{ type: 'Stationary Machine Gun' }],
     produces: null,
@@ -1141,7 +1177,7 @@ export const confederationBuildings = [
   {
     id: 15,
     name: 'Rocket Tower',
-    image: assault,
+    image: rocketTower,
     description: 'Description for Building',
     weapons: [{ type: 'Stationary Rocket Launcher RT-2LR' }],
     produces: null,
@@ -1210,7 +1246,7 @@ export const confederationBuildings = [
   {
     id: 16,
     name: 'Air Defense',
-    image: assault,
+    image: airDefense,
     description: 'Description for Building',
     weapons: [{ type: 'Stationary Sam Launcher' }],
     produces: null,
@@ -1279,7 +1315,7 @@ export const confederationBuildings = [
   {
     id: 17,
     name: 'Torpedo Platform',
-    image: assault,
+    image: torpedoPlatform,
     description: 'Description for Building',
     weapons: [{ type: 'Stationary Sam Launcher' }],
     produces: null,
