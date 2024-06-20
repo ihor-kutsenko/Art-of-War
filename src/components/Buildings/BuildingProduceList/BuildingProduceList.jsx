@@ -4,7 +4,7 @@ const BuildingProduceList = ({ produces }) => {
   return (
     <div>
       <>
-        <span className={styles.produceTitle}>Produced</span>
+        <span className={styles.produceTitle}>Produces</span>
         <div className={styles.produceItem}>
           {produces.map((produce, index) => (
             <div className={styles.produceText} key={index}>
