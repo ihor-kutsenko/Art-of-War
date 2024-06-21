@@ -2,15 +2,53 @@ import cp from '../../images/icons/star.png';
 import resources from '../../images/icons/3d.png';
 import energy from '../../images/icons/green-energy.png';
 import radius from '../../images/icons/grid.png';
+// buildings
+import hq from '../../images/buildings/resistance/hq.png';
+import constructionYard from '../../images/buildings/resistance/construction-yard.png';
+import powerPlant from '../../images/buildings/resistance/power-plant.png';
+import supplyCenter from '../../images/buildings/resistance/supply-center.png';
+import barracks from '../../images/buildings/resistance/barracks.png';
+import assaultVehicleFactory from '../../images/buildings/resistance/assault-vehicle-factory.png';
+import specialVehicleFactory from '../../images/buildings/resistance/special-vehicle-factory.png';
+import aviaFactory from '../../images/buildings/resistance/avia-factory.png';
+import airfield from '../../images/buildings/resistance/airfield.png';
+import shipyard from '../../images/buildings/resistance/shipyard.png';
+import prototypeFactory from '../../images/buildings/resistance/prototype-factory.png';
+import nuclearLauncher from '../../images/buildings/resistance/nuclear-launcher.png';
+import wall from '../../images/buildings/resistance/wall.png';
+import sniperTower from '../../images/buildings/resistance/sniper-tower.png';
+import gunTower from '../../images/buildings/resistance/gun-tower.png';
+import antiAirTower from '../../images/buildings/resistance/anti-air-tower.png';
+import navalPlatform from '../../images/buildings/resistance/naval-platform.png';
+// units
+import rifleman from '../../images/units/resistance/rifleman.png';
+import grenadier from '../../images/units/resistance/grenadier.png';
+import sniper from '../../images/units/resistance/sniper.png';
+import coyote from '../../images/units/resistance/coyote.png';
+import armadillo from '../../images/units/resistance/armadillo.png';
+import jaguar from '../../images/units/resistance/jaguar.png';
+import porcupine from '../../images/units/resistance/porcupine.png';
+import mammoth from '../../images/units/resistance/mammoth.png';
+import chameleon from '../../images/units/resistance/chameleon.png';
+import dragonfly from '../../images/units/resistance/dragonfly.png';
+import hawk from '../../images/units/resistance/hawk.png';
+import albatross from '../../images/units/resistance/albatross.png';
+import caiman from '../../images/units/resistance/caiman.png';
+import alligator from '../../images/units/resistance/alligator.png';
+import barracuda from '../../images/units/resistance/barracuda.png';
 
-import assault from '../../images/units/confederation/assault.png';
+// hero
+import wasp from '../../images/hero/wasp.png';
+import wolverine from '../../images/hero/wolverine.png';
+import mole from '../../images/hero/mole.png';
+import leviathan from '../../images/hero/leviathan.png';
 
 export const resistanceBuildings = [
   // headquarters
   {
     id: 1,
     name: 'Headquarters',
-    image: assault,
+    image: hq,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'CP' }, { type: 'Resources' }, { type: 'Energy' }],
@@ -153,7 +191,7 @@ export const resistanceBuildings = [
   {
     id: 2,
     name: 'Construction Yard',
-    image: assault,
+    image: constructionYard,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'Radius' }],
@@ -198,7 +236,7 @@ export const resistanceBuildings = [
   {
     id: 3,
     name: 'Power Plant',
-    image: assault,
+    image: powerPlant,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'Energy' }],
@@ -243,7 +281,7 @@ export const resistanceBuildings = [
   {
     id: 4,
     name: 'Supply Center',
-    image: assault,
+    image: supplyCenter,
     description: 'Description for Building',
     weapons: null,
     produces: [{ type: 'Resources' }],
@@ -288,7 +326,7 @@ export const resistanceBuildings = [
   {
     id: 5,
     name: 'Barracks',
-    image: assault,
+    image: barracks,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -306,7 +344,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: assault }],
+            produces: [{ type: 'Rifleman', icon: rifleman }],
           },
           {
             subLevel: 2,
@@ -318,8 +356,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: assault },
-              { type: 'Grenadier', icon: assault },
+              { type: 'Rifleman', icon: rifleman },
+              { type: 'Grenadier', icon: grenadier },
             ],
           },
           {
@@ -332,9 +370,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: assault },
-              { type: 'Grenadier', icon: assault },
-              { type: 'Sniper', icon: assault },
+              { type: 'Rifleman', icon: rifleman },
+              { type: 'Grenadier', icon: grenadier },
+              { type: 'Sniper', icon: sniper },
             ],
           },
         ],
@@ -352,7 +390,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: assault }],
+            produces: [{ type: 'Rifleman', icon: rifleman }],
           },
           {
             subLevel: 2,
@@ -364,8 +402,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: assault },
-              { type: 'Grenadier', icon: assault },
+              { type: 'Rifleman', icon: rifleman },
+              { type: 'Grenadier', icon: grenadier },
             ],
           },
           {
@@ -378,9 +416,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: assault },
-              { type: 'Grenadier', icon: assault },
-              { type: 'Sniper', icon: assault },
+              { type: 'Rifleman', icon: rifleman },
+              { type: 'Grenadier', icon: grenadier },
+              { type: 'Sniper', icon: sniper },
             ],
           },
         ],
@@ -391,7 +429,7 @@ export const resistanceBuildings = [
   {
     id: 6,
     name: 'Assault Vehicle Factory',
-    image: assault,
+    image: assaultVehicleFactory,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -409,7 +447,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: assault }],
+            produces: [{ type: 'Coyote', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -421,8 +459,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: assault },
-              { type: 'Armadillo', icon: assault },
+              { type: 'Coyote', icon: coyote },
+              { type: 'Armadillo', icon: armadillo },
             ],
           },
           {
@@ -435,9 +473,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: assault },
-              { type: 'Armadillo', icon: assault },
-              { type: 'Jaguar', icon: assault },
+              { type: 'Coyote', icon: coyote },
+              { type: 'Armadillo', icon: armadillo },
+              { type: 'Jaguar', icon: jaguar },
             ],
           },
         ],
@@ -455,7 +493,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: assault }],
+            produces: [{ type: 'Coyote', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -467,8 +505,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: assault },
-              { type: 'Armadillo', icon: assault },
+              { type: 'Coyote', icon: coyote },
+              { type: 'Armadillo', icon: armadillo },
             ],
           },
           {
@@ -481,9 +519,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: assault },
-              { type: 'Armadillo', icon: assault },
-              { type: 'Jaguar', icon: assault },
+              { type: 'Coyote', icon: coyote },
+              { type: 'Armadillo', icon: armadillo },
+              { type: 'Jaguar', icon: jaguar },
             ],
           },
         ],
@@ -494,7 +532,7 @@ export const resistanceBuildings = [
   {
     id: 7,
     name: 'Special Vehicle Factory',
-    image: assault,
+    image: specialVehicleFactory,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -512,7 +550,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: assault }],
+            produces: [{ type: 'Porcupine', icon: porcupine }],
           },
           {
             subLevel: 2,
@@ -524,8 +562,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: assault },
-              { type: 'Mammoth', icon: assault },
+              { type: 'Porcupine', icon: porcupine },
+              { type: 'Mammoth', icon: mammoth },
             ],
           },
           {
@@ -538,9 +576,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: assault },
-              { type: 'Mammoth', icon: assault },
-              { type: 'Chameleon', icon: assault },
+              { type: 'Porcupine', icon: porcupine },
+              { type: 'Mammoth', icon: mammoth },
+              { type: 'Chameleon', icon: chameleon },
             ],
           },
         ],
@@ -558,7 +596,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: assault }],
+            produces: [{ type: 'Porcupine', icon: porcupine }],
           },
           {
             subLevel: 2,
@@ -570,8 +608,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: assault },
-              { type: 'Mammoth', icon: assault },
+              { type: 'Porcupine', icon: porcupine },
+              { type: 'Mammoth', icon: mammoth },
             ],
           },
           {
@@ -584,9 +622,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: assault },
-              { type: 'Mammoth', icon: assault },
-              { type: 'Chameleon', icon: assault },
+              { type: 'Porcupine', icon: porcupine },
+              { type: 'Mammoth', icon: mammoth },
+              { type: 'Chameleon', icon: chameleon },
             ],
           },
         ],
@@ -597,7 +635,7 @@ export const resistanceBuildings = [
   {
     id: 8,
     name: 'Avia Factory',
-    image: assault,
+    image: aviaFactory,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -615,7 +653,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: assault }],
+            produces: [{ type: 'Dragonfly', icon: dragonfly }],
           },
           {
             subLevel: 2,
@@ -627,8 +665,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: assault },
-              { type: 'Hawk', icon: assault },
+              { type: 'Dragonfly', icon: dragonfly },
+              { type: 'Hawk', icon: hawk },
             ],
           },
           {
@@ -641,9 +679,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: assault },
-              { type: 'Hawk', icon: assault },
-              { type: 'Albatross', icon: assault },
+              { type: 'Dragonfly', icon: dragonfly },
+              { type: 'Hawk', icon: hawk },
+              { type: 'Albatross', icon: albatross },
             ],
           },
         ],
@@ -661,7 +699,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: assault }],
+            produces: [{ type: 'Dragonfly', icon: dragonfly }],
           },
           {
             subLevel: 2,
@@ -673,8 +711,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: assault },
-              { type: 'Hawk', icon: assault },
+              { type: 'Dragonfly', icon: dragonfly },
+              { type: 'Hawk', icon: hawk },
             ],
           },
           {
@@ -687,9 +725,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: assault },
-              { type: 'Hawk', icon: assault },
-              { type: 'Albatross', icon: assault },
+              { type: 'Dragonfly', icon: dragonfly },
+              { type: 'Hawk', icon: hawk },
+              { type: 'Albatross', icon: albatross },
             ],
           },
         ],
@@ -700,7 +738,7 @@ export const resistanceBuildings = [
   {
     id: 9,
     name: 'Airfield',
-    image: assault,
+    image: airfield,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -745,7 +783,7 @@ export const resistanceBuildings = [
   {
     id: 10,
     name: 'Shipyard',
-    image: assault,
+    image: shipyard,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -763,7 +801,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: assault }],
+            produces: [{ type: 'Caiman', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -775,8 +813,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: assault },
-              { type: 'Alligator', icon: assault },
+              { type: 'Caiman', icon: caiman },
+              { type: 'Alligator', icon: alligator },
             ],
           },
           {
@@ -789,9 +827,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: assault },
-              { type: 'Alligator', icon: assault },
-              { type: 'Barracuda', icon: assault },
+              { type: 'Caiman', icon: caiman },
+              { type: 'Alligator', icon: alligator },
+              { type: 'Barracuda', icon: barracuda },
             ],
           },
         ],
@@ -809,7 +847,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: assault }],
+            produces: [{ type: 'Caiman', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -821,8 +859,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: assault },
-              { type: 'Alligator', icon: assault },
+              { type: 'Caiman', icon: caiman },
+              { type: 'Alligator', icon: alligator },
             ],
           },
           {
@@ -835,9 +873,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: assault },
-              { type: 'Alligator', icon: assault },
-              { type: 'Barracuda', icon: assault },
+              { type: 'Caiman', icon: caiman },
+              { type: 'Alligator', icon: alligator },
+              { type: 'Barracuda', icon: barracuda },
             ],
           },
         ],
@@ -848,7 +886,7 @@ export const resistanceBuildings = [
   {
     id: 11,
     name: 'Prototype Factory',
-    image: assault,
+    image: prototypeFactory,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -866,7 +904,7 @@ export const resistanceBuildings = [
             cost: 0,
             time: 0,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: assault }],
+            produces: [{ type: 'Wasp', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -878,9 +916,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: assault },
-              { type: 'Wolverine', icon: assault },
-              { type: 'Mole', icon: assault },
+              { type: 'Wasp', icon: wasp },
+              { type: 'Wolverine', icon: wolverine },
+              { type: 'Mole', icon: mole },
             ],
           },
           {
@@ -893,10 +931,10 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: assault },
-              { type: 'Wolverine', icon: assault },
-              { type: 'Mole', icon: assault },
-              { type: 'Leviathan', icon: assault },
+              { type: 'Wasp', icon: wasp },
+              { type: 'Wolverine', icon: wolverine },
+              { type: 'Mole', icon: mole },
+              { type: 'Leviathan', icon: leviathan },
             ],
           },
         ],
@@ -915,8 +953,8 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: assault },
-              { type: 'Wolverine', icon: assault },
+              { type: 'Wasp', icon: wasp },
+              { type: 'Wolverine', icon: wolverine },
             ],
           },
           {
@@ -929,9 +967,9 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: assault },
-              { type: 'Wolverine', icon: assault },
-              { type: 'Mole', icon: assault },
+              { type: 'Wasp', icon: wasp },
+              { type: 'Wolverine', icon: wolverine },
+              { type: 'Mole', icon: mole },
             ],
           },
           {
@@ -944,10 +982,10 @@ export const resistanceBuildings = [
             time: 0,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: assault },
-              { type: 'Wolverine', icon: assault },
-              { type: 'Mole', icon: assault },
-              { type: 'Leviathan', icon: assault },
+              { type: 'Wasp', icon: wasp },
+              { type: 'Wolverine', icon: wolverine },
+              { type: 'Mole', icon: mole },
+              { type: 'Leviathan', icon: leviathan },
             ],
           },
         ],
@@ -958,7 +996,7 @@ export const resistanceBuildings = [
   {
     id: 12,
     name: 'Nuclear Launcher',
-    image: assault,
+    image: nuclearLauncher,
     description: 'Description for Building',
     weapons: [{ type: 'Nuclear Missile' }],
     produces: null,
@@ -1027,7 +1065,7 @@ export const resistanceBuildings = [
   {
     id: 13,
     name: 'Wall',
-    image: assault,
+    image: wall,
     description: 'Description for Building',
     weapons: null,
     produces: null,
@@ -1072,7 +1110,7 @@ export const resistanceBuildings = [
   {
     id: 14,
     name: 'Sniper Tower',
-    image: assault,
+    image: sniperTower,
     description: 'Description for Building',
     weapons: [{ type: 'Sniper Rifle' }],
     produces: null,
@@ -1141,7 +1179,7 @@ export const resistanceBuildings = [
   {
     id: 15,
     name: 'Gun Tower',
-    image: assault,
+    image: gunTower,
     description: 'Description for Building',
     weapons: [{ type: '200MM Stationary Gun' }],
     produces: null,
@@ -1210,7 +1248,7 @@ export const resistanceBuildings = [
   {
     id: 16,
     name: 'Anti-Air Tower',
-    image: assault,
+    image: antiAirTower,
     description: 'Description for Building',
     weapons: [{ type: 'Stationary Sam Launcher' }],
     produces: null,
@@ -1279,7 +1317,7 @@ export const resistanceBuildings = [
   {
     id: 17,
     name: 'Naval Platform',
-    image: assault,
+    image: navalPlatform,
     description: 'Description for Building',
     weapons: [{ type: '30MM Flack Cannon' }],
     produces: null,
