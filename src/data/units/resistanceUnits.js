@@ -24,6 +24,7 @@ export const resistanceUnits = [
   {
     id: 1,
     name: 'Rifleman',
+    type: 'Light Infantry ',
     image: rifleman,
     iconArmor: armor1,
     description: 'Description for Unit',
@@ -104,6 +105,7 @@ export const resistanceUnits = [
   {
     id: 2,
     name: 'Grenadier',
+    type: 'Anti-Tank Infantry',
     image: grenadier,
     iconArmor: armor1,
     description: 'Description for Unit ',
@@ -161,6 +163,7 @@ export const resistanceUnits = [
   {
     id: 3,
     name: 'Sniper',
+    type: 'Special Infantry',
     image: sniper,
     iconArmor: armor1,
     description: 'Description for Unit',
@@ -218,6 +221,7 @@ export const resistanceUnits = [
   {
     id: 4,
     name: 'Coyote',
+    type: 'Ultra Light Recon Vehicle',
     image: coyote,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -275,6 +279,7 @@ export const resistanceUnits = [
   {
     id: 5,
     name: 'Armadillo',
+    type: 'Multi-Purpose Combat Vehicle',
     image: armadillo,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -397,6 +402,7 @@ export const resistanceUnits = [
   {
     id: 6,
     name: 'Jaguar',
+    type: 'Heavy Siege Tank',
     image: jaguar,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -477,6 +483,7 @@ export const resistanceUnits = [
   {
     id: 7,
     name: 'Porcupine',
+    type: 'Anti-Aircraft Platform',
     image: porcupine,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -557,6 +564,7 @@ export const resistanceUnits = [
   {
     id: 8,
     name: 'Mammoth',
+    type: 'Self-Propelled Artillery',
     image: mammoth,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -614,6 +622,7 @@ export const resistanceUnits = [
   {
     id: 9,
     name: 'Chameleon',
+    type: 'Active Camouflage System',
     image: chameleon,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -671,6 +680,7 @@ export const resistanceUnits = [
   {
     id: 10,
     name: 'Dragonfly',
+    type: 'Light Attack Helicopter',
     image: dragonfly,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -751,6 +761,7 @@ export const resistanceUnits = [
   {
     id: 11,
     name: 'Hawk',
+    type: 'G5 Heavy Jet Fighter',
     image: hawk,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -831,6 +842,7 @@ export const resistanceUnits = [
   {
     id: 12,
     name: 'Albatross',
+    type: 'Tactical Bomber',
     image: albatross,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -888,6 +900,7 @@ export const resistanceUnits = [
   {
     id: 13,
     name: 'Caiman',
+    type: 'Light Recon Boat',
     image: caiman,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -965,6 +978,7 @@ export const resistanceUnits = [
   {
     id: 14,
     name: 'Alligator',
+    type: 'Heavy Corvette',
     image: alligator,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -1045,6 +1059,7 @@ export const resistanceUnits = [
   {
     id: 15,
     name: 'Barracuda',
+    type: 'Missile-Torpedo Submarine',
     image: barracuda,
     iconArmor: armor3,
     description: 'Description for Unit',

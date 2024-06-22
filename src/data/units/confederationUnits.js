@@ -24,6 +24,7 @@ export const confederationUnits = [
   {
     id: 1,
     name: 'Assault',
+    type: 'Light Assault Infantry ',
     image: assault,
     iconArmor: armor1,
     description: 'Description for Unit',
@@ -104,6 +105,7 @@ export const confederationUnits = [
   {
     id: 2,
     name: 'Heavy Assault',
+    type: 'Heavy Assault Infantry ',
     image: heavyAssault,
     iconArmor: armor1,
     description: 'Description for Unit ',
@@ -161,6 +163,7 @@ export const confederationUnits = [
   {
     id: 3,
     name: 'Fire Assault',
+    type: 'Special Assault Infantry',
     image: fireAssault,
     iconArmor: armor1,
     description: 'Description for Unit',
@@ -218,6 +221,7 @@ export const confederationUnits = [
   {
     id: 4,
     name: 'Fortress',
+    type: 'Infantry Support Vehicle',
     image: fortress,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -298,6 +302,7 @@ export const confederationUnits = [
   {
     id: 5,
     name: 'Hammer',
+    type: 'Light Assault Tank',
     image: hammer,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -355,6 +360,7 @@ export const confederationUnits = [
   {
     id: 6,
     name: 'Zeus',
+    type: 'Heavy Assault Tank',
     image: zeus,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -435,6 +441,7 @@ export const confederationUnits = [
   {
     id: 7,
     name: 'Typhoon',
+    type: 'Anti-Aircraft Vehicle',
     image: typhoon,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -512,6 +519,7 @@ export const confederationUnits = [
   {
     id: 8,
     name: 'Torrent',
+    type: 'Multiple Launch Rocket System',
     image: torrent,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -569,6 +577,7 @@ export const confederationUnits = [
   {
     id: 9,
     name: 'Energy Shield',
+    type: 'Support Combat Vehicle',
     image: energyShield,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -626,6 +635,7 @@ export const confederationUnits = [
   {
     id: 10,
     name: 'Cyclone',
+    type: 'Reconnaissance Helicopter',
     image: cyclone,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -683,6 +693,7 @@ export const confederationUnits = [
   {
     id: 11,
     name: 'Vertex',
+    type: 'G6 Light Jet Fighter',
     image: vertex,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -740,6 +751,7 @@ export const confederationUnits = [
   {
     id: 12,
     name: 'Thor',
+    type: 'Tactical Bomber',
     image: thor,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -797,6 +809,7 @@ export const confederationUnits = [
   {
     id: 13,
     name: 'Delta',
+    type: 'Light Assault Amphibian',
     image: delta,
     iconArmor: armor2,
     description: 'Description for Unit',
@@ -854,6 +867,7 @@ export const confederationUnits = [
   {
     id: 14,
     name: 'Viking',
+    type: 'Heavy Destroyer',
     image: viking,
     iconArmor: armor3,
     description: 'Description for Unit',
@@ -934,6 +948,7 @@ export const confederationUnits = [
   {
     id: 15,
     name: 'Poseidon',
+    type: 'Heavy Missile Cruiser',
     image: poseidon,
     iconArmor: armor3,
     description: 'Description for Unit',

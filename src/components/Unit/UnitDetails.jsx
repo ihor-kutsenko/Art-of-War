@@ -19,6 +19,7 @@ const UnitDetails = ({ unit }) => {
     <div className={styles.container}>
       <div className={styles.leftSection}>
         <h2 className={styles.unitName}>{unit.name}</h2>
+        <p>{unit.type}</p>
         <img
           src={unit.image}
           alt={unit.name}
