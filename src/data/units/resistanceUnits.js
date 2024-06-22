@@ -69,13 +69,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 1966,
+        armor: 26,
+        speed: 75,
+        view: 7,
+        cost: 34,
+        time: 12,
+        cp: 1,
         weapons: [
           {
             damageArmor1: 0,
@@ -137,13 +137,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 2318,
+        armor: 31,
+        speed: 54,
+        view: 7,
+        cost: 40,
+        time: 14,
+        cp: 1,
         weapons: [
           {
             damageArmor1: 0,
@@ -195,13 +195,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 1620,
+        armor: 26,
+        speed: 60,
+        view: '8/10',
+        cost: 64,
+        time: 19,
+        cp: 2,
         weapons: [
           {
             damageArmor1: 0,
@@ -253,13 +253,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 2771,
+        armor: 60,
+        speed: 85,
+        view: 8,
+        cost: 70,
+        time: 20,
+        cp: 2,
         weapons: [
           {
             damageArmor1: 0,
@@ -346,13 +346,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 4340,
+        armor: 70,
+        speed: 60,
+        view: 8,
+        cost: 120,
+        time: 26,
+        cp: 3,
         weapons: [
           {
             damageArmor1: 0,
@@ -447,13 +447,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 5237,
+        armor: '109/92',
+        speed: 66,
+        view: '8/10',
+        cost: 220,
+        time: 35,
+        cp: 4,
         weapons: [
           {
             damageArmor1: 0,
@@ -528,13 +528,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 4410,
+        armor: 79,
+        speed: 54,
+        view: 11,
+        cost: 180,
+        time: 32,
+        cp: 3,
         weapons: [
           {
             damageArmor1: 0,
@@ -596,13 +596,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 4277,
+        armor: '85/71',
+        speed: 46,
+        view: '10/12',
+        cost: 240,
+        time: 39,
+        cp: 4,
         weapons: [
           {
             damageArmor1: 0,
@@ -654,13 +654,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 4782,
+        armor: '89/76',
+        speed: 54,
+        view: 8,
+        cost: 350,
+        time: 53,
+        cp: 5,
         weapons: [
           {
             damageArmor1: 0,
@@ -725,13 +725,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 3970,
+        armor: 72,
+        speed: 100,
+        view: 12,
+        cost: 150,
+        time: 26,
+        cp: 3,
         weapons: [
           {
             damageArmor1: 0,
@@ -806,13 +806,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 6178,
+        armor: 71,
+        speed: 372,
+        view: 14,
+        cost: 300,
+        time: 38,
+        cp: 5,
         weapons: [
           {
             damageArmor1: 0,
@@ -874,13 +874,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 8653,
+        armor: 82,
+        speed: 300,
+        view: 13,
+        cost: 450,
+        time: 48,
+        cp: 7,
         weapons: [
           {
             damageArmor1: 0,
@@ -942,13 +942,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 3218,
+        armor: 59,
+        speed: 100,
+        view: 10,
+        cost: 80,
+        time: 16,
+        cp: 2,
         weapons: [
           {
             damageArmor1: 0,
@@ -1023,13 +1023,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 14256,
+        armor: 116,
+        speed: 54,
+        view: 11,
+        cost: 320,
+        time: 35,
+        cp: 5,
         weapons: [
           {
             damageArmor1: 0,
@@ -1104,13 +1104,13 @@ export const resistanceUnits = [
       // 29
       {
         level: 29,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
-        cost: 0,
-        time: 0,
-        cp: 0,
+        hp: 11081,
+        armor: '84/80',
+        speed: 40,
+        view: '10/13',
+        cost: 340,
+        time: 42,
+        cp: 5,
         weapons: [
           {
             damageArmor1: 0,
