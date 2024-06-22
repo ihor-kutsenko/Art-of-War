@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from '../../Unit/UnitDetails.module.scss';
 import BuildingStats from '../BuildingStats/BuildingStats';
 import BuildingWeapons from '../BuildingWeapons/BuildingWeapons';
@@ -7,6 +7,19 @@ import BuildingProduceList from '../BuildingProduceList/BuildingProduceList';
 const BuildingsDetails = ({ building }) => {
   const [selectedLevel, setSelectedLevel] = useState(7);
   const [selectedSubLevel, setSelectedSubLevel] = useState(1);
+
+  useEffect(() => {
+    setSelectedSubLevel(1);
+  }, [building]);
+
+  useEffect(() => {
+    const selectedLevelData = building.levels.find(
+      level => level.level === selectedLevel
+    );
+    if (selectedLevelData && selectedLevelData.subLevels.length === 0) {
+      setSelectedSubLevel(1);
+    }
+  }, [selectedLevel, building.levels]);
 
   const handleLevelChange = event => {
     setSelectedLevel(parseInt(event.target.value, 10));
@@ -20,9 +33,10 @@ const BuildingsDetails = ({ building }) => {
   const selectedLevelData = building.levels.find(
     level => level.level === selectedLevel
   );
-  const selectedSubLevelData = selectedLevelData?.subLevels.find(
-    subLevel => subLevel.subLevel === selectedSubLevel
-  );
+  const selectedSubLevelData =
+    selectedLevelData?.subLevels.find(
+      subLevel => subLevel.subLevel === selectedSubLevel
+    ) || selectedLevelData;
 
   return (
     <div className={styles.container}>
