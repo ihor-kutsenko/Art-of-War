@@ -19,6 +19,7 @@ import totalControlImage from '../images/tournaments/total-control.jpg';
 import twoCitadelsImage from '../images/tournaments/two-citadels.jpg';
 import vanguardImage from '../images/tournaments/vanguard.jpg';
 import fifthAnniversaryImage from '../images/tournaments/5th-anniversary.jpg';
+import emergencyCall from '../images/tournaments/emergency-call.jpg';
 
 import { allTheFrontMedals } from './tournaments/allTheFront';
 import { assaultMedals } from './tournaments/assault';
@@ -26,6 +27,7 @@ import { battleRoyaleMedals } from './tournaments/battleRoyale';
 import { behindTheWallMedals } from './tournaments/behindTheWall';
 // import { corsairsMedals } from './tournaments/corsairs';
 import { crossfireMedals } from './tournaments/crossfire';
+// import { emergencyCallMedals } from './tournaments/emergencyCall';
 import { flightRecorderMedals } from './tournaments/flightRecorder';
 // import { gameBirthdayMedals } from './tournaments/gameBirthday';
 import { jokerMedals } from './tournaments/joker';
@@ -78,6 +80,12 @@ export const tournaments = [
     imageUrl: crossfireImage,
     buttonText: 'Medals',
     medals: crossfireMedals,
+  },
+  {
+    title: 'Emergency Call',
+    imageUrl: emergencyCall,
+    buttonText: 'Medals',
+    medals: [],
   },
   {
     title: 'Flight Recorder',
