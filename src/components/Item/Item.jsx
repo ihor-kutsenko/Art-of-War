@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 
 import Button from 'components/Button/Button';
 import Modal from 'components/Modal/Modal';
-import styles from './Item.module.scss';
 import MedalList from 'components/MedalList/MedalList';
 import MedalGrid from 'components/MedalGrid/MedalGrid';
+import styles from './Item.module.scss';
 
 const Item = ({ title, imageUrl, buttonText, medals, disabled }) => {
   const [showModal, setShowModal] = useState(false);

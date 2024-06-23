@@ -1,6 +1,5 @@
-import Gallery from 'components/Gallery/Gallery';
 import { avatarsResistance } from 'data/avatars/resistance';
-import React from 'react';
+import Gallery from 'components/Gallery/Gallery';
 
 const ResistAvatarsPage = () => {
   return (

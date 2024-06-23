@@ -1,9 +1,8 @@
-import SvgIcon from 'components/SvgIcon/SvgIcon';
-import styles from '../../UnitWeapons/UnitWeapons.module.scss';
-
 import { useState } from 'react';
 
+import SvgIcon from 'components/SvgIcon/SvgIcon';
 import BuildingWeaponsStats from '../BuildingWeaponsStats/BuildingWeaponsStats';
+import styles from '../../UnitWeapons/UnitWeapons.module.scss';
 
 const BuildingWeapons = ({ weapons }) => {
   const [selectedWeapons, setSelectedWeapons] = useState({});

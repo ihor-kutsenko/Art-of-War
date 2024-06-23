@@ -1,5 +1,5 @@
-import styles from './Orders.module.scss';
 import { orders } from 'data/orders';
+import styles from './Orders.module.scss';
 
 const Orders = () => {
   return (

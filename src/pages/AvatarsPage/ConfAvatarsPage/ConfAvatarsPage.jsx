@@ -1,5 +1,5 @@
-import Gallery from 'components/Gallery/Gallery';
 import { avatarsConfederations } from 'data/avatars/confederation';
+import Gallery from 'components/Gallery/Gallery';
 
 const ConfAvatarsPage = () => {
   return (

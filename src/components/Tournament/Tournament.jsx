@@ -1,12 +1,11 @@
 import { useState } from 'react';
 
+import { tournaments } from 'data/tournaments';
 import PaginationContainer from 'components/Pagination/PaginationContainer';
 import Pagination from 'components/Pagination/Pagination';
 import useItemsPerPage from 'components/Pagination/PaginationHooks';
 import Item from 'components/Item/Item';
 import ItemList from 'components/ItemList/ItemList';
-
-import { tournaments } from 'data/tournaments';
 
 const Tournament = () => {
   const [currentPage, setCurrentPage] = useState(1);

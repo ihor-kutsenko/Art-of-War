@@ -1,5 +1,5 @@
-import Item from 'components/Item/Item';
 import { skirmish } from 'data/skirmish';
+import Item from 'components/Item/Item';
 
 const Skirmish = () => {
   return (

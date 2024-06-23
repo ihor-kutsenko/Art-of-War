@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import styles from '../../UnitsGallery/UnitsGallery.module.scss';
+
 import BuildingModal from '../BuildingModal/BuildingModal';
+import styles from '../../UnitsGallery/UnitsGallery.module.scss';
 
 const BuildingsGallery = ({ buildings }) => {
   const [selectedBuilding, setSelectedBuilding] = useState(null);

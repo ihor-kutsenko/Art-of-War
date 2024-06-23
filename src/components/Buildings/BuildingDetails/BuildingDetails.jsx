@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
-import styles from '../../Unit/UnitDetails.module.scss';
+
 import BuildingStats from '../BuildingStats/BuildingStats';
 import BuildingWeapons from '../BuildingWeapons/BuildingWeapons';
 import BuildingProduceList from '../BuildingProduceList/BuildingProduceList';
+import styles from '../../Unit/UnitDetails.module.scss';
 
 const BuildingsDetails = ({ building }) => {
   const [selectedLevel, setSelectedLevel] = useState(7);

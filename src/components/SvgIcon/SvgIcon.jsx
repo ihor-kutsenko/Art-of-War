@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import sprite from '../../images/sprite.svg';
 
 const SvgIcon = ({ className, iconId, onClick }) => {

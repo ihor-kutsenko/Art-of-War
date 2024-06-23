@@ -1,8 +1,7 @@
-import React from 'react';
 import SvgIcon from 'components/SvgIcon/SvgIcon';
+import UnitDetails from 'components/Unit/UnitDetails';
 
 import styles from './UnitModal.module.scss';
-import UnitDetails from 'components/Unit/UnitDetails';
 
 const UnitModal = ({ units, selectedIndex, onClose, onPrevious, onNext }) => {
   const unit = units[selectedIndex];

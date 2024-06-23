@@ -1,10 +1,11 @@
 import { useState } from 'react';
+
+import { blitz } from 'data/blitz';
 import Item from 'components/Item/Item';
 import Pagination from 'components/Pagination/Pagination';
 import PaginationContainer from 'components/Pagination/PaginationContainer';
 import useItemsPerPage from 'components/Pagination/PaginationHooks';
 import ItemList from 'components/ItemList/ItemList';
-import { blitz } from 'data/blitz';
 
 const Blitz = () => {
   const [currentPage, setCurrentPage] = useState(1);

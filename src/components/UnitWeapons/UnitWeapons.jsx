@@ -1,7 +1,8 @@
-import SvgIcon from 'components/SvgIcon/SvgIcon';
-import styles from './UnitWeapons.module.scss';
 import { useState } from 'react';
+
+import SvgIcon from 'components/SvgIcon/SvgIcon';
 import UnitWeaponsStats from 'components/UnitWeaponsStats/UnitWeaponsStats';
+import styles from './UnitWeapons.module.scss';
 
 const UnitWeapons = ({ weapons, selectedLevelData }) => {
   const [selectedWeapons, setSelectedWeapons] = useState({});

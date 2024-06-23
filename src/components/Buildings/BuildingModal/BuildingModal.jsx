@@ -1,6 +1,6 @@
 import SvgIcon from 'components/SvgIcon/SvgIcon';
-import styles from '../../UnitModal/UnitModal.module.scss';
 import BuildingDetails from '../BuildingDetails/BuildingDetails';
+import styles from '../../UnitModal/UnitModal.module.scss';
 
 const BuildingModal = ({
   buildings,

@@ -1,8 +1,7 @@
 import { useState } from 'react';
+import UnitModal from 'components/UnitModal/UnitModal';
 
 import styles from './UnitsGallery.module.scss';
-
-import UnitModal from 'components/UnitModal/UnitModal';
 
 const UnitsGallery = ({ units }) => {
   const [selectedUnit, setSelectedUnit] = useState(null);

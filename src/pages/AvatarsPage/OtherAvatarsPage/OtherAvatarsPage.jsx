@@ -1,5 +1,5 @@
-import Gallery from 'components/Gallery/Gallery';
 import { avatarsOther } from 'data/avatars/other';
+import Gallery from 'components/Gallery/Gallery';
 
 const OtherAvatarsPage = () => {
   return (
