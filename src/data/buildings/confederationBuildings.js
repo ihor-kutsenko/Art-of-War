@@ -66,7 +66,7 @@ export const confederationBuildings = [
             weapons: null,
             produces: [
               { type: 'CP', amount: 0, icon: cp },
-              { type: 'Resources', amount: 0, icon: resources },
+              { type: 'Resources', amount: 250, icon: resources },
               { type: 'Energy', amount: 0, icon: energy },
             ],
           },

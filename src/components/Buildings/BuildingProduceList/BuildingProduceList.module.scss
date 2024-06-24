@@ -6,20 +6,29 @@
 }
 .produceItem {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
-  width: 71%;
+  width: 85%;
   margin: 0 auto;
+  margin-top: 10px;
   gap: 10px;
   padding: 10px;
-  background-color: #2d2d2d;
+
   border-radius: 5px;
   border: 1px solid #fff;
-
-  margin-top: 10px;
+  background-color: #2d2d2d;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+
+  @include tablet {
+    width: 71%;
+  }
+
+  @include desktop {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .produceImage {
@@ -28,29 +37,37 @@
 }
 
 .produceText {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
   font-size: 16px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  position: relative;
-  width: 50%;
+
+  @include desktop {
+    justify-content: center;
+    gap: 5px;
+  }
 }
 
 .produceText::after {
-  content: '';
-  position: absolute;
-  right: -10px;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background-color: #fff;
+  @include desktop {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #fff;
+  }
 }
 
 .produceText:nth-child(1)::after,
 .produceText:nth-child(2)::after {
-  content: '';
+  @include desktop {
+    content: '';
+  }
 }
 
 .produceText:last-child::after {
