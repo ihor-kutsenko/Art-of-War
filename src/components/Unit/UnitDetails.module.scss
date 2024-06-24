@@ -1,6 +1,7 @@
 @import '../../sass/styles.scss';
 
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +10,6 @@
   padding: 20px;
   background-color: #1e1e1e;
   color: #fff;
-  position: relative;
   overflow-y: auto;
 
   &::-webkit-scrollbar {
@@ -76,13 +76,17 @@
   flex: 2;
   text-align: center;
   background-color: #1e1e1e;
+  height: 100vh;
+
   @include tablet {
-    padding-right: 20px;
+    padding: 80px 20px 0;
   }
 }
 
 .levelSelectLabel {
   display: block;
+  font-weight: bold;
+  font-size: large;
   margin-bottom: 5px;
 }
 
