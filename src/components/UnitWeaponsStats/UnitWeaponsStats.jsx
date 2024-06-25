@@ -5,10 +5,15 @@ import doubleArrows from '../../images/icons/double-arrows.png';
 import bullets from '../../images/icons/bullets.png';
 import target from '../../images/icons/target.png';
 import diagonalArrow from '../../images/icons/diagonal-arrow.png';
+import cost from '../../images/icons/3d.png';
+import time from '../../images/icons/time.png';
 
 import styles from './UnitWeaponsStats.module.scss';
 
 const UnitWeaponsStats = ({ selectedLevelData }) => {
+  const isMine =
+    selectedLevelData.costPerMine >= 0 || selectedLevelData.timeToLayMine >= 0;
+
   return (
     <div className={styles.container}>
       <div className={styles.statItem}>
@@ -38,43 +43,70 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
           {selectedLevelData.damageArmor3}
         </span>
       </div>
-      <div className={styles.statItem}>
-        <span className={styles.statLabel}>
-          {' '}
-          <img
-            src={doubleArrows}
-            alt="double Arrows"
-            className={styles.statIcon}
-          />
-          Firing range:
-        </span>
-        <span className={styles.statValue}>
-          {selectedLevelData.firingRange}
-        </span>
-      </div>
-      <div className={styles.statItem}>
-        <span className={styles.statLabel}>
-          <img src={bullets} alt="bullets" className={styles.statIcon} />
-          Rate of fire:
-        </span>
-        <span className={styles.statValue}>
-          {selectedLevelData.rateOfFire}{' '}
-        </span>
-      </div>
-      <div className={styles.statItem}>
-        <span className={styles.statLabel}>
-          <img src={target} alt="target" className={styles.statIcon} />
-          Firing accuracy:
-        </span>
-        <div>
-          <span className={styles.statValue}>
-            {selectedLevelData.firingAccuracy}{' '}
-          </span>
-          <span className={styles.statValue}>
-            {selectedLevelData.firingAccuracy2}{' '}
-          </span>
-        </div>
-      </div>
+
+      {isMine ? (
+        <>
+          <div className={styles.statItem}>
+            <span className={styles.statLabel}>
+              <img src={cost} alt="Cost" className={styles.statIcon} />
+              Cost:
+            </span>
+            <span className={styles.statValue}>
+              {selectedLevelData.costPerMine}
+            </span>
+          </div>
+          <div className={styles.statItem}>
+            <span className={styles.statLabel}>
+              <img src={time} alt="Setting Time" className={styles.statIcon} />
+              Setting Time:
+            </span>
+            <span className={styles.statValue}>
+              {selectedLevelData.timeToLayMine}
+            </span>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className={styles.statItem}>
+            <span className={styles.statLabel}>
+              {' '}
+              <img
+                src={doubleArrows}
+                alt="double Arrows"
+                className={styles.statIcon}
+              />
+              Firing range:
+            </span>
+            <span className={styles.statValue}>
+              {selectedLevelData.firingRange}
+            </span>
+          </div>
+          <div className={styles.statItem}>
+            <span className={styles.statLabel}>
+              <img src={bullets} alt="bullets" className={styles.statIcon} />
+              Rate of fire:
+            </span>
+            <span className={styles.statValue}>
+              {selectedLevelData.rateOfFire}{' '}
+            </span>
+          </div>
+          <div className={styles.statItem}>
+            <span className={styles.statLabel}>
+              <img src={target} alt="target" className={styles.statIcon} />
+              Firing accuracy:
+            </span>
+            <div>
+              <span className={styles.statValue}>
+                {selectedLevelData.firingAccuracy}{' '}
+              </span>
+              <span className={styles.statValue}>
+                {selectedLevelData.firingAccuracy2}{' '}
+              </span>
+            </div>
+          </div>
+        </>
+      )}
+
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
           <img
