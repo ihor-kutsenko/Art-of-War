@@ -1323,7 +1323,7 @@ export const confederationBuildings = [
           {
             subLevel: 1,
             hp: 14850,
-            armor: 144,
+            armor: 138,
             energy: 40,
             size: '3x3',
             cost: 270,
@@ -1337,7 +1337,7 @@ export const confederationBuildings = [
           {
             subLevel: 2,
             hp: 16633,
-            armor: 154,
+            armor: 148,
             energy: 60,
             size: '3x3',
             cost: 400,
@@ -1352,7 +1352,7 @@ export const confederationBuildings = [
           {
             subLevel: 3,
             hp: 20493,
-            armor: 164,
+            armor: 158,
             energy: 90,
             size: '3x3',
             cost: 550,
@@ -1464,18 +1464,18 @@ export const confederationBuildings = [
         subLevels: [
           {
             subLevel: 1,
-            hp: 0,
-            armor: 14454,
-            energy: 136,
+            hp: 14454,
+            armor: 136,
+            energy: 300,
             size: '3x3',
             cost: 1500,
             time: 88,
             weapons: [
               {
                 title: 'Space Strike',
-                damageArmor1: 53425,
-                damageArmor2: 53425,
-                damageArmor3: 53425,
+                damageArmor1: 52081,
+                damageArmor2: 52081,
+                damageArmor3: 52081,
                 firingRange: 100,
                 rateOfFire: null,
                 firingAccuracy: '96.0',
@@ -1493,9 +1493,9 @@ export const confederationBuildings = [
         subLevels: [
           {
             subLevel: 1,
-            hp: 0,
-            armor: 14454,
-            energy: 136,
+            hp: 14454,
+            armor: 136,
+            energy: 300,
             size: '3x3',
             cost: 1500,
             time: 88,
