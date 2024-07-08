@@ -1325,7 +1325,7 @@ export const resistanceBuildings = [
           {
             subLevel: 1,
             hp: 14850,
-            armor: 144,
+            armor: 138,
             energy: 40,
             size: '3x3',
             cost: 270,
@@ -1339,7 +1339,7 @@ export const resistanceBuildings = [
           {
             subLevel: 2,
             hp: 16633,
-            armor: 154,
+            armor: 148,
             energy: 60,
             size: '3x3',
             cost: 400,
@@ -1354,7 +1354,7 @@ export const resistanceBuildings = [
           {
             subLevel: 3,
             hp: 20493,
-            armor: 164,
+            armor: 158,
             energy: 90,
             size: '3x3',
             cost: 550,
@@ -1475,9 +1475,9 @@ export const resistanceBuildings = [
             weapons: [
               {
                 title: 'Nuclear Missile',
-                damageArmor1: 50903,
-                damageArmor2: 50903,
-                damageArmor3: 50903,
+                damageArmor1: 49621,
+                damageArmor2: 49621,
+                damageArmor3: 49621,
                 firingRange: 100,
                 rateOfFire: null,
                 firingAccuracy: '96.0',
