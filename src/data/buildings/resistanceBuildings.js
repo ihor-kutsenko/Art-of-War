@@ -106,7 +106,7 @@ export const resistanceBuildings = [
       },
       // 28
       {
-        level: 22,
+        level: 28,
         subLevels: [
           {
             subLevel: 1,
