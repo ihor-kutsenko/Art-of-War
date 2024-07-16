@@ -655,9 +655,9 @@ export const resistanceUnits = [
         cp: 3,
         weapons: [
           {
-            damageArmor1: 101,
-            damageArmor2: 199,
-            damageArmor3: 156,
+            damageArmor1: 91,
+            damageArmor2: 177,
+            damageArmor3: 137,
             firingRange: 7,
             rateOfFire: 114,
             firingAccuracy: '82.5',
@@ -891,9 +891,9 @@ export const resistanceUnits = [
         cp: 4,
         weapons: [
           {
-            damageArmor1: 318,
-            damageArmor2: 786,
-            damageArmor3: 824,
+            damageArmor1: 286,
+            damageArmor2: 710,
+            damageArmor3: 745,
             firingRange: 7,
             rateOfFire: 30,
             firingAccuracy: '83.0',
@@ -901,9 +901,9 @@ export const resistanceUnits = [
             explosionRadius: '1.30',
           },
           {
-            damageArmor1: 318,
-            damageArmor2: 786,
-            damageArmor3: 824,
+            damageArmor1: 286,
+            damageArmor2: 710,
+            damageArmor3: 745,
             firingRange: 9,
             rateOfFire: 50,
             firingAccuracy: '84.4',
@@ -1071,9 +1071,9 @@ export const resistanceUnits = [
         cp: 3,
         weapons: [
           {
-            damageArmor1: 101,
-            damageArmor2: 240,
-            damageArmor3: 141,
+            damageArmor1: 95,
+            damageArmor2: 228,
+            damageArmor3: 134,
             firingRange: 10,
             rateOfFire: 150,
             firingAccuracy: '93.0',
@@ -1238,9 +1238,9 @@ export const resistanceUnits = [
         cp: 4,
         weapons: [
           {
-            damageArmor1: 570,
-            damageArmor2: 1378,
-            damageArmor3: 1382,
+            damageArmor1: 508,
+            damageArmor2: 1237,
+            damageArmor3: 1242,
             firingRange: 16,
             rateOfFire: 16,
             firingAccuracy: '84.0',
@@ -1450,9 +1450,9 @@ export const resistanceUnits = [
         cp: 3,
         weapons: [
           {
-            damageArmor1: 134,
-            damageArmor2: 224,
-            damageArmor3: 224,
+            damageArmor1: 128,
+            damageArmor2: 214,
+            damageArmor3: 214,
             firingRange: 8,
             rateOfFire: 46,
             firingAccuracy: '87.0',
@@ -1460,9 +1460,9 @@ export const resistanceUnits = [
             explosionRadius: '0.80',
           },
           {
-            damageArmor1: 90,
-            damageArmor2: 55,
-            damageArmor3: 38,
+            damageArmor1: 86,
+            damageArmor2: 52,
+            damageArmor3: 36,
             firingRange: 7,
             rateOfFire: 225,
             firingAccuracy: '87.0',
@@ -1630,9 +1630,9 @@ export const resistanceUnits = [
         cp: 5,
         weapons: [
           {
-            damageArmor1: 518,
-            damageArmor2: 744,
-            damageArmor3: 807,
+            damageArmor1: 461,
+            damageArmor2: 662,
+            damageArmor3: 720,
             firingRange: 12,
             rateOfFire: 88,
             firingAccuracy: '95.0',
@@ -1640,9 +1640,9 @@ export const resistanceUnits = [
             explosionRadius: '1.50',
           },
           {
-            damageArmor1: 224,
-            damageArmor2: 160,
-            damageArmor3: 129,
+            damageArmor1: 195,
+            damageArmor2: 140,
+            damageArmor3: 114,
             firingRange: 11,
             rateOfFire: 342,
             firingAccuracy: '68.0',
@@ -1797,9 +1797,9 @@ export const resistanceUnits = [
         cp: 7,
         weapons: [
           {
-            damageArmor1: 1889,
-            damageArmor2: 5348,
-            damageArmor3: 5348,
+            damageArmor1: 1633,
+            damageArmor2: 4750,
+            damageArmor3: 4750,
             firingRange: 3,
             rateOfFire: 15,
             firingAccuracy: '96.9',
@@ -1932,9 +1932,9 @@ export const resistanceUnits = [
         cp: 2,
         weapons: [
           {
-            damageArmor1: 84,
-            damageArmor2: 67,
-            damageArmor3: 50,
+            damageArmor1: 80,
+            damageArmor2: 64,
+            damageArmor3: 48,
             firingRange: 8,
             rateOfFire: 218,
             firingAccuracy: '88.0',
@@ -2104,9 +2104,9 @@ export const resistanceUnits = [
         cp: 5,
         weapons: [
           {
-            damageArmor1: 699,
-            damageArmor2: 1362,
-            damageArmor3: 1766,
+            damageArmor1: 621,
+            damageArmor2: 1205,
+            damageArmor3: 1565,
             firingRange: 7.5,
             rateOfFire: 42,
             firingAccuracy: '89.3',
@@ -2114,9 +2114,9 @@ export const resistanceUnits = [
             explosionRadius: '1.70',
           },
           {
-            damageArmor1: 247,
-            damageArmor2: 621,
-            damageArmor3: 411,
+            damageArmor1: 221,
+            damageArmor2: 563,
+            damageArmor3: 370,
             firingRange: 9.5,
             rateOfFire: 55,
             firingAccuracy: '95.0',
@@ -2284,9 +2284,9 @@ export const resistanceUnits = [
         cp: 5,
         weapons: [
           {
-            damageArmor1: 936,
-            damageArmor2: 1217,
-            damageArmor3: 1529,
+            damageArmor1: 864,
+            damageArmor2: 1126,
+            damageArmor3: 1412,
             firingRange: 8,
             rateOfFire: 37,
             firingAccuracy: '98.0',
@@ -2294,9 +2294,9 @@ export const resistanceUnits = [
             explosionRadius: '1.60',
           },
           {
-            damageArmor1: 576,
-            damageArmor2: 902,
-            damageArmor3: 1154,
+            damageArmor1: 527,
+            damageArmor2: 820,
+            damageArmor3: 1055,
             firingRange: 15.5,
             rateOfFire: 30,
             firingAccuracy: '67.2',
