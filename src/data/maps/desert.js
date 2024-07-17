@@ -3,6 +3,7 @@ import aWrongWayTurn from '../../images/maps/desert/a-wrong-way-turn.jpg';
 import bloodyShore from '../../images/maps/desert/bloody-shore.jpg';
 import caesarsIslands from '../../images/maps/desert/caesars-islands.jpg';
 import coralBay from '../../images/maps/desert/coral-bay.jpg';
+import cryobase from '../../images/maps/desert/cryobase.jpg';
 import deadlyCliff from '../../images/maps/desert/deadly-cliff.jpg';
 import desertCross from '../../images/maps/desert/desert-cross.jpg';
 import desertTreasure from '../../images/maps/desert/desert-treasure.jpg';
@@ -30,6 +31,7 @@ export const desertMaps = [
   { title: 'Bloody Shore', image: bloodyShore },
   { title: 'Caesars Islands', image: caesarsIslands },
   { title: 'Coral Bay', image: coralBay },
+  { title: 'Cryobase', image: cryobase },
   { title: 'Deadly Cliff', image: deadlyCliff },
   { title: 'Desert Cross', image: desertCross },
   { title: 'Desert Treasure', image: desertTreasure },

@@ -33,6 +33,7 @@ import twinCoasts from '../../images/maps/jungle/twin-coasts.jpg';
 import twoRiverbanks from '../../images/maps/jungle/two-riverbanks.jpg';
 import veracruz from '../../images/maps/jungle/veracruz.jpg';
 import waterBarrier from '../../images/maps/jungle/water-barrier.jpg';
+import waterShackles from '../../images/maps/jungle/water-shackles.jpg';
 import whaleBay from '../../images/maps/jungle/whale-bay.jpg';
 import wildClover from '../../images/maps/jungle/wild-clover.jpg';
 
@@ -72,6 +73,7 @@ export const jungleMaps = [
   { title: 'Two Riverbanks', image: twoRiverbanks },
   { title: 'Veracruz', image: veracruz },
   { title: 'Water Barrier', image: waterBarrier },
+  { title: 'Water Shackles', image: waterShackles },
   { title: 'Whale Bay', image: whaleBay },
   { title: 'Wild Clover', image: wildClover },
 ];
