@@ -78,9 +78,9 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            damageArmor1: 70,
-            damageArmor2: 33,
-            damageArmor3: 27,
+            damageArmor1: 66,
+            damageArmor2: 31,
+            damageArmor3: 25,
             firingRange: 6,
             rateOfFire: 200,
             firingAccuracy: '90.0',
@@ -278,9 +278,9 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            damageArmor1: 168,
-            damageArmor2: 571,
-            damageArmor3: 457,
+            damageArmor1: 159,
+            damageArmor2: 538,
+            damageArmor3: 430,
             firingRange: 6,
             rateOfFire: 37,
             firingAccuracy: '85.0',
@@ -428,9 +428,9 @@ export const confederationUnits = [
         cp: 1,
         weapons: [
           {
-            damageArmor1: 1428,
-            damageArmor2: 324,
-            damageArmor3: 160,
+            damageArmor1: 1356,
+            damageArmor2: 308,
+            damageArmor3: 152,
             firingRange: 4,
             rateOfFire: 25,
             firingAccuracy: '83.0',
@@ -591,9 +591,9 @@ export const confederationUnits = [
         cp: 3,
         weapons: [
           {
-            damageArmor1: 80,
-            damageArmor2: 36,
-            damageArmor3: 34,
+            damageArmor1: 76,
+            damageArmor2: 34,
+            damageArmor3: 32,
             firingRange: 6.5,
             rateOfFire: 257,
             firingAccuracy: '63.0',
@@ -601,9 +601,9 @@ export const confederationUnits = [
             explosionRadius: '0.00',
           },
           {
-            damageArmor1: 1680,
-            damageArmor2: 384,
-            damageArmor3: 188,
+            damageArmor1: 1588,
+            damageArmor2: 364,
+            damageArmor3: 176,
             firingRange: 4.5,
             rateOfFire: 20,
             firingAccuracy: '87.0',
@@ -791,9 +791,9 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            damageArmor1: 194,
-            damageArmor2: 637,
-            damageArmor3: 593,
+            damageArmor1: 183,
+            damageArmor2: 599,
+            damageArmor3: 559,
             firingRange: 7,
             rateOfFire: 31,
             firingAccuracy: '90.1',
@@ -954,9 +954,9 @@ export const confederationUnits = [
         cp: 4,
         weapons: [
           {
-            damageArmor1: 405,
-            damageArmor2: 1135,
-            damageArmor3: 1321,
+            damageArmor1: 384,
+            damageArmor2: 1077,
+            damageArmor3: 1253,
             firingRange: 8,
             rateOfFire: 22,
             firingAccuracy: '86.7',
@@ -1164,9 +1164,9 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            damageArmor1: 176,
-            damageArmor2: 456,
-            damageArmor3: 281,
+            damageArmor1: 166,
+            damageArmor2: 431,
+            damageArmor3: 265,
             firingRange: 9,
             rateOfFire: 37,
             firingAccuracy: '94.0',
@@ -1174,9 +1174,9 @@ export const confederationUnits = [
             explosionRadius: '1.00',
           },
           {
-            damageArmor1: 176,
-            damageArmor2: 456,
-            damageArmor3: 281,
+            damageArmor1: 166,
+            damageArmor2: 431,
+            damageArmor3: 265,
             firingRange: 11,
             rateOfFire: 75,
             firingAccuracy: '99.0',
@@ -1364,14 +1364,14 @@ export const confederationUnits = [
         cp: 4,
         weapons: [
           {
-            damageArmor1: 505,
-            damageArmor2: 942,
-            damageArmor3: 953,
+            damageArmor1: 481,
+            damageArmor2: 899,
+            damageArmor3: 911,
             firingRange: 13,
             rateOfFire: 34,
-            firingAccuracy: '55.7',
+            firingAccuracy: '54.9',
             firingAccuracy2: '0.00',
-            explosionRadius: '2.20',
+            explosionRadius: '2.16',
           },
         ],
       },
@@ -1609,9 +1609,9 @@ export const confederationUnits = [
         cp: 3,
         weapons: [
           {
-            damageArmor1: 109,
-            damageArmor2: 74,
-            damageArmor3: 44,
+            damageArmor1: 104,
+            damageArmor2: 70,
+            damageArmor3: 41,
             firingRange: 8,
             rateOfFire: 218,
             firingAccuracy: '93.0',
@@ -1759,9 +1759,9 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            damageArmor1: 423,
-            damageArmor2: 640,
-            damageArmor3: 732,
+            damageArmor1: 400,
+            damageArmor2: 604,
+            damageArmor3: 692,
             firingRange: 13,
             rateOfFire: 144,
             firingAccuracy: '98.0',
@@ -1909,9 +1909,9 @@ export const confederationUnits = [
         cp: 7,
         weapons: [
           {
-            damageArmor1: 1890,
-            damageArmor2: 5411,
-            damageArmor3: 5411,
+            damageArmor1: 1833,
+            damageArmor2: 5249,
+            damageArmor3: 5249,
             firingRange: 5,
             rateOfFire: 12,
             firingAccuracy: '95.3',
@@ -2059,9 +2059,9 @@ export const confederationUnits = [
         cp: 2,
         weapons: [
           {
-            damageArmor1: 149,
-            damageArmor2: 251,
-            damageArmor3: 191,
+            damageArmor1: 140,
+            damageArmor2: 237,
+            damageArmor3: 180,
             firingRange: 7,
             rateOfFire: 85,
             firingAccuracy: '90.9',
@@ -2222,9 +2222,9 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            damageArmor1: 433,
-            damageArmor2: 978,
-            damageArmor3: 1155,
+            damageArmor1: 409,
+            damageArmor2: 924,
+            damageArmor3: 1093,
             firingRange: 7.5,
             rateOfFire: 42,
             firingAccuracy: '86.1',
@@ -2232,9 +2232,9 @@ export const confederationUnits = [
             explosionRadius: '1.70',
           },
           {
-            damageArmor1: 869,
-            damageArmor2: 898,
-            damageArmor3: 1361,
+            damageArmor1: 824,
+            damageArmor2: 852,
+            damageArmor3: 1290,
             firingRange: 7.5,
             rateOfFire: 37,
             firingAccuracy: '92.0',
@@ -2432,9 +2432,9 @@ export const confederationUnits = [
         cp: 5,
         weapons: [
           {
-            damageArmor1: 596,
-            damageArmor2: 1161,
-            damageArmor3: 1111,
+            damageArmor1: 573,
+            damageArmor2: 1116,
+            damageArmor3: 1069,
             firingRange: 14,
             rateOfFire: 36,
             firingAccuracy: '71.2',
@@ -2442,9 +2442,9 @@ export const confederationUnits = [
             explosionRadius: '1.70',
           },
           {
-            damageArmor1: 347,
-            damageArmor2: 742,
-            damageArmor3: 486,
+            damageArmor1: 329,
+            damageArmor2: 702,
+            damageArmor3: 462,
             firingRange: 11,
             rateOfFire: 75,
             firingAccuracy: '98.0',
