@@ -36,12 +36,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 1248,
+        armor: 14,
+        speed: 66,
+        view: 6,
         cost: 40,
-        time: 0,
+        time: 16,
         cp: 1,
         weapons: [
           {
@@ -246,12 +246,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 1522,
+        armor: 17,
+        speed: 50,
+        view: 6,
         cost: 45,
-        time: 0,
+        time: 18,
         cp: 1,
         weapons: [
           {
@@ -396,12 +396,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 1766,
+        armor: 19,
+        speed: 54,
+        view: 5,
         cost: 55,
-        time: 0,
+        time: 21,
         cp: 1,
         weapons: [
           {
@@ -549,12 +549,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 2450,
+        armor: 40,
+        speed: 40,
+        view: 7,
         cost: 140,
-        time: 0,
+        time: 30,
         cp: 3,
         weapons: [
           {
@@ -759,12 +759,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 2411,
+        armor: 32,
+        speed: 50,
+        view: 6,
         cost: 120,
-        time: 0,
+        time: 35,
         cp: 2,
         weapons: [
           {
@@ -912,12 +912,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 4114,
+        armor: 49,
+        speed: 37,
+        view: 8,
         cost: 240,
-        time: 0,
+        time: 45,
         cp: 4,
         weapons: [
           {
@@ -1122,12 +1122,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 2793,
+        armor: '29 / 26',
+        speed: 40,
+        view: '9 / 10',
         cost: 150,
-        time: 0,
+        time: 36,
         cp: 2,
         weapons: [
           {
@@ -1332,12 +1332,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 2558,
+        armor: '31 / 19',
+        speed: 37,
+        view: '8 / 11',
         cost: 250,
-        time: 0,
+        time: 41,
         cp: 4,
         weapons: [
           {
@@ -1482,12 +1482,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 3080,
+        armor: '25 / 22',
+        speed: 46,
+        view: 8,
         cost: 350,
-        time: 0,
+        time: 68,
         cp: 5,
         weapons: [
           {
@@ -1577,12 +1577,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 2280,
+        armor: 25,
+        speed: 100,
+        view: 11,
         cost: 140,
-        time: 0,
+        time: 32,
         cp: 3,
         weapons: [
           {
@@ -1727,12 +1727,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 2855,
+        armor: 19,
+        speed: 330,
+        view: 13,
         cost: 300,
-        time: 0,
+        time: 45,
         cp: 5,
         weapons: [
           {
@@ -1877,12 +1877,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 3658,
+        armor: 20,
+        speed: 240,
+        view: 13,
         cost: 450,
-        time: 0,
+        time: 54,
         cp: 7,
         weapons: [
           {
@@ -2027,12 +2027,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 2112,
+        armor: 28,
+        speed: 50,
+        view: 7,
         cost: 140,
-        time: 0,
+        time: 23,
         cp: 2,
         weapons: [
           {
@@ -2180,12 +2180,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 6397,
+        armor: 36,
+        speed: 40,
+        view: 8,
         cost: 320,
-        time: 0,
+        time: 45,
         cp: 5,
         weapons: [
           {
@@ -2390,12 +2390,12 @@ export const confederationUnits = [
       // 7
       {
         level: 7,
-        hp: 0,
-        armor: 0,
-        speed: 0,
-        view: 0,
+        hp: 7700,
+        armor: 42,
+        speed: 27,
+        view: 10,
         cost: 330,
-        time: 0,
+        time: 54,
         cp: 5,
         weapons: [
           {
