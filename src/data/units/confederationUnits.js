@@ -66,6 +66,39 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 1426,
+        armor: 19,
+        speed: 66,
+        view: 6,
+        cost: 40,
+        time: 15,
+        cp: 1,
+        weapons: [
+          {
+            damageArmor1: 41,
+            damageArmor2: 21,
+            damageArmor3: 16,
+            firingRange: 5,
+            rateOfFire: 171,
+            firingAccuracy: '86.0',
+            firingAccuracy2: '57.6',
+            explosionRadius: '0.00',
+          },
+          {
+            damageArmor1: 185,
+            damageArmor2: 81,
+            damageArmor3: 52,
+            firingRange: 5,
+            rateOfFire: 15,
+            firingAccuracy: '89.0',
+            firingAccuracy2: '79.2',
+            explosionRadius: '1.05',
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -266,6 +299,29 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 1720,
+        armor: 22,
+        speed: 50,
+        view: 6,
+        cost: 45,
+        time: 17,
+        cp: 1,
+        weapons: [
+          {
+            damageArmor1: 100,
+            damageArmor2: 339,
+            damageArmor3: 274,
+            firingRange: 5,
+            rateOfFire: 31,
+            firingAccuracy: '78.8',
+            firingAccuracy2: '0.00',
+            explosionRadius: '0.70',
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -402,6 +458,29 @@ export const confederationUnits = [
         view: 5,
         cost: 55,
         time: 21,
+        cp: 1,
+        weapons: [
+          {
+            damageArmor1: 888,
+            damageArmor2: 200,
+            damageArmor3: 100,
+            firingRange: 3,
+            rateOfFire: 23,
+            firingAccuracy: '83.0',
+            firingAccuracy2: '70.6',
+            explosionRadius: '0.60',
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        hp: 2051,
+        armor: 30,
+        speed: 60,
+        view: 6,
+        cost: 55,
+        time: 20,
         cp: 1,
         weapons: [
           {
@@ -555,6 +634,39 @@ export const confederationUnits = [
         view: 7,
         cost: 140,
         time: 30,
+        cp: 3,
+        weapons: [
+          {
+            damageArmor1: 44,
+            damageArmor2: 21,
+            damageArmor3: 17,
+            firingRange: 5,
+            rateOfFire: 240,
+            firingAccuracy: '55.0',
+            firingAccuracy2: '41.3',
+            explosionRadius: '0.00',
+          },
+          {
+            damageArmor1: 880,
+            damageArmor2: 196,
+            damageArmor3: 96,
+            firingRange: 3.5,
+            rateOfFire: 18,
+            firingAccuracy: '87.0',
+            firingAccuracy2: '69.6',
+            explosionRadius: '0.70',
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        hp: 2759,
+        armor: 55,
+        speed: 42,
+        view: 7,
+        cost: 140,
+        time: 28,
         cp: 3,
         weapons: [
           {
@@ -779,6 +891,29 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 2714,
+        armor: 44,
+        speed: 54,
+        view: 8,
+        cost: 120,
+        time: 32,
+        cp: 2,
+        weapons: [
+          {
+            damageArmor1: 120,
+            damageArmor2: 415,
+            damageArmor3: 383,
+            firingRange: 5.5,
+            rateOfFire: 27,
+            firingAccuracy: '86.3',
+            firingAccuracy2: '83.8',
+            explosionRadius: '0.87',
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -918,6 +1053,39 @@ export const confederationUnits = [
         view: 8,
         cost: 240,
         time: 45,
+        cp: 4,
+        weapons: [
+          {
+            damageArmor1: 216,
+            damageArmor2: 619,
+            damageArmor3: 722,
+            firingRange: 6,
+            rateOfFire: 18,
+            firingAccuracy: '83.9',
+            firingAccuracy2: '78.3',
+            explosionRadius: '1.44',
+          },
+          {
+            damageArmor1: 81,
+            damageArmor2: 165,
+            damageArmor3: 130,
+            firingRange: 6,
+            rateOfFire: 20,
+            firingAccuracy: '80.0',
+            firingAccuracy2: '80.0',
+            explosionRadius: '0.73',
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        hp: 4636,
+        armor: 67,
+        speed: 40,
+        view: 8,
+        cost: 240,
+        time: 42,
         cp: 4,
         weapons: [
           {
@@ -1152,6 +1320,39 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 3149,
+        armor: '42 / 38',
+        speed: 42,
+        view: '9 / 11',
+        cost: 150,
+        time: 34,
+        cp: 2,
+        weapons: [
+          {
+            damageArmor1: 84,
+            damageArmor2: 195,
+            damageArmor3: 132,
+            firingRange: 8,
+            rateOfFire: 31,
+            firingAccuracy: '88.0',
+            firingAccuracy2: '88.0',
+            explosionRadius: '0.90',
+          },
+          {
+            damageArmor1: 84,
+            damageArmor2: 195,
+            damageArmor3: 132,
+            firingRange: 10,
+            rateOfFire: 63,
+            firingAccuracy: '93.0',
+            firingAccuracy2: '93.0',
+            explosionRadius: '0.90',
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -1352,6 +1553,29 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 2879,
+        armor: '46 / 30',
+        speed: 40,
+        view: '9 / 12',
+        cost: 250,
+        time: 38,
+        cp: 4,
+        weapons: [
+          {
+            damageArmor1: 290,
+            damageArmor2: 525,
+            damageArmor3: 485,
+            firingRange: 11,
+            rateOfFire: 28,
+            firingAccuracy: '52.6',
+            firingAccuracy2: '0.00',
+            explosionRadius: '1.74',
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -1502,6 +1726,29 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 3956,
+        armor: '48 / 43',
+        speed: 50,
+        view: 8,
+        cost: 350,
+        time: 63,
+        cp: 5,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: 0,
+            firingAccuracy2: 0,
+            explosionRadius: 0,
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -1583,6 +1830,29 @@ export const confederationUnits = [
         view: 11,
         cost: 140,
         time: 32,
+        cp: 3,
+        weapons: [
+          {
+            damageArmor1: 65,
+            damageArmor2: 45,
+            damageArmor3: 27,
+            firingRange: 6,
+            rateOfFire: 184,
+            firingAccuracy: '86.0',
+            firingAccuracy2: '71.4',
+            explosionRadius: '0.00',
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        hp: 2514,
+        armor: 34,
+        speed: 100,
+        view: 11,
+        cost: 140,
+        time: 31,
         cp: 3,
         weapons: [
           {
@@ -1747,6 +2017,29 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 3484,
+        armor: 28,
+        speed: 360,
+        view: 14,
+        cost: 300,
+        time: 43,
+        cp: 5,
+        weapons: [
+          {
+            damageArmor1: 205,
+            damageArmor2: 314,
+            damageArmor3: 359,
+            firingRange: 12,
+            rateOfFire: 120,
+            firingAccuracy: '87.0',
+            firingAccuracy2: '87.0',
+            explosionRadius: '1.20',
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -1883,6 +2176,29 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 54,
+        cp: 7,
+        weapons: [
+          {
+            damageArmor1: 1122,
+            damageArmor2: 2338,
+            damageArmor3: 2338,
+            firingRange: 5,
+            rateOfFire: 9,
+            firingAccuracy: '94.6',
+            firingAccuracy2: '94.6',
+            explosionRadius: '2.10',
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        hp: 4455,
+        armor: 42,
+        speed: 270,
+        view: 13,
+        cost: 450,
+        time: 52,
         cp: 7,
         weapons: [
           {
@@ -2047,6 +2363,29 @@ export const confederationUnits = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        hp: 2577,
+        armor: 44,
+        speed: 54,
+        view: 8,
+        cost: 140,
+        time: 22,
+        cp: 2,
+        weapons: [
+          {
+            damageArmor1: 82,
+            damageArmor2: 138,
+            damageArmor3: 103,
+            firingRange: 5,
+            rateOfFire: 70,
+            firingAccuracy: '89.5',
+            firingAccuracy2: '81.5',
+            explosionRadius: '0.65',
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -2186,6 +2525,39 @@ export const confederationUnits = [
         view: 8,
         cost: 320,
         time: 45,
+        cp: 5,
+        weapons: [
+          {
+            damageArmor1: 240,
+            damageArmor2: 544,
+            damageArmor3: 640,
+            firingRange: 6,
+            rateOfFire: 34,
+            firingAccuracy: '83.8',
+            firingAccuracy2: '78.4',
+            explosionRadius: '1.50',
+          },
+          {
+            damageArmor1: 480,
+            damageArmor2: 496,
+            damageArmor3: 752,
+            firingRange: 6,
+            rateOfFire: 30,
+            firingAccuracy: '80.0',
+            firingAccuracy2: '80.0',
+            explosionRadius: '1.20',
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        hp: 7777,
+        armor: 63,
+        speed: 40,
+        view: 10,
+        cost: 320,
+        time: 43,
         cp: 5,
         weapons: [
           {
@@ -2396,6 +2768,39 @@ export const confederationUnits = [
         view: 10,
         cost: 330,
         time: 54,
+        cp: 5,
+        weapons: [
+          {
+            damageArmor1: 334,
+            damageArmor2: 651,
+            damageArmor3: 616,
+            firingRange: 12,
+            rateOfFire: 30,
+            firingAccuracy: '60.0',
+            firingAccuracy2: '0.00',
+            explosionRadius: '1.50',
+          },
+          {
+            damageArmor1: 176,
+            damageArmor2: 310,
+            damageArmor3: 246,
+            firingRange: 9,
+            rateOfFire: 60,
+            firingAccuracy: '85.0',
+            firingAccuracy2: '85.0',
+            explosionRadius: '0.70',
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        hp: 9375,
+        armor: 62,
+        speed: 27,
+        view: 11,
+        cost: 330,
+        time: 52,
         cp: 5,
         weapons: [
           {
