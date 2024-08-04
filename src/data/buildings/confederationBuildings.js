@@ -132,6 +132,87 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7436,
+            armor: 91,
+            energy: 0,
+            size: '3x3',
+            cost: 1000,
+            time: 42,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 26, icon: cp },
+              { type: 'Resources', amount: 28, icon: resources },
+              { type: 'Energy', amount: 58, icon: energy },
+            ],
+          },
+          {
+            subLevel: 2,
+            hp: 10454,
+            armor: 96,
+            energy: 0,
+            size: '3x3',
+            cost: 400,
+            time: 59,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 50, icon: cp },
+              { type: 'Resources', amount: 45, icon: resources },
+              { type: 'Energy', amount: 86, icon: energy },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 14621,
+            armor: 101,
+            energy: 0,
+            size: '3x3',
+            cost: 800,
+            time: 76,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 74, icon: cp },
+              { type: 'Resources', amount: 62, icon: resources },
+              { type: 'Energy', amount: 117, icon: energy },
+            ],
+          },
+          {
+            subLevel: 4,
+            hp: 19056,
+            armor: 106,
+            energy: 0,
+            size: '3x3',
+            cost: 1300,
+            time: 101,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 98, icon: cp },
+              { type: 'Resources', amount: 79, icon: resources },
+              { type: 'Energy', amount: 145, icon: energy },
+            ],
+          },
+          {
+            subLevel: 5,
+            hp: 23517,
+            armor: 111,
+            energy: 0,
+            size: '3x3',
+            cost: 1600,
+            time: 118,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 122, icon: cp },
+              { type: 'Resources', amount: 96, icon: resources },
+              { type: 'Energy', amount: 175, icon: energy },
+            ],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -565,6 +646,23 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 6695,
+            armor: 84,
+            energy: 40,
+            size: '2x2',
+            cost: 300,
+            time: 26,
+            weapons: null,
+            produces: [{ type: 'Radius', amount: 10, icon: radius }],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -678,6 +776,23 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 6695,
+            armor: 88,
+            energy: 0,
+            size: '2x2',
+            cost: 250,
+            time: 26,
+            weapons: null,
+            produces: [{ type: 'Energy', amount: 135, icon: energy }],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -788,6 +903,23 @@ export const confederationBuildings = [
             time: 36,
             weapons: null,
             produces: [{ type: 'Resources', amount: 185, icon: resources }],
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 6695,
+            armor: 98,
+            energy: 40,
+            size: '2x2',
+            cost: 300,
+            time: 34,
+            weapons: null,
+            produces: [{ type: 'Resources', amount: 202, icon: resources }],
           },
         ],
       },
@@ -924,6 +1056,52 @@ export const confederationBuildings = [
             size: '2x2',
             cost: 100,
             time: 36,
+            weapons: null,
+            produces: [
+              { type: 'Assault', icon: assault },
+              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'Fire-assault', icon: fireAssault },
+            ],
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 5511,
+            armor: 96,
+            energy: 10,
+            size: '2x2',
+            cost: 100,
+            time: 17,
+            weapons: null,
+            produces: [{ type: 'Assault', icon: assault }],
+          },
+          {
+            subLevel: 2,
+            hp: 6422,
+            armor: 101,
+            energy: 15,
+            size: '2x2',
+            cost: 100,
+            time: 26,
+            weapons: null,
+            produces: [
+              { type: 'Assault', icon: assault },
+              { type: 'Heavy-assault', icon: heavyAssault },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 7327,
+            armor: 106,
+            energy: 20,
+            size: '2x2',
+            cost: 100,
+            time: 34,
             weapons: null,
             produces: [
               { type: 'Assault', icon: assault },
@@ -1220,6 +1398,52 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7016,
+            armor: 84,
+            energy: 20,
+            size: '3x3',
+            cost: 180,
+            time: 26,
+            weapons: null,
+            produces: [{ type: 'Fortress', icon: fortress }],
+          },
+          {
+            subLevel: 2,
+            hp: 7883,
+            armor: 89,
+            energy: 30,
+            size: '3x3',
+            cost: 210,
+            time: 38,
+            weapons: null,
+            produces: [
+              { type: 'Fortress', icon: fortress },
+              { type: 'Hammer', icon: hammer },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 10497,
+            armor: 94,
+            energy: 60,
+            size: '3x3',
+            cost: 290,
+            time: 51,
+            weapons: null,
+            produces: [
+              { type: 'Fortress', icon: fortress },
+              { type: 'Hammer', icon: hammer },
+              { type: 'Zeus', icon: zeus },
+            ],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -1498,6 +1722,52 @@ export const confederationBuildings = [
             size: '3x3',
             cost: 300,
             time: 71,
+            weapons: null,
+            produces: [
+              { type: 'Typhon', icon: typhoon },
+              { type: 'Torrent', icon: torrent },
+              { type: 'Energy Shield', icon: energyShield },
+            ],
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7613,
+            armor: 84,
+            energy: 30,
+            size: '3x3',
+            cost: 200,
+            time: 34,
+            weapons: null,
+            produces: [{ type: 'Typhon', icon: typhoon }],
+          },
+          {
+            subLevel: 2,
+            hp: 8375,
+            armor: 89,
+            energy: 50,
+            size: '3x3',
+            cost: 250,
+            time: 51,
+            weapons: null,
+            produces: [
+              { type: 'Typhon', icon: typhoon },
+              { type: 'Torrent', icon: torrent },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 10657,
+            armor: 94,
+            energy: 80,
+            size: '3x3',
+            cost: 300,
+            time: 68,
             weapons: null,
             produces: [
               { type: 'Typhon', icon: typhoon },
@@ -1794,6 +2064,52 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7613,
+            armor: 84,
+            energy: 40,
+            size: '3x3',
+            cost: 250,
+            time: 51,
+            weapons: null,
+            produces: [{ type: 'Cyclone', icon: cyclone }],
+          },
+          {
+            subLevel: 2,
+            hp: 9133,
+            armor: 89,
+            energy: 60,
+            size: '3x3',
+            cost: 320,
+            time: 68,
+            weapons: null,
+            produces: [
+              { type: 'Cyclone', icon: cyclone },
+              { type: 'Vertex', icon: vertex },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 12178,
+            armor: 94,
+            energy: 90,
+            size: '3x3',
+            cost: 400,
+            time: 84,
+            weapons: null,
+            produces: [
+              { type: 'Cyclone', icon: cyclone },
+              { type: 'Vertex', icon: vertex },
+              { type: 'Thor', icon: thor },
+            ],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -2052,6 +2368,23 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7611,
+            armor: 74,
+            energy: 50,
+            size: '3x3',
+            cost: 300,
+            time: 42,
+            weapons: null,
+            produces: null,
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -2185,6 +2518,52 @@ export const confederationBuildings = [
             size: '3x3',
             cost: 300,
             time: 88,
+            weapons: null,
+            produces: [
+              { type: 'Delta', icon: delta },
+              { type: 'Viking', icon: viking },
+              { type: 'Poseidon', icon: poseidon },
+            ],
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 9134,
+            armor: 78,
+            energy: 40,
+            size: '3x3',
+            cost: 200,
+            time: 51,
+            weapons: null,
+            produces: [{ type: 'Delta', icon: delta }],
+          },
+          {
+            subLevel: 2,
+            hp: 10656,
+            armor: 83,
+            energy: 60,
+            size: '3x3',
+            cost: 270,
+            time: 68,
+            weapons: null,
+            produces: [
+              { type: 'Delta', icon: delta },
+              { type: 'Viking', icon: viking },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 13702,
+            armor: 88,
+            energy: 90,
+            size: '3x3',
+            cost: 300,
+            time: 84,
             weapons: null,
             produces: [
               { type: 'Delta', icon: delta },
@@ -2473,6 +2852,54 @@ export const confederationBuildings = [
             size: '3x3',
             cost: 550,
             time: 97,
+            weapons: null,
+            produces: [
+              { type: 'Cerberus', icon: cerberus },
+              { type: 'Beholder', icon: beholder },
+              { type: 'Seraphim', icon: seraphim },
+              { type: 'Solaris', icon: solaris },
+            ],
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 9134,
+            armor: 84,
+            energy: 40,
+            size: '3x3',
+            cost: 270,
+            time: 59,
+            weapons: null,
+            produces: [{ type: 'Cerberus', icon: cerberus }],
+          },
+          {
+            subLevel: 2,
+            hp: 10656,
+            armor: 94,
+            energy: 60,
+            size: '3x3',
+            cost: 400,
+            time: 76,
+            weapons: null,
+            produces: [
+              { type: 'Cerberus', icon: cerberus },
+              { type: 'Beholder', icon: beholder },
+              { type: 'Seraphim', icon: seraphim },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 13702,
+            armor: 104,
+            energy: 90,
+            size: '3x3',
+            cost: 550,
+            time: 93,
             weapons: null,
             produces: [
               { type: 'Cerberus', icon: cerberus },
@@ -2778,6 +3205,35 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 6600,
+            armor: 50,
+            energy: 300,
+            size: '3x3',
+            cost: 1500,
+            time: 110,
+            weapons: [
+              {
+                title: 'Space Strike',
+                damageArmor1: 21200,
+                damageArmor2: 21200,
+                damageArmor3: 21200,
+                firingRange: 1000,
+                rateOfFire: null,
+                firingAccuracy: '40.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '7.00',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -2951,6 +3407,23 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 1618,
+            armor: 266,
+            energy: 0,
+            size: '1x1',
+            cost: 50,
+            time: 42,
+            weapons: null,
+            produces: null,
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -3068,6 +3541,35 @@ export const confederationBuildings = [
                 firingRange: 6.5,
                 rateOfFire: 327,
                 firingAccuracy: '87.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '0.00',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 5147,
+            armor: 116,
+            energy: 10,
+            size: '2x2',
+            cost: 170,
+            time: 42,
+            weapons: [
+              {
+                title: 'Stationary Machine Gun',
+                damageArmor1: 76,
+                damageArmor2: 34,
+                damageArmor3: 27,
+                firingRange: 7,
+                rateOfFire: 360,
+                firingAccuracy: '90.0',
                 firingAccuracy2: '0.00',
                 explosionRadius: '0.00',
               },
@@ -3261,6 +3763,35 @@ export const confederationBuildings = [
           },
         ],
       },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 3806,
+            armor: 62,
+            energy: 40,
+            size: '2x2',
+            cost: 300,
+            time: 68,
+            weapons: [
+              {
+                title: 'Stationary Rocket Launcher RT-2LR',
+                damageArmor1: 399,
+                damageArmor2: 778,
+                damageArmor3: 731,
+                firingRange: 8,
+                rateOfFire: 26,
+                firingAccuracy: '78.1',
+                firingAccuracy2: '0.00',
+                explosionRadius: '1.59',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -3440,6 +3971,35 @@ export const confederationBuildings = [
                 firingAccuracy: '90.0',
                 firingAccuracy2: '0.00',
                 explosionRadius: '0.92',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 3630,
+            armor: 68,
+            energy: 40,
+            size: '1x1',
+            cost: 270,
+            time: 51,
+            weapons: [
+              {
+                title: 'Stationary Sam Launcher',
+                damageArmor1: 143,
+                damageArmor2: 343,
+                damageArmor3: 245,
+                firingRange: 9.5,
+                rateOfFire: 70,
+                firingAccuracy: '92.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '0.95',
               },
             ],
             produces: null,
@@ -3639,6 +4199,46 @@ export const confederationBuildings = [
                 firingAccuracy: '90.0',
                 firingAccuracy2: '0.00',
                 explosionRadius: '0.90',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
+      // 12
+      {
+        level: 12,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7263,
+            armor: 78,
+            energy: 40,
+            size: '2x2',
+            cost: 300,
+            time: 59,
+            weapons: [
+              {
+                title: 'Stationary Sam Launcher',
+                damageArmor1: 734,
+                damageArmor2: 1592,
+                damageArmor3: 1911,
+                firingRange: 8.5,
+                rateOfFire: 37,
+                firingAccuracy: '90.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '1.26',
+              },
+              {
+                title: 'Stationary Sam Launcher',
+                damageArmor1: 132,
+                damageArmor2: 334,
+                damageArmor3: 231,
+                firingRange: 10,
+                rateOfFire: 66,
+                firingAccuracy: '93.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '0.99',
               },
             ],
             produces: null,
