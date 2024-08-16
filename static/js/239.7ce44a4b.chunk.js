@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[239],{46503:function(e,a,t){t.r(a),t.d(a,{default:function(){return n}});var r=t.p+"static/media/main.ced2de8f1d175fd99f5c.jpg",c="WelcomePage_title__qL3ev",f=t(80184),n=function(){return(0,f.jsx)("div",{className:c,children:(0,f.jsx)("img",{src:r,alt:"art of war"})})}}}]);
-//# sourceMappingURL=239.7ce44a4b.chunk.js.map
