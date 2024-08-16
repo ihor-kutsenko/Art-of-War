@@ -1,8 +1,11 @@
 @import '../../sass/styles.scss';
 
 .title {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
   font-size: 32px;
   color: $white-color;
-
   text-align: center;
 }
