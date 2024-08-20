@@ -620,6 +620,87 @@ export const resistanceBuildings = [
           },
         ],
       },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 14947,
+            armor: 124,
+            energy: 0,
+            size: '3x3',
+            cost: 1000,
+            time: 37,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 34, icon: cp },
+              { type: 'Resources', amount: 42, icon: resources },
+              { type: 'Energy', amount: 80, icon: energy },
+            ],
+          },
+          {
+            subLevel: 2,
+            hp: 19181,
+            armor: 129,
+            energy: 0,
+            size: '3x3',
+            cost: 400,
+            time: 52,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 61, icon: cp },
+              { type: 'Resources', amount: 68, icon: resources },
+              { type: 'Energy', amount: 120, icon: energy },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 23393,
+            armor: 134,
+            energy: 0,
+            size: '3x3',
+            cost: 800,
+            time: 67,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 88, icon: cp },
+              { type: 'Resources', amount: 94, icon: resources },
+              { type: 'Energy', amount: 160, icon: energy },
+            ],
+          },
+          {
+            subLevel: 4,
+            hp: 27580,
+            armor: 139,
+            energy: 0,
+            size: '3x3',
+            cost: 1300,
+            time: 89,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 115, icon: cp },
+              { type: 'Resources', amount: 120, icon: resources },
+              { type: 'Energy', amount: 200, icon: energy },
+            ],
+          },
+          {
+            subLevel: 5,
+            hp: 33943,
+            armor: 144,
+            energy: 0,
+            size: '3x3',
+            cost: 1600,
+            time: 104,
+            weapons: null,
+            produces: [
+              { type: 'CP', amount: 142, icon: cp },
+              { type: 'Resources', amount: 146, icon: resources },
+              { type: 'Energy', amount: 240, icon: energy },
+            ],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -1155,6 +1236,23 @@ export const resistanceBuildings = [
           },
         ],
       },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 8795,
+            armor: 104,
+            energy: 40,
+            size: '2x2',
+            cost: 300,
+            time: 23,
+            weapons: null,
+            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -1361,6 +1459,23 @@ export const resistanceBuildings = [
             subLevel: 1,
             hp: 7628,
             armor: 108,
+            energy: 0,
+            size: '2x2',
+            cost: 250,
+            time: 23,
+            weapons: null,
+            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7956,
+            armor: 114,
             energy: 0,
             size: '2x2',
             cost: 250,
@@ -1582,6 +1697,23 @@ export const resistanceBuildings = [
             time: 31,
             weapons: null,
             produces: [{ type: 'Resources', amount: 240, icon: resources }],
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7956,
+            armor: 124,
+            energy: 40,
+            size: '2x2',
+            cost: 300,
+            time: 30,
+            weapons: null,
+            produces: [{ type: 'Resources', amount: 250, icon: resources }],
           },
         ],
       },
@@ -1994,6 +2126,52 @@ export const resistanceBuildings = [
             size: '2x2',
             cost: 120,
             time: 31,
+            weapons: null,
+            produces: [
+              { type: 'Rifleman', icon: rifleman },
+              { type: 'Grenadier', icon: grenadier },
+              { type: 'Sniper', icon: sniper },
+            ],
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 5916,
+            armor: 118,
+            energy: 10,
+            size: '2x2',
+            cost: 80,
+            time: 15,
+            weapons: null,
+            produces: [{ type: 'Rifleman', icon: rifleman }],
+          },
+          {
+            subLevel: 2,
+            hp: 7100,
+            armor: 123,
+            energy: 15,
+            size: '2x2',
+            cost: 100,
+            time: 23,
+            weapons: null,
+            produces: [
+              { type: 'Rifleman', icon: rifleman },
+              { type: 'Grenadier', icon: grenadier },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 8211,
+            armor: 128,
+            energy: 20,
+            size: '2x2',
+            cost: 120,
+            time: 30,
             weapons: null,
             produces: [
               { type: 'Rifleman', icon: rifleman },
@@ -2566,6 +2744,52 @@ export const resistanceBuildings = [
           },
         ],
       },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 7957,
+            armor: 112,
+            energy: 15,
+            size: '3x3',
+            cost: 160,
+            time: 23,
+            weapons: null,
+            produces: [{ type: 'Coyote', icon: coyote }],
+          },
+          {
+            subLevel: 2,
+            hp: 8868,
+            armor: 117,
+            energy: 30,
+            size: '3x3',
+            cost: 210,
+            time: 34,
+            weapons: null,
+            produces: [
+              { type: 'Coyote', icon: coyote },
+              { type: 'Armadillo', icon: armadillo },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 11788,
+            armor: 122,
+            energy: 60,
+            size: '3x3',
+            cost: 310,
+            time: 45,
+            weapons: null,
+            produces: [
+              { type: 'Coyote', icon: coyote },
+              { type: 'Armadillo', icon: armadillo },
+              { type: 'Jaguar', icon: jaguar },
+            ],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -3120,6 +3344,52 @@ export const resistanceBuildings = [
             size: '3x3',
             cost: 300,
             time: 61,
+            weapons: null,
+            produces: [
+              { type: 'Porcupine', icon: porcupine },
+              { type: 'Mammoth', icon: mammoth },
+              { type: 'Chameleon', icon: chameleon },
+            ],
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 9493,
+            armor: 117,
+            energy: 30,
+            size: '3x3',
+            cost: 200,
+            time: 30,
+            weapons: null,
+            produces: [{ type: 'Porcupine', icon: porcupine }],
+          },
+          {
+            subLevel: 2,
+            hp: 10567,
+            armor: 122,
+            energy: 45,
+            size: '3x3',
+            cost: 250,
+            time: 45,
+            weapons: null,
+            produces: [
+              { type: 'Porcupine', icon: porcupine },
+              { type: 'Mammoth', icon: mammoth },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 13610,
+            armor: 127,
+            energy: 70,
+            size: '3x3',
+            cost: 300,
+            time: 60,
             weapons: null,
             produces: [
               { type: 'Porcupine', icon: porcupine },
@@ -3692,6 +3962,52 @@ export const resistanceBuildings = [
           },
         ],
       },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 10351,
+            armor: 109,
+            energy: 30,
+            size: '3x3',
+            cost: 250,
+            time: 45,
+            weapons: null,
+            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+          },
+          {
+            subLevel: 2,
+            hp: 11048,
+            armor: 114,
+            energy: 60,
+            size: '3x3',
+            cost: 320,
+            time: 60,
+            weapons: null,
+            produces: [
+              { type: 'Dragonfly', icon: dragonfly },
+              { type: 'Hawk', icon: hawk },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 14859,
+            armor: 119,
+            energy: 90,
+            size: '3x3',
+            cost: 400,
+            time: 74,
+            weapons: null,
+            produces: [
+              { type: 'Dragonfly', icon: dragonfly },
+              { type: 'Hawk', icon: hawk },
+              { type: 'Albatross', icon: albatross },
+            ],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -4047,6 +4363,23 @@ export const resistanceBuildings = [
             size: '3x3',
             cost: 300,
             time: 38,
+            weapons: null,
+            produces: null,
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 9864,
+            armor: 104,
+            energy: 40,
+            size: '3x3',
+            cost: 300,
+            time: 37,
             weapons: null,
             produces: null,
           },
@@ -4461,6 +4794,52 @@ export const resistanceBuildings = [
             size: '3x3',
             cost: 300,
             time: 76,
+            weapons: null,
+            produces: [
+              { type: 'Caiman', icon: caiman },
+              { type: 'Alligator', icon: alligator },
+              { type: 'Barracuda', icon: barracuda },
+            ],
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 11147,
+            armor: 101,
+            energy: 30,
+            size: '3x3',
+            cost: 200,
+            time: 45,
+            weapons: null,
+            produces: [{ type: 'Caiman', icon: caiman }],
+          },
+          {
+            subLevel: 2,
+            hp: 12627,
+            armor: 106,
+            energy: 60,
+            size: '3x3',
+            cost: 270,
+            time: 60,
+            weapons: null,
+            produces: [
+              { type: 'Caiman', icon: caiman },
+              { type: 'Alligator', icon: alligator },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 16814,
+            armor: 111,
+            energy: 90,
+            size: '3x3',
+            cost: 300,
+            time: 74,
             weapons: null,
             produces: [
               { type: 'Caiman', icon: caiman },
@@ -5047,6 +5426,54 @@ export const resistanceBuildings = [
           },
         ],
       },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 12835,
+            armor: 122,
+            energy: 40,
+            size: '3x3',
+            cost: 270,
+            time: 52,
+            weapons: null,
+            produces: [{ type: 'Wasp', icon: wasp }],
+          },
+          {
+            subLevel: 2,
+            hp: 14665,
+            armor: 132,
+            energy: 60,
+            size: '3x3',
+            cost: 400,
+            time: 67,
+            weapons: null,
+            produces: [
+              { type: 'Wasp', icon: wasp },
+              { type: 'Wolverine', icon: wolverine },
+              { type: 'Mole', icon: mole },
+            ],
+          },
+          {
+            subLevel: 3,
+            hp: 18458,
+            armor: 142,
+            energy: 90,
+            size: '3x3',
+            cost: 550,
+            time: 82,
+            weapons: null,
+            produces: [
+              { type: 'Wasp', icon: wasp },
+              { type: 'Wolverine', icon: wolverine },
+              { type: 'Mole', icon: mole },
+              { type: 'Leviathan', icon: leviathan },
+            ],
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -5516,6 +5943,35 @@ export const resistanceBuildings = [
           },
         ],
       },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 8814,
+            armor: 81,
+            energy: 100,
+            size: '3x3',
+            cost: 1800,
+            time: 93,
+            weapons: [
+              {
+                title: 'Nuclear Missile',
+                damageArmor1: 32542,
+                damageArmor2: 32542,
+                damageArmor3: 32542,
+                firingRange: 100,
+                rateOfFire: null,
+                firingAccuracy: '81.3',
+                firingAccuracy2: '0.00',
+                explosionRadius: '10.20',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -5786,6 +6242,23 @@ export const resistanceBuildings = [
             size: '1x1',
             cost: 50,
             time: 38,
+            weapons: null,
+            produces: null,
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 1979,
+            armor: 288,
+            energy: 0,
+            size: '1x1',
+            cost: 50,
+            time: 37,
             weapons: null,
             produces: null,
           },
@@ -6079,6 +6552,35 @@ export const resistanceBuildings = [
                 damageArmor1: 566,
                 damageArmor2: 213,
                 damageArmor3: 140,
+                firingRange: 13.5,
+                rateOfFire: 30,
+                firingAccuracy: '99.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '0.00',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 4608,
+            armor: 117,
+            energy: 10,
+            size: '2x2',
+            cost: 170,
+            time: 37,
+            weapons: [
+              {
+                title: 'Sniper Rifle',
+                damageArmor1: 591,
+                damageArmor2: 224,
+                damageArmor3: 147,
                 firingRange: 13.5,
                 rateOfFire: 30,
                 firingAccuracy: '99.0',
@@ -6449,6 +6951,35 @@ export const resistanceBuildings = [
           },
         ],
       },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 4777,
+            armor: 101,
+            energy: 35,
+            size: '2x2',
+            cost: 300,
+            time: 60,
+            weapons: [
+              {
+                title: '200MM Stationary Gun',
+                damageArmor1: 669,
+                damageArmor2: 1419,
+                damageArmor3: 1498,
+                firingRange: 9.5,
+                rateOfFire: 48,
+                firingAccuracy: '78.6',
+                firingAccuracy2: '0.00',
+                explosionRadius: '1.30',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
       // 24
       {
         level: 24,
@@ -6797,6 +7328,35 @@ export const resistanceBuildings = [
                 damageArmor1: 194,
                 damageArmor2: 538,
                 damageArmor3: 323,
+                firingRange: 11,
+                rateOfFire: 75,
+                firingAccuracy: '97.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '1.10',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 4734,
+            armor: 104,
+            energy: 35,
+            size: '1x1',
+            cost: 250,
+            time: 45,
+            weapons: [
+              {
+                title: 'Stationary Sam Launcher',
+                damageArmor1: 201,
+                damageArmor2: 558,
+                damageArmor3: 335,
                 firingRange: 11,
                 rateOfFire: 75,
                 firingAccuracy: '97.0',
@@ -7236,6 +7796,46 @@ export const resistanceBuildings = [
                 firingRange: 11,
                 rateOfFire: 144,
                 firingAccuracy: '88.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '1.10',
+              },
+            ],
+            produces: null,
+          },
+        ],
+      },
+      // 21
+      {
+        level: 21,
+        subLevels: [
+          {
+            subLevel: 1,
+            hp: 9864,
+            armor: 109,
+            energy: 35,
+            size: '2x2',
+            cost: 300,
+            time: 52,
+            weapons: [
+              {
+                title: 'Torpedo Launcher',
+                damageArmor1: 613,
+                damageArmor2: 2542,
+                damageArmor3: 3018,
+                firingRange: 11,
+                rateOfFire: 33,
+                firingAccuracy: '95.0',
+                firingAccuracy2: '0.00',
+                explosionRadius: '1.40',
+              },
+              {
+                title: '30MM Flack Cannon',
+                damageArmor1: 120,
+                damageArmor2: 253,
+                damageArmor3: 150,
+                firingRange: 11,
+                rateOfFire: 144,
+                firingAccuracy: '89.0',
                 firingAccuracy2: '0.00',
                 explosionRadius: '1.10',
               },
