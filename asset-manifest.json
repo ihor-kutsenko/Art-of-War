@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Art-of-War/static/css/main.335e2708.css",
-    "main.js": "/Art-of-War/static/js/main.d5e73189.js",
+    "main.js": "/Art-of-War/static/js/main.66b65a9f.js",
     "static/css/311.37447f9f.chunk.css": "/Art-of-War/static/css/311.37447f9f.chunk.css",
     "static/js/311.ec6737a9.chunk.js": "/Art-of-War/static/js/311.ec6737a9.chunk.js",
     "static/css/422.5822e8f4.chunk.css": "/Art-of-War/static/css/422.5822e8f4.chunk.css",
@@ -37,13 +37,13 @@
     "static/css/632.5822e8f4.chunk.css": "/Art-of-War/static/css/632.5822e8f4.chunk.css",
     "static/js/632.ee23a376.chunk.js": "/Art-of-War/static/js/632.ee23a376.chunk.js",
     "static/css/62.dd0b8689.chunk.css": "/Art-of-War/static/css/62.dd0b8689.chunk.css",
-    "static/js/62.cd1d7cbb.chunk.js": "/Art-of-War/static/js/62.cd1d7cbb.chunk.js",
+    "static/js/62.c2c8b8b0.chunk.js": "/Art-of-War/static/js/62.c2c8b8b0.chunk.js",
     "static/css/957.dd0b8689.chunk.css": "/Art-of-War/static/css/957.dd0b8689.chunk.css",
     "static/js/957.f47e38a4.chunk.js": "/Art-of-War/static/js/957.f47e38a4.chunk.js",
     "static/css/166.5822e8f4.chunk.css": "/Art-of-War/static/css/166.5822e8f4.chunk.css",
     "static/js/166.968cf475.chunk.js": "/Art-of-War/static/js/166.968cf475.chunk.js",
     "static/css/936.ce967ce6.chunk.css": "/Art-of-War/static/css/936.ce967ce6.chunk.css",
-    "static/js/936.f87e39f3.chunk.js": "/Art-of-War/static/js/936.f87e39f3.chunk.js",
+    "static/js/936.001e2da6.chunk.js": "/Art-of-War/static/js/936.001e2da6.chunk.js",
     "static/css/890.ce967ce6.chunk.css": "/Art-of-War/static/css/890.ce967ce6.chunk.css",
     "static/js/890.30c29095.chunk.js": "/Art-of-War/static/js/890.30c29095.chunk.js",
     "static/css/501.5822e8f4.chunk.css": "/Art-of-War/static/css/501.5822e8f4.chunk.css",
@@ -784,7 +784,7 @@
     "index.html": "/Art-of-War/index.html",
     "static/media/sprite.svg": "/Art-of-War/static/media/sprite.f7ba7a32de94a87d7e4580a6da141ed8.svg",
     "main.335e2708.css.map": "/Art-of-War/static/css/main.335e2708.css.map",
-    "main.d5e73189.js.map": "/Art-of-War/static/js/main.d5e73189.js.map",
+    "main.66b65a9f.js.map": "/Art-of-War/static/js/main.66b65a9f.js.map",
     "311.37447f9f.chunk.css.map": "/Art-of-War/static/css/311.37447f9f.chunk.css.map",
     "311.ec6737a9.chunk.js.map": "/Art-of-War/static/js/311.ec6737a9.chunk.js.map",
     "422.5822e8f4.chunk.css.map": "/Art-of-War/static/css/422.5822e8f4.chunk.css.map",
@@ -820,13 +820,13 @@
     "632.5822e8f4.chunk.css.map": "/Art-of-War/static/css/632.5822e8f4.chunk.css.map",
     "632.ee23a376.chunk.js.map": "/Art-of-War/static/js/632.ee23a376.chunk.js.map",
     "62.dd0b8689.chunk.css.map": "/Art-of-War/static/css/62.dd0b8689.chunk.css.map",
-    "62.cd1d7cbb.chunk.js.map": "/Art-of-War/static/js/62.cd1d7cbb.chunk.js.map",
+    "62.c2c8b8b0.chunk.js.map": "/Art-of-War/static/js/62.c2c8b8b0.chunk.js.map",
     "957.dd0b8689.chunk.css.map": "/Art-of-War/static/css/957.dd0b8689.chunk.css.map",
     "957.f47e38a4.chunk.js.map": "/Art-of-War/static/js/957.f47e38a4.chunk.js.map",
     "166.5822e8f4.chunk.css.map": "/Art-of-War/static/css/166.5822e8f4.chunk.css.map",
     "166.968cf475.chunk.js.map": "/Art-of-War/static/js/166.968cf475.chunk.js.map",
     "936.ce967ce6.chunk.css.map": "/Art-of-War/static/css/936.ce967ce6.chunk.css.map",
-    "936.f87e39f3.chunk.js.map": "/Art-of-War/static/js/936.f87e39f3.chunk.js.map",
+    "936.001e2da6.chunk.js.map": "/Art-of-War/static/js/936.001e2da6.chunk.js.map",
     "890.ce967ce6.chunk.css.map": "/Art-of-War/static/css/890.ce967ce6.chunk.css.map",
     "890.30c29095.chunk.js.map": "/Art-of-War/static/js/890.30c29095.chunk.js.map",
     "501.5822e8f4.chunk.css.map": "/Art-of-War/static/css/501.5822e8f4.chunk.css.map",
@@ -843,6 +843,6 @@
   },
   "entrypoints": [
     "static/css/main.335e2708.css",
-    "static/js/main.d5e73189.js"
+    "static/js/main.66b65a9f.js"
   ]
 }
