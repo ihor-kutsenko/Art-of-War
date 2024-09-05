@@ -31,25 +31,6 @@ const Blueprints = () => {
         </tr>
         <tr>
           <td className={`${styles.hero} ${styles.t1}`}>
-            Beholder/ <br />
-            Wolverine
-          </td>
-          <td>1000</td>
-          <td>600</td>
-          <td>1200</td>
-          <td>2100</td>
-          <td>3600</td>
-          <td>6000</td>
-          <td>11000</td>
-          <td>21000</td>
-          <td>41000</td>
-          <td>80000</td>
-          <td>157000</td>
-          <td>311000</td>
-          <td>635500</td>
-        </tr>
-        <tr>
-          <td className={`${styles.hero} ${styles.t1}`}>
             Cerberus/ <br />
             Wasp
           </td>
