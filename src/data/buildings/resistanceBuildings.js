@@ -9250,4 +9250,3 @@ export const resistanceBuildings = [
     ],
   },
 ];
-// add heroes&
