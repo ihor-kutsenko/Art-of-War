@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Art-of-War/static/css/main.335e2708.css",
-    "main.js": "/Art-of-War/static/js/main.1378370a.js",
+    "main.js": "/Art-of-War/static/js/main.fffa615b.js",
     "static/css/311.37447f9f.chunk.css": "/Art-of-War/static/css/311.37447f9f.chunk.css",
     "static/js/311.ec6737a9.chunk.js": "/Art-of-War/static/js/311.ec6737a9.chunk.js",
     "static/css/422.5822e8f4.chunk.css": "/Art-of-War/static/css/422.5822e8f4.chunk.css",
@@ -10,8 +10,8 @@
     "static/js/96.30bddaca.chunk.js": "/Art-of-War/static/js/96.30bddaca.chunk.js",
     "static/css/971.0643a595.chunk.css": "/Art-of-War/static/css/971.0643a595.chunk.css",
     "static/js/971.c30db00d.chunk.js": "/Art-of-War/static/js/971.c30db00d.chunk.js",
-    "static/css/217.7a5f4326.chunk.css": "/Art-of-War/static/css/217.7a5f4326.chunk.css",
-    "static/js/217.2a71ff36.chunk.js": "/Art-of-War/static/js/217.2a71ff36.chunk.js",
+    "static/css/248.2af55db6.chunk.css": "/Art-of-War/static/css/248.2af55db6.chunk.css",
+    "static/js/248.d1a70922.chunk.js": "/Art-of-War/static/js/248.d1a70922.chunk.js",
     "static/css/941.2d258e0c.chunk.css": "/Art-of-War/static/css/941.2d258e0c.chunk.css",
     "static/js/941.1722ce07.chunk.js": "/Art-of-War/static/js/941.1722ce07.chunk.js",
     "static/css/602.2d258e0c.chunk.css": "/Art-of-War/static/css/602.2d258e0c.chunk.css",
@@ -772,6 +772,7 @@
     "static/media/ai-bronze4.png": "/Art-of-War/static/media/ai-bronze4.82f56852100ecea7e27b.png",
     "static/media/award-for-the-Best-War-Correspondent.png": "/Art-of-War/static/media/award-for-the-Best-War-Correspondent.41db98047bf18eabc6c8.png",
     "static/media/award-for-Best-Topographer.png": "/Art-of-War/static/media/award-for-Best-Topographer.adab2c79ae5d360aa718.png",
+    "static/media/syndicate-trap.jpg": "/Art-of-War/static/media/syndicate-trap.6bb2b2a1d4015caee60e.jpg",
     "static/media/time.png": "/Art-of-War/static/media/time.9641ba25d8331165666a.png",
     "static/media/green-energy.png": "/Art-of-War/static/media/green-energy.e69696cc9f2e4bd488d7.png",
     "static/media/eye.png": "/Art-of-War/static/media/eye.bbe76fc64d9edaf89a0d.png",
@@ -784,7 +785,7 @@
     "index.html": "/Art-of-War/index.html",
     "static/media/sprite.svg": "/Art-of-War/static/media/sprite.f7ba7a32de94a87d7e4580a6da141ed8.svg",
     "main.335e2708.css.map": "/Art-of-War/static/css/main.335e2708.css.map",
-    "main.1378370a.js.map": "/Art-of-War/static/js/main.1378370a.js.map",
+    "main.fffa615b.js.map": "/Art-of-War/static/js/main.fffa615b.js.map",
     "311.37447f9f.chunk.css.map": "/Art-of-War/static/css/311.37447f9f.chunk.css.map",
     "311.ec6737a9.chunk.js.map": "/Art-of-War/static/js/311.ec6737a9.chunk.js.map",
     "422.5822e8f4.chunk.css.map": "/Art-of-War/static/css/422.5822e8f4.chunk.css.map",
@@ -793,8 +794,8 @@
     "96.30bddaca.chunk.js.map": "/Art-of-War/static/js/96.30bddaca.chunk.js.map",
     "971.0643a595.chunk.css.map": "/Art-of-War/static/css/971.0643a595.chunk.css.map",
     "971.c30db00d.chunk.js.map": "/Art-of-War/static/js/971.c30db00d.chunk.js.map",
-    "217.7a5f4326.chunk.css.map": "/Art-of-War/static/css/217.7a5f4326.chunk.css.map",
-    "217.2a71ff36.chunk.js.map": "/Art-of-War/static/js/217.2a71ff36.chunk.js.map",
+    "248.2af55db6.chunk.css.map": "/Art-of-War/static/css/248.2af55db6.chunk.css.map",
+    "248.d1a70922.chunk.js.map": "/Art-of-War/static/js/248.d1a70922.chunk.js.map",
     "941.2d258e0c.chunk.css.map": "/Art-of-War/static/css/941.2d258e0c.chunk.css.map",
     "941.1722ce07.chunk.js.map": "/Art-of-War/static/js/941.1722ce07.chunk.js.map",
     "602.2d258e0c.chunk.css.map": "/Art-of-War/static/css/602.2d258e0c.chunk.css.map",
@@ -843,6 +844,6 @@
   },
   "entrypoints": [
     "static/css/main.335e2708.css",
-    "static/js/main.1378370a.js"
+    "static/js/main.fffa615b.js"
   ]
 }
