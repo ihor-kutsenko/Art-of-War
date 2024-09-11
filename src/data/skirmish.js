@@ -2,6 +2,7 @@ import skirmishImage from './../images/skirmish/skirmish.jpg';
 import survialImage from './../images/skirmish/survial.jpg';
 import testOfStrengthImage from './../images/skirmish/test-of-strength.jpg';
 import pumpkinHuntImage from './../images/skirmish/pumpkin-hunt.jpg';
+import syndicateTrap from './../images/skirmish/syndicate-trap.jpg';
 import christmasCargoImage from './../images/skirmish/christmas-cargo.jpg';
 import battleForTheChristmasTreesImage from './../images/skirmish/battle-for-the-christmas-trees.jpg';
 
@@ -29,6 +30,12 @@ export const skirmish = [
   {
     title: 'Pumpkin Hunt',
     imageUrl: pumpkinHuntImage,
+    buttonText: 'Medals',
+    medals: [],
+  },
+  {
+    title: 'Syndicate Trap',
+    imageUrl: syndicateTrap,
     buttonText: 'Medals',
     medals: [],
   },
