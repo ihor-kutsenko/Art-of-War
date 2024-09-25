@@ -90,7 +90,7 @@ export const JUNGLE_ROUTE = 'jungle';
 
 export const MEDALS_ROUTE = '/medals';
 export const TOURNAMENT_ROUTE = 'tournaments';
-export const BLITZ_TOURNAMENT_ROUTE = 'blitz-tournaments';
+export const BLITZ_TOURNAMENT_ROUTE = 'blitz';
 export const SKIRMISH_ROUTE = 'skirmish';
 export const ORDERS_ROUTE = 'orders';
 export const LEAGUES_ROUTE = 'leagues';
