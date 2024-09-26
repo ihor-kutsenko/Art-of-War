@@ -1,37 +1,92 @@
-import atuinPlateau from '../../images/maps/midland/atuin-plateau.jpg';
-import fishermansHarbor from '../../images/maps/midland/fishermans-harbor.jpg';
-import fortyRoads from '../../images/maps/midland/forty-roads.jpg';
-import hIslands from '../../images/maps/midland/h-islands.jpg';
-import hostileDream from '../../images/maps/midland/hostile-dream.jpg';
-import industrialZone from '../../images/maps/midland/industrial-zone.jpg';
-import oculus from '../../images/maps/midland/oculus.jpg';
-import overTheHill from '../../images/maps/midland/over-the-hill.jpg';
-import portOfBjorn from '../../images/maps/midland/port-of-bjorn.jpg';
-import razorBlade from '../../images/maps/midland/razor-blade.jpg';
-import seclusion from '../../images/maps/midland/seclusion.jpg';
-import silentGreek from '../../images/maps/midland/silent-greek.jpg';
-import silentHill from '../../images/maps/midland/silent-hill.jpg';
-import strangeShores from '../../images/maps/midland/strange-shores.jpg';
-import theRiverStyx from '../../images/maps/midland/the-river-styx.jpg';
-import thirdWheel from '../../images/maps/midland/third-wheel.jpg';
-import wildLagoon from '../../images/maps/midland/wild-lagoon.jpg';
-
 export const midlandMaps = [
-  { title: 'A’tuin Plateau', image: atuinPlateau },
-  { title: 'Fishermans Harbor', image: fishermansHarbor },
-  { title: 'Forty Roads', image: fortyRoads },
-  { title: '"H" Islands', image: hIslands },
-  { title: 'Hostile Dream', image: hostileDream },
-  { title: 'Industrial Zone', image: industrialZone },
-  { title: 'Oculus', image: oculus },
-  { title: 'Over the Hill', image: overTheHill },
-  { title: 'Port Of Bjorn', image: portOfBjorn },
-  { title: 'Razor Blade', image: razorBlade },
-  { title: 'Seclusion', image: seclusion },
-  { title: 'Silent Greek', image: silentGreek },
-  { title: 'Silent Hill', image: silentHill },
-  { title: 'Strange Shores', image: strangeShores },
-  { title: 'The River Styx', image: theRiverStyx },
-  { title: 'Third Wheel', image: thirdWheel },
-  { title: 'Wild Lagoon', image: wildLagoon },
+  {
+    title: 'A’tuin Plateau',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345432/atuin-plateau_afeill.webp',
+  },
+  {
+    title: 'Fishermans Harbor',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345434/fishermans-harbor_cscf9m.webp',
+  },
+  {
+    title: 'Forty Roads',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345436/forty-roads_xueksz.webp',
+  },
+  {
+    title: 'Highway',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345438/highway_p61r5v.webp',
+  },
+  {
+    title: '"H" Islands',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345441/h-islands_dzkedr.webp',
+  },
+  {
+    title: 'Hostile Dream',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345412/hostile-dream_rwmikd.webp',
+  },
+  {
+    title: 'Industrial Zone',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345411/industrial-zone_muqyhw.webp',
+  },
+  {
+    title: 'Oculus',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345413/oculus_ml6t4m.webp',
+  },
+  {
+    title: 'Over the Hill',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345415/over-the-hill_owufqd.webp',
+  },
+  {
+    title: 'Port Of Bjorn',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345416/port-of-bjorn_ke7chg.webp',
+  },
+  {
+    title: 'Razor Blade',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345418/razor-blade_nl2i83.webp',
+  },
+  {
+    title: 'Seclusion',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345420/seclusion_wzcrly.webp',
+  },
+  {
+    title: 'Silent Greek',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345421/silent-greek_wowbxd.webp',
+  },
+  {
+    title: 'Silent Hill',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345423/silent-hill_mvwdoi.webp',
+  },
+  {
+    title: 'Strange Shores',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345425/strange-shores_s4dvka.webp',
+  },
+  {
+    title: 'The River Styx',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345427/the-river-styx_upf8nh.webp',
+  },
+  {
+    title: 'Third Wheel',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345428/third-wheel_yluzzm.webp',
+  },
+  {
+    title: 'Wild Lagoon',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345430/wild-lagoon_diqqqc.webp',
+  },
 ];

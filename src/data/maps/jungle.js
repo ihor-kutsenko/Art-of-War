@@ -1,79 +1,192 @@
-import abysm from '../../images/maps/jungle/abysm.jpg';
-import ancestralLand from '../../images/maps/jungle/ancestral-land.jpg';
-import badLuck from '../../images/maps/jungle/bad-luck.jpg';
-import bottleneck from '../../images/maps/jungle/bottleneck.jpg';
-import closeContact from '../../images/maps/jungle/close-contact.jpg';
-import crossfire from '../../images/maps/jungle/crossfire.jpg';
-import crosslake from '../../images/maps/jungle/crosslake.jpg';
-import cuba from '../../images/maps/jungle/cuba.jpg';
-import enemyAtTheGates from '../../images/maps/jungle/enemy-at-the-gates.jpg';
-import fortKyten from '../../images/maps/jungle/fort-kyten.jpg';
-import fullIsolation from '../../images/maps/jungle/full-isolation.jpg';
-import heartOfWar from '../../images/maps/jungle/heart-of-war.jpg';
-import hiddenTrails from '../../images/maps/jungle/hidden-trails.jpg';
-import interfluve from '../../images/maps/jungle/interfluve.jpg';
-import inTheMiddleOfNowhere from '../../images/maps/jungle/in-the-middle-of-nowhere.jpg';
-import kingOfTheHill from '../../images/maps/jungle/king-of-the-hill.jpg';
-import mayaLands from '../../images/maps/jungle/maya-lands.jpg';
-import prizeRing from '../../images/maps/jungle/prize-ring.jpg';
-import riskArea from '../../images/maps/jungle/risk-area.jpg';
-import shortDistance from '../../images/maps/jungle/short-distance.jpg';
-import theCoastOfClaws from '../../images/maps/jungle/the-coast-of-claws.jpg';
-import theCrossroad from '../../images/maps/jungle/the-crossroad.jpg';
-import theIsland from '../../images/maps/jungle/the-island.jpg';
-import theJaguarTrail from '../../images/maps/jungle/the-jaguar-trail.jpg';
-import theLostRoad from '../../images/maps/jungle/the-lost-road.jpg';
-import theNewWorld from '../../images/maps/jungle/the-new-world.jpg';
-import thePressurePoint from '../../images/maps/jungle/the-pressure-point.jpg';
-import theStrategicHeights from '../../images/maps/jungle/the-strategic-heights.jpg';
-import theWickedStrait from '../../images/maps/jungle/the-wicked-strait.jpg';
-import thunderhead from '../../images/maps/jungle/thunderhead.jpg';
-import twanguIsthmus from '../../images/maps/jungle/twangu-isthmus.jpg';
-import twinCoasts from '../../images/maps/jungle/twin-coasts.jpg';
-import twoRiverbanks from '../../images/maps/jungle/two-riverbanks.jpg';
-import veracruz from '../../images/maps/jungle/veracruz.jpg';
-import waterBarrier from '../../images/maps/jungle/water-barrier.jpg';
-import waterShackles from '../../images/maps/jungle/water-shackles.jpg';
-import whaleBay from '../../images/maps/jungle/whale-bay.jpg';
-import wildClover from '../../images/maps/jungle/wild-clover.jpg';
-
 export const jungleMaps = [
-  { title: 'Abysm', image: abysm },
-  { title: 'Ancestral Land', image: ancestralLand },
-  { title: 'Bad Luck', image: badLuck },
-  { title: 'Bottleneck', image: bottleneck },
-  { title: 'Close Contact', image: closeContact },
-  { title: 'Crossfire', image: crossfire },
-  { title: 'Crosslake', image: crosslake },
-  { title: 'Cuba', image: cuba },
-  { title: 'Enemy at the Gates', image: enemyAtTheGates },
-  { title: 'Fort Kyten', image: fortKyten },
-  { title: 'Full Isolation', image: fullIsolation },
-  { title: 'Heart of War', image: heartOfWar },
-  { title: 'Hidden Trails', image: hiddenTrails },
-  { title: 'Interfluve', image: interfluve },
-  { title: 'In the Middle of Nowhere', image: inTheMiddleOfNowhere },
-  { title: 'King of the Hill', image: kingOfTheHill },
-  { title: 'Maya Lands', image: mayaLands },
-  { title: 'Prize Ring', image: prizeRing },
-  { title: 'Risk Area', image: riskArea },
-  { title: 'Short Distance', image: shortDistance },
-  { title: 'The Coast of Claws', image: theCoastOfClaws },
-  { title: 'The Crossroad', image: theCrossroad },
-  { title: 'The Island', image: theIsland },
-  { title: 'The Jaguar Trail', image: theJaguarTrail },
-  { title: 'The Lost Road', image: theLostRoad },
-  { title: 'The New World', image: theNewWorld },
-  { title: 'The Pressure Point', image: thePressurePoint },
-  { title: 'The Strategic Heights', image: theStrategicHeights },
-  { title: 'The Wicked Strait', image: theWickedStrait },
-  { title: 'Thunderhead', image: thunderhead },
-  { title: 'Twangu Isthmus', image: twanguIsthmus },
-  { title: 'Twin Coasts', image: twinCoasts },
-  { title: 'Two Riverbanks', image: twoRiverbanks },
-  { title: 'Veracruz', image: veracruz },
-  { title: 'Water Barrier', image: waterBarrier },
-  { title: 'Water Shackles', image: waterShackles },
-  { title: 'Whale Bay', image: whaleBay },
-  { title: 'Wild Clover', image: wildClover },
+  {
+    title: 'Abysm',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343440/abysm_pjvt8n.webp',
+  },
+  {
+    title: 'Ancestral Land',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343453/ancestral-land_ezcisa.webp',
+  },
+  {
+    title: 'Bad Luck',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343444/bad-luck_flso9o.webp',
+  },
+  {
+    title: 'Bottleneck',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343455/bottleneck_ecotsi.webp',
+  },
+  {
+    title: 'Close Contact',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343446/close-contact_ihei8q.webp',
+  },
+  {
+    title: 'Crossfire',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343447/crossfire_uxpaeh.webp',
+  },
+  {
+    title: 'Crosslake',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343449/crosslake_ofu4wa.webp',
+  },
+  {
+    title: 'Cuba',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343451/cuba_f5rrog.webp',
+  },
+  {
+    title: 'Enemy at the Gates',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343456/enemy-at-the-gates_r5uyar.webp',
+  },
+  {
+    title: 'Fort Kyten',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343458/fort-kyten_o6xb6w.webp',
+  },
+  {
+    title: 'Full Isolation',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343460/full-isolation_sr6y2g.webp',
+  },
+  {
+    title: 'Heart of War',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343462/heart-of-war_espljb.webp',
+  },
+  {
+    title: 'Hidden Trails',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343464/hidden-trails_vrfjrj.webp',
+  },
+  {
+    title: 'Interfluve',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343466/interfluve_j9mew5.webp',
+  },
+  {
+    title: 'In the Middle of Nowhere',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343468/in-the-middle-of-nowhere_esohgw.webp',
+  },
+  {
+    title: 'King of the Hill',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343470/king-of-the-hill_xhdpot.webp',
+  },
+  {
+    title: 'Maya Lands',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343471/maya-lands_wfv3oj.webp',
+  },
+  {
+    title: 'Prize Ring',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343473/prize-ring_ufgj6u.webp',
+  },
+  {
+    title: 'Risk Area',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343475/risk-area_oabm3w.webp',
+  },
+  {
+    title: 'Short Distance',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343403/short-distance_qwvufh.webp',
+  },
+  {
+    title: 'The Coast of Claws',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343404/the-coast-of-claws_w4myhj.webp',
+  },
+  {
+    title: 'The Crossroad',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343405/the-crossroad_zmbg41.webp',
+  },
+  {
+    title: 'The Island',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343406/the-island_pja98t.webp',
+  },
+  {
+    title: 'The Jaguar Trail',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343417/the-jaguar-trail_dujrio.webp',
+  },
+  {
+    title: 'The Lost Road',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343419/the-lost-road_ajmfqz.webp',
+  },
+  {
+    title: 'The New World',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343420/the-new-world_gywikj.webp',
+  },
+  {
+    title: 'The Pressure Point',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343422/the-pressure-point_fwrqge.webp',
+  },
+  {
+    title: 'The Strategic Heights',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343423/the-strategic-heights_kbx1pc.webp',
+  },
+  {
+    title: 'The Wicked Strait',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343425/the-wicked-strait_c7ruwp.webp',
+  },
+  {
+    title: 'Thunderhead',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343426/thunderhead_oxtjyi.webp',
+  },
+  {
+    title: 'Twangu Isthmus',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343428/twangu-isthmus_nwjsaq.webp',
+  },
+  {
+    title: 'Twin Coasts',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343430/twin-coasts_hdo7gj.webp',
+  },
+  {
+    title: 'Two Riverbanks',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343431/two-riverbanks_njxabl.webp',
+  },
+  {
+    title: 'Veracruz',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343433/veracruz_fvmmph.webp',
+  },
+  {
+    title: 'Water Barrier',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343435/water-barrier_aefmdo.webp',
+  },
+  {
+    title: 'Water Shackles',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343438/water-shackles_jkcm58.webp',
+  },
+  {
+    title: 'Whale Bay',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343436/whale-bay_qo4h5y.webp',
+  },
+  {
+    title: 'Wild Clover',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343442/wild-clover_kckhsp.webp',
+  },
 ];

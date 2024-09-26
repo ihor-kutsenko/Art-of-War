@@ -1,55 +1,132 @@
-import areaOfScavengers from '../../images/maps/desert/area-of-scavengers.jpg';
-import aWrongWayTurn from '../../images/maps/desert/a-wrong-way-turn.jpg';
-import bloodyShore from '../../images/maps/desert/bloody-shore.jpg';
-import caesarsIslands from '../../images/maps/desert/caesars-islands.jpg';
-import coralBay from '../../images/maps/desert/coral-bay.jpg';
-import cryobase from '../../images/maps/desert/cryobase.jpg';
-import deadlyCliff from '../../images/maps/desert/deadly-cliff.jpg';
-import desertCross from '../../images/maps/desert/desert-cross.jpg';
-import desertTreasure from '../../images/maps/desert/desert-treasure.jpg';
-import difficultChoice from '../../images/maps/desert/difficult-choice.jpg';
-import grandCanyon from '../../images/maps/desert/grand-canyon.jpg';
-import inferno from '../../images/maps/desert/inferno.jpg';
-import mountainRoad from '../../images/maps/desert/mountain-road.jpg';
-import noTrace from '../../images/maps/desert/no-trace.jpg';
-import sandyBay from '../../images/maps/desert/sandy-bay.jpg';
-import simoom from '../../images/maps/desert/simoom.jpg';
-import suezCanal from '../../images/maps/desert/suez-canal.jpg';
-import theAbandonedOasis from '../../images/maps/desert/the-abandoned-oasis.jpg';
-import theCanyon from '../../images/maps/desert/the-canyon.jpg';
-import thePass from '../../images/maps/desert/the-pass.jpg';
-import theSilkRoad from '../../images/maps/desert/the-silk-road.jpg';
-import thornyPath from '../../images/maps/desert/thorny-path.jpg';
-import twoMountains from '../../images/maps/desert/two-mountains.jpg';
-import whirlwind from '../../images/maps/desert/whirlwind.jpg';
-import yawaraLake from '../../images/maps/desert/yawara-lake.jpg';
-import yrinwyReservoir from '../../images/maps/desert/yrinwy-reservoir.jpg';
-
 export const desertMaps = [
-  { title: 'Area Of Scavengers', image: areaOfScavengers },
-  { title: 'A Wrong Way Turn', image: aWrongWayTurn },
-  { title: 'Bloody Shore', image: bloodyShore },
-  { title: 'Caesars Islands', image: caesarsIslands },
-  { title: 'Coral Bay', image: coralBay },
-  { title: 'Cryobase', image: cryobase },
-  { title: 'Deadly Cliff', image: deadlyCliff },
-  { title: 'Desert Cross', image: desertCross },
-  { title: 'Desert Treasure', image: desertTreasure },
-  { title: 'Difficult Choice', image: difficultChoice },
-  { title: 'Grand Canyon', image: grandCanyon },
-  { title: 'Inferno', image: inferno },
-  { title: 'Mountain Road', image: mountainRoad },
-  { title: 'No Trace', image: noTrace },
-  { title: 'Sandy Bay', image: sandyBay },
-  { title: 'Simoom', image: simoom },
-  { title: 'Suez Canal', image: suezCanal },
-  { title: 'The Abandoned Oasis', image: theAbandonedOasis },
-  { title: 'The Canyon', image: theCanyon },
-  { title: 'The Pass', image: thePass },
-  { title: 'The Silk Road', image: theSilkRoad },
-  { title: 'Thorny Path', image: thornyPath },
-  { title: 'Two Mountains', image: twoMountains },
-  { title: 'Whirlwind', image: whirlwind },
-  { title: 'Yawara Lake', image: yawaraLake },
-  { title: 'Yrinwy Reservoir', image: yrinwyReservoir },
+  {
+    title: 'Area Of Scavengers',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342062/area-of-scavengers_xu2gx0.webp',
+  },
+  {
+    title: 'A Wrong Way Turn',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342064/a-wrong-way-turn_o3wphp.webp',
+  },
+  {
+    title: 'Bloody Shore',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342066/bloody-shore_upavqk.webp',
+  },
+  {
+    title: 'Caesars Islands',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342067/caesars-islands_cogjpk.webp',
+  },
+  {
+    title: 'Coral Bay',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342069/coral-bay_tdr2f0.webp',
+  },
+  {
+    title: 'Cryobase',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342071/cryobase_vavmhd.webp',
+  },
+  {
+    title: 'Deadly Cliff',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342073/deadly-cliff_vsobh1.webp',
+  },
+  {
+    title: 'Desert Cross',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342035/desert-cross_dqxseg.webp',
+  },
+  {
+    title: 'Desert Treasure',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342035/desert-treasure_kie5yf.webp',
+  },
+  {
+    title: 'Difficult Choice',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342036/difficult-choice_pkdped.webp',
+  },
+  {
+    title: 'Grand Canyon',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342038/grand-canyon_psjysr.webp',
+  },
+  {
+    title: 'Inferno',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342039/inferno_tvtkdf.webp',
+  },
+  {
+    title: 'Mountain Road',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342041/mountain-road_djlr3a.webp',
+  },
+  {
+    title: 'No Trace',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342042/no-trace_f97kxb.webp',
+  },
+  {
+    title: 'Sandy Bay',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342043/sandy-bay_bndtrg.webp',
+  },
+  {
+    title: 'Simoom',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342045/simoom_zjjgwc.webp',
+  },
+  {
+    title: 'Suez Canal',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342046/suez-canal_wrdnmh.webp',
+  },
+  {
+    title: 'The Abandoned Oasis',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342048/the-abandoned-oasis_twofvw.webp',
+  },
+  {
+    title: 'The Canyon',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342049/the-canyon_qzknid.webp',
+  },
+  {
+    title: 'The Pass',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342051/the-pass_ngcndf.webp',
+  },
+  {
+    title: 'The Silk Road',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342052/the-silk-road_omkrrz.webp',
+  },
+  {
+    title: 'Thorny Path',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342054/thorny-path_klfn82.webp',
+  },
+  {
+    title: 'Two Mountains',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342055/two-mountains_e5td1y.webp',
+  },
+  {
+    title: 'Whirlwind',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342057/whirlwind_ge7bjm.webp',
+  },
+  {
+    title: 'Yawara Lake',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342058/yawara-lake_p13gf3.webp',
+  },
+  {
+    title: 'Yrinwy Reservoir',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727342061/yrinwy-reservoir_gsi6v1.webp',
+  },
 ];

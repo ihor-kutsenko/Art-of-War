@@ -1,39 +1,92 @@
-import backwaterLike from '../../images/maps/winter/backwater-like.jpg';
-import bearsLike from '../../images/maps/winter/bears-like.jpg';
-import coldWar from '../../images/maps/winter/cold-war.jpg';
-import fishingHole from '../../images/maps/winter/fishing-hole.jpg';
-import fjords from '../../images/maps/winter/fjords.jpg';
-import forgottenPost from '../../images/maps/winter/forgotten-post.jpg';
-import frostyHour from '../../images/maps/winter/frosty-hour.jpg';
-import frozenBay from '../../images/maps/winter/frozen-bay.jpg';
-import hermitsLand from '../../images/maps/winter/hermits-land.jpg';
-import iceChains from '../../images/maps/winter/ice-chains.jpg';
-import iceHouse from '../../images/maps/winter/ice-house.jpg';
-import icyMountain from '../../images/maps/winter/icy-mountain.jpg';
-import longCrusade from '../../images/maps/winter/long-crusade.jpg';
-import northernTransit from '../../images/maps/winter/northern-transit.jpg';
-import severeCold from '../../images/maps/winter/severe-cold.jpg';
-import subZeroLands from '../../images/maps/winter/sub-zero-lands.jpg';
-import thaw from '../../images/maps/winter/thaw.jpg';
-import uglyTongue from '../../images/maps/winter/ugly-tongue.jpg';
-
 export const winterMaps = [
-  { title: 'Backwater Like', image: backwaterLike },
-  { title: 'Bears Like', image: bearsLike },
-  { title: 'Cold war', image: coldWar },
-  { title: 'Fishing Hole', image: fishingHole },
-  { title: 'Fjords', image: fjords },
-  { title: 'Forgotten Post', image: forgottenPost },
-  { title: 'Frosty Hour', image: frostyHour },
-  { title: 'Frozen Bay', image: frozenBay },
-  { title: 'Hermits Land', image: hermitsLand },
-  { title: 'Ice Chains', image: iceChains },
-  { title: 'Ice House', image: iceHouse },
-  { title: 'Icy Mountain', image: icyMountain },
-  { title: 'Long Crusade', image: longCrusade },
-  { title: 'Northern Transit', image: northernTransit },
-  { title: 'Severe Cold', image: severeCold },
-  { title: 'Sub-Zero Lands', image: subZeroLands },
-  { title: 'Thaw', image: thaw },
-  { title: 'Ugly Tongue', image: uglyTongue },
+  {
+    title: 'Backwater Like',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346064/backwater-like_say2yd.webp',
+  },
+  {
+    title: 'Bears Like',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346067/bears-like_u68gko.webp',
+  },
+  {
+    title: 'Cold war',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346035/cold-war_pc3my9.webp',
+  },
+  {
+    title: 'Fishing Hole',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346036/fishing-hole_we80pa.webp',
+  },
+  {
+    title: 'Fjords',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346037/fjords_mok2yy.webp',
+  },
+  {
+    title: 'Forgotten Post',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346039/forgotten-post_ivtrwm.webp',
+  },
+  {
+    title: 'Frosty Hour',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346040/frosty-hour_mejrfy.webp',
+  },
+  {
+    title: 'Frozen Bay',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346044/frozen-bay_osj0gz.webp',
+  },
+  {
+    title: 'Hermits Land',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346042/hermits-land_sxwupg.webp',
+  },
+  {
+    title: 'Ice Chains',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346048/ice-chains_nu30xu.webp',
+  },
+  {
+    title: 'Ice House',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346046/ice-house_qzjzgk.webp',
+  },
+  {
+    title: 'Icy Mountain',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346050/icy-mountain_ffcq8r.webp',
+  },
+  {
+    title: 'Long Crusade',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346051/long-crusade_kgxf4f.webp',
+  },
+  {
+    title: 'Northern Transit',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346053/northern-transit_bav1hl.webp',
+  },
+  {
+    title: 'Severe Cold',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346055/severe-cold_mmtqvl.webp',
+  },
+  {
+    title: 'Sub-Zero Lands',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346057/sub-zero-lands_ktfq3o.webp',
+  },
+  {
+    title: 'Thaw',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346060/thaw_kuopb3.webp',
+  },
+  {
+    title: 'Ugly Tongue',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346062/ugly-tongue_wofoco.webp',
+  },
 ];
