@@ -1,120 +1,120 @@
-import colosseumImage from '../images/blitz/colosseum.jpg';
-import controlImage from '../images/blitz/control.jpg';
-import convoyImage from '../images/blitz/convoy.jpg';
-import cornucopiaImage from '../images/blitz/cornucopia.jpg';
-import duelImage from '../images/blitz/duel.jpg';
-import evacuationImage from '../images/blitz/evacuation.jpg';
-import ffa3Image from '../images/blitz/ffa3.jpg';
-import ffa4Image from '../images/blitz/ffa4.jpg';
-// import ffa5Image from '../images/blitz/ffa5.jpg';
-// import ffa6Image from '../images/blitz/ffa6.jpg';
-import mexicanSlaughterImage from '../images/blitz/mexican-slaughter.jpg';
-import supplyCrisisImage from '../images/blitz/supply-crisis.jpg';
-import royalBattleImage from '../images/blitz/royal-battle.jpg';
-import weakestLinkImage from '../images/blitz/weakest-link.jpg';
-import wingsOfDefenseImage from '../images/blitz/wings-of-defense.jpg';
-import zombieApocalypseImage from '../images/blitz/zombie-apocalypse.jpg';
-
 export const blitz = [
   {
     title: 'Colosseum',
-    imageUrl: colosseumImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420362/colosseum_pdemj6.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Control',
-    imageUrl: controlImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420363/control_rjakmz.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Convoy',
-    imageUrl: convoyImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420363/convoy_h43myf.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Cornucopia',
-    imageUrl: cornucopiaImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420363/cornucopia_cgcvxf.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Duel',
-    imageUrl: duelImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420359/duel_k8iz8p.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Evacuation',
-    imageUrl: evacuationImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420359/evacuation_mgvr1e.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'FFA3',
-    imageUrl: ffa3Image,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420359/ffa3_dmkktk.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'FFA4',
-    imageUrl: ffa4Image,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/ffa4_eqgqul.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'FFA5',
-    imageUrl: ffa4Image,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/ffa4_eqgqul.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'FFA6',
-    imageUrl: ffa4Image,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/ffa4_eqgqul.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Mexican-Slaughter',
-    imageUrl: mexicanSlaughterImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/mexican-slaughter_slpklr.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Supply Crisis',
-    imageUrl: supplyCrisisImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/supply-crisis_uu3bp5.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Royal Battle',
-    imageUrl: royalBattleImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420359/royal-battle_i99b5v.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Territorial Dispute',
-    imageUrl: ffa3Image,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420359/ffa3_dmkktk.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Weakest Link',
-    imageUrl: weakestLinkImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/weakest-link_kh8lpr.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Wings of Defense',
-    imageUrl: wingsOfDefenseImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420361/wings-of-defense_o1fmvs.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Zombie Apocalypse',
-    imageUrl: zombieApocalypseImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420362/zombie-apocalypse_ysbfq9.webp',
     buttonText: 'Medals',
     medals: [],
   },
