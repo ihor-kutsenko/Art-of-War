@@ -78,7 +78,7 @@ export const tournaments = [
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/corsairs_spixfs.webp',
     buttonText: 'Medals',
-    medals: nautilusMedals,
+    medals: [],
   },
   {
     title: 'Crossfire',

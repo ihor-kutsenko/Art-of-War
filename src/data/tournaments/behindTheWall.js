@@ -1,32 +1,32 @@
-import steel1 from '../../images/tournaments/medals/behind-the-wall-steel1.png';
-import steel2 from '../../images/tournaments/medals/behind-the-wall-steel2.png';
-import steel3 from '../../images/tournaments/medals/behind-the-wall-steel3.png';
-import steel4 from '../../images/tournaments/medals/behind-the-wall-steel4.png';
+import steel1 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-steel1.webp';
+import steel2 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-steel2.webp';
+import steel3 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-steel3.webp';
+import steel4 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-steel4.webp';
 
-import bronze1 from '../../images/tournaments/medals/behind-the-wall-bronze1.png';
-import bronze2 from '../../images/tournaments/medals/behind-the-wall-bronze2.png';
-import bronze3 from '../../images/tournaments/medals/behind-the-wall-bronze3.png';
-import bronze4 from '../../images/tournaments/medals/behind-the-wall-bronze4.png';
+import bronze1 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-bronze1.webp';
+import bronze2 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-bronze2.webp';
+import bronze3 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-bronze3.webp';
+import bronze4 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-bronze4.webp';
 
-import silver1 from '../../images/tournaments/medals/behind-the-wall-silver1.png';
-import silver2 from '../../images/tournaments/medals/behind-the-wall-silver2.png';
-import silver3 from '../../images/tournaments/medals/behind-the-wall-silver3.png';
-import silver4 from '../../images/tournaments/medals/behind-the-wall-silver4.png';
+import silver1 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-silver1.webp';
+import silver2 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-silver2.webp';
+import silver3 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-silver3.webp';
+import silver4 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-silver4.webp';
 
-import gold1 from '../../images/tournaments/medals/behind-the-wall-gold1.png';
-import gold2 from '../../images/tournaments/medals/behind-the-wall-gold2.png';
-import gold3 from '../../images/tournaments/medals/behind-the-wall-gold3.png';
-import gold4 from '../../images/tournaments/medals/behind-the-wall-gold4.png';
+import gold1 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-gold1.webp';
+import gold2 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-gold2.webp';
+import gold3 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-gold3.webp';
+import gold4 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-gold4.webp';
 
-import diamond1 from '../../images/tournaments/medals/behind-the-wall-diamond1.png';
-import diamond2 from '../../images/tournaments/medals/behind-the-wall-diamond2.png';
-import diamond3 from '../../images/tournaments/medals/behind-the-wall-diamond3.png';
-import diamond4 from '../../images/tournaments/medals/behind-the-wall-diamond4.png';
+import diamond1 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-diamond1.webp';
+import diamond2 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-diamond2.webp';
+import diamond3 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-diamond3.webp';
+import diamond4 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-diamond4.webp';
 
-import star1 from '../../images/tournaments/medals/behind-the-wall-star1.png';
-import star2 from '../../images/tournaments/medals/behind-the-wall-star2.png';
-import star3 from '../../images/tournaments/medals/behind-the-wall-star3.png';
-import star4 from '../../images/tournaments/medals/behind-the-wall-star4.png';
+import star1 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-star1.webp';
+import star2 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-star2.webp';
+import star3 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-star3.webp';
+import star4 from '../../images/tournaments/medals/behind-the-wall/behind-the-wall-star4.webp';
 
 export const behindTheWallMedals = {
   steel: [steel1, steel2, steel3, steel4],
