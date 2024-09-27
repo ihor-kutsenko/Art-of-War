@@ -14,7 +14,7 @@ import {
   BUILDINGS_ROUTE,
   CONF_BUILDINGS_ROUTE,
 } from 'routes/routes';
-import logo from '../../images/logo/aow_logo_04.png';
+import logo from '../../images/logo/aow_logo_04.webp';
 import styles from './Header.module.scss';
 
 const Header = () => {

@@ -1,6 +1,6 @@
 import YoutubeTrailer from 'components/YoutubeTrailer/YoutubeTrailer';
 
-import main from '../../images/main.jpg';
+import main from '../../images/main.webp';
 import styles from './WelcomePage.module.scss';
 
 const WelcomePage = () => {
