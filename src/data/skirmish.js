@@ -1,53 +1,52 @@
-import skirmishImage from './../images/skirmish/skirmish.jpg';
-import survialImage from './../images/skirmish/survial.jpg';
-import testOfStrengthImage from './../images/skirmish/test-of-strength.jpg';
-import pumpkinHuntImage from './../images/skirmish/pumpkin-hunt.jpg';
-import syndicateTrap from './../images/skirmish/syndicate-trap.jpg';
-import christmasCargoImage from './../images/skirmish/christmas-cargo.jpg';
-import battleForTheChristmasTreesImage from './../images/skirmish/battle-for-the-christmas-trees.jpg';
-
 import { aiMedals } from './skirmish/ai';
 
 export const skirmish = [
   {
     title: 'AI',
-    imageUrl: skirmishImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421064/skirmish_lvag8f.webp',
     buttonText: 'Medals',
     medals: aiMedals,
   },
   {
     title: 'Survial',
-    imageUrl: survialImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421112/survial_j4qte2.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Test of Strength',
-    imageUrl: testOfStrengthImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421111/test-of-strength_uqraun.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Pumpkin Hunt',
-    imageUrl: pumpkinHuntImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421065/pumpkin-hunt_c6bhqn.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Syndicate Trap',
-    imageUrl: syndicateTrap,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421065/syndicate-trap_xdsovp.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Christmas Cargo',
-    imageUrl: christmasCargoImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421064/christmas-cargo_lai5nw.webp',
     buttonText: 'Medals',
     medals: [],
   },
   {
     title: 'Battle for the Christmas Trees',
-    imageUrl: battleForTheChristmasTreesImage,
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421111/battle-for-the-christmas-trees_m1lyg7.webp',
     buttonText: 'Medals',
     medals: [],
   },
