@@ -5,7 +5,10 @@
   flex-direction: column;
   height: 100vh;
   gap: 10px;
-  font-size: 32px;
+  font-size: 20px;
   color: $white-color;
-  text-align: center;
+  text-align: justify;
+  @include desktop {
+    text-align: center;
+  }
 }
