@@ -2,17 +2,15 @@ import { useState } from 'react';
 
 import Item from 'components/Item/Item';
 import ItemList from 'components/ItemList/ItemList';
+import LoadMoreBtn from 'components/LoadMoreBtn/LoadMoreBtn';
 
 import { blitz } from 'data/blitz';
-
-import styles from './Blitz.module.scss';
-import Button from 'components/Button/Button';
 
 const Blitz = () => {
   const [visibleItems, setVisibleItems] = useState(5);
 
   const handleLoadMore = () => {
-    setVisibleItems(prevVisibleItems => prevVisibleItems + 5);
+    setVisibleItems(prevState => prevState + 5);
   };
 
   const currentItems = blitz.slice(0, visibleItems);
@@ -31,11 +29,7 @@ const Blitz = () => {
           />
         ))}
         {visibleItems < blitz.length && (
-          <Button
-            className={styles.loadMore_btn}
-            text="Load More"
-            onClick={handleLoadMore}
-          />
+          <LoadMoreBtn handleLoadMore={handleLoadMore} />
         )}
       </ItemList>
     </>
