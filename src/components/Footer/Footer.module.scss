@@ -1,0 +1,41 @@
+@import '../../sass/styles.scss';
+
+.footer {
+  position: sticky;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 10px 36px 10px 47px;
+  text-align: center;
+  line-height: 1.14;
+
+  background-color: gray;
+  color: $white-color;
+
+  @include tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    line-height: 1.18;
+  }
+
+  @include desktop {
+    padding: 10px 390px 10px 408px;
+  }
+}
+
+.footerBtn {
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.footerBtnText {
+  font-size: 16px;
+  color: $orange-2-color;
+  background-color: gray;
+  @include desktop {
+    font-size: 20px;
+  }
+}

@@ -4,6 +4,7 @@ import { Suspense } from 'react';
 import Header from 'components/Header/Header';
 import Container from 'components/Container/Container';
 import Loader from 'components/Loader/Loader';
+import Footer from 'components/Footer/Footer';
 
 export const SharedLayout = () => {
   return (
@@ -14,6 +15,7 @@ export const SharedLayout = () => {
           <Outlet />
         </Suspense>
       </main>
+      <Footer />
     </Container>
   );
 };
