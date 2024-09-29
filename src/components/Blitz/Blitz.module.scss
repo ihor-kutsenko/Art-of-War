@@ -1,0 +1,31 @@
+@import '../../sass/styles.scss';
+
+.loadMore_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 184px;
+  gap: 20px;
+  padding: 8px 5px;
+  margin: 10px auto;
+  border-radius: $border-radius;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  @include font(16px, 700, 1.19);
+  color: $white-color;
+  background-color: $blue-2-color;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  @include hover {
+    color: $blue-color;
+    background-color: $orange-color;
+  }
+
+  @include tablet {
+    width: 200px;
+    gap: 20px;
+    padding: 8px 5px;
+    margin: 20px auto;
+    @include font(18px, 700, 1.19);
+  }
+}

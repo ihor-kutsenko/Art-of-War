@@ -1,26 +1,24 @@
 import { useState } from 'react';
 
-import { blitz } from 'data/blitz';
 import Item from 'components/Item/Item';
-import Pagination from 'components/Pagination/Pagination';
-import PaginationContainer from 'components/Pagination/PaginationContainer';
-import useItemsPerPage from 'components/Pagination/PaginationHooks';
 import ItemList from 'components/ItemList/ItemList';
 
+import { blitz } from 'data/blitz';
+
+import styles from './Blitz.module.scss';
+import Button from 'components/Button/Button';
+
 const Blitz = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = useItemsPerPage();
+  const [visibleItems, setVisibleItems] = useState(5);
 
-  const indexOfLastItem = currentPage * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = blitz.slice(indexOfFirstItem, indexOfLastItem);
-
-  const handlePageChange = newPage => {
-    setCurrentPage(newPage);
+  const handleLoadMore = () => {
+    setVisibleItems(prevVisibleItems => prevVisibleItems + 5);
   };
 
+  const currentItems = blitz.slice(0, visibleItems);
+
   return (
-    <PaginationContainer>
+    <>
       <ItemList>
         {currentItems.map((blitz, index) => (
           <Item
@@ -32,14 +30,15 @@ const Blitz = () => {
             disabled={blitz.medals.length === 0}
           />
         ))}
-        <Pagination
-          itemsPerPage={itemsPerPage}
-          totalItems={blitz.length}
-          currentPage={currentPage}
-          onPageChange={handlePageChange}
-        />
+        {visibleItems < blitz.length && (
+          <Button
+            className={styles.loadMore_btn}
+            text="Load More"
+            onClick={handleLoadMore}
+          />
+        )}
       </ItemList>
-    </PaginationContainer>
+    </>
   );
 };
 
