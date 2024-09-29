@@ -1,14 +1,45 @@
 @import '../../sass/styles.scss';
 
-.title {
+.background {
+  height: 206px;
+  background-image: url('../../images/main.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  gap: 10px;
-  font-size: 20px;
-  color: $white-color;
-  text-align: justify;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  @include mobile {
+    justify-content: center;
+  }
+  @include tablet {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
   @include desktop {
-    text-align: center;
+    height: 100vh;
+  }
+}
+
+.textOverlay {
+  color: $white-color;
+  @include mobile {
+    text-align: justify;
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  @include tablet {
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  @include desktop {
+    font-size: 28px;
   }
 }
