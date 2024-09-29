@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Art-of-War/static/css/main.42093c37.css",
+    "main.css": "/Art-of-War/static/css/main.ae224918.css",
     "main.js": "/Art-of-War/static/js/main.2145e253.js",
     "static/css/998.d555b2ec.chunk.css": "/Art-of-War/static/css/998.d555b2ec.chunk.css",
     "static/js/998.6cd532ff.chunk.js": "/Art-of-War/static/js/998.6cd532ff.chunk.js",
@@ -597,7 +597,7 @@
     "static/media/wall.webp": "/Art-of-War/static/media/wall.d1ba36c85fb3c8226eda.webp",
     "index.html": "/Art-of-War/index.html",
     "static/media/sprite.svg": "/Art-of-War/static/media/sprite.f7ba7a32de94a87d7e4580a6da141ed8.svg",
-    "main.42093c37.css.map": "/Art-of-War/static/css/main.42093c37.css.map",
+    "main.ae224918.css.map": "/Art-of-War/static/css/main.ae224918.css.map",
     "main.2145e253.js.map": "/Art-of-War/static/js/main.2145e253.js.map",
     "998.d555b2ec.chunk.css.map": "/Art-of-War/static/css/998.d555b2ec.chunk.css.map",
     "998.6cd532ff.chunk.js.map": "/Art-of-War/static/js/998.6cd532ff.chunk.js.map",
@@ -655,7 +655,7 @@
     "207.79ce2ede.chunk.js.map": "/Art-of-War/static/js/207.79ce2ede.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42093c37.css",
+    "static/css/main.ae224918.css",
     "static/js/main.2145e253.js"
   ]
 }
