@@ -51,6 +51,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349641/all-for-the-front_v3jmnj.webp',
     buttonText: 'Medals',
     medals: allTheFrontMedals,
+    info: 'Command gives the highest priority to this part of the front! Containers with resources will be dropped regularly on the battlefield. Find them before the enemy to gain an advantage.',
   },
   {
     title: 'Assault',
@@ -58,6 +59,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349641/assault_ki6tdu.webp',
     buttonText: 'Medals',
     medals: assaultMedals,
+    info: '',
   },
   {
     title: 'Battle Royale',
