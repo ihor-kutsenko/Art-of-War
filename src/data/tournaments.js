@@ -59,7 +59,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349641/assault_ki6tdu.webp',
     buttonText: 'Medals',
     medals: assaultMedals,
-    info: '',
+    info: 'The troops are eager for battle! Once training is complete, the allied troop moves to the enemy base. Each time, the strength of the allied troops increases. Capture the flags to reduce the preparation time for the next troop. All for the assault!',
   },
   {
     title: 'Battle Royale',
@@ -74,6 +74,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349641/behind-the-wall_lsct3i.webp',
     buttonText: 'Medals',
     medals: behindTheWallMedals,
+    info: 'The allies have built up the defensive line. But sitting on the sidelines won’t work. While the defense is holding, gather strength to destroy the enemy.',
   },
   {
     title: 'Corsairs',
@@ -88,6 +89,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/crossfire_xeiww4.webp',
     buttonText: 'Medals',
     medals: crossfireMedals,
+    info: 'Two bases. One commander. You have to command two bases at once. Both of them must survive. To win, destroy one of the enemy bases. The base is considered destroyed if there are no buildings left in the set area.',
   },
   {
     title: 'Emergency Call',
@@ -102,6 +104,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349615/flight-recoder_gwnlzj.webp',
     buttonText: 'Medals',
     medals: flightRecorderMedals,
+    info: "As a result of the crash of the Zenon space station, flight recorders with important information were dropped on the battlefield. Our allies have already found and deciphered some of them. Capture the rest of the flight recorders at the enemy's warehouse and evacuate them to the research center for decoding.",
   },
   {
     title: 'Game Birthday',
@@ -123,6 +126,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349615/judgment-day_xxjqik.webp',
     buttonText: 'Medals',
     medals: [],
+    info: 'Achilles, an experimental satellite system, is used to guide super weapons strikes. After the testing was completed, the satellite stations were conserved. However, the enemy plans to activate the stations and attack our positions. Get ahead of the enemy. Use scientific vehicles to activate the stations and bring the enemy their judgment day.',
   },
   {
     title: 'Large Reserves',
@@ -151,6 +155,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349615/only-by-chance_qcdnci.webp',
     buttonText: 'Medals',
     medals: onlyByChanceMedals,
+    info: 'Objects on the map randomly change in each battle. Will you be able to adapt and win in such hard conditions? All luck is in your hands, commanders!',
   },
   {
     title: 'Pumpkin Madness',
@@ -165,6 +170,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349615/reliable-partner_ep7it2.webp',
     buttonText: 'Medals',
     medals: reliablePartnerMedals,
+    info: "Today, you will engage in battle together with a partner. And don't be afraid that it is AI. Work together and show the full power of such a union!",
   },
   {
     title: 'Searching the Nautilus ',
@@ -186,6 +192,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349616/two-citadels_z3wztg.webp',
     buttonText: 'Medals',
     medals: twoCitadelsMedals,
+    info: 'Two fortified bases stand opposite each other, ready for battle. Who will be the first to break through the defenses and strike at the heart of the enemy?',
   },
   {
     title: 'Vanguard',

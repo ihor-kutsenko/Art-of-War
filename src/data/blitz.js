@@ -19,6 +19,7 @@ export const blitz = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420363/convoy_h43myf.webp',
     buttonText: 'Medals',
     medals: [],
+    info: 'Abandoned warehouses with raw materials have been found on the contact line. Your job is to empty them before the enemy does. As you hold the flag, transports are leaving the base. They move as a continuous column to the warehouse, get loaded, and deliver the cargo back to the base.',
   },
   {
     title: 'Cornucopia',
@@ -75,6 +76,7 @@ export const blitz = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/mexican-slaughter_slpklr.webp',
     buttonText: 'Medals',
     medals: [],
+    info: 'Engineers had too much tequila and deployed the bases close to each other. A heavy melee awaits us! Only one winner is possible in this massacre. Destroy all enemies.',
   },
   {
     title: 'Supply Crisis',
@@ -110,6 +112,7 @@ export const blitz = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420361/wings-of-defense_o1fmvs.webp',
     buttonText: 'Medals',
     medals: [],
+    info: 'The intelligence service intercepted a message containing the coordinates of secret labs. Special ops seized one of the labs and began to evacuate valuable prototypes under enemy aviation fire. The command sent a fighter squadron to protect transports. Use it to dominate in the sky!',
   },
   {
     title: 'Zombie Apocalypse',
