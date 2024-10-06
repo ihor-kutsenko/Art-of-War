@@ -67,6 +67,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349641/battle-royale_qfhz9k.webp',
     buttonText: 'Medals',
     medals: battleRoyaleMedals,
+    info: "You have no base in this tournament. Just a squad only. That's hardcore! Capture containers to get new units. Beware of the battle zone that reduces. The yellow zone is safe, but soon it'll become red. Units in the red zone get damaged.",
   },
   {
     title: 'Behind the Wall',
@@ -77,11 +78,19 @@ export const tournaments = [
     info: 'The allies have built up the defensive line. But sitting on the sidelines won’t work. While the defense is holding, gather strength to destroy the enemy.',
   },
   {
+    title: 'Classified Files',
+    imageUrl: '',
+    buttonText: 'Medals',
+    medals: [],
+    info: "The Syndicate hackers have breached the security system and stolen data from both factions. Encrypted Data Cells containing classified files have appeared on the battlefield. Capture as many Data Cells as possible to access the enemy's information system. Don't let the enemy get there first.",
+  },
+  {
     title: 'Corsairs',
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/corsairs_spixfs.webp',
     buttonText: 'Medals',
     medals: [],
+    info: "Bloody hell! There's a new peril in these waters. Mutineers have established their pirate fleet and are pillaging everyone in sight. Now, they want to capture our strategic stockpile in the port. Defend the port from pirates. After every successful attack, the pirates will take a part of the stockpile from your port. If the strategic stockpile gets depleted in your port, you will lose.",
   },
   {
     title: 'Crossfire',
@@ -97,6 +106,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/emergency-call_nhb3dc.webp',
     buttonText: 'Medals',
     medals: [],
+    info: "Enemy hackers breached our communication protocols. Now, we're unable to request reinforcements. There's a factory assembling scientific vehicles near the base. Capture the factory and use scientific vehicles to request backup squads through additional communication channels.",
   },
   {
     title: 'Flight Recorder',
@@ -112,6 +122,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/birthday_fd6lcb.webp',
     buttonText: 'Medals',
     medals: [],
+    info: "We are giving gifts on the game's birthday! Resource containers and prize boxes regularly appear on the battlefield. You can also give gifts, as each container you capture moves a prize box closer to your opponent's side. If you want a prize box to appear earlier, then complete the progress bar. You can open captured prize boxes right after the battle.",
   },
   {
     title: 'Joker',
@@ -119,6 +130,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/joker_ag5joe.webp',
     buttonText: 'Medals',
     medals: jokerMedals,
+    info: "Haha! I'm the Joker, the master of surprises. Think of this battlefield as my amusement park. Here's the game: whoever collects my surprise boxes first wins. Curious about what's inside? Well, you'll just have to open them to find out. Let's get this fun started!",
   },
   {
     title: 'Judgment Day',
@@ -134,6 +146,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349615/large-reserves_vlgwgk.webp',
     buttonText: 'Medals',
     medals: largeReservesMedals,
+    info: 'Depots in this part of the region are filled with raw materials. We need to collect them to meet our growing military needs. Break open active depots with a special vehicle and escort transports back to base',
   },
   {
     title: 'New Years Alarm',
@@ -141,6 +154,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349641/battle-for-christmas-trees_b5lq99.webp',
     buttonText: 'Medals',
     medals: newYearMedals,
+    info: "Scouting reports: a secret organization that uses the technology of both factions for its own purposes has been spotted in neutral territory. The organization's convoys carry Christmas trees and gifts, attacking everyone on their way. Capture Christmas trees and deliver them to the warehouse before the enemy does.",
   },
   {
     title: 'Nice Loot',
@@ -148,6 +162,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/big-booty_dedg7r.webp',
     buttonText: 'Medals',
     medals: niceLootMedals,
+    info: 'The coordinates of strategic Cold War stores have been disclosed. We were able to get the access codes and are ready to remove the contents. But the enemy also has their own plans for these stores. Obtain all the valuable supplies before they do.',
   },
   {
     title: 'Only by Chance',
@@ -163,6 +178,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349615/pumpkin-madness_yewxqg.webp',
     buttonText: 'Medals',
     medals: pumpkinMedals,
+    info: 'Major Pumpkin is a master of surprises. He scattered these damn `gifts` across the battlefield. Collect all the pumpkins before the enemy does. But be careful!',
   },
   {
     title: 'Reliable Partner',
@@ -178,6 +194,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349615/nautilus_rebcln.webp',
     buttonText: 'Medals',
     medals: nautilusMedals,
+    info: 'A large cargo shipment was sunk in this area. Several containers with the latest scientific developments lie on the seabed. We do not intend for the enemy to have them!',
   },
   {
     title: 'Total Control',
@@ -185,6 +202,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349616/total-control_torbnu.webp',
     buttonText: 'Medals',
     medals: totalControlMedals,
+    info: 'The radio-electronic interception complex `Osiris` is integrated with the radar network of the region. It can provide exhaustive information about enemy maneuvers. A sophisticated access system requires holding several points at the same time to take control of the complex.',
   },
   {
     title: 'Two Citadels',
@@ -200,6 +218,7 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349616/vanguard_rnmhnn.webp',
     buttonText: 'Medals',
     medals: vanguardMedals,
+    info: 'The Vanguard complex consists of several factories designed to train assault troops. The enemy is preparing to capture the complex and attack our positions. Capture the factories to get allied units and destroy the enemy base.',
   },
   {
     title: '5th Anniversary',
