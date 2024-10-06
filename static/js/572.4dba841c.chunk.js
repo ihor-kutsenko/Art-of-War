@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[572],{14572:function(e,r,a){a.r(r);var n=a(80184);r.default=function(){return(0,n.jsx)("div",{children:"ConfHeroesPage"})}}}]);
-//# sourceMappingURL=572.4dba841c.chunk.js.map
