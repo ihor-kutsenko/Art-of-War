@@ -1,6 +1,18 @@
+import { useState } from 'react';
 import styles from './Footer.module.scss';
+// import Modal from 'components/Modal/Modal';
+import FooterModal from 'components/FooterModal/FooterModal';
 
 const Footer = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
   return (
     <>
       <div className={styles.footer}>
@@ -11,12 +23,17 @@ const Footer = () => {
           Developed&nbsp;
           <span>
             by&nbsp;
-            <button className={styles.footerBtn} type="button">
+            <button
+              className={styles.footerBtn}
+              type="button"
+              onClick={openModal}
+            >
               <span className={styles.footerBtnText}>--DOMINATOR--</span>
             </button>
           </span>
         </span>
       </div>
+      {isModalOpen && <FooterModal onClose={closeModal} />}
     </>
   );
 };
