@@ -25,6 +25,20 @@ export const skirmish = [
     info: 'This time, Joker wants to check your defensive skills. Your aim is to survive as long as you can. A tough battle awaits you, as Joker always has an ace up his sleeve. Show him that you have some trump cards, too. The test of strength begins!',
   },
   {
+    title: 'Birthday Game',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728228349/birthday-game_a1dgs7.webp',
+    buttonText: 'Medals',
+    medals: [],
+  },
+  {
+    title: 'Summer Heat',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728225351/summer-heat_ykf48m.webp',
+    buttonText: 'Medals',
+    medals: [],
+  },
+  {
     title: 'Pumpkin Hunt',
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421065/pumpkin-hunt_c6bhqn.webp',
@@ -35,7 +49,7 @@ export const skirmish = [
   {
     title: 'Syndicate Trap',
     imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727421065/syndicate-trap_xdsovp.webp',
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728225584/syndicate-trap_ovvbqw.webp',
     buttonText: 'Medals',
     medals: [],
     info: "Intelligence has identified a significant concentration of Data Cells in sector K-537. The enemy reached the area before us and established an airbase to maintain control. Take the initiative by capturing all the Data Cells to gain crucial information on the enemy's latest technologies. Be cautious of enemy air raids.",

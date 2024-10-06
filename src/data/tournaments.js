@@ -79,7 +79,8 @@ export const tournaments = [
   },
   {
     title: 'Classified Files',
-    imageUrl: '',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728226772/classified_failes_zdm09m.webp',
     buttonText: 'Medals',
     medals: [],
     info: "The Syndicate hackers have breached the security system and stolen data from both factions. Encrypted Data Cells containing classified files have appeared on the battlefield. Capture as many Data Cells as possible to access the enemy's information system. Don't let the enemy get there first.",
@@ -103,7 +104,7 @@ export const tournaments = [
   {
     title: 'Emergency Call',
     imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/emergency-call_nhb3dc.webp',
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728225828/emergency-call_fsemic.webp',
     buttonText: 'Medals',
     medals: [],
     info: "Enemy hackers breached our communication protocols. Now, we're unable to request reinforcements. There's a factory assembling scientific vehicles near the base. Capture the factory and use scientific vehicles to request backup squads through additional communication channels.",
@@ -127,7 +128,7 @@ export const tournaments = [
   {
     title: 'Joker',
     imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349614/joker_ag5joe.webp',
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728227845/joker2_vkhsvf.webp',
     buttonText: 'Medals',
     medals: jokerMedals,
     info: "Haha! I'm the Joker, the master of surprises. Think of this battlefield as my amusement park. Here's the game: whoever collects my surprise boxes first wins. Curious about what's inside? Well, you'll just have to open them to find out. Let's get this fun started!",
@@ -195,6 +196,13 @@ export const tournaments = [
     buttonText: 'Medals',
     medals: nautilusMedals,
     info: 'A large cargo shipment was sunk in this area. Several containers with the latest scientific developments lie on the seabed. We do not intend for the enemy to have them!',
+  },
+  {
+    title: 'Summer Heat ',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728226141/summer-heat_vtlw6u.webp',
+    buttonText: 'Medals',
+    medals: [],
   },
   {
     title: 'Total Control',

@@ -1,7 +1,8 @@
 export const blitz = [
   {
     title: 'Boiling Waters',
-    imageUrl: '',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728227079/boilling-waters_jdverj.webp',
     buttonText: 'Medals',
     medals: [],
     info: 'The sun is mercilessly scorching. The fighters are going mad from the heat, and the navigation instruments are failing. Even the water in the bay has heated up to the point where the fish are cooking alive. The command is dropping cryocapsules onto the battlefield to keep the army combat-ready. Collect the cryocapsules and defeat the enemy in the fierce battle!',
@@ -29,13 +30,6 @@ export const blitz = [
     medals: [],
     info: 'Abandoned warehouses with raw materials have been found on the contact line. Your job is to empty them before the enemy does. As you hold the flag, transports are leaving the base. They move as a continuous column to the warehouse, get loaded, and deliver the cargo back to the base.',
   },
-  // {
-  //   title: 'Cornucopia',
-  //   imageUrl:
-  //     'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420363/cornucopia_cgcvxf.webp',
-  //   buttonText: 'Medals',
-  //   medals: [],
-  // },
   {
     title: 'Duel',
     imageUrl:
@@ -55,7 +49,7 @@ export const blitz = [
   {
     title: 'FFA3',
     imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420359/ffa3_dmkktk.webp',
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728228084/ffa3_rzbgaz.webp',
     buttonText: 'Medals',
     medals: [],
   },
@@ -69,7 +63,7 @@ export const blitz = [
   {
     title: 'FFA5',
     imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/ffa4_eqgqul.webp',
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728227399/ffa5_kxelnv.webp',
     buttonText: 'Medals',
     medals: [],
   },
@@ -82,7 +76,8 @@ export const blitz = [
   },
   {
     title: 'Find and Destroy',
-    imageUrl: '',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728224446/hide-and-seek_smqgo6.webp',
     buttonText: 'Medals',
     medals: [],
     info: 'The Syndicate drops containers with special scientific vehicles onto the battlefield to decrypt secret messages. Capture and hold as many of these special vehicles as possible to speed up the decryption and gain access to crucial secret information. Remember, your opponents are also trying to capture the vehicles. Find and destroy their vehicles to finish the decryption faster than anyone else!',
@@ -94,6 +89,13 @@ export const blitz = [
     buttonText: 'Medals',
     medals: [],
     info: 'Engineers had too much tequila and deployed the bases close to each other. A heavy melee awaits us! Only one winner is possible in this massacre. Destroy all enemies.',
+  },
+  {
+    title: 'Signal for the Attack',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420363/cornucopia_cgcvxf.webp',
+    buttonText: 'Medals',
+    medals: [],
   },
   {
     title: 'Supply Crisis',
