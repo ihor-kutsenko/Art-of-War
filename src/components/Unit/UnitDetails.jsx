@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import UnitStats from 'components/UnitStats/UnitStats';
 import UnitWeapons from 'components/UnitWeapons/UnitWeapons';
+import HeroBadge from 'components/HeroBadge/HeroBadge';
 import styles from './UnitDetails.module.scss';
 
 const UnitDetails = ({ unit }) => {
@@ -20,6 +21,11 @@ const UnitDetails = ({ unit }) => {
       <div className={styles.leftSection}>
         <h2 className={styles.unitName}>{unit.name}</h2>
         <p>{unit.type}</p>
+
+        {selectedLevelData.class && (
+          <HeroBadge classNumber={selectedLevelData.class} />
+        )}
+
         <img
           src={unit.image}
           alt={unit.name}

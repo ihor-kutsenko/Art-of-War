@@ -36,7 +36,7 @@ import thor from '../../images/units/confederation/thor.webp';
 import delta from '../../images/units/confederation/delta.webp';
 import viking from '../../images/units/confederation/viking.webp';
 import poseidon from '../../images/units/confederation/poseidon.webp';
-// hwebp
+// hero
 import cerberus from '../../images/hero/cerberus.webp';
 import beholder from '../../images/hero/beholder.webp';
 import seraphim from '../../images/hero/seraphim.webp';
