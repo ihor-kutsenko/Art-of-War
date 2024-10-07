@@ -39,7 +39,7 @@ import poseidon from '../../images/units/confederation/poseidon.webp';
 // hero
 import cerberus from '../../images/hero/cerberus.webp';
 import beholder from '../../images/hero/beholder.webp';
-import seraphim from '../../images/hero/seraphim.webp';
+import seraphim from '../../images/hero/seraphim1.webp';
 import solaris from '../../images/hero/solaris.webp';
 
 export const confederationBuildings = [
