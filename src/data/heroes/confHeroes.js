@@ -50,7 +50,7 @@ export const confederationHeroes = [
             damageArmor3: 1500,
             firingRange: 1.5,
             rateOfFire: 54,
-            firingAccuracy: '100.0',
+            firingAccuracy: '100',
             firingAccuracy2: '0.00',
             explosionRadius: '0.00',
           },
