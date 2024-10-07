@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkart_of_war=self.webpackChunkart_of_war||[]).push([[972],{48972:function(e,r,a){a.r(r);var s=a(80184);r.default=function(){return(0,s.jsx)("div",{children:"ResistHeroesPage"})}}}]);
-//# sourceMappingURL=972.5ddc1069.chunk.js.map
