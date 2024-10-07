@@ -27,27 +27,36 @@ const UnitsGallery = ({ units }) => {
   };
 
   return (
-    <div className={styles.gallery}>
-      {units.map((unit, index) => (
-        <div
-          onClick={() => handleUnitClick(index)}
-          key={unit.id}
-          className={styles.item}
-        >
-          <h3 className={styles.title}>{unit.name}</h3>
-          <img src={unit.image} alt={unit.name} className={styles.image} />
-        </div>
-      ))}
-      {selectedUnit !== null && (
-        <UnitModal
-          units={units}
-          selectedIndex={selectedUnit}
-          onClose={closeModal}
-          onPrevious={goToPrevious}
-          onNext={goToNext}
-        />
-      )}
-    </div>
+    <>
+      {' '}
+      <div className={styles.info}>
+        The characteristics of units and heroes are maximum for each rank as of
+        01.08.2024. Later in the game, there were changes in the characteristics
+        of units and heroes, which are still ongoing. After the feature changes,
+        the information will be collected and updated.
+      </div>
+      <div className={styles.gallery}>
+        {units.map((unit, index) => (
+          <div
+            onClick={() => handleUnitClick(index)}
+            key={unit.id}
+            className={styles.item}
+          >
+            <h3 className={styles.title}>{unit.name}</h3>
+            <img src={unit.image} alt={unit.name} className={styles.image} />
+          </div>
+        ))}
+        {selectedUnit !== null && (
+          <UnitModal
+            units={units}
+            selectedIndex={selectedUnit}
+            onClose={closeModal}
+            onPrevious={goToPrevious}
+            onNext={goToNext}
+          />
+        )}
+      </div>
+    </>
   );
 };
 

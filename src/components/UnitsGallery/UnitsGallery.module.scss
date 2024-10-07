@@ -1,5 +1,16 @@
 @import '../../sass/styles.scss';
 
+.info {
+  margin-bottom: 10px;
+  text-align: justify;
+  @include font(12px, 500, 1.19);
+  @include tablet {
+    @include font(20px, 500, 1.28);
+  }
+  @include desktop {
+    @include font(28px, 500, 1.28);
+  }
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
