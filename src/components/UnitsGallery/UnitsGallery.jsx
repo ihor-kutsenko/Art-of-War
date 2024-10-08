@@ -30,10 +30,11 @@ const UnitsGallery = ({ units }) => {
     <>
       {' '}
       <div className={styles.info}>
-        The characteristics of units and heroes are maximum for each rank as of
-        01.08.2024. Later in the game, there were changes in the characteristics
-        of units and heroes, which are still ongoing. After the feature changes,
-        the information will be collected and updated.
+        The characteristics of the units and heroes are maxed out for each rank
+        as of 01/08/2024. A bit later some changes have occurred both for units
+        and heroes and they’re still ongoing till today. After the feature
+        changes, the information about it will be collected, processed and
+        updated.
       </div>
       <div className={styles.gallery}>
         {units.map((unit, index) => (
