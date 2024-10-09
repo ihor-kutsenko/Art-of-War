@@ -2332,8 +2332,8 @@ export const resistanceUnits = [
     iconArmor: armor3,
     description: 'Description for Unit',
     weapons: [
-      { type: '110MM Double-Barreled Gun' },
-      { type: '110MM Double-Barreled Gun' },
+      { type: '110MM Double-Barreled Gun - in march mode only' },
+      { type: '110MM Double-Barreled Gun - in siege mode only' },
     ],
     levels: [
       // 7
@@ -6265,8 +6265,8 @@ export const resistanceUnits = [
     iconArmor: armor3,
     description: 'Description for Unit',
     weapons: [
-      { type: 'Torpedo Launcher' },
-      { type: 'Vertical Launch Missile System' },
+      { type: 'Torpedo Launcher - underwater' },
+      { type: 'Vertical Launch Missile System - on the surface' },
     ],
     levels: [
       // 7

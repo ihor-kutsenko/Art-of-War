@@ -1,0 +1,277 @@
+Date : 2024-10-09 17:34:06
+Directory : e:\Go IT\React\Art-of-War\src
+Total : 158 files,  39819 codes, 1208 comments, 826 blanks, all 41853 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript     |         45 |     36,278 |      1,197 |        217 |     37,692 |
+| JavaScript JSX |         75 |      2,170 |          1 |        389 |      2,560 |
+| SCSS           |         37 |      1,357 |          7 |        213 |      1,577 |
+| XML            |          1 |         14 |          3 |          7 |         24 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                      |        158 |     39,819 |      1,208 |        826 |     41,853 |
+| . (Files)                                                                                              |          2 |         45 |          0 |          9 |         54 |
+| components                                                                                             |         75 |      2,950 |          1 |        461 |      3,412 |
+| components\Blitz                                                                                       |          1 |         33 |          0 |          8 |         41 |
+| components\Blueprints                                                                                  |          2 |        127 |          0 |         10 |        137 |
+| components\Buildings                                                                                   |          8 |        472 |          0 |         60 |        532 |
+| components\Buildings\BuildingDetails                                                                   |          1 |        100 |          0 |         15 |        115 |
+| components\Buildings\BuildingModal                                                                     |          1 |         35 |          0 |          6 |         41 |
+| components\Buildings\BuildingProduceList                                                               |          2 |         94 |          0 |         15 |        109 |
+| components\Buildings\BuildingStats                                                                     |          1 |         58 |          0 |          4 |         62 |
+| components\Buildings\BuildingWeapons                                                                   |          1 |         43 |          0 |          7 |         50 |
+| components\Buildings\BuildingWeaponsStats                                                              |          1 |         92 |          0 |          4 |         96 |
+| components\Buildings\BuildingsGallery                                                                  |          1 |         50 |          0 |          9 |         59 |
+| components\Button                                                                                      |          1 |         21 |          0 |          4 |         25 |
+| components\Container                                                                                   |          2 |         23 |          0 |         10 |         33 |
+| components\Footer                                                                                      |          2 |         79 |          1 |         13 |         93 |
+| components\FooterModal                                                                                 |          2 |        122 |          0 |         16 |        138 |
+| components\Gallery                                                                                     |          2 |         59 |          0 |         13 |         72 |
+| components\Header                                                                                      |          2 |        130 |          0 |         16 |        146 |
+| components\HeroBadge                                                                                   |          2 |         49 |          0 |         11 |         60 |
+| components\ImageModal                                                                                  |          2 |        117 |          0 |         20 |        137 |
+| components\Item                                                                                        |          2 |        163 |          0 |         21 |        184 |
+| components\ItemList                                                                                    |          2 |         14 |          0 |          5 |         19 |
+| components\Leagues                                                                                     |          1 |         15 |          0 |          3 |         18 |
+| components\LoadMoreBtn                                                                                 |          2 |         41 |          0 |          7 |         48 |
+| components\Loader                                                                                      |          2 |         36 |          0 |          4 |         40 |
+| components\MapSelector                                                                                 |          2 |         63 |          0 |         13 |         76 |
+| components\MedalGrid                                                                                   |          2 |         85 |          0 |         14 |         99 |
+| components\MedalList                                                                                   |          2 |         57 |          0 |         10 |         67 |
+| components\Modal                                                                                       |          2 |         75 |          0 |         14 |         89 |
+| components\NavigationPage                                                                              |          2 |         68 |          0 |         10 |         78 |
+| components\Orders                                                                                      |          2 |         53 |          0 |          8 |         61 |
+| components\Pagination                                                                                  |          5 |        132 |          0 |         26 |        158 |
+| components\ScrollToUp                                                                                  |          3 |         40 |          0 |          8 |         48 |
+| components\SharedLayout                                                                                |          2 |         32 |          0 |          8 |         40 |
+| components\Skirmish                                                                                    |          1 |         30 |          0 |          7 |         37 |
+| components\SvgIcon                                                                                     |          1 |         15 |          0 |          5 |         20 |
+| components\Title                                                                                       |          2 |         20 |          0 |          8 |         28 |
+| components\Tournament                                                                                  |          1 |         33 |          0 |          7 |         40 |
+| components\Unit                                                                                        |          2 |        152 |          0 |         28 |        180 |
+| components\UnitModal                                                                                   |          2 |        105 |          0 |         19 |        124 |
+| components\UnitStats                                                                                   |          2 |         95 |          0 |          8 |        103 |
+| components\UnitWeapons                                                                                 |          2 |         97 |          0 |         13 |        110 |
+| components\UnitWeaponsStats                                                                            |          2 |        157 |          0 |         12 |        169 |
+| components\UnitsGallery                                                                                |          2 |        109 |          0 |         15 |        124 |
+| components\YoutubeTrailer                                                                              |          1 |         31 |          0 |          7 |         38 |
+| data                                                                                                   |         42 |     36,071 |      1,190 |        194 |     37,455 |
+| data (Files)                                                                                           |          5 |        478 |         26 |          9 |        513 |
+| data\avatars                                                                                           |          3 |         83 |          0 |          3 |         86 |
+| data\buildings                                                                                         |          2 |     18,536 |        567 |          5 |     19,108 |
+| data\heroes                                                                                            |          2 |      2,911 |        100 |          5 |      3,016 |
+| data\maps                                                                                              |          5 |        540 |          0 |          5 |        545 |
+| data\skirmish                                                                                          |          1 |         32 |          0 |          7 |         39 |
+| data\tournaments                                                                                       |         22 |        704 |          0 |        154 |        858 |
+| data\units                                                                                             |          2 |     12,787 |        497 |          6 |     13,290 |
+| images                                                                                                 |          1 |         14 |          3 |          7 |         24 |
+| pages                                                                                                  |         30 |        455 |          6 |        116 |        577 |
+| pages\AvatarsPage                                                                                      |          4 |         50 |          0 |         14 |         64 |
+| pages\AvatarsPage (Files)                                                                              |          1 |         20 |          0 |          5 |         25 |
+| pages\AvatarsPage\ConfAvatarsPage                                                                      |          1 |         10 |          0 |          3 |         13 |
+| pages\AvatarsPage\OtherAvatarsPage                                                                     |          1 |         10 |          0 |          3 |         13 |
+| pages\AvatarsPage\ResistAvatarsPage                                                                    |          1 |         10 |          0 |          3 |         13 |
+| pages\BuildingsPage                                                                                    |          3 |         35 |          0 |         11 |         46 |
+| pages\BuildingsPage (Files)                                                                            |          1 |         15 |          0 |          5 |         20 |
+| pages\BuildingsPage\ConfBuildingsPage                                                                  |          1 |         10 |          0 |          3 |         13 |
+| pages\BuildingsPage\ResistBuildingsPage                                                                |          1 |         10 |          0 |          3 |         13 |
+| pages\HeroesPage                                                                                       |          4 |         49 |          0 |         13 |         62 |
+| pages\HeroesPage (Files)                                                                               |          1 |         20 |          0 |          4 |         24 |
+| pages\HeroesPage\BlueprintsPage                                                                        |          1 |          9 |          0 |          3 |         12 |
+| pages\HeroesPage\ConfHeroesPage                                                                        |          1 |         10 |          0 |          3 |         13 |
+| pages\HeroesPage\ResistHeroesPage                                                                      |          1 |         10 |          0 |          3 |         13 |
+| pages\MapsPage                                                                                         |          6 |        134 |          0 |         34 |        168 |
+| pages\MapsPage (Files)                                                                                 |          1 |         24 |          0 |          4 |         28 |
+| pages\MapsPage\AutumnPage                                                                              |          1 |         22 |          0 |          6 |         28 |
+| pages\MapsPage\DesertPage                                                                              |          1 |         22 |          0 |          4 |         26 |
+| pages\MapsPage\JunglePage                                                                              |          1 |         22 |          0 |          6 |         28 |
+| pages\MapsPage\MidlandPage                                                                             |          1 |         22 |          0 |          7 |         29 |
+| pages\MapsPage\WinterPage                                                                              |          1 |         22 |          0 |          7 |         29 |
+| pages\MedalsPage                                                                                       |          7 |         69 |          6 |         22 |         97 |
+| pages\MedalsPage (Files)                                                                               |          1 |         24 |          0 |          5 |         29 |
+| pages\MedalsPage\BlitzTournamentPage                                                                   |          1 |          9 |          0 |          3 |         12 |
+| pages\MedalsPage\LeaguesPage                                                                           |          1 |          9 |          0 |          3 |         12 |
+| pages\MedalsPage\OrdersPage                                                                            |          1 |          9 |          0 |          3 |         12 |
+| pages\MedalsPage\SkirmishPage                                                                          |          1 |          9 |          0 |          3 |         12 |
+| pages\MedalsPage\TournamentPage                                                                        |          2 |          9 |          6 |          5 |         20 |
+| pages\NotFoundPage                                                                                     |          1 |         13 |          0 |          2 |         15 |
+| pages\UnitsPage                                                                                        |          3 |         35 |          0 |         11 |         46 |
+| pages\UnitsPage (Files)                                                                                |          1 |         15 |          0 |          5 |         20 |
+| pages\UnitsPage\ConfUnitsPage                                                                          |          1 |         10 |          0 |          3 |         13 |
+| pages\UnitsPage\ResistUnitsPage                                                                        |          1 |         10 |          0 |          3 |         13 |
+| pages\WelcomePage                                                                                      |          2 |         70 |          0 |          9 |         79 |
+| routes                                                                                                 |          3 |        183 |          7 |         20 |        210 |
+| sass                                                                                                   |          5 |        101 |          1 |         19 |        121 |
++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                               | language       | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| e:\Go IT\React\Art-of-War\src\App.jsx                                                                  | JavaScript JSX |         33 |          0 |          6 |         39 |
+| e:\Go IT\React\Art-of-War\src\components\Blitz\Blitz.jsx                                               | JavaScript JSX |         33 |          0 |          8 |         41 |
+| e:\Go IT\React\Art-of-War\src\components\Blueprints\Blueprints.jsx                                     | JavaScript JSX |         91 |          0 |          3 |         94 |
+| e:\Go IT\React\Art-of-War\src\components\Blueprints\Blueprints.module.scss                             | SCSS           |         36 |          0 |          7 |         43 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingDetails\BuildingDetails.jsx                 | JavaScript JSX |        100 |          0 |         15 |        115 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingModal\BuildingModal.jsx                     | JavaScript JSX |         35 |          0 |          6 |         41 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingProduceList\BuildingProduceList.jsx         | JavaScript JSX |         24 |          0 |          3 |         27 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingProduceList\BuildingProduceList.module.scss | SCSS           |         70 |          0 |         12 |         82 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingStats\BuildingStats.jsx                     | JavaScript JSX |         58 |          0 |          4 |         62 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingWeaponsStats\BuildingWeaponsStats.jsx       | JavaScript JSX |         92 |          0 |          4 |         96 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingWeapons\BuildingWeapons.jsx                 | JavaScript JSX |         43 |          0 |          7 |         50 |
+| e:\Go IT\React\Art-of-War\src\components\Buildings\BuildingsGallery\BuildingsGallery.jsx               | JavaScript JSX |         50 |          0 |          9 |         59 |
+| e:\Go IT\React\Art-of-War\src\components\Button\Button.jsx                                             | JavaScript JSX |         21 |          0 |          4 |         25 |
+| e:\Go IT\React\Art-of-War\src\components\Container\Container.jsx                                       | JavaScript JSX |          9 |          0 |          5 |         14 |
+| e:\Go IT\React\Art-of-War\src\components\Container\Container.module.scss                               | SCSS           |         14 |          0 |          5 |         19 |
+| e:\Go IT\React\Art-of-War\src\components\FooterModal\FooterModal.jsx                                   | JavaScript JSX |         31 |          0 |          5 |         36 |
+| e:\Go IT\React\Art-of-War\src\components\FooterModal\FooterModal.module.scss                           | SCSS           |         91 |          0 |         11 |        102 |
+| e:\Go IT\React\Art-of-War\src\components\Footer\Footer.jsx                                             | JavaScript JSX |         36 |          1 |          5 |         42 |
+| e:\Go IT\React\Art-of-War\src\components\Footer\Footer.module.scss                                     | SCSS           |         43 |          0 |          8 |         51 |
+| e:\Go IT\React\Art-of-War\src\components\Gallery\Gallery.jsx                                           | JavaScript JSX |         48 |          0 |         10 |         58 |
+| e:\Go IT\React\Art-of-War\src\components\Gallery\Gallery.module.scss                                   | SCSS           |         11 |          0 |          3 |         14 |
+| e:\Go IT\React\Art-of-War\src\components\Header\Header.jsx                                             | JavaScript JSX |         73 |          0 |          9 |         82 |
+| e:\Go IT\React\Art-of-War\src\components\Header\Header.module.scss                                     | SCSS           |         57 |          0 |          7 |         64 |
+| e:\Go IT\React\Art-of-War\src\components\HeroBadge\HeroBadge.jsx                                       | JavaScript JSX |         14 |          0 |          4 |         18 |
+| e:\Go IT\React\Art-of-War\src\components\HeroBadge\HeroBadge.module.scss                               | SCSS           |         35 |          0 |          7 |         42 |
+| e:\Go IT\React\Art-of-War\src\components\ImageModal\ImageModal.jsx                                     | JavaScript JSX |         42 |          0 |          8 |         50 |
+| e:\Go IT\React\Art-of-War\src\components\ImageModal\ImageModal.module.scss                             | SCSS           |         75 |          0 |         12 |         87 |
+| e:\Go IT\React\Art-of-War\src\components\ItemList\ItemList.jsx                                         | JavaScript JSX |          5 |          0 |          3 |          8 |
+| e:\Go IT\React\Art-of-War\src\components\ItemList\ItemList.module.scss                                 | SCSS           |          9 |          0 |          2 |         11 |
+| e:\Go IT\React\Art-of-War\src\components\Item\Item.jsx                                                 | JavaScript JSX |         78 |          0 |         11 |         89 |
+| e:\Go IT\React\Art-of-War\src\components\Item\Item.module.scss                                         | SCSS           |         85 |          0 |         10 |         95 |
+| e:\Go IT\React\Art-of-War\src\components\Leagues\Leagues.jsx                                           | JavaScript JSX |         15 |          0 |          3 |         18 |
+| e:\Go IT\React\Art-of-War\src\components\LoadMoreBtn\LoadMoreBtn.jsx                                   | JavaScript JSX |         12 |          0 |          4 |         16 |
+| e:\Go IT\React\Art-of-War\src\components\LoadMoreBtn\LoadMoreBtn.module.scss                           | SCSS           |         29 |          0 |          3 |         32 |
+| e:\Go IT\React\Art-of-War\src\components\Loader\Loader.jsx                                             | JavaScript JSX |         21 |          0 |          2 |         23 |
+| e:\Go IT\React\Art-of-War\src\components\Loader\Loader.module.scss                                     | SCSS           |         15 |          0 |          2 |         17 |
+| e:\Go IT\React\Art-of-War\src\components\MapSelector\MapSelector.jsx                                   | JavaScript JSX |         30 |          0 |          7 |         37 |
+| e:\Go IT\React\Art-of-War\src\components\MapSelector\MapSelector.module.scss                           | SCSS           |         33 |          0 |          6 |         39 |
+| e:\Go IT\React\Art-of-War\src\components\MedalGrid\MedalGrid.jsx                                       | JavaScript JSX |         41 |          0 |          8 |         49 |
+| e:\Go IT\React\Art-of-War\src\components\MedalGrid\MedalGrid.module.scss                               | SCSS           |         44 |          0 |          6 |         50 |
+| e:\Go IT\React\Art-of-War\src\components\MedalList\MedalList.jsx                                       | JavaScript JSX |         25 |          0 |          5 |         30 |
+| e:\Go IT\React\Art-of-War\src\components\MedalList\MedalList.module.scss                               | SCSS           |         32 |          0 |          5 |         37 |
+| e:\Go IT\React\Art-of-War\src\components\Modal\Modal.jsx                                               | JavaScript JSX |         35 |          0 |          9 |         44 |
+| e:\Go IT\React\Art-of-War\src\components\Modal\Modal.module.scss                                       | SCSS           |         40 |          0 |          5 |         45 |
+| e:\Go IT\React\Art-of-War\src\components\NavigationPage\NavigationPage.jsx                             | JavaScript JSX |         35 |          0 |          6 |         41 |
+| e:\Go IT\React\Art-of-War\src\components\NavigationPage\NavigationPage.module.scss                     | SCSS           |         33 |          0 |          4 |         37 |
+| e:\Go IT\React\Art-of-War\src\components\Orders\Orders.jsx                                             | JavaScript JSX |         15 |          0 |          3 |         18 |
+| e:\Go IT\React\Art-of-War\src\components\Orders\Orders.module.scss                                     | SCSS           |         38 |          0 |          5 |         43 |
+| e:\Go IT\React\Art-of-War\src\components\Pagination\Pagination.jsx                                     | JavaScript JSX |         50 |          0 |          6 |         56 |
+| e:\Go IT\React\Art-of-War\src\components\Pagination\Pagination.module.scss                             | SCSS           |         40 |          0 |          6 |         46 |
+| e:\Go IT\React\Art-of-War\src\components\Pagination\PaginationContainer.jsx                            | JavaScript JSX |          5 |          0 |          3 |          8 |
+| e:\Go IT\React\Art-of-War\src\components\Pagination\PaginationContainer.module.scss                    | SCSS           |         11 |          0 |          3 |         14 |
+| e:\Go IT\React\Art-of-War\src\components\Pagination\PaginationHooks.jsx                                | JavaScript JSX |         26 |          0 |          8 |         34 |
+| e:\Go IT\React\Art-of-War\src\components\ScrollToUp\ScrollToTopStyle.js                                | JavaScript     |         12 |          0 |          2 |         14 |
+| e:\Go IT\React\Art-of-War\src\components\ScrollToUp\ScrollWrapper.jsx                                  | JavaScript JSX |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\components\ScrollToUp\ScrollWrapper.module.scss                          | SCSS           |         19 |          0 |          3 |         22 |
+| e:\Go IT\React\Art-of-War\src\components\SharedLayout\SharedLayout.jsx                                 | JavaScript JSX |         23 |          0 |          5 |         28 |
+| e:\Go IT\React\Art-of-War\src\components\SharedLayout\SharedLayout.module.scss                         | SCSS           |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\components\Skirmish\Skirmish.jsx                                         | JavaScript JSX |         30 |          0 |          7 |         37 |
+| e:\Go IT\React\Art-of-War\src\components\SvgIcon\SvgIcon.jsx                                           | JavaScript JSX |         15 |          0 |          5 |         20 |
+| e:\Go IT\React\Art-of-War\src\components\Title\Title.jsx                                               | JavaScript JSX |         11 |          0 |          5 |         16 |
+| e:\Go IT\React\Art-of-War\src\components\Title\Title.module.scss                                       | SCSS           |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\components\Tournament\Tournament.jsx                                     | JavaScript JSX |         33 |          0 |          7 |         40 |
+| e:\Go IT\React\Art-of-War\src\components\UnitModal\UnitModal.jsx                                       | JavaScript JSX |         29 |          0 |          7 |         36 |
+| e:\Go IT\React\Art-of-War\src\components\UnitModal\UnitModal.module.scss                               | SCSS           |         76 |          0 |         12 |         88 |
+| e:\Go IT\React\Art-of-War\src\components\UnitStats\UnitStats.jsx                                       | JavaScript JSX |         65 |          0 |          3 |         68 |
+| e:\Go IT\React\Art-of-War\src\components\UnitStats\UnitStats.module.scss                               | SCSS           |         30 |          0 |          5 |         35 |
+| e:\Go IT\React\Art-of-War\src\components\UnitWeaponsStats\UnitWeaponsStats.jsx                         | JavaScript JSX |        121 |          0 |          7 |        128 |
+| e:\Go IT\React\Art-of-War\src\components\UnitWeaponsStats\UnitWeaponsStats.module.scss                 | SCSS           |         36 |          0 |          5 |         41 |
+| e:\Go IT\React\Art-of-War\src\components\UnitWeapons\UnitWeapons.jsx                                   | JavaScript JSX |         45 |          0 |          7 |         52 |
+| e:\Go IT\React\Art-of-War\src\components\UnitWeapons\UnitWeapons.module.scss                           | SCSS           |         52 |          0 |          6 |         58 |
+| e:\Go IT\React\Art-of-War\src\components\Unit\UnitDetails.jsx                                          | JavaScript JSX |         63 |          0 |         12 |         75 |
+| e:\Go IT\React\Art-of-War\src\components\Unit\UnitDetails.module.scss                                  | SCSS           |         89 |          0 |         16 |        105 |
+| e:\Go IT\React\Art-of-War\src\components\UnitsGallery\UnitsGallery.jsx                                 | JavaScript JSX |         56 |          0 |          9 |         65 |
+| e:\Go IT\React\Art-of-War\src\components\UnitsGallery\UnitsGallery.module.scss                         | SCSS           |         53 |          0 |          6 |         59 |
+| e:\Go IT\React\Art-of-War\src\components\YoutubeTrailer\YoutubeTrailer.jsx                             | JavaScript JSX |         31 |          0 |          7 |         38 |
+| e:\Go IT\React\Art-of-War\src\data\avatars\confederation.js                                            | JavaScript     |         36 |          0 |          1 |         37 |
+| e:\Go IT\React\Art-of-War\src\data\avatars\other.js                                                    | JavaScript     |         11 |          0 |          1 |         12 |
+| e:\Go IT\React\Art-of-War\src\data\avatars\resistance.js                                               | JavaScript     |         36 |          0 |          1 |         37 |
+| e:\Go IT\React\Art-of-War\src\data\blitz.js                                                            | JavaScript     |        148 |          0 |          1 |        149 |
+| e:\Go IT\React\Art-of-War\src\data\buildings\confederationBuildings.js                                 | JavaScript     |      9,561 |        292 |          2 |      9,855 |
+| e:\Go IT\React\Art-of-War\src\data\buildings\resistanceBuildings.js                                    | JavaScript     |      8,975 |        275 |          3 |      9,253 |
+| e:\Go IT\React\Art-of-War\src\data\heroes\confHeroes.js                                                | JavaScript     |      1,532 |         50 |          3 |      1,585 |
+| e:\Go IT\React\Art-of-War\src\data\heroes\resistHeroes.js                                              | JavaScript     |      1,379 |         50 |          2 |      1,431 |
+| e:\Go IT\React\Art-of-War\src\data\leagues.js                                                          | JavaScript     |         32 |          0 |          1 |         33 |
+| e:\Go IT\React\Art-of-War\src\data\maps\autumn.js                                                      | JavaScript     |         32 |          0 |          1 |         33 |
+| e:\Go IT\React\Art-of-War\src\data\maps\desert.js                                                      | JavaScript     |        132 |          0 |          1 |        133 |
+| e:\Go IT\React\Art-of-War\src\data\maps\jungle.js                                                      | JavaScript     |        192 |          0 |          1 |        193 |
+| e:\Go IT\React\Art-of-War\src\data\maps\midland.js                                                     | JavaScript     |         92 |          0 |          1 |         93 |
+| e:\Go IT\React\Art-of-War\src\data\maps\winter.js                                                      | JavaScript     |         92 |          0 |          1 |         93 |
+| e:\Go IT\React\Art-of-War\src\data\orders.js                                                           | JavaScript     |         16 |          0 |          2 |         18 |
+| e:\Go IT\React\Art-of-War\src\data\skirmish.js                                                         | JavaScript     |         72 |          0 |          2 |         74 |
+| e:\Go IT\React\Art-of-War\src\data\skirmish\ai.js                                                      | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments.js                                                      | JavaScript     |        210 |         26 |          3 |        239 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\allTheFront.js                                          | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\assault.js                                              | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\battleRoyale.js                                         | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\behindTheWall.js                                        | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\corsairs.js                                             | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\crossfire.js                                            | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\emergencyCall.js                                        | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\fifthAnniversary.js                                     | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\flightRecorder.js                                       | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\gameBirthday.js                                         | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\joker.js                                                | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\judgmentDay.js                                          | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\largeReserves.js                                        | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\nautilus.js                                             | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\newYearsAlarm.js                                        | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\niceLoot.js                                             | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\onlyByChance.js                                         | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\pumpkinMadness.js                                       | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\reliablePartner.js                                      | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\totalControl.js                                         | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\twoCitadels.js                                          | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\tournaments\vanguard.js                                             | JavaScript     |         32 |          0 |          7 |         39 |
+| e:\Go IT\React\Art-of-War\src\data\units\confederationUnits.js                                         | JavaScript     |      6,261 |        256 |          3 |      6,520 |
+| e:\Go IT\React\Art-of-War\src\data\units\resistanceUnits.js                                            | JavaScript     |      6,526 |        241 |          3 |      6,770 |
+| e:\Go IT\React\Art-of-War\src\images\sprite.svg                                                        | XML            |         14 |          3 |          7 |         24 |
+| e:\Go IT\React\Art-of-War\src\index.js                                                                 | JavaScript     |         12 |          0 |          3 |         15 |
+| e:\Go IT\React\Art-of-War\src\pages\AvatarsPage\AvatarsPage.jsx                                        | JavaScript JSX |         20 |          0 |          5 |         25 |
+| e:\Go IT\React\Art-of-War\src\pages\AvatarsPage\ConfAvatarsPage\ConfAvatarsPage.jsx                    | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\AvatarsPage\OtherAvatarsPage\OtherAvatarsPage.jsx                  | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\AvatarsPage\ResistAvatarsPage\ResistAvatarsPage.jsx                | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\BuildingsPage\BuildingsPage.jsx                                    | JavaScript JSX |         15 |          0 |          5 |         20 |
+| e:\Go IT\React\Art-of-War\src\pages\BuildingsPage\ConfBuildingsPage\ConfBuildingsPage.jsx              | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\BuildingsPage\ResistBuildingsPage\ResistBuildingsPage.jsx          | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\HeroesPage\BlueprintsPage\BlueprintsPage.jsx                       | JavaScript JSX |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\pages\HeroesPage\ConfHeroesPage\ConfHeroesPage.jsx                       | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\HeroesPage\HeroesPage.jsx                                          | JavaScript JSX |         20 |          0 |          4 |         24 |
+| e:\Go IT\React\Art-of-War\src\pages\HeroesPage\ResistHeroesPage\ResistHeroesPage.jsx                   | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\MapsPage\AutumnPage\AutumnPage.jsx                                 | JavaScript JSX |         22 |          0 |          6 |         28 |
+| e:\Go IT\React\Art-of-War\src\pages\MapsPage\DesertPage\DesertPage.jsx                                 | JavaScript JSX |         22 |          0 |          4 |         26 |
+| e:\Go IT\React\Art-of-War\src\pages\MapsPage\JunglePage\JunglePage.jsx                                 | JavaScript JSX |         22 |          0 |          6 |         28 |
+| e:\Go IT\React\Art-of-War\src\pages\MapsPage\MapsPage.jsx                                              | JavaScript JSX |         24 |          0 |          4 |         28 |
+| e:\Go IT\React\Art-of-War\src\pages\MapsPage\MidlandPage\MidlandPage.jsx                               | JavaScript JSX |         22 |          0 |          7 |         29 |
+| e:\Go IT\React\Art-of-War\src\pages\MapsPage\WinterPage\WinterPage.jsx                                 | JavaScript JSX |         22 |          0 |          7 |         29 |
+| e:\Go IT\React\Art-of-War\src\pages\MedalsPage\BlitzTournamentPage\BlitzTournamentPage.jsx             | JavaScript JSX |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\pages\MedalsPage\LeaguesPage\LeaguesPage.jsx                             | JavaScript JSX |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\pages\MedalsPage\MedalsPage.jsx                                          | JavaScript JSX |         24 |          0 |          5 |         29 |
+| e:\Go IT\React\Art-of-War\src\pages\MedalsPage\OrdersPage\OrdersPage.jsx                               | JavaScript JSX |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\pages\MedalsPage\SkirmishPage\SkirmishPage.jsx                           | JavaScript JSX |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\pages\MedalsPage\TournamentPage\TournamentPage.jsx                       | JavaScript JSX |          9 |          0 |          3 |         12 |
+| e:\Go IT\React\Art-of-War\src\pages\MedalsPage\TournamentPage\TournamentPage.module.scss               | SCSS           |          0 |          6 |          2 |          8 |
+| e:\Go IT\React\Art-of-War\src\pages\NotFoundPage\NotFoundPage.jsx                                      | JavaScript JSX |         13 |          0 |          2 |         15 |
+| e:\Go IT\React\Art-of-War\src\pages\UnitsPage\ConfUnitsPage\ConfUnitsPage.jsx                          | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\UnitsPage\ResistUnitsPage\ResistUnitsPage.jsx                      | JavaScript JSX |         10 |          0 |          3 |         13 |
+| e:\Go IT\React\Art-of-War\src\pages\UnitsPage\UnitsPage.jsx                                            | JavaScript JSX |         15 |          0 |          5 |         20 |
+| e:\Go IT\React\Art-of-War\src\pages\WelcomePage\WelcomePage.jsx                                        | JavaScript JSX |         28 |          0 |          5 |         33 |
+| e:\Go IT\React\Art-of-War\src\pages\WelcomePage\WelcomePage.module.scss                                | SCSS           |         42 |          0 |          4 |         46 |
+| e:\Go IT\React\Art-of-War\src\routes\PrivateRoutes.jsx                                                 | JavaScript JSX |          0 |          0 |          1 |          1 |
+| e:\Go IT\React\Art-of-War\src\routes\RestrictedRoutes.jsx                                              | JavaScript JSX |          0 |          0 |          1 |          1 |
+| e:\Go IT\React\Art-of-War\src\routes\routes.js                                                         | JavaScript     |        183 |          7 |         18 |        208 |
+| e:\Go IT\React\Art-of-War\src\sass\_breakpoints.scss                                                   | SCSS           |         30 |          0 |          6 |         36 |
+| e:\Go IT\React\Art-of-War\src\sass\_mixins.scss                                                        | SCSS           |         12 |          0 |          2 |         14 |
+| e:\Go IT\React\Art-of-War\src\sass\_variables.scss                                                     | SCSS           |         17 |          1 |          3 |         21 |
+| e:\Go IT\React\Art-of-War\src\sass\index.scss                                                          | SCSS           |         39 |          0 |          7 |         46 |
+| e:\Go IT\React\Art-of-War\src\sass\styles.scss                                                         | SCSS           |          3 |          0 |          1 |          4 |
+| Total                                                                                                  |                |     39,819 |      1,208 |        826 |     41,853 |
++--------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

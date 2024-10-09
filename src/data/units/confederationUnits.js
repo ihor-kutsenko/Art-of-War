@@ -2797,7 +2797,10 @@ export const confederationUnits = [
     image: typhoon,
     iconArmor: armor2,
     description: 'Description for Unit',
-    weapons: [{ type: 'Sam Launcher' }, { type: 'Sam Launcher' }],
+    weapons: [
+      { type: 'Sam Launcher - in march mode only' },
+      { type: 'Sam Launcher - in siege mode only' },
+    ],
     levels: [
       // 7
       {

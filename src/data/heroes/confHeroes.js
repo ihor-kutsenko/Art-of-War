@@ -693,8 +693,8 @@ export const confederationHeroes = [
     iconArmor: armor3,
     description: 'Description for Hero',
     weapons: [
-      { type: 'ENERGY AUTOCANNONS "LAZARUS" in avia mode' },
-      { type: 'ENERGY AUTOCANNONS "LAZARUS" in ground mode' },
+      { type: 'ENERGY AUTOCANNONS "LAZARUS" - in avia mode' },
+      { type: 'ENERGY AUTOCANNONS "LAZARUS" - in ground mode' },
     ],
     levels: [
       // 7
