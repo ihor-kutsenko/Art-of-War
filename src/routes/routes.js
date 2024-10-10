@@ -43,9 +43,9 @@ const ConfHeroesPage = lazy(() =>
 const ResistHeroesPage = lazy(() =>
   import('../pages/HeroesPage/ResistHeroesPage/ResistHeroesPage')
 );
-const BlueprintsPage = lazy(() =>
-  import('../pages/HeroesPage/BlueprintsPage/BlueprintsPage')
-);
+// const BlueprintsPage = lazy(() =>
+//   import('../pages/HeroesPage/BlueprintsPage/BlueprintsPage')
+// );
 // Units page
 const UnitsPage = lazy(() => import('../pages/UnitsPage/UnitsPage'));
 const ConfUnitsPage = lazy(() =>
@@ -98,7 +98,7 @@ export const LEAGUES_ROUTE = 'leagues';
 export const HEROES_ROUTE = '/heroes';
 export const CONF_HEROES_ROUTE = 'conf-heroes';
 export const RESIST_HEROES_ROUTE = 'resist-heroes';
-export const BLUEPRINTS_ROUTE = 'blueprints';
+// export const BLUEPRINTS_ROUTE = 'blueprints';
 
 export const UNITS_ROUTE = '/units';
 export const CONF_UNITS_ROUTE = 'confederation';
@@ -132,7 +132,7 @@ export const medalsRoutes = [
 export const heroesRoutes = [
   { path: CONF_HEROES_ROUTE, element: <ConfHeroesPage /> },
   { path: RESIST_HEROES_ROUTE, element: <ResistHeroesPage /> },
-  { path: BLUEPRINTS_ROUTE, element: <BlueprintsPage /> },
+  // { path: BLUEPRINTS_ROUTE, element: <BlueprintsPage /> },
 ];
 
 export const unitsRoutes = [
