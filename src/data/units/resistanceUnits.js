@@ -27,7 +27,7 @@ export const resistanceUnits = [
     type: 'Light Infantry ',
     image: rifleman,
     iconArmor: armor1,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: 'Individual Combat Rifle' },
       { type: 'Electro-Smoke Grenade' },
@@ -537,7 +537,7 @@ export const resistanceUnits = [
     type: 'Anti-Tank Infantry',
     image: grenadier,
     iconArmor: armor1,
-    description: 'Description for Unit ',
+    description: ' ',
     weapons: [{ type: 'Individual Grenadier Launcher' }],
     levels: [
       // 7
@@ -894,7 +894,7 @@ export const resistanceUnits = [
     type: 'Special Infantry',
     image: sniper,
     iconArmor: armor1,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: 'Sniper Rifle' }],
     levels: [
       // 7
@@ -1251,7 +1251,7 @@ export const resistanceUnits = [
     type: 'Ultra Light Recon Vehicle',
     image: coyote,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: '14.5MM Light Machine Gun' }],
     levels: [
       // 7
@@ -1608,7 +1608,7 @@ export const resistanceUnits = [
     type: 'Multi-Purpose Combat Vehicle',
     image: armadillo,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: '57MM Anti-Armor AutoCannon' },
       { type: 'Scorpion Mine' },
@@ -2330,7 +2330,7 @@ export const resistanceUnits = [
     type: 'Heavy Siege Tank',
     image: jaguar,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: '110MM Double-Barreled Gun - in march mode only' },
       { type: '110MM Double-Barreled Gun - in siege mode only' },
@@ -2840,7 +2840,7 @@ export const resistanceUnits = [
     type: 'Anti-Aircraft Platform',
     image: porcupine,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: 'Panoramic Sam Launcher' },
       { type: '23MM Three-Barreled Rotary Gun' },
@@ -3350,7 +3350,7 @@ export const resistanceUnits = [
     type: 'Self-Propelled Artillery',
     image: mammoth,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: '130MM Long-Range Howitzer' }],
     levels: [
       // 7
@@ -3707,7 +3707,7 @@ export const resistanceUnits = [
     type: 'Active Camouflage System',
     image: chameleon,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: null,
     levels: [
       // 7
@@ -3899,7 +3899,7 @@ export const resistanceUnits = [
     type: 'Light Attack Helicopter',
     image: dragonfly,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: 'Guided Missile Launcher' },
       { type: '14.5MM Helicopter Machine Gun' },
@@ -4409,7 +4409,7 @@ export const resistanceUnits = [
     type: 'G5 Heavy Jet Fighter',
     image: hawk,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: 'Er Self-Guided Wing Missiles' },
       { type: '23MM Fuselage Coaxial Cannon' },
@@ -4919,7 +4919,7 @@ export const resistanceUnits = [
     type: 'Tactical Bomber',
     image: albatross,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: 'Air Bomb' }],
     levels: [
       // 7
@@ -5276,7 +5276,7 @@ export const resistanceUnits = [
     type: 'Light Recon Boat',
     image: caiman,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: '14.5MM Machine Gun' }, { type: 'Triton Mine' }],
     levels: [
       // 7
@@ -5753,7 +5753,7 @@ export const resistanceUnits = [
     type: 'Heavy Corvette',
     image: alligator,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: '130MM Double-Barreled Naval Gun' },
       { type: 'Sam Launcher' },
@@ -6263,7 +6263,7 @@ export const resistanceUnits = [
     type: 'Missile-Torpedo Submarine',
     image: barracuda,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: 'Torpedo Launcher - underwater' },
       { type: 'Vertical Launch Missile System - on the surface' },

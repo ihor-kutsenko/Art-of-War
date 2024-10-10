@@ -15,7 +15,7 @@ export const confederationHeroes = [
     type: 'Elite Exoskeleton Assault ',
     image: cerberus,
     iconArmor: armor2,
-    description: 'Description for Hero',
+    description: '',
     weapons: [
       { type: 'MULTI_GUN "MATHILDA"' },
       { type: 'VIBRO BAYONET' },
@@ -691,7 +691,7 @@ export const confederationHeroes = [
     type: 'Transformer Fighter ',
     image: seraphim,
     iconArmor: armor3,
-    description: 'Description for Hero',
+    description: '',
     weapons: [
       { type: 'ENERGY AUTOCANNONS "LAZARUS" - in avia mode' },
       { type: 'ENERGY AUTOCANNONS "LAZARUS" - in ground mode' },
@@ -1216,7 +1216,7 @@ export const confederationHeroes = [
     type: 'Antigravity Heavy Tank ',
     image: solaris,
     iconArmor: armor3,
-    description: 'Description for Hero',
+    description: '',
     weapons: [{ type: 'SPE-2.0 WEAPON SYSTEM' }],
     levels: [
       // 7

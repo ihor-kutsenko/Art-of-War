@@ -27,7 +27,7 @@ export const confederationUnits = [
     type: 'Light Assault Infantry ',
     image: assault,
     iconArmor: armor1,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: 'M55 Personal Assault Rifle' },
       { type: 'Anti-Personnel Grenade' },
@@ -570,7 +570,7 @@ export const confederationUnits = [
     type: 'Heavy Assault Infantry ',
     image: heavyAssault,
     iconArmor: armor1,
-    description: 'Description for Unit ',
+    description: ' ',
     weapons: [{ type: 'RL-100 Rocket Launcher' }],
     levels: [
       // 7
@@ -950,7 +950,7 @@ export const confederationUnits = [
     type: 'Special Assault Infantry',
     image: fireAssault,
     iconArmor: armor1,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: 'Portable jet Flamethrower' }],
     levels: [
       // 7
@@ -1330,7 +1330,7 @@ export const confederationUnits = [
     type: 'Infantry Support Vehicle',
     image: fortress,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: '12.7MM HMG Turret' },
       { type: 'Machine jet Flamethrower' },
@@ -1873,7 +1873,7 @@ export const confederationUnits = [
     type: 'Light Assault Tank',
     image: hammer,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: '90MM Anti-Armor Gun' }],
     levels: [
       // 7
@@ -2253,7 +2253,7 @@ export const confederationUnits = [
     type: 'Heavy Assault Tank',
     image: zeus,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: '125MM Thermoelectric Gun' },
       { type: 'Automatic Missile Launcher' },
@@ -2796,7 +2796,7 @@ export const confederationUnits = [
     type: 'Anti-Aircraft Vehicle',
     image: typhoon,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: 'Sam Launcher - in march mode only' },
       { type: 'Sam Launcher - in siege mode only' },
@@ -3339,7 +3339,7 @@ export const confederationUnits = [
     type: 'Multiple Launch Rocket System',
     image: torrent,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: 'Multiple Launch Rocket System' }],
     levels: [
       // 7
@@ -3719,7 +3719,7 @@ export const confederationUnits = [
     type: 'Support Combat Vehicle',
     image: energyShield,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: null,
     levels: [
       // 7
@@ -3923,7 +3923,7 @@ export const confederationUnits = [
     type: 'Reconnaissance Helicopter',
     image: cyclone,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: '14.5MM Avionic Machine Gun' }],
     levels: [
       // 7
@@ -4303,7 +4303,7 @@ export const confederationUnits = [
     type: 'G6 Light Jet Fighter',
     image: vertex,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: 'Guided Missile Launcher' }],
     levels: [
       // 7
@@ -4683,7 +4683,7 @@ export const confederationUnits = [
     type: 'Tactical Bomber',
     image: thor,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: 'Air Bomb' }],
     levels: [
       // 7
@@ -5063,7 +5063,7 @@ export const confederationUnits = [
     type: 'Light Assault Amphibian',
     image: delta,
     iconArmor: armor2,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: '30MM AutoCannon' }],
     levels: [
       // 7
@@ -5443,7 +5443,7 @@ export const confederationUnits = [
     type: 'Heavy Destroyer',
     image: viking,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [
       { type: '125MM Thermoelectric Gun' },
       { type: 'Torpedo Launcher' },
@@ -5986,7 +5986,7 @@ export const confederationUnits = [
     type: 'Heavy Missile Cruiser',
     image: poseidon,
     iconArmor: armor3,
-    description: 'Description for Unit',
+    description: '',
     weapons: [{ type: 'Heavy Naval MRLS' }, { type: 'Sam Launcher' }],
     levels: [
       // 7

@@ -49,7 +49,7 @@ export const resistanceBuildings = [
     id: 1,
     name: 'Headquarters',
     image: hq,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'CP' }, { type: 'Resources' }, { type: 'Energy' }],
     levels: [
@@ -1275,7 +1275,7 @@ export const resistanceBuildings = [
     id: 2,
     name: 'Construction Yard',
     image: constructionYard,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'Radius' }],
     levels: [
@@ -1541,7 +1541,7 @@ export const resistanceBuildings = [
     id: 3,
     name: 'Power Plant',
     image: powerPlant,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'Energy' }],
     levels: [
@@ -1807,7 +1807,7 @@ export const resistanceBuildings = [
     id: 4,
     name: 'Supply Center',
     image: supplyCenter,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'Resources' }],
     levels: [
@@ -2073,7 +2073,7 @@ export const resistanceBuildings = [
     id: 5,
     name: 'Barracks',
     image: barracks,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -2774,7 +2774,7 @@ export const resistanceBuildings = [
     id: 6,
     name: 'Assault Vehicle Factory',
     image: assaultVehicleFactory,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -3475,7 +3475,7 @@ export const resistanceBuildings = [
     id: 7,
     name: 'Special Vehicle Factory',
     image: specialVehicleFactory,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -4176,7 +4176,7 @@ export const resistanceBuildings = [
     id: 8,
     name: 'Avia Factory',
     image: aviaFactory,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -4877,7 +4877,7 @@ export const resistanceBuildings = [
     id: 9,
     name: 'Airfield',
     image: airfield,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -5143,7 +5143,7 @@ export const resistanceBuildings = [
     id: 10,
     name: 'Shipyard',
     image: shipyard,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -5844,7 +5844,7 @@ export const resistanceBuildings = [
     id: 11,
     name: 'Prototype Factory',
     image: prototypeFactory,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -6593,7 +6593,7 @@ export const resistanceBuildings = [
     id: 12,
     name: 'Nuclear Launcher',
     image: nuclearLauncher,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Nuclear Missile' }],
     produces: null,
     levels: [
@@ -7039,7 +7039,7 @@ export const resistanceBuildings = [
     id: 13,
     name: 'Wall',
     image: wall,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -7305,7 +7305,7 @@ export const resistanceBuildings = [
     id: 14,
     name: 'Sniper Tower',
     image: sniperTower,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Sniper Rifle' }],
     produces: null,
     levels: [
@@ -7751,7 +7751,7 @@ export const resistanceBuildings = [
     id: 15,
     name: 'Gun Tower',
     image: gunTower,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: '200MM Stationary Gun' }],
     produces: null,
     levels: [
@@ -8197,7 +8197,7 @@ export const resistanceBuildings = [
     id: 16,
     name: 'Anti-Air Tower',
     image: antiAirTower,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Stationary Sam Launcher' }],
     produces: null,
     levels: [
@@ -8643,7 +8643,7 @@ export const resistanceBuildings = [
     id: 17,
     name: 'Naval Platform',
     image: navalPlatform,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Torpedo Launcher' }, { type: '30MM Flack Cannon' }],
     produces: null,
     levels: [

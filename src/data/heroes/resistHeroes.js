@@ -14,7 +14,7 @@ export const resistanceHeroes = [
     type: 'Light Support Helicopter',
     image: wasp,
     iconArmor: armor2,
-    description: 'Description for Hero',
+    description: '',
     weapons: [{ type: '"STING" CAPSULE MISSILES' }],
     levels: [
       // 7
@@ -386,7 +386,7 @@ export const resistanceHeroes = [
     type: 'Engineering Machine',
     image: mole,
     iconArmor: armor3,
-    description: 'Description for Hero',
+    description: '',
     weapons: [{ type: '"CRUSHER" DRILL' }],
     levels: [
       // 7
@@ -758,7 +758,7 @@ export const resistanceHeroes = [
     type: 'Heavy Air Crusher',
     image: leviathan,
     iconArmor: armor3,
-    description: 'Description for Hero',
+    description: '',
     weapons: [
       { type: 'FRONTAL AUTOCANNONS' },
       { type: 'SIDE AUTOCANNONS' },

@@ -48,7 +48,7 @@ export const confederationBuildings = [
     id: 1,
     name: 'Headquarters',
     image: hq,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'CP' }, { type: 'Resources' }, { type: 'Energy' }],
     levels: [
@@ -1355,7 +1355,7 @@ export const confederationBuildings = [
     id: 2,
     name: 'Construction Yard',
     image: constructionYard,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'Radius' }],
     levels: [
@@ -1638,7 +1638,7 @@ export const confederationBuildings = [
     id: 3,
     name: 'Power Plant',
     image: powerPlant,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'Energy' }],
     levels: [
@@ -1921,7 +1921,7 @@ export const confederationBuildings = [
     id: 4,
     name: 'Supply Center',
     image: supplyCenter,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: [{ type: 'Resources' }],
     levels: [
@@ -2204,7 +2204,7 @@ export const confederationBuildings = [
     id: 5,
     name: 'Barracks',
     image: barracks,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -2951,7 +2951,7 @@ export const confederationBuildings = [
     id: 6,
     name: 'Assault Vehicle Factory',
     image: assaultVehicleFactory,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -3698,7 +3698,7 @@ export const confederationBuildings = [
     id: 7,
     name: 'Special Vehicle Factory',
     image: specialVehicleFactory,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -4445,7 +4445,7 @@ export const confederationBuildings = [
     id: 8,
     name: 'Avia Factory',
     image: aviaFactory,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -5192,7 +5192,7 @@ export const confederationBuildings = [
     id: 9,
     name: 'Airfield',
     image: airfield,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -5475,7 +5475,7 @@ export const confederationBuildings = [
     id: 10,
     name: 'Shipyard',
     image: shipyard,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -6222,7 +6222,7 @@ export const confederationBuildings = [
     id: 11,
     name: 'X-Facility',
     image: xFacility,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -7019,7 +7019,7 @@ export const confederationBuildings = [
     id: 12,
     name: 'Space System',
     image: spaceSystem,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Space Strike' }],
     produces: null,
     levels: [
@@ -7494,7 +7494,7 @@ export const confederationBuildings = [
     id: 13,
     name: 'Wall',
     image: wall,
-    description: 'Description for Building',
+    description: '',
     weapons: null,
     produces: null,
     levels: [
@@ -7777,7 +7777,7 @@ export const confederationBuildings = [
     id: 14,
     name: 'Bunker',
     image: bunker,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Stationary Machine Gun' }],
     produces: null,
     levels: [
@@ -8252,7 +8252,7 @@ export const confederationBuildings = [
     id: 15,
     name: 'Rocket Tower',
     image: rocketTower,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Stationary Rocket Launcher RT-2LR' }],
     produces: null,
     levels: [
@@ -8727,7 +8727,7 @@ export const confederationBuildings = [
     id: 16,
     name: 'Air Defense',
     image: airDefense,
-    description: 'Description for Building',
+    description: '',
     weapons: [{ type: 'Stationary Sam Launcher' }],
     produces: null,
     levels: [
@@ -9202,7 +9202,7 @@ export const confederationBuildings = [
     id: 17,
     name: 'Torpedo Platform',
     image: torpedoPlatform,
-    description: 'Description for Building',
+    description: '',
     weapons: [
       { type: 'Stationary Sam Launcher' },
       { type: 'Stationary Sam Launcher' },
