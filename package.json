@@ -2,7 +2,7 @@
   "name": "art-of-war",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ihor-kutsenko.github.io/Art-of-War/",
+  "homepage": "https://art-of-war.vercel.app/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.16.3",
