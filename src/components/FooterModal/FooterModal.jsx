@@ -16,8 +16,14 @@ const FooterModal = ({ onClose }) => {
     };
   }, [onClose]);
 
+  const handleBackdropClick = event => {
+    if (event.currentTarget === event.target) {
+      onClose();
+    }
+  };
+
   return (
-    <div className={styles.backdrop}>
+    <div className={styles.backdrop} onClick={handleBackdropClick}>
       <div className={styles.modal}>
         <button className={styles.closeBtn} onClick={onClose}>
           <SvgIcon className={styles.iconClose} iconId="icon-close" />
