@@ -875,7 +875,7 @@ export const confederationUnits = [
       // 27
       {
         level: 27,
-        hp: 2457,
+        hp: 2475,
         armor: 34,
         speed: 50,
         view: 7,
@@ -898,7 +898,7 @@ export const confederationUnits = [
       // 28
       {
         level: 28,
-        hp: 2457,
+        hp: 2475,
         armor: 34,
         speed: 50,
         view: 7,
@@ -921,7 +921,7 @@ export const confederationUnits = [
       // 29
       {
         level: 29,
-        hp: 2457,
+        hp: 2475,
         armor: 34,
         speed: 50,
         view: 7,
