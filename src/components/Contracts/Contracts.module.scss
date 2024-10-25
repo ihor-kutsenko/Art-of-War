@@ -1,0 +1,72 @@
+@import '../../sass/styles.scss';
+
+.eventTitle {
+  margin: 20px 0 10px 0;
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  @include font(8px, 400, 1.29);
+  text-align: center;
+  border-collapse: collapse;
+
+  @include tablet {
+    @include font(12px, 400, 1.29);
+    margin-bottom: 20px;
+  }
+  @include desktop {
+    @include font(20px, 500, 1.29);
+  }
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 2px 1px;
+  @include tablet {
+    padding: 6px;
+  }
+}
+
+.title,
+.hero,
+.class > td {
+  text-align: center;
+  font-weight: bold;
+}
+
+.totalRow {
+  font-weight: bold;
+  background-color: $white-color;
+}
+
+.gold {
+  background-color: $orange-color;
+}
+
+.blueSkills {
+  background-color: $blue-skills-color;
+}
+
+.rareSkills {
+  background-color: $rare-skills-color;
+}
+
+.epicSkills {
+  background-color: $epic-skills-color;
+}
+
+.blueHero {
+  background-color: $t1-hero-color;
+}
+
+.rareHero {
+  background-color: $t2-hero-color;
+}
+
+.epicHero {
+  background-color: $t3-hero-color;
+}
