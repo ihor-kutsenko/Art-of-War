@@ -1,13 +1,16 @@
+import { useTranslation } from 'react-i18next';
+
 import SvgIcon from 'components/SvgIcon/SvgIcon';
 import styles from './ImageModal.module.scss';
 
 const ImageModal = ({ images, selectedIndex, onClose, onPrevious, onNext }) => {
+  const { t } = useTranslation();
   const getImageSrc = image => {
     return typeof image === 'string' ? image : image.image;
   };
 
   const getImageTitle = image => {
-    return typeof image === 'string' ? '' : image.title;
+    return typeof image === 'string' ? '' : t(image.title);
   };
 
   return (

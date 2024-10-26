@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import Container from 'components/Container/Container';
 import NavigationPage from 'components/NavigationPage/NavigationPage';
 import {
@@ -8,15 +9,16 @@ import {
   DESERT_ROUTE,
 } from 'routes/routes';
 
-const links = [
-  { path: AUTUMN_ROUTE, label: 'Autumn' },
-  { path: WINTER_ROUTE, label: 'Winter' },
-  { path: DESERT_ROUTE, label: 'Desert' },
-  { path: JUNGLE_ROUTE, label: 'Jungle' },
-  { path: MIDLAND_ROUTE, label: 'Midland' },
-];
-
 const MapsPage = () => {
+  const { t } = useTranslation();
+
+  const links = [
+    { path: AUTUMN_ROUTE, label: t('maps.type1') },
+    { path: WINTER_ROUTE, label: t('maps.type2') },
+    { path: DESERT_ROUTE, label: t('maps.type3') },
+    { path: JUNGLE_ROUTE, label: t('maps.type4') },
+    { path: MIDLAND_ROUTE, label: t('maps.type5') },
+  ];
   return (
     <Container>
       <NavigationPage links={links} />

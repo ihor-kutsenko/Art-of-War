@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import ImageModal from 'components/ImageModal/ImageModal';
 import styles from './Gallery.module.scss';
 
 const Gallery = ({ images }) => {
+  const { t } = useTranslation();
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const openImage = index => {
@@ -36,7 +38,7 @@ const Gallery = ({ images }) => {
         <img
           key={index}
           src={getImageSrc(image)}
-          alt={typeof image === 'string' ? 'avatar' : image.title}
+          alt={typeof image === 'string' ? 'avatar' : t(image.title)}
           onClick={() => openImage(index)}
           className={styles.image}
         />

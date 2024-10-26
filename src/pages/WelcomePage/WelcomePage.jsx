@@ -1,23 +1,20 @@
 import YoutubeTrailer from 'components/YoutubeTrailer/YoutubeTrailer';
+import { useTranslation } from 'react-i18next';
 
 import Container from 'components/Container/Container';
 
 import styles from './WelcomePage.module.scss';
 
 const WelcomePage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Container>
         <div className={styles.container}>
           <div className={styles.background}>
             <div className={styles.textOverlay}>
-              <p>
-                This site is dedicated to the game Art Of War 3: Global Conflict
-                - real-time strategy with direct control in battle. Here you
-                will find information about maps, tournaments, blitz
-                tournaments, medals, avatars, maximum leveling of units,
-                buildings and heroes for each rank.
-              </p>
+              <p>{t('home.description')} </p>
             </div>
           </div>
           <div className={styles.trailerWrapper}>

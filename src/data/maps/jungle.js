@@ -1,191 +1,191 @@
 export const jungleMaps = [
   {
-    title: 'Abysm',
+    title: 'maps.jungleMaps.abysm',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343440/abysm_pjvt8n.webp',
   },
   {
-    title: 'Ancestral Land',
+    title: 'maps.jungleMaps.ancestralLand',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343453/ancestral-land_ezcisa.webp',
   },
   {
-    title: 'Bad Luck',
+    title: 'maps.jungleMaps.badLuck',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343444/bad-luck_flso9o.webp',
   },
   {
-    title: 'Bottleneck',
+    title: 'maps.jungleMaps.bottleneck',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343455/bottleneck_ecotsi.webp',
   },
   {
-    title: 'Close Contact',
+    title: 'maps.jungleMaps.closeContact',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343446/close-contact_ihei8q.webp',
   },
   {
-    title: 'Crossfire',
+    title: 'maps.jungleMaps.crossfire',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343447/crossfire_uxpaeh.webp',
   },
   {
-    title: 'Crosslake',
+    title: 'maps.jungleMaps.crosslake',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343449/crosslake_ofu4wa.webp',
   },
   {
-    title: 'Cuba',
+    title: 'maps.jungleMaps.cuba',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343451/cuba_f5rrog.webp',
   },
   {
-    title: 'Enemy at the Gates',
+    title: 'maps.jungleMaps.enemyAtTheGates',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343456/enemy-at-the-gates_r5uyar.webp',
   },
   {
-    title: 'Fort Kyten',
+    title: 'maps.jungleMaps.fortKyten',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343458/fort-kyten_o6xb6w.webp',
   },
   {
-    title: 'Full Isolation',
+    title: 'maps.jungleMaps.fullIsolation',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343460/full-isolation_sr6y2g.webp',
   },
   {
-    title: 'Heart of War',
+    title: 'maps.jungleMaps.heartOfWar',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343462/heart-of-war_espljb.webp',
   },
   {
-    title: 'Hidden Trails',
+    title: 'maps.jungleMaps.hiddenTrails',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343464/hidden-trails_vrfjrj.webp',
   },
   {
-    title: 'Interfluve',
+    title: 'maps.jungleMaps.interfluve',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343466/interfluve_j9mew5.webp',
   },
   {
-    title: 'In the Middle of Nowhere',
+    title: 'maps.jungleMaps.inTheMiddleOfNowhere',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343468/in-the-middle-of-nowhere_esohgw.webp',
   },
   {
-    title: 'King of the Hill',
+    title: 'maps.jungleMaps.kingOfTheHill',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343470/king-of-the-hill_xhdpot.webp',
   },
   {
-    title: 'Maya Lands',
+    title: 'maps.jungleMaps.mayaLands',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343471/maya-lands_wfv3oj.webp',
   },
   {
-    title: 'Prize Ring',
+    title: 'maps.jungleMaps.prizeRing',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343473/prize-ring_ufgj6u.webp',
   },
   {
-    title: 'Risk Area',
+    title: 'maps.jungleMaps.riskArea',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343475/risk-area_oabm3w.webp',
   },
   {
-    title: 'Short Distance',
+    title: 'maps.jungleMaps.shortDistance',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343403/short-distance_qwvufh.webp',
   },
   {
-    title: 'The Coast of Claws',
+    title: 'maps.jungleMaps.theCoastOfClaws',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343404/the-coast-of-claws_w4myhj.webp',
   },
   {
-    title: 'The Crossroad',
+    title: 'maps.jungleMaps.theCrossroad',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343405/the-crossroad_zmbg41.webp',
   },
   {
-    title: 'The Island',
+    title: 'maps.jungleMaps.theIsland',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343406/the-island_pja98t.webp',
   },
   {
-    title: 'The Jaguar Trail',
+    title: 'maps.jungleMaps.theJaguarTrail',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343417/the-jaguar-trail_dujrio.webp',
   },
   {
-    title: 'The Lost Road',
+    title: 'maps.jungleMaps.theLostRoad',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343419/the-lost-road_ajmfqz.webp',
   },
   {
-    title: 'The New World',
+    title: 'maps.jungleMaps.theNewWorld',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343420/the-new-world_gywikj.webp',
   },
   {
-    title: 'The Pressure Point',
+    title: 'maps.jungleMaps.thePressurePoint',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343422/the-pressure-point_fwrqge.webp',
   },
   {
-    title: 'The Strategic Heights',
+    title: 'maps.jungleMaps.theStrategicHeights',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343423/the-strategic-heights_kbx1pc.webp',
   },
   {
-    title: 'The Wicked Strait',
+    title: 'maps.jungleMaps.theWickedStrait',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343425/the-wicked-strait_c7ruwp.webp',
   },
   {
-    title: 'Thunderhead',
+    title: 'maps.jungleMaps.thunderhead',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343426/thunderhead_oxtjyi.webp',
   },
   {
-    title: 'Twangu Isthmus',
+    title: 'maps.jungleMaps.twanguIsthmus',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343428/twangu-isthmus_nwjsaq.webp',
   },
   {
-    title: 'Twin Coasts',
+    title: 'maps.jungleMaps.twinCoasts',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343430/twin-coasts_hdo7gj.webp',
   },
   {
-    title: 'Two Riverbanks',
+    title: 'maps.jungleMaps.twoRiverbanks',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343431/two-riverbanks_njxabl.webp',
   },
   {
-    title: 'Veracruz',
+    title: 'maps.jungleMaps.veracruz',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343433/veracruz_fvmmph.webp',
   },
   {
-    title: 'Water Barrier',
+    title: 'maps.jungleMaps.waterBarrier',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343435/water-barrier_aefmdo.webp',
   },
   {
-    title: 'Water Shackles',
+    title: 'maps.jungleMaps.waterShackles',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343438/water-shackles_jkcm58.webp',
   },
   {
-    title: 'Whale Bay',
+    title: 'maps.jungleMaps.whaleBay',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343436/whale-bay_qo4h5y.webp',
   },
   {
-    title: 'Wild Clover',
+    title: 'maps.jungleMaps.wildClover',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727343442/wild-clover_kckhsp.webp',
   },

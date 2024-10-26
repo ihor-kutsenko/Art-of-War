@@ -1,31 +1,31 @@
 export const autumnMaps = [
   {
-    title: 'Area 13',
+    title: 'maps.autumnMaps.area13',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341487/area-13_pmxogf.webp',
   },
   {
-    title: 'Industrial Canal',
+    title: 'maps.autumnMaps.industrialCanal',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341474/industrial-canal_fnqaby.webp',
   },
   {
-    title: 'Iron Curtain',
+    title: 'maps.autumnMaps.ironCurtain',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341475/iron-curtain_blo0oi.webp',
   },
   {
-    title: 'Ravens Hill',
+    title: 'maps.autumnMaps.ravensHill',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341476/ravens-hill_bmgiqj.webp',
   },
   {
-    title: 'Golden Ring',
+    title: 'maps.autumnMaps.goldenRing',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341482/golden-ring_elnsgd.webp',
   },
   {
-    title: 'Steel Grip',
+    title: 'maps.autumnMaps.steelGrip',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341486/steel-grip_hwcegf.webp',
   },

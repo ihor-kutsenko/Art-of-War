@@ -1,91 +1,91 @@
 export const midlandMaps = [
   {
-    title: 'A’tuin Plateau',
+    title: 'maps.midlandMaps.atuinPlateau',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345432/atuin-plateau_afeill.webp',
   },
   {
-    title: 'Fishermans Harbor',
+    title: 'maps.midlandMaps.fishermansHarbor',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345434/fishermans-harbor_cscf9m.webp',
   },
   {
-    title: 'Forty Roads',
+    title: 'maps.midlandMaps.fortyRoads',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345436/forty-roads_xueksz.webp',
   },
   {
-    title: 'Highway',
+    title: 'maps.midlandMaps.highway',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345438/highway_p61r5v.webp',
   },
   {
-    title: '"H" Islands',
+    title: 'maps.midlandMaps.hIslands',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345441/h-islands_dzkedr.webp',
   },
   {
-    title: 'Hostile Dream',
+    title: 'maps.midlandMaps.hostileDream',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345412/hostile-dream_rwmikd.webp',
   },
   {
-    title: 'Industrial Zone',
+    title: 'maps.midlandMaps.industrialZone',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345411/industrial-zone_muqyhw.webp',
   },
   {
-    title: 'Oculus',
+    title: 'maps.midlandMaps.oculus',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345413/oculus_ml6t4m.webp',
   },
   {
-    title: 'Over the Hill',
+    title: 'maps.midlandMaps.overTheHill',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345415/over-the-hill_owufqd.webp',
   },
   {
-    title: 'Port Of Bjorn',
+    title: 'maps.midlandMaps.portOfBjorn',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345416/port-of-bjorn_ke7chg.webp',
   },
   {
-    title: 'Razor Blade',
+    title: 'maps.midlandMaps.razorBlade',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345418/razor-blade_nl2i83.webp',
   },
   {
-    title: 'Seclusion',
+    title: 'maps.midlandMaps.seclusion',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345420/seclusion_wzcrly.webp',
   },
   {
-    title: 'Silent Greek',
+    title: 'maps.midlandMaps.silentGreek',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345421/silent-greek_wowbxd.webp',
   },
   {
-    title: 'Silent Hill',
+    title: 'maps.midlandMaps.silentHill',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345423/silent-hill_mvwdoi.webp',
   },
   {
-    title: 'Strange Shores',
+    title: 'maps.midlandMaps.strangeShores',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345425/strange-shores_s4dvka.webp',
   },
   {
-    title: 'The River Styx',
+    title: 'maps.midlandMaps.theRiverStyx',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345427/the-river-styx_upf8nh.webp',
   },
   {
-    title: 'Third Wheel',
+    title: 'maps.midlandMaps.thirdWheel',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345428/third-wheel_yluzzm.webp',
   },
   {
-    title: 'Wild Lagoon',
+    title: 'maps.midlandMaps.wildLagoon',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727345430/wild-lagoon_diqqqc.webp',
   },
