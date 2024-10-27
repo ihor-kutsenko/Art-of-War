@@ -224,5 +224,42 @@
       "antiAirTower": "Anti-Air Tower",
       "navalPlatform": "Naval Platform"
     }
+  },
+  "heroes": {
+    "cerberus": {
+      "name": "CERBERUS",
+      "type": "Elite Exoskeleton Assault",
+      "weapons1": "MULTI_GUN 'MATHILDA'",
+      "weapons2": "VIBRO BAYONET",
+      "weapons3": "CR3T2 HE ROCKETS"
+    },
+    "seraphim": {
+      "name": "SERAPHIM",
+      "type": "Transformer Fighter",
+      "weapons1": "ENERGY AUTOCANNONS 'LAZARUS' - in avia mode",
+      "weapons2": "ENERGY AUTOCANNONS 'LAZARUS' - in ground mode"
+    },
+    "solaris": {
+      "name": "SOLARIS",
+      "type": "Antigravity Heavy Tank",
+      "weapons": "SPE-2.0 WEAPON SYSTEM"
+    },
+    "wasp": {
+      "name": "WASP",
+      "type": "ELight Support Helicopter",
+      "weapons": "'STING' CAPSULE MISSILES"
+    },
+    "mole": {
+      "name": "MOLE",
+      "type": "Engineering Machine",
+      "weapons": "'CRUSHER' DRILL"
+    },
+    "leviathan": {
+      "name": "LEVIATHAN",
+      "type": "Heavy Air Crusher",
+      "weapons1": "FRONTAL AUTOCANNONS",
+      "weapons2": "SIDE AUTOCANNONS",
+      "weapons3": "ANTI-AIR LAUNCHER 'SCOURGE'"
+    }
   }
 }

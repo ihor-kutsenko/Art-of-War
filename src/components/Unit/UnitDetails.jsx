@@ -23,7 +23,7 @@ const UnitDetails = ({ unit }) => {
     <div className={styles.container}>
       <div className={styles.leftSection}>
         <h2 className={styles.unitName}>{t(unit.name)}</h2>
-        <p>{unit.type}</p>
+        <p>{t(unit.type)}</p>
 
         {selectedLevelData.class && (
           <HeroBadge classNumber={selectedLevelData.class} />

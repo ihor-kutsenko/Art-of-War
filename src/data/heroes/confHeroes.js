@@ -11,15 +11,15 @@ export const confederationHeroes = [
   // Cerberus
   {
     id: 1,
-    name: 'CERBERUS',
-    type: 'Elite Exoskeleton Assault ',
+    name: 'heroes.cerberus.name',
+    type: 'heroes.cerberus.type',
     image: cerberus,
     iconArmor: armor2,
     description: '',
     weapons: [
-      { type: 'MULTI_GUN "MATHILDA"' },
-      { type: 'VIBRO BAYONET' },
-      { type: 'CR3T2 HE ROCKETS' },
+      { type: 'heroes.cerberus.weapons1' },
+      { type: 'heroes.cerberus.weapons2' },
+      { type: 'heroes.cerberus.weapons3' },
     ],
     levels: [
       // 7
@@ -687,14 +687,14 @@ export const confederationHeroes = [
   // SERAPHIM
   {
     id: 2,
-    name: 'SERAPHIM',
-    type: 'Transformer Fighter ',
+    name: 'heroes.seraphim.name',
+    type: 'heroes.seraphim.type',
     image: seraphim,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: 'ENERGY AUTOCANNONS "LAZARUS" - in avia mode' },
-      { type: 'ENERGY AUTOCANNONS "LAZARUS" - in ground mode' },
+      { type: 'heroes.seraphim.weapons1' },
+      { type: 'heroes.seraphim.weapons2' },
     ],
     levels: [
       // 7
@@ -1212,12 +1212,12 @@ export const confederationHeroes = [
   // SOLARIS
   {
     id: 3,
-    name: 'SOLARIS',
-    type: 'Antigravity Heavy Tank ',
+    name: 'heroes.solaris.name',
+    type: 'heroes.solaris.type',
     image: solaris,
     iconArmor: armor3,
     description: '',
-    weapons: [{ type: 'SPE-2.0 WEAPON SYSTEM' }],
+    weapons: [{ type: 'heroes.solaris.weapons' }],
     levels: [
       // 7
       {

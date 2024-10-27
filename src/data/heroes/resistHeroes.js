@@ -10,12 +10,12 @@ export const resistanceHeroes = [
   // Wasp
   {
     id: 1,
-    name: 'WASP',
-    type: 'Light Support Helicopter',
+    name: 'heroes.wasp.name',
+    type: 'heroes.wasp.type',
     image: wasp,
     iconArmor: armor2,
     description: '',
-    weapons: [{ type: '"STING" CAPSULE MISSILES' }],
+    weapons: [{ type: 'heroes.wasp.weapons' }],
     levels: [
       // 7
       {
@@ -382,12 +382,12 @@ export const resistanceHeroes = [
   // Mole
   {
     id: 2,
-    name: 'Mole',
-    type: 'Engineering Machine',
+    name: 'heroes.mole.name',
+    type: 'heroes.mole.type',
     image: mole,
     iconArmor: armor3,
     description: '',
-    weapons: [{ type: '"CRUSHER" DRILL' }],
+    weapons: [{ type: 'heroes.mole.weapons' }],
     levels: [
       // 7
       {
@@ -754,15 +754,15 @@ export const resistanceHeroes = [
   // Leviathan
   {
     id: 3,
-    name: 'LEVIATHAN',
-    type: 'Heavy Air Crusher',
+    name: 'heroes.leviathan.name',
+    type: 'heroes.leviathan.type',
     image: leviathan,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: 'FRONTAL AUTOCANNONS' },
-      { type: 'SIDE AUTOCANNONS' },
-      { type: 'ANTI-AIR LAUNCHER "SCOURGE"' },
+      { type: 'heroes.leviathan.weapons1' },
+      { type: 'heroes.leviathan.weapons2' },
+      { type: 'heroes.leviathan.weapons3' },
     ],
     levels: [
       // 7
