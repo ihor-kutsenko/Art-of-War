@@ -149,6 +149,40 @@
     "leagues": "Leagues"
   },
   "units": {
-    "info": "The characteristics of the units and heroes are maxed out for each rank as of 01/08/2024. A bit later some changes have occurred both for units and heroes and they’re still ongoing till today. After the feature changes, the information about it will be collected, processed and updated."
+    "info": "The characteristics of the units and heroes are maxed out for each rank as of 01/08/2024. A bit later some changes have occurred both for units and heroes and they’re still ongoing till today. After the feature changes, the information about it will be collected, processed and updated.",
+    "confUnits": {
+      "assault": "Assault",
+      "heavyAssault": "Heavy Assault",
+      "fireAssault": "Fire Assault",
+      "fortress": "Fortress",
+      "hammer": "Hammer",
+      "zeus": "Zeus",
+      "typhoon": "Typhoon",
+      "torrent": "Torrent",
+      "energyShield": "Energy Shield",
+      "cyclone": "Cyclone",
+      "vertex": "Vertex",
+      "thor": "Thor",
+      "delta": "Delta",
+      "viking": "Viking",
+      "poseidon": "Poseidon"
+    },
+    "resistUnits": {
+      "rifleman": "Rifleman",
+      "grenadier": "Grenadier",
+      "sniper": "Sniper",
+      "coyote": "Coyote",
+      "armadillo": "Armadillo",
+      "jaguar": "Jaguar",
+      "porcupine": "Porcupine",
+      "mammoth": "Mammoth",
+      "chameleon": "Chameleon",
+      "dragonfly": "Dragonfly",
+      "hawk": "Hawk",
+      "albatross": "Albatross",
+      "caiman": "Caiman",
+      "alligator": "Alligator",
+      "barracuda": "Barracuda"
+    }
   }
 }

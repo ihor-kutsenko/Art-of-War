@@ -23,7 +23,7 @@ export const resistanceUnits = [
   // Rifleman
   {
     id: 1,
-    name: 'Rifleman',
+    name: 'units.resistUnits.rifleman',
     type: 'Light Infantry ',
     image: rifleman,
     iconArmor: armor1,
@@ -533,7 +533,7 @@ export const resistanceUnits = [
   // Grenadier
   {
     id: 2,
-    name: 'Grenadier',
+    name: 'units.resistUnits.grenadier',
     type: 'Anti-Tank Infantry',
     image: grenadier,
     iconArmor: armor1,
@@ -890,7 +890,7 @@ export const resistanceUnits = [
   // Sniper
   {
     id: 3,
-    name: 'Sniper',
+    name: 'units.resistUnits.sniper',
     type: 'Special Infantry',
     image: sniper,
     iconArmor: armor1,
@@ -1247,7 +1247,7 @@ export const resistanceUnits = [
   // Coyote
   {
     id: 4,
-    name: 'Coyote',
+    name: 'units.resistUnits.coyote',
     type: 'Ultra Light Recon Vehicle',
     image: coyote,
     iconArmor: armor2,
@@ -1604,7 +1604,7 @@ export const resistanceUnits = [
   // Armadillo
   {
     id: 5,
-    name: 'Armadillo',
+    name: 'units.resistUnits.armadillo',
     type: 'Multi-Purpose Combat Vehicle',
     image: armadillo,
     iconArmor: armor2,
@@ -2326,7 +2326,7 @@ export const resistanceUnits = [
   // Jaguar
   {
     id: 6,
-    name: 'Jaguar',
+    name: 'units.resistUnits.jaguar',
     type: 'Heavy Siege Tank',
     image: jaguar,
     iconArmor: armor3,
@@ -2836,7 +2836,7 @@ export const resistanceUnits = [
   // Porcupine
   {
     id: 7,
-    name: 'Porcupine',
+    name: 'units.resistUnits.porcupine',
     type: 'Anti-Aircraft Platform',
     image: porcupine,
     iconArmor: armor2,
@@ -3346,7 +3346,7 @@ export const resistanceUnits = [
   // Mammoth
   {
     id: 8,
-    name: 'Mammoth',
+    name: 'units.resistUnits.mammoth',
     type: 'Self-Propelled Artillery',
     image: mammoth,
     iconArmor: armor3,
@@ -3703,7 +3703,7 @@ export const resistanceUnits = [
   // Chameleon
   {
     id: 9,
-    name: 'Chameleon',
+    name: 'units.resistUnits.chameleon',
     type: 'Active Camouflage System',
     image: chameleon,
     iconArmor: armor2,
@@ -3895,7 +3895,7 @@ export const resistanceUnits = [
   // Dragonfly
   {
     id: 10,
-    name: 'Dragonfly',
+    name: 'units.resistUnits.dragonfly',
     type: 'Light Attack Helicopter',
     image: dragonfly,
     iconArmor: armor2,
@@ -4405,7 +4405,7 @@ export const resistanceUnits = [
   // Hawk
   {
     id: 11,
-    name: 'Hawk',
+    name: 'units.resistUnits.hawk',
     type: 'G5 Heavy Jet Fighter',
     image: hawk,
     iconArmor: armor2,
@@ -4915,7 +4915,7 @@ export const resistanceUnits = [
   // Albatross
   {
     id: 12,
-    name: 'Albatross',
+    name: 'units.resistUnits.albatross',
     type: 'Tactical Bomber',
     image: albatross,
     iconArmor: armor3,
@@ -5272,7 +5272,7 @@ export const resistanceUnits = [
   // Caiman
   {
     id: 13,
-    name: 'Caiman',
+    name: 'units.resistUnits.caiman',
     type: 'Light Recon Boat',
     image: caiman,
     iconArmor: armor2,
@@ -5749,7 +5749,7 @@ export const resistanceUnits = [
   // Alligator
   {
     id: 14,
-    name: 'Alligator',
+    name: 'units.resistUnits.alligator',
     type: 'Heavy Corvette',
     image: alligator,
     iconArmor: armor3,
@@ -6259,7 +6259,7 @@ export const resistanceUnits = [
   // Barracuda
   {
     id: 15,
-    name: 'Barracuda',
+    name: 'units.resistUnits.barracuda',
     type: 'Missile-Torpedo Submarine',
     image: barracuda,
     iconArmor: armor3,

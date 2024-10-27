@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import UnitStats from 'components/UnitStats/UnitStats';
 import UnitWeapons from 'components/UnitWeapons/UnitWeapons';
@@ -6,6 +7,8 @@ import HeroBadge from 'components/HeroBadge/HeroBadge';
 import styles from './UnitDetails.module.scss';
 
 const UnitDetails = ({ unit }) => {
+  const { t } = useTranslation();
+
   const [selectedLevel, setSelectedLevel] = useState(7);
 
   const handleLevelChange = event => {
@@ -19,7 +22,7 @@ const UnitDetails = ({ unit }) => {
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
-        <h2 className={styles.unitName}>{unit.name}</h2>
+        <h2 className={styles.unitName}>{t(unit.name)}</h2>
         <p>{unit.type}</p>
 
         {selectedLevelData.class && (
@@ -28,7 +31,7 @@ const UnitDetails = ({ unit }) => {
 
         <img
           src={unit.image}
-          alt={unit.name}
+          alt={t(unit.name)}
           className={styles.selectedImage}
         />
         <div className={styles.unitDescription}>

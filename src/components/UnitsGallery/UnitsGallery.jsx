@@ -40,8 +40,8 @@ const UnitsGallery = ({ units }) => {
             key={unit.id}
             className={styles.item}
           >
-            <h3 className={styles.title}>{unit.name}</h3>
-            <img src={unit.image} alt={unit.name} className={styles.image} />
+            <h3 className={styles.title}>{t(unit.name)}</h3>
+            <img src={unit.image} alt={t(unit.name)} className={styles.image} />
           </div>
         ))}
         {selectedUnit !== null && (
