@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import BuildingModal from '../BuildingModal/BuildingModal';
 import styles from '../../UnitsGallery/UnitsGallery.module.scss';
 
 const BuildingsGallery = ({ buildings }) => {
+  const { t } = useTranslation();
+
   const [selectedBuilding, setSelectedBuilding] = useState(null);
 
   const handleBuildingClick = index => {
@@ -34,10 +37,10 @@ const BuildingsGallery = ({ buildings }) => {
           key={building.id}
           className={styles.item}
         >
-          <h3 className={styles.title}>{building.name}</h3>
+          <h3 className={styles.title}>{t(building.name)}</h3>
           <img
             src={building.image}
-            alt={building.name}
+            alt={t(building.name)}
             className={styles.image}
           />
         </div>

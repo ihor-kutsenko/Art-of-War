@@ -184,5 +184,45 @@
       "alligator": "Аллигатор",
       "barracuda": "Барракуда"
     }
+  },
+  "buildings": {
+    "confBuildings": {
+      "headquarters": "Штаб",
+      "constructionYard": "Строительный Двор",
+      "powerPlant": "Электростанция",
+      "supplyCenter": "Центр Снабжения",
+      "barracks": "Казарма",
+      "assaultVehicleFactory": "Завод Штурмовых Машин",
+      "specialVehicleFactory": "Завод Специальных Машин",
+      "aviaFactory": "Авиазавод",
+      "airfield": "Аэродром",
+      "shipyard": "Верфь",
+      "xFacility": "Обьект 'Х'",
+      "spaceSystem": "Система Наведения",
+      "wall": "Стена",
+      "bunker": "Бункер",
+      "rocketTower": "Ракетная Установка",
+      "airDefense": "Установка ПВО",
+      "torpedoPlatform": "Торпедная Платформа"
+    },
+    "resistBuildings": {
+      "headquarters": "Штаб",
+      "constructionYard": "Строительный Двор",
+      "powerPlant": "Электростанция",
+      "supplyCenter": "Центр Снабжения",
+      "barracks": "Казарма",
+      "assaultVehicleFactory": "Завод Штурмовых Машин",
+      "specialVehicleFactory": "Завод Специальных Машин",
+      "aviaFactory": "Авиазавод",
+      "airfield": "Аэродром",
+      "shipyard": "Верфь",
+      "prototypeFactory": "Завод Прототипов",
+      "nuclearLauncher": "Пусковая Шахта",
+      "wall": "Стена",
+      "sniperTower": "Снайперская Вышка",
+      "gunTower": "Стационарная Пушка",
+      "antiAirTower": "Установка ПВО",
+      "navalPlatform": "Морская Установка"
+    }
   }
 }

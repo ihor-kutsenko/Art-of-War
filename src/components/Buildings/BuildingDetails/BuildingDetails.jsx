@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import BuildingStats from '../BuildingStats/BuildingStats';
 import BuildingWeapons from '../BuildingWeapons/BuildingWeapons';
@@ -6,6 +7,8 @@ import BuildingProduceList from '../BuildingProduceList/BuildingProduceList';
 import styles from '../../Unit/UnitDetails.module.scss';
 
 const BuildingsDetails = ({ building }) => {
+  const { t } = useTranslation();
+
   const [selectedLevel, setSelectedLevel] = useState(7);
   const [selectedSubLevel, setSelectedSubLevel] = useState(1);
 
@@ -42,10 +45,10 @@ const BuildingsDetails = ({ building }) => {
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
-        <h2 className={styles.unitName}>{building.name}</h2>
+        <h2 className={styles.unitName}>{t(building.name)}</h2>
         <img
           src={building.image}
-          alt={building.name}
+          alt={t(building.name)}
           className={styles.selectedImage}
         />
         <div className={styles.unitDescription}>

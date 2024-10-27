@@ -46,7 +46,7 @@ export const confederationBuildings = [
   // headquarters
   {
     id: 1,
-    name: 'Headquarters',
+    name: 'buildings.confBuildings.headquarters',
     image: hq,
     description: '',
     weapons: null,
@@ -1353,7 +1353,7 @@ export const confederationBuildings = [
   // Construction Yard
   {
     id: 2,
-    name: 'Construction Yard',
+    name: 'buildings.confBuildings.constructionYard',
     image: constructionYard,
     description: '',
     weapons: null,
@@ -1636,7 +1636,7 @@ export const confederationBuildings = [
   // Power Plant
   {
     id: 3,
-    name: 'Power Plant',
+    name: 'buildings.confBuildings.powerPlant',
     image: powerPlant,
     description: '',
     weapons: null,
@@ -1919,7 +1919,7 @@ export const confederationBuildings = [
   // Supply Center
   {
     id: 4,
-    name: 'Supply Center',
+    name: 'buildings.confBuildings.supplyCenter',
     image: supplyCenter,
     description: '',
     weapons: null,
@@ -2202,7 +2202,7 @@ export const confederationBuildings = [
   // Barracks
   {
     id: 5,
-    name: 'Barracks',
+    name: 'buildings.confBuildings.barracks',
     image: barracks,
     description: '',
     weapons: null,
@@ -2949,7 +2949,7 @@ export const confederationBuildings = [
   // Assault Vehicle Factory
   {
     id: 6,
-    name: 'Assault Vehicle Factory',
+    name: 'buildings.confBuildings.assaultVehicleFactory',
     image: assaultVehicleFactory,
     description: '',
     weapons: null,
@@ -3696,7 +3696,7 @@ export const confederationBuildings = [
   // Special Vehicle Factory
   {
     id: 7,
-    name: 'Special Vehicle Factory',
+    name: 'buildings.confBuildings.specialVehicleFactory',
     image: specialVehicleFactory,
     description: '',
     weapons: null,
@@ -4443,7 +4443,7 @@ export const confederationBuildings = [
   // Avia Factory
   {
     id: 8,
-    name: 'Avia Factory',
+    name: 'buildings.confBuildings.aviaFactory',
     image: aviaFactory,
     description: '',
     weapons: null,
@@ -5190,7 +5190,7 @@ export const confederationBuildings = [
   // Airfield
   {
     id: 9,
-    name: 'Airfield',
+    name: 'buildings.confBuildings.airfield',
     image: airfield,
     description: '',
     weapons: null,
@@ -5473,7 +5473,7 @@ export const confederationBuildings = [
   // Shipyard
   {
     id: 10,
-    name: 'Shipyard',
+    name: 'buildings.confBuildings.shipyard',
     image: shipyard,
     description: '',
     weapons: null,
@@ -6220,7 +6220,7 @@ export const confederationBuildings = [
   // X-Facility
   {
     id: 11,
-    name: 'X-Facility',
+    name: 'buildings.confBuildings.xFacility',
     image: xFacility,
     description: '',
     weapons: null,
@@ -7017,7 +7017,7 @@ export const confederationBuildings = [
   // Space System
   {
     id: 12,
-    name: 'Space System',
+    name: 'buildings.confBuildings.spaceSystem',
     image: spaceSystem,
     description: '',
     weapons: [{ type: 'Space Strike' }],
@@ -7492,7 +7492,7 @@ export const confederationBuildings = [
   // Wall
   {
     id: 13,
-    name: 'Wall',
+    name: 'buildings.confBuildings.wall',
     image: wall,
     description: '',
     weapons: null,
@@ -7775,7 +7775,7 @@ export const confederationBuildings = [
   // Bunker
   {
     id: 14,
-    name: 'Bunker',
+    name: 'buildings.confBuildings.bunker',
     image: bunker,
     description: '',
     weapons: [{ type: 'Stationary Machine Gun' }],
@@ -8250,7 +8250,7 @@ export const confederationBuildings = [
   // Rocket Tower
   {
     id: 15,
-    name: 'Rocket Tower',
+    name: 'buildings.confBuildings.rocketTower',
     image: rocketTower,
     description: '',
     weapons: [{ type: 'Stationary Rocket Launcher RT-2LR' }],
@@ -8725,7 +8725,7 @@ export const confederationBuildings = [
   // Air Defense
   {
     id: 16,
-    name: 'Air Defense',
+    name: 'buildings.confBuildings.airDefense',
     image: airDefense,
     description: '',
     weapons: [{ type: 'Stationary Sam Launcher' }],
@@ -9200,7 +9200,7 @@ export const confederationBuildings = [
   // Torpedo Platform
   {
     id: 17,
-    name: 'Torpedo Platform',
+    name: 'buildings.confBuildings.torpedoPlatform',
     image: torpedoPlatform,
     description: '',
     weapons: [

@@ -47,7 +47,7 @@ export const resistanceBuildings = [
   // headquarters
   {
     id: 1,
-    name: 'Headquarters',
+    name: 'buildings.resistBuildings.headquarters',
     image: hq,
     description: '',
     weapons: null,
@@ -1273,7 +1273,7 @@ export const resistanceBuildings = [
   // Construction Yard
   {
     id: 2,
-    name: 'Construction Yard',
+    name: 'buildings.resistBuildings.constructionYard',
     image: constructionYard,
     description: '',
     weapons: null,
@@ -1539,7 +1539,7 @@ export const resistanceBuildings = [
   // Power Plant
   {
     id: 3,
-    name: 'Power Plant',
+    name: 'buildings.resistBuildings.powerPlant',
     image: powerPlant,
     description: '',
     weapons: null,
@@ -1805,7 +1805,7 @@ export const resistanceBuildings = [
   // Supply Center
   {
     id: 4,
-    name: 'Supply Center',
+    name: 'buildings.resistBuildings.supplyCenter',
     image: supplyCenter,
     description: '',
     weapons: null,
@@ -2071,7 +2071,7 @@ export const resistanceBuildings = [
   // Barracks
   {
     id: 5,
-    name: 'Barracks',
+    name: 'buildings.resistBuildings.barracks',
     image: barracks,
     description: '',
     weapons: null,
@@ -2772,7 +2772,7 @@ export const resistanceBuildings = [
   // Assault Vehicle Factory
   {
     id: 6,
-    name: 'Assault Vehicle Factory',
+    name: 'buildings.resistBuildings.assaultVehicleFactory',
     image: assaultVehicleFactory,
     description: '',
     weapons: null,
@@ -3473,7 +3473,7 @@ export const resistanceBuildings = [
   // Special Vehicle Factory
   {
     id: 7,
-    name: 'Special Vehicle Factory',
+    name: 'buildings.resistBuildings.specialVehicleFactory',
     image: specialVehicleFactory,
     description: '',
     weapons: null,
@@ -4174,7 +4174,7 @@ export const resistanceBuildings = [
   // Avia Factory
   {
     id: 8,
-    name: 'Avia Factory',
+    name: 'buildings.resistBuildings.aviaFactory',
     image: aviaFactory,
     description: '',
     weapons: null,
@@ -4875,7 +4875,7 @@ export const resistanceBuildings = [
   // Airfield
   {
     id: 9,
-    name: 'Airfield',
+    name: 'buildings.resistBuildings.airfield',
     image: airfield,
     description: '',
     weapons: null,
@@ -5141,7 +5141,7 @@ export const resistanceBuildings = [
   // Shipyard
   {
     id: 10,
-    name: 'Shipyard',
+    name: 'buildings.resistBuildings.shipyard',
     image: shipyard,
     description: '',
     weapons: null,
@@ -5842,7 +5842,7 @@ export const resistanceBuildings = [
   // Prototype Factory
   {
     id: 11,
-    name: 'Prototype Factory',
+    name: 'buildings.resistBuildings.prototypeFactory',
     image: prototypeFactory,
     description: '',
     weapons: null,
@@ -6591,7 +6591,7 @@ export const resistanceBuildings = [
   // Nuclear Launcher
   {
     id: 12,
-    name: 'Nuclear Launcher',
+    name: 'buildings.resistBuildings.nuclearLauncher',
     image: nuclearLauncher,
     description: '',
     weapons: [{ type: 'Nuclear Missile' }],
@@ -7037,7 +7037,7 @@ export const resistanceBuildings = [
   // Wall
   {
     id: 13,
-    name: 'Wall',
+    name: 'buildings.resistBuildings.wall',
     image: wall,
     description: '',
     weapons: null,
@@ -7303,7 +7303,7 @@ export const resistanceBuildings = [
   // Sniper Tower
   {
     id: 14,
-    name: 'Sniper Tower',
+    name: 'buildings.resistBuildings.sniperTower',
     image: sniperTower,
     description: '',
     weapons: [{ type: 'Sniper Rifle' }],
@@ -7749,7 +7749,7 @@ export const resistanceBuildings = [
   // Gun Tower
   {
     id: 15,
-    name: 'Gun Tower',
+    name: 'buildings.resistBuildings.gunTower',
     image: gunTower,
     description: '',
     weapons: [{ type: '200MM Stationary Gun' }],
@@ -8195,7 +8195,7 @@ export const resistanceBuildings = [
   // Anti-Air Tower
   {
     id: 16,
-    name: 'Anti-Air Tower',
+    name: 'buildings.resistBuildings.antiAirTower',
     image: antiAirTower,
     description: '',
     weapons: [{ type: 'Stationary Sam Launcher' }],
@@ -8641,7 +8641,7 @@ export const resistanceBuildings = [
   // Naval Platform
   {
     id: 17,
-    name: 'Naval Platform',
+    name: 'buildings.resistBuildings.navalPlatform',
     image: navalPlatform,
     description: '',
     weapons: [{ type: 'Torpedo Launcher' }, { type: '30MM Flack Cannon' }],

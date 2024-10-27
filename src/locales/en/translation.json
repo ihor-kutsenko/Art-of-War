@@ -184,5 +184,45 @@
       "alligator": "Alligator",
       "barracuda": "Barracuda"
     }
+  },
+  "buildings": {
+    "confBuildings": {
+      "headquarters": "Headquarters",
+      "constructionYard": "Construction Yard",
+      "powerPlant": "Power Plant",
+      "supplyCenter": "Supply Center",
+      "barracks": "Barracks",
+      "assaultVehicleFactory": "Assault Vehicle Factory",
+      "specialVehicleFactory": "Special Vehicle Factory",
+      "aviaFactory": "Avia Factory",
+      "airfield": "Airfield",
+      "shipyard": "Shipyard",
+      "xFacility": "X-Facility",
+      "spaceSystem": "Space System",
+      "wall": "Wall",
+      "bunker": "Bunker",
+      "rocketTower": "Rocket Tower",
+      "airDefense": "Air Defense",
+      "torpedoPlatform": "Torpedo Platform"
+    },
+    "resistBuildings": {
+      "headquarters": "Headquarters",
+      "constructionYard": "Construction Yard",
+      "powerPlant": "Power Plant",
+      "supplyCenter": "Supply Center",
+      "barracks": "Barracks",
+      "assaultVehicleFactory": "Assault Vehicle Factory",
+      "specialVehicleFactory": "Special Vehicle Factory",
+      "aviaFactory": "Avia Factory",
+      "airfield": "Airfield",
+      "shipyard": "Shipyard",
+      "prototypeFactory": "Prototype Factory",
+      "nuclearLauncher": "Nuclear Launcher",
+      "wall": "Wall",
+      "sniperTower": "Sniper Tower",
+      "gunTower": "Gun Tower",
+      "antiAirTower": "Anti-Air Tower",
+      "navalPlatform": "Naval Platform"
+    }
   }
 }
