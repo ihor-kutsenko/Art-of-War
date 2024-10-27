@@ -1,9 +1,12 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+
 import UnitModal from 'components/UnitModal/UnitModal';
 
 import styles from './UnitsGallery.module.scss';
 
 const UnitsGallery = ({ units }) => {
+  const { t } = useTranslation();
   const [selectedUnit, setSelectedUnit] = useState(null);
 
   const handleUnitClick = index => {
@@ -29,13 +32,7 @@ const UnitsGallery = ({ units }) => {
   return (
     <>
       {' '}
-      <div className={styles.info}>
-        The characteristics of the units and heroes are maxed out for each rank
-        as of 01/08/2024. A bit later some changes have occurred both for units
-        and heroes and they’re still ongoing till today. After the feature
-        changes, the information about it will be collected, processed and
-        updated.
-      </div>
+      <div className={styles.info}>{t('units.info')}</div>
       <div className={styles.gallery}>
         {units.map((unit, index) => (
           <div

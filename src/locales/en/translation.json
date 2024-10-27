@@ -1,4 +1,9 @@
 {
+  "main": {
+    "confederation": "Confederation",
+    "resistance": "Resistance",
+    "other": "Other"
+  },
   "header": {
     "maps": "Maps",
     "medals": "Medals",
@@ -135,5 +140,15 @@
       "thirdWheel": "Third Wheel",
       "wildLagoon": "Wild Lagoon"
     }
+  },
+  "medals": {
+    "tournaments": "Tournaments",
+    "blitzTournaments": "Blitz-Tournaments",
+    "skirmish": "Skirmish",
+    "orders": "Orders",
+    "leagues": "Leagues"
+  },
+  "units": {
+    "info": "The characteristics of the units and heroes are maxed out for each rank as of 01/08/2024. A bit later some changes have occurred both for units and heroes and they’re still ongoing till today. After the feature changes, the information about it will be collected, processed and updated."
   }
 }
