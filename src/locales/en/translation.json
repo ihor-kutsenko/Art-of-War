@@ -2,7 +2,8 @@
   "main": {
     "confederation": "Confederation",
     "resistance": "Resistance",
-    "other": "Other"
+    "other": "Other",
+    "class": "Class"
   },
   "header": {
     "maps": "Maps",
@@ -151,21 +152,86 @@
   "units": {
     "info": "The characteristics of the units and heroes are maxed out for each rank as of 01/08/2024. A bit later some changes have occurred both for units and heroes and they’re still ongoing till today. After the feature changes, the information about it will be collected, processed and updated.",
     "confUnits": {
-      "assault": "Assault",
-      "heavyAssault": "Heavy Assault",
-      "fireAssault": "Fire Assault",
-      "fortress": "Fortress",
-      "hammer": "Hammer",
-      "zeus": "Zeus",
-      "typhoon": "Typhoon",
-      "torrent": "Torrent",
-      "energyShield": "Energy Shield",
-      "cyclone": "Cyclone",
-      "vertex": "Vertex",
-      "thor": "Thor",
-      "delta": "Delta",
-      "viking": "Viking",
-      "poseidon": "Poseidon"
+      "assault": {
+        "name": "Assault",
+        "type": "Light Assault Infantry",
+        "weapons1": "M55 Personal Assault Rifle",
+        "weapons2": "Anti-Personnel Grenade"
+      },
+      "heavyAssault": {
+        "name": "Heavy Assault",
+        "type": "Heavy Assault Infantry",
+        "weapons": "RL-100 Rocket Launcher"
+      },
+      "fireAssault": {
+        "name": "Fire Assault",
+        "type": "Special Assault Infantry",
+        "weapons": "Portable jet Flamethrower"
+      },
+      "fortress": {
+        "name": "Fortress",
+        "type": "Infantry Support Vehicle",
+        "weapons1": "12.7MM HMG Turret",
+        "weapons2": "Machine jet Flamethrower"
+      },
+      "hammer": {
+        "name": "Hammer",
+        "type": "Light Assault Tank",
+        "weapons": "90MM Anti-Armor Gun"
+      },
+      "zeus": {
+        "name": "Zeus",
+        "type": "Heavy Assault Tank",
+        "weapons1": "125MM Thermoelectric Gun",
+        "weapons2": "Automatic Missile Launcher"
+      },
+      "typhoon": {
+        "name": "Typhoon",
+        "type": "Anti-Aircraft Vehicle",
+        "weapons1": "Sam Launcher - in march mode only",
+        "weapons2": "Sam Launcher - in siege mode only"
+      },
+      "torrent": {
+        "name": "Torrent",
+        "type": "Multiple Launch Rocket System",
+        "weapons": "Multiple Launch Rocket System"
+      },
+      "energyShield": {
+        "name": "Energy Shield",
+        "type": "Support Combat Vehicle"
+      },
+      "cyclone": {
+        "name": "Cyclone",
+        "type": "Reconnaissance Helicopter",
+        "weapons": "14.5MM Avionic Machine Gun"
+      },
+      "vertex": {
+        "name": "Vertex",
+        "type": "G6 Light Jet Fighter",
+        "weapons": "Guided Missile Launcher"
+      },
+      "thor": {
+        "name": "Thor",
+        "type": "Tactical Bomber",
+        "weapons": "Air Bomb"
+      },
+      "delta": {
+        "name": "Delta",
+        "type": "Light Assault Amphibian",
+        "weapons": "30MM AutoCannon"
+      },
+      "viking": {
+        "name": "Viking",
+        "type": "Heavy Destroyer",
+        "weapons1": "125MM Thermoelectric Gun",
+        "weapons2": "Torpedo Launcher"
+      },
+      "poseidon": {
+        "name": "Poseidon",
+        "type": "Heavy Missile Cruiser",
+        "weapons1": "Heavy Naval MRLS",
+        "weapons2": "Sam Launcher"
+      }
     },
     "resistUnits": {
       "rifleman": "Rifleman",

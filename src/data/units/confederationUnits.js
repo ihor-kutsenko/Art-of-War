@@ -23,14 +23,14 @@ export const confederationUnits = [
   // Assault
   {
     id: 1,
-    name: 'units.confUnits.assault',
-    type: 'Light Assault Infantry ',
+    name: 'units.confUnits.assault.name',
+    type: 'units.confUnits.assault.type',
     image: assault,
     iconArmor: armor1,
     description: '',
     weapons: [
-      { type: 'M55 Personal Assault Rifle' },
-      { type: 'Anti-Personnel Grenade' },
+      { type: 'units.confUnits.assault.weapons1' },
+      { type: 'units.confUnits.assault.weapons2' },
     ],
     levels: [
       // 7
@@ -566,12 +566,12 @@ export const confederationUnits = [
   // Heavy Assault
   {
     id: 2,
-    name: 'units.confUnits.heavyAssault',
-    type: 'Heavy Assault Infantry ',
+    name: 'units.confUnits.heavyAssault.name',
+    type: 'units.confUnits.heavyAssault.type',
     image: heavyAssault,
     iconArmor: armor1,
     description: ' ',
-    weapons: [{ type: 'RL-100 Rocket Launcher' }],
+    weapons: [{ type: 'units.confUnits.heavyAssault.weapons' }],
     levels: [
       // 7
       {
@@ -946,12 +946,12 @@ export const confederationUnits = [
   // Fire Assault
   {
     id: 3,
-    name: 'units.confUnits.fireAssault',
-    type: 'Special Assault Infantry',
+    name: 'units.confUnits.fireAssault.name',
+    type: 'units.confUnits.fireAssault.type',
     image: fireAssault,
     iconArmor: armor1,
     description: '',
-    weapons: [{ type: 'Portable jet Flamethrower' }],
+    weapons: [{ type: 'units.confUnits.fireAssault.weapons' }],
     levels: [
       // 7
       {
@@ -1326,14 +1326,14 @@ export const confederationUnits = [
   // Fortress
   {
     id: 4,
-    name: 'units.confUnits.fortress',
-    type: 'Infantry Support Vehicle',
+    name: 'units.confUnits.fortress.name',
+    type: 'units.confUnits.fortress.type',
     image: fortress,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: '12.7MM HMG Turret' },
-      { type: 'Machine jet Flamethrower' },
+      { type: 'units.confUnits.fortress.weapons1' },
+      { type: 'units.confUnits.fortress.weapons2' },
     ],
     levels: [
       // 7
@@ -1869,12 +1869,12 @@ export const confederationUnits = [
   // Hammer
   {
     id: 5,
-    name: 'units.confUnits.hammer',
-    type: 'Light Assault Tank',
+    name: 'units.confUnits.hammer.name',
+    type: 'units.confUnits.hammer.type',
     image: hammer,
     iconArmor: armor2,
     description: '',
-    weapons: [{ type: '90MM Anti-Armor Gun' }],
+    weapons: [{ type: 'units.confUnits.hammer.weapons' }],
     levels: [
       // 7
       {
@@ -2249,14 +2249,14 @@ export const confederationUnits = [
   // Zeus
   {
     id: 6,
-    name: 'units.confUnits.zeus',
-    type: 'Heavy Assault Tank',
+    name: 'units.confUnits.zeus.name',
+    type: 'units.confUnits.zeus.type',
     image: zeus,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: '125MM Thermoelectric Gun' },
-      { type: 'Automatic Missile Launcher' },
+      { type: 'units.confUnits.zeus.weapons1' },
+      { type: 'units.confUnits.zeus.weapons2' },
     ],
     levels: [
       // 7
@@ -2792,14 +2792,14 @@ export const confederationUnits = [
   // Typhoon
   {
     id: 7,
-    name: 'units.confUnits.typhoon',
-    type: 'Anti-Aircraft Vehicle',
+    name: 'units.confUnits.typhoon.name',
+    type: 'units.confUnits.typhoon.type',
     image: typhoon,
     iconArmor: armor2,
     description: '',
     weapons: [
-      { type: 'Sam Launcher - in march mode only' },
-      { type: 'Sam Launcher - in siege mode only' },
+      { type: 'units.confUnits.typhoon.weapons1' },
+      { type: 'units.confUnits.typhoon.weapons2' },
     ],
     levels: [
       // 7
@@ -3335,12 +3335,12 @@ export const confederationUnits = [
   // Torrent
   {
     id: 8,
-    name: 'units.confUnits.torrent',
-    type: 'Multiple Launch Rocket System',
+    name: 'units.confUnits.torrent.name',
+    type: 'units.confUnits.torrent.type',
     image: torrent,
     iconArmor: armor3,
     description: '',
-    weapons: [{ type: 'Multiple Launch Rocket System' }],
+    weapons: [{ type: 'units.confUnits.torrent.weapons' }],
     levels: [
       // 7
       {
@@ -3715,8 +3715,8 @@ export const confederationUnits = [
   // Energy Shield
   {
     id: 9,
-    name: 'units.confUnits.energyShield',
-    type: 'Support Combat Vehicle',
+    name: 'units.confUnits.energyShield.name',
+    type: 'units.confUnits.energyShield.type',
     image: energyShield,
     iconArmor: armor3,
     description: '',
@@ -3919,12 +3919,12 @@ export const confederationUnits = [
   // Cyclone
   {
     id: 10,
-    name: 'units.confUnits.cyclone',
-    type: 'Reconnaissance Helicopter',
+    name: 'units.confUnits.cyclone.name',
+    type: 'units.confUnits.cyclone.type',
     image: cyclone,
     iconArmor: armor2,
     description: '',
-    weapons: [{ type: '14.5MM Avionic Machine Gun' }],
+    weapons: [{ type: 'units.confUnits.cyclone.weapons' }],
     levels: [
       // 7
       {
@@ -4299,12 +4299,12 @@ export const confederationUnits = [
   // Vertex
   {
     id: 11,
-    name: 'units.confUnits.vertex',
-    type: 'G6 Light Jet Fighter',
+    name: 'units.confUnits.vertex.name',
+    type: 'units.confUnits.vertex.type',
     image: vertex,
     iconArmor: armor2,
     description: '',
-    weapons: [{ type: 'Guided Missile Launcher' }],
+    weapons: [{ type: 'units.confUnits.vertex.weapons' }],
     levels: [
       // 7
       {
@@ -4679,12 +4679,12 @@ export const confederationUnits = [
   // Thor
   {
     id: 12,
-    name: 'units.confUnits.thor',
-    type: 'Tactical Bomber',
+    name: 'units.confUnits.thor.name',
+    type: 'units.confUnits.thor.type',
     image: thor,
     iconArmor: armor3,
     description: '',
-    weapons: [{ type: 'Air Bomb' }],
+    weapons: [{ type: 'units.confUnits.thor.weapons' }],
     levels: [
       // 7
       {
@@ -5059,12 +5059,12 @@ export const confederationUnits = [
   // Delta
   {
     id: 13,
-    name: 'units.confUnits.delta',
-    type: 'Light Assault Amphibian',
+    name: 'units.confUnits.delta.name',
+    type: 'units.confUnits.delta.type',
     image: delta,
     iconArmor: armor2,
     description: '',
-    weapons: [{ type: '30MM AutoCannon' }],
+    weapons: [{ type: 'units.confUnits.delta.weapons' }],
     levels: [
       // 7
       {
@@ -5439,14 +5439,14 @@ export const confederationUnits = [
   // Viking
   {
     id: 14,
-    name: 'units.confUnits.viking',
-    type: 'Heavy Destroyer',
+    name: 'units.confUnits.viking.name',
+    type: 'units.confUnits.viking.type',
     image: viking,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: '125MM Thermoelectric Gun' },
-      { type: 'Torpedo Launcher' },
+      { type: 'units.confUnits.viking.weapons1' },
+      { type: 'units.confUnits.viking.weapons2' },
     ],
     levels: [
       // 7
@@ -5982,12 +5982,15 @@ export const confederationUnits = [
   // Poseidon
   {
     id: 15,
-    name: 'units.confUnits.poseidon',
-    type: 'Heavy Missile Cruiser',
+    name: 'units.confUnits.poseidon.name',
+    type: 'units.confUnits.poseidon.type',
     image: poseidon,
     iconArmor: armor3,
     description: '',
-    weapons: [{ type: 'Heavy Naval MRLS' }, { type: 'Sam Launcher' }],
+    weapons: [
+      { type: 'units.confUnits.poseidon.weapons1' },
+      { type: 'units.confUnits.poseidon.weapons2' },
+    ],
     levels: [
       // 7
       {
