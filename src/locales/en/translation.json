@@ -234,21 +234,91 @@
       }
     },
     "resistUnits": {
-      "rifleman": "Rifleman",
-      "grenadier": "Grenadier",
-      "sniper": "Sniper",
-      "coyote": "Coyote",
-      "armadillo": "Armadillo",
-      "jaguar": "Jaguar",
-      "porcupine": "Porcupine",
-      "mammoth": "Mammoth",
-      "chameleon": "Chameleon",
-      "dragonfly": "Dragonfly",
-      "hawk": "Hawk",
-      "albatross": "Albatross",
-      "caiman": "Caiman",
-      "alligator": "Alligator",
-      "barracuda": "Barracuda"
+      "rifleman": {
+        "name": "Rifleman",
+        "type": "Light Infantry",
+        "weapons1": "Individual Combat Rifle",
+        "weapons2": "Electro-Smoke Grenade"
+      },
+      "grenadier": {
+        "name": "Grenadier",
+        "type": "Anti-Tank Infantry",
+        "weapons": "Individual Grenadier Launcher"
+      },
+      "sniper": {
+        "name": "Sniper",
+        "type": "Special Infantry",
+        "weapons": "Sniper Rifle"
+      },
+      "coyote": {
+        "name": "Coyote",
+        "type": "Ultra Light Recon Vehicle",
+        "weapons": "14.5MM Light Machine Gun"
+      },
+      "armadillo": {
+        "name": "Armadillo",
+        "type": "Multi-Purpose Combat Vehicle",
+        "weapons1": "57MM Anti-Armor AutoCannon",
+        "weapons2": "Scorpion Mine",
+        "weapons3": "Frog Mine",
+        "weapons4": "Lizard Mine"
+      },
+      "jaguar": {
+        "name": "Jaguar",
+        "type": "Heavy Siege Tank",
+        "weapons1": "110MM Double-Barreled Gun - in march mode only",
+        "weapons2": "110MM Double-Barreled Gun - in siege mode only"
+      },
+      "porcupine": {
+        "name": "Porcupine",
+        "type": "Anti-Aircraft Platform",
+        "weapons1": "Panoramic Sam Launcher",
+        "weapons2": "23MM Three-Barreled Rotary Gun"
+      },
+      "mammoth": {
+        "name": "Mammoth",
+        "type": "Self-Propelled Artillery",
+        "weapons": "130MM Long-Range Howitzer"
+      },
+      "chameleon": {
+        "name": "Chameleon",
+        "type": "Active Camouflage System"
+      },
+      "dragonfly": {
+        "name": "Dragonfly",
+        "type": "Light Attack Helicopter",
+        "weapons1": "Guided Missile Launcher",
+        "weapons2": "14.5MM Helicopter Machine Gun"
+      },
+      "hawk": {
+        "name": "Hawk",
+        "type": "G5 Heavy Jet Fighter",
+        "weapons1": "Er Self-Guided Wing Missiles",
+        "weapons2": "23MM Fuselage Coaxial Cannon"
+      },
+      "albatross": {
+        "name": "Albatross",
+        "type": "Tactical Bomber",
+        "weapons": "Air Bomb"
+      },
+      "caiman": {
+        "name": "Caiman",
+        "type": "Light Recon Boat",
+        "weapons1": "14.5MM Machine Gun",
+        "weapons2": "Triton Mine"
+      },
+      "alligator": {
+        "name": "Alligator",
+        "type": "Heavy Corvette",
+        "weapons1": "130MM Double-Barreled Naval Gun",
+        "weapons2": "Sam Launcher"
+      },
+      "barracuda": {
+        "name": "Barracuda",
+        "type": "Missile-Torpedo Submarine",
+        "weapons1": "Torpedo Launcher - underwater",
+        "weapons2": "Vertical Launch Missile System - on the surface"
+      }
     }
   },
   "buildings": {

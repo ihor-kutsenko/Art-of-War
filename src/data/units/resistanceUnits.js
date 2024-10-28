@@ -23,14 +23,14 @@ export const resistanceUnits = [
   // Rifleman
   {
     id: 1,
-    name: 'units.resistUnits.rifleman',
-    type: 'Light Infantry ',
+    name: 'units.resistUnits.rifleman.name',
+    type: 'units.resistUnits.rifleman.type',
     image: rifleman,
     iconArmor: armor1,
     description: '',
     weapons: [
-      { type: 'Individual Combat Rifle' },
-      { type: 'Electro-Smoke Grenade' },
+      { type: 'units.resistUnits.rifleman.weapons1' },
+      { type: 'units.resistUnits.rifleman.weapons2' },
     ],
     levels: [
       // 7
@@ -533,12 +533,12 @@ export const resistanceUnits = [
   // Grenadier
   {
     id: 2,
-    name: 'units.resistUnits.grenadier',
-    type: 'Anti-Tank Infantry',
+    name: 'units.resistUnits.grenadier.name',
+    type: 'units.resistUnits.grenadier.type',
     image: grenadier,
     iconArmor: armor1,
     description: ' ',
-    weapons: [{ type: 'Individual Grenadier Launcher' }],
+    weapons: [{ type: 'units.resistUnits.grenadier.weapons' }],
     levels: [
       // 7
       {
@@ -890,12 +890,12 @@ export const resistanceUnits = [
   // Sniper
   {
     id: 3,
-    name: 'units.resistUnits.sniper',
-    type: 'Special Infantry',
+    name: 'units.resistUnits.sniper.name',
+    type: 'units.resistUnits.sniper.type',
     image: sniper,
     iconArmor: armor1,
     description: '',
-    weapons: [{ type: 'Sniper Rifle' }],
+    weapons: [{ type: 'units.resistUnits.sniper.weapons' }],
     levels: [
       // 7
       {
@@ -1247,12 +1247,12 @@ export const resistanceUnits = [
   // Coyote
   {
     id: 4,
-    name: 'units.resistUnits.coyote',
-    type: 'Ultra Light Recon Vehicle',
+    name: 'units.resistUnits.coyote.name',
+    type: 'units.resistUnits.coyote.type',
     image: coyote,
     iconArmor: armor2,
     description: '',
-    weapons: [{ type: '14.5MM Light Machine Gun' }],
+    weapons: [{ type: 'units.resistUnits.coyote.weapons' }],
     levels: [
       // 7
       {
@@ -1604,16 +1604,16 @@ export const resistanceUnits = [
   // Armadillo
   {
     id: 5,
-    name: 'units.resistUnits.armadillo',
-    type: 'Multi-Purpose Combat Vehicle',
+    name: 'units.resistUnits.armadillo.name',
+    type: 'units.resistUnits.armadillo.type',
     image: armadillo,
     iconArmor: armor2,
     description: '',
     weapons: [
-      { type: '57MM Anti-Armor AutoCannon' },
-      { type: 'Scorpion Mine' },
-      { type: 'Frog Mine' },
-      { type: 'Lizard Mine' },
+      { type: 'units.resistUnits.armadillo.weapons1' },
+      { type: 'units.resistUnits.armadillo.weapons2' },
+      { type: 'units.resistUnits.armadillo.weapons3' },
+      { type: 'units.resistUnits.armadillo.weapons4' },
     ],
     levels: [
       // 7
@@ -2326,14 +2326,14 @@ export const resistanceUnits = [
   // Jaguar
   {
     id: 6,
-    name: 'units.resistUnits.jaguar',
-    type: 'Heavy Siege Tank',
+    name: 'units.resistUnits.jaguar.name',
+    type: 'units.resistUnits.jaguar.type',
     image: jaguar,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: '110MM Double-Barreled Gun - in march mode only' },
-      { type: '110MM Double-Barreled Gun - in siege mode only' },
+      { type: 'units.resistUnits.jaguar.weapons1' },
+      { type: 'units.resistUnits.jaguar.weapons2' },
     ],
     levels: [
       // 7
@@ -2836,14 +2836,14 @@ export const resistanceUnits = [
   // Porcupine
   {
     id: 7,
-    name: 'units.resistUnits.porcupine',
-    type: 'Anti-Aircraft Platform',
+    name: 'units.resistUnits.porcupine.name',
+    type: 'units.resistUnits.porcupine.type',
     image: porcupine,
     iconArmor: armor2,
     description: '',
     weapons: [
-      { type: 'Panoramic Sam Launcher' },
-      { type: '23MM Three-Barreled Rotary Gun' },
+      { type: 'units.resistUnits.porcupine.weapons1' },
+      { type: 'units.resistUnits.porcupine.weapons2' },
     ],
     levels: [
       // 7
@@ -3346,12 +3346,12 @@ export const resistanceUnits = [
   // Mammoth
   {
     id: 8,
-    name: 'units.resistUnits.mammoth',
-    type: 'Self-Propelled Artillery',
+    name: 'units.resistUnits.mammoth.name',
+    type: 'units.resistUnits.mammoth.type',
     image: mammoth,
     iconArmor: armor3,
     description: '',
-    weapons: [{ type: '130MM Long-Range Howitzer' }],
+    weapons: [{ type: 'units.resistUnits.mammoth.weapons' }],
     levels: [
       // 7
       {
@@ -3703,8 +3703,8 @@ export const resistanceUnits = [
   // Chameleon
   {
     id: 9,
-    name: 'units.resistUnits.chameleon',
-    type: 'Active Camouflage System',
+    name: 'units.resistUnits.chameleon.name',
+    type: 'units.resistUnits.chameleon.type',
     image: chameleon,
     iconArmor: armor2,
     description: '',
@@ -3895,14 +3895,14 @@ export const resistanceUnits = [
   // Dragonfly
   {
     id: 10,
-    name: 'units.resistUnits.dragonfly',
-    type: 'Light Attack Helicopter',
+    name: 'units.resistUnits.dragonfly.name',
+    type: 'units.resistUnits.dragonfly.type',
     image: dragonfly,
     iconArmor: armor2,
     description: '',
     weapons: [
-      { type: 'Guided Missile Launcher' },
-      { type: '14.5MM Helicopter Machine Gun' },
+      { type: 'units.resistUnits.dragonfly.weapons1' },
+      { type: 'units.resistUnits.dragonfly.weapons2' },
     ],
     levels: [
       // 7
@@ -4405,14 +4405,14 @@ export const resistanceUnits = [
   // Hawk
   {
     id: 11,
-    name: 'units.resistUnits.hawk',
-    type: 'G5 Heavy Jet Fighter',
+    name: 'units.resistUnits.hawk.name',
+    type: 'units.resistUnits.hawk.type',
     image: hawk,
     iconArmor: armor2,
     description: '',
     weapons: [
-      { type: 'Er Self-Guided Wing Missiles' },
-      { type: '23MM Fuselage Coaxial Cannon' },
+      { type: 'units.resistUnits.hawk.weapons1' },
+      { type: 'units.resistUnits.hawk.weapons2' },
     ],
     levels: [
       // 7
@@ -4915,12 +4915,12 @@ export const resistanceUnits = [
   // Albatross
   {
     id: 12,
-    name: 'units.resistUnits.albatross',
-    type: 'Tactical Bomber',
+    name: 'units.resistUnits.albatross.name',
+    type: 'units.resistUnits.albatross.type',
     image: albatross,
     iconArmor: armor3,
     description: '',
-    weapons: [{ type: 'Air Bomb' }],
+    weapons: [{ type: 'units.resistUnits.albatross.weapons' }],
     levels: [
       // 7
       {
@@ -5272,12 +5272,15 @@ export const resistanceUnits = [
   // Caiman
   {
     id: 13,
-    name: 'units.resistUnits.caiman',
-    type: 'Light Recon Boat',
+    name: 'units.resistUnits.caiman.name',
+    type: 'units.resistUnits.caiman.type',
     image: caiman,
     iconArmor: armor2,
     description: '',
-    weapons: [{ type: '14.5MM Machine Gun' }, { type: 'Triton Mine' }],
+    weapons: [
+      { type: 'units.resistUnits.caiman.weapons1' },
+      { type: 'units.resistUnits.caiman.weapons2' },
+    ],
     levels: [
       // 7
       {
@@ -5749,14 +5752,14 @@ export const resistanceUnits = [
   // Alligator
   {
     id: 14,
-    name: 'units.resistUnits.alligator',
-    type: 'Heavy Corvette',
+    name: 'units.resistUnits.alligator.name',
+    type: 'units.resistUnits.alligator.type',
     image: alligator,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: '130MM Double-Barreled Naval Gun' },
-      { type: 'Sam Launcher' },
+      { type: 'units.resistUnits.alligator.weapons1' },
+      { type: 'units.resistUnits.alligator.weapons2' },
     ],
     levels: [
       // 7
@@ -6259,14 +6262,14 @@ export const resistanceUnits = [
   // Barracuda
   {
     id: 15,
-    name: 'units.resistUnits.barracuda',
-    type: 'Missile-Torpedo Submarine',
+    name: 'units.resistUnits.barracuda.name',
+    type: 'units.resistUnits.barracuda.type',
     image: barracuda,
     iconArmor: armor3,
     description: '',
     weapons: [
-      { type: 'Torpedo Launcher - underwater' },
-      { type: 'Vertical Launch Missile System - on the surface' },
+      { type: 'units.resistUnits.barracuda.weapons1' },
+      { type: 'units.resistUnits.barracuda.weapons2' },
     ],
     levels: [
       // 7
