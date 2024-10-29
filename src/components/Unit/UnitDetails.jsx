@@ -51,7 +51,7 @@ const UnitDetails = ({ unit }) => {
         >
           {unit.levels.map(level => (
             <option key={level.level} value={level.level}>
-              {t('main.level')} {level.level}
+              {t('main.rank')} {level.level}
             </option>
           ))}
         </select>

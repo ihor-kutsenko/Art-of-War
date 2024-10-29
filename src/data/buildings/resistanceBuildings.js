@@ -51,7 +51,11 @@ export const resistanceBuildings = [
     image: hq,
     description: '',
     weapons: null,
-    produces: [{ type: 'CP' }, { type: 'Resources' }, { type: 'Energy' }],
+    produces: [
+      { type: 'buildings.stats.cp' },
+      { type: 'buildings.stats.resources' },
+      { type: 'buildings.stats.energy' },
+    ],
     levels: [
       // 7
       {
@@ -67,9 +71,13 @@ export const resistanceBuildings = [
             time: 44,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 23, icon: cp },
-              { type: 'Resources', amount: 25, icon: resources },
-              { type: 'Energy', amount: 52, icon: energy },
+              { type: 'buildings.stats.cp', amount: 23, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 25,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 52, icon: energy },
             ],
           },
           {
@@ -82,9 +90,13 @@ export const resistanceBuildings = [
             time: 62,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 45, icon: cp },
-              { type: 'Resources', amount: 40, icon: resources },
-              { type: 'Energy', amount: 77, icon: energy },
+              { type: 'buildings.stats.cp', amount: 45, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 40,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 77, icon: energy },
             ],
           },
           {
@@ -97,9 +109,13 @@ export const resistanceBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 67, icon: cp },
-              { type: 'Resources', amount: 55, icon: resources },
-              { type: 'Energy', amount: 104, icon: energy },
+              { type: 'buildings.stats.cp', amount: 67, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 55,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 104, icon: energy },
             ],
           },
           {
@@ -112,9 +128,13 @@ export const resistanceBuildings = [
             time: 106,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 89, icon: cp },
-              { type: 'Resources', amount: 70, icon: resources },
-              { type: 'Energy', amount: 129, icon: energy },
+              { type: 'buildings.stats.cp', amount: 89, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 70,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 129, icon: energy },
             ],
           },
           {
@@ -127,9 +147,13 @@ export const resistanceBuildings = [
             time: 124,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 111, icon: cp },
-              { type: 'Resources', amount: 85, icon: resources },
-              { type: 'Energy', amount: 157, icon: energy },
+              { type: 'buildings.stats.cp', amount: 111, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 85,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 157, icon: energy },
             ],
           },
         ],
@@ -148,9 +172,13 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 26, icon: cp },
-              { type: 'Resources', amount: 28, icon: resources },
-              { type: 'Energy', amount: 58, icon: energy },
+              { type: 'buildings.stats.cp', amount: 26, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 28,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 58, icon: energy },
             ],
           },
           {
@@ -163,9 +191,13 @@ export const resistanceBuildings = [
             time: 59,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 50, icon: cp },
-              { type: 'Resources', amount: 45, icon: resources },
-              { type: 'Energy', amount: 86, icon: energy },
+              { type: 'buildings.stats.cp', amount: 50, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 45,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 86, icon: energy },
             ],
           },
           {
@@ -178,9 +210,13 @@ export const resistanceBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 74, icon: cp },
-              { type: 'Resources', amount: 62, icon: resources },
-              { type: 'Energy', amount: 117, icon: energy },
+              { type: 'buildings.stats.cp', amount: 74, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 62,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 117, icon: energy },
             ],
           },
           {
@@ -193,9 +229,13 @@ export const resistanceBuildings = [
             time: 101,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 98, icon: cp },
-              { type: 'Resources', amount: 79, icon: resources },
-              { type: 'Energy', amount: 145, icon: energy },
+              { type: 'buildings.stats.cp', amount: 98, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 79,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 145, icon: energy },
             ],
           },
           {
@@ -208,9 +248,13 @@ export const resistanceBuildings = [
             time: 118,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 122, icon: cp },
-              { type: 'Resources', amount: 96, icon: resources },
-              { type: 'Energy', amount: 175, icon: energy },
+              { type: 'buildings.stats.cp', amount: 122, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 96,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 175, icon: energy },
             ],
           },
         ],
@@ -229,9 +273,13 @@ export const resistanceBuildings = [
             time: 40,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 30, icon: cp },
-              { type: 'Resources', amount: 32, icon: resources },
-              { type: 'Energy', amount: 66, icon: energy },
+              { type: 'buildings.stats.cp', amount: 30, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 32,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 66, icon: energy },
             ],
           },
           {
@@ -244,9 +292,13 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 55, icon: cp },
-              { type: 'Resources', amount: 51, icon: resources },
-              { type: 'Energy', amount: 97, icon: energy },
+              { type: 'buildings.stats.cp', amount: 55, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 51,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 97, icon: energy },
             ],
           },
           {
@@ -259,9 +311,13 @@ export const resistanceBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 80, icon: cp },
-              { type: 'Resources', amount: 70, icon: resources },
-              { type: 'Energy', amount: 131, icon: energy },
+              { type: 'buildings.stats.cp', amount: 80, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 70,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 131, icon: energy },
             ],
           },
           {
@@ -274,9 +330,13 @@ export const resistanceBuildings = [
             time: 96,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 105, icon: cp },
-              { type: 'Resources', amount: 89, icon: resources },
-              { type: 'Energy', amount: 163, icon: energy },
+              { type: 'buildings.stats.cp', amount: 105, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 89,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 163, icon: energy },
             ],
           },
           {
@@ -289,9 +349,13 @@ export const resistanceBuildings = [
             time: 112,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 108, icon: resources },
-              { type: 'Energy', amount: 197, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 108,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 197, icon: energy },
             ],
           },
         ],
@@ -310,9 +374,13 @@ export const resistanceBuildings = [
             time: 39,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 30, icon: cp },
-              { type: 'Resources', amount: 34, icon: resources },
-              { type: 'Energy', amount: 70, icon: energy },
+              { type: 'buildings.stats.cp', amount: 30, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 34,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 70, icon: energy },
             ],
           },
           {
@@ -325,9 +393,13 @@ export const resistanceBuildings = [
             time: 55,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 55, icon: cp },
-              { type: 'Resources', amount: 55, icon: resources },
-              { type: 'Energy', amount: 104, icon: energy },
+              { type: 'buildings.stats.cp', amount: 55, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 55,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 104, icon: energy },
             ],
           },
           {
@@ -340,9 +412,13 @@ export const resistanceBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 80, icon: cp },
-              { type: 'Resources', amount: 76, icon: resources },
-              { type: 'Energy', amount: 140, icon: energy },
+              { type: 'buildings.stats.cp', amount: 80, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 76,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 140, icon: energy },
             ],
           },
           {
@@ -355,9 +431,13 @@ export const resistanceBuildings = [
             time: 94,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 105, icon: cp },
-              { type: 'Resources', amount: 97, icon: resources },
-              { type: 'Energy', amount: 174, icon: energy },
+              { type: 'buildings.stats.cp', amount: 105, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 97,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 174, icon: energy },
             ],
           },
           {
@@ -370,9 +450,13 @@ export const resistanceBuildings = [
             time: 110,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 118, icon: resources },
-              { type: 'Energy', amount: 210, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 118,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 210, icon: energy },
             ],
           },
         ],
@@ -391,9 +475,13 @@ export const resistanceBuildings = [
             time: 39,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 32, icon: cp },
-              { type: 'Resources', amount: 34, icon: resources },
-              { type: 'Energy', amount: 70, icon: energy },
+              { type: 'buildings.stats.cp', amount: 32, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 34,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 70, icon: energy },
             ],
           },
           {
@@ -406,9 +494,13 @@ export const resistanceBuildings = [
             time: 55,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 58, icon: cp },
-              { type: 'Resources', amount: 55, icon: resources },
-              { type: 'Energy', amount: 104, icon: energy },
+              { type: 'buildings.stats.cp', amount: 58, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 55,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 104, icon: energy },
             ],
           },
           {
@@ -421,9 +513,13 @@ export const resistanceBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 84, icon: cp },
-              { type: 'Resources', amount: 76, icon: resources },
-              { type: 'Energy', amount: 140, icon: energy },
+              { type: 'buildings.stats.cp', amount: 84, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 76,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 140, icon: energy },
             ],
           },
           {
@@ -436,9 +532,13 @@ export const resistanceBuildings = [
             time: 94,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 110, icon: cp },
-              { type: 'Resources', amount: 97, icon: resources },
-              { type: 'Energy', amount: 174, icon: energy },
+              { type: 'buildings.stats.cp', amount: 110, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 97,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 174, icon: energy },
             ],
           },
           {
@@ -451,9 +551,13 @@ export const resistanceBuildings = [
             time: 110,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 136, icon: cp },
-              { type: 'Resources', amount: 118, icon: resources },
-              { type: 'Energy', amount: 210, icon: energy },
+              { type: 'buildings.stats.cp', amount: 136, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 118,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 210, icon: energy },
             ],
           },
         ],
@@ -472,9 +576,13 @@ export const resistanceBuildings = [
             time: 38,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 32, icon: cp },
-              { type: 'Resources', amount: 37, icon: resources },
-              { type: 'Energy', amount: 75, icon: energy },
+              { type: 'buildings.stats.cp', amount: 32, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 37,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 75, icon: energy },
             ],
           },
           {
@@ -487,9 +595,13 @@ export const resistanceBuildings = [
             time: 54,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 58, icon: cp },
-              { type: 'Resources', amount: 60, icon: resources },
-              { type: 'Energy', amount: 112, icon: energy },
+              { type: 'buildings.stats.cp', amount: 58, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 60,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 112, icon: energy },
             ],
           },
           {
@@ -502,9 +614,13 @@ export const resistanceBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 84, icon: cp },
-              { type: 'Resources', amount: 83, icon: resources },
-              { type: 'Energy', amount: 150, icon: energy },
+              { type: 'buildings.stats.cp', amount: 84, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 83,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
             ],
           },
           {
@@ -517,9 +633,13 @@ export const resistanceBuildings = [
             time: 92,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 110, icon: cp },
-              { type: 'Resources', amount: 106, icon: resources },
-              { type: 'Energy', amount: 187, icon: energy },
+              { type: 'buildings.stats.cp', amount: 110, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 106,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 187, icon: energy },
             ],
           },
           {
@@ -532,9 +652,13 @@ export const resistanceBuildings = [
             time: 107,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 136, icon: cp },
-              { type: 'Resources', amount: 129, icon: resources },
-              { type: 'Energy', amount: 225, icon: energy },
+              { type: 'buildings.stats.cp', amount: 136, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 129,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 225, icon: energy },
             ],
           },
         ],
@@ -553,9 +677,13 @@ export const resistanceBuildings = [
             time: 38,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 34, icon: cp },
-              { type: 'Resources', amount: 40, icon: resources },
-              { type: 'Energy', amount: 75, icon: energy },
+              { type: 'buildings.stats.cp', amount: 34, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 40,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 75, icon: energy },
             ],
           },
           {
@@ -568,9 +696,13 @@ export const resistanceBuildings = [
             time: 54,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 61, icon: cp },
-              { type: 'Resources', amount: 65, icon: resources },
-              { type: 'Energy', amount: 112, icon: energy },
+              { type: 'buildings.stats.cp', amount: 61, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 65,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 112, icon: energy },
             ],
           },
           {
@@ -583,9 +715,13 @@ export const resistanceBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 88, icon: cp },
-              { type: 'Resources', amount: 90, icon: resources },
-              { type: 'Energy', amount: 150, icon: energy },
+              { type: 'buildings.stats.cp', amount: 88, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 90,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
             ],
           },
           {
@@ -598,9 +734,13 @@ export const resistanceBuildings = [
             time: 92,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 115, icon: cp },
-              { type: 'Resources', amount: 115, icon: resources },
-              { type: 'Energy', amount: 187, icon: energy },
+              { type: 'buildings.stats.cp', amount: 115, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 115,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 187, icon: energy },
             ],
           },
           {
@@ -613,9 +753,13 @@ export const resistanceBuildings = [
             time: 107,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 142, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 225, icon: energy },
+              { type: 'buildings.stats.cp', amount: 142, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 225, icon: energy },
             ],
           },
         ],
@@ -634,9 +778,13 @@ export const resistanceBuildings = [
             time: 37,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 34, icon: cp },
-              { type: 'Resources', amount: 42, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 34, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 42,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -649,9 +797,13 @@ export const resistanceBuildings = [
             time: 52,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 61, icon: cp },
-              { type: 'Resources', amount: 68, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 61, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 68,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -664,9 +816,13 @@ export const resistanceBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 88, icon: cp },
-              { type: 'Resources', amount: 94, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 88, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 94,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -679,9 +835,13 @@ export const resistanceBuildings = [
             time: 89,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 115, icon: cp },
-              { type: 'Resources', amount: 120, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 115, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 120,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -694,9 +854,13 @@ export const resistanceBuildings = [
             time: 104,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 142, icon: cp },
-              { type: 'Resources', amount: 146, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 142, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 146,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -715,9 +879,13 @@ export const resistanceBuildings = [
             time: 37,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 34, icon: cp },
-              { type: 'Resources', amount: 44, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 34, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 44,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -730,9 +898,13 @@ export const resistanceBuildings = [
             time: 52,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 61, icon: cp },
-              { type: 'Resources', amount: 71, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 61, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 71,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -745,9 +917,13 @@ export const resistanceBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 88, icon: cp },
-              { type: 'Resources', amount: 98, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 88, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 98,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -760,9 +936,13 @@ export const resistanceBuildings = [
             time: 89,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 115, icon: cp },
-              { type: 'Resources', amount: 125, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 115, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 125,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -775,9 +955,13 @@ export const resistanceBuildings = [
             time: 104,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 142, icon: cp },
-              { type: 'Resources', amount: 152, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 142, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 152,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -796,9 +980,13 @@ export const resistanceBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 37, icon: cp },
-              { type: 'Resources', amount: 48, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 37, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 48,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -811,9 +999,13 @@ export const resistanceBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 65, icon: cp },
-              { type: 'Resources', amount: 77, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 65, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 77,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -826,9 +1018,13 @@ export const resistanceBuildings = [
             time: 65,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 93, icon: cp },
-              { type: 'Resources', amount: 106, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 93, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 106,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -841,9 +1037,13 @@ export const resistanceBuildings = [
             time: 87,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 121, icon: cp },
-              { type: 'Resources', amount: 135, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 121, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 135,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -856,9 +1056,13 @@ export const resistanceBuildings = [
             time: 101,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 149, icon: cp },
-              { type: 'Resources', amount: 164, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 149, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 164,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -877,9 +1081,13 @@ export const resistanceBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 37, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 37, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -892,9 +1100,13 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 65, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 65, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -907,9 +1119,13 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 93, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 93, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -922,9 +1138,13 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 121, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 121, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -937,9 +1157,13 @@ export const resistanceBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 149, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 149, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -958,9 +1182,13 @@ export const resistanceBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -973,9 +1201,13 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -988,9 +1220,13 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1003,9 +1239,13 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1018,9 +1258,13 @@ export const resistanceBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1039,9 +1283,13 @@ export const resistanceBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -1054,9 +1302,13 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -1069,9 +1321,13 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1084,9 +1340,13 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1099,9 +1359,13 @@ export const resistanceBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1120,9 +1384,13 @@ export const resistanceBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -1135,9 +1403,13 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -1150,9 +1422,13 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1165,9 +1441,13 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1180,9 +1460,13 @@ export const resistanceBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1201,9 +1485,13 @@ export const resistanceBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -1216,9 +1504,13 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -1231,9 +1523,13 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1246,9 +1542,13 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1261,9 +1561,13 @@ export const resistanceBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1277,7 +1581,7 @@ export const resistanceBuildings = [
     image: constructionYard,
     description: '',
     weapons: null,
-    produces: [{ type: 'Radius' }],
+    produces: [{ type: 'buildings.stats.radius' }],
     levels: [
       // 7
       {
@@ -1292,7 +1596,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 27,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 9, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 9, icon: radius },
+            ],
           },
         ],
       },
@@ -1309,7 +1615,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 26,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 10, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 10, icon: radius },
+            ],
           },
         ],
       },
@@ -1326,7 +1634,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1343,7 +1653,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1360,7 +1672,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1377,7 +1691,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1394,7 +1710,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1411,7 +1729,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1428,7 +1748,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1445,7 +1767,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 22,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1462,7 +1786,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1479,7 +1805,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1496,7 +1824,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1513,7 +1843,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1530,7 +1862,9 @@ export const resistanceBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1543,7 +1877,7 @@ export const resistanceBuildings = [
     image: powerPlant,
     description: '',
     weapons: null,
-    produces: [{ type: 'Energy' }],
+    produces: [{ type: 'buildings.stats.energy' }],
     levels: [
       // 7
       {
@@ -1558,7 +1892,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 27,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 121, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 121, icon: energy },
+            ],
           },
         ],
       },
@@ -1575,7 +1911,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 26,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 135, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 135, icon: energy },
+            ],
           },
         ],
       },
@@ -1592,7 +1930,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 143, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 143, icon: energy },
+            ],
           },
         ],
       },
@@ -1609,7 +1949,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 143, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 143, icon: energy },
+            ],
           },
         ],
       },
@@ -1626,7 +1968,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 146, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 146, icon: energy },
+            ],
           },
         ],
       },
@@ -1643,7 +1987,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1660,7 +2006,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1677,7 +2025,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1694,7 +2044,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1711,7 +2063,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 22,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1728,7 +2082,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1745,7 +2101,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1762,7 +2120,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1779,7 +2139,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1796,7 +2158,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1809,7 +2173,7 @@ export const resistanceBuildings = [
     image: supplyCenter,
     description: '',
     weapons: null,
-    produces: [{ type: 'Resources' }],
+    produces: [{ type: 'buildings.stats.resources' }],
     levels: [
       // 7
       {
@@ -1824,7 +2188,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 36,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 185, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 185,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1841,7 +2211,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 34,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 202, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 202,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1858,7 +2234,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 220, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 220,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1875,7 +2257,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 230, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 230,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1892,7 +2280,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 230, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 230,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1909,7 +2303,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 240, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 240,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1926,7 +2326,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 240, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 240,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1943,7 +2349,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1960,7 +2372,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1977,7 +2395,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 29,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1994,7 +2418,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2011,7 +2441,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2028,7 +2464,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2045,7 +2487,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2062,7 +2510,13 @@ export const resistanceBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2090,7 +2544,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 18,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2102,8 +2558,8 @@ export const resistanceBuildings = [
             time: 27,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2116,9 +2572,9 @@ export const resistanceBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2136,7 +2592,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 17,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2148,8 +2606,8 @@ export const resistanceBuildings = [
             time: 26,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2162,9 +2620,9 @@ export const resistanceBuildings = [
             time: 34,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2182,7 +2640,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2194,8 +2654,8 @@ export const resistanceBuildings = [
             time: 24,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2208,9 +2668,9 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2228,7 +2688,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2240,8 +2702,8 @@ export const resistanceBuildings = [
             time: 24,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2254,9 +2716,9 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2274,7 +2736,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2286,8 +2750,8 @@ export const resistanceBuildings = [
             time: 24,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2300,9 +2764,9 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2320,7 +2784,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2332,8 +2798,8 @@ export const resistanceBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2346,9 +2812,9 @@ export const resistanceBuildings = [
             time: 31,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2366,7 +2832,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2378,8 +2846,8 @@ export const resistanceBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2392,9 +2860,9 @@ export const resistanceBuildings = [
             time: 31,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2412,7 +2880,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 15,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2424,8 +2894,8 @@ export const resistanceBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2438,9 +2908,9 @@ export const resistanceBuildings = [
             time: 30,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2458,7 +2928,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 15,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2470,8 +2942,8 @@ export const resistanceBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2484,9 +2956,9 @@ export const resistanceBuildings = [
             time: 30,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2504,7 +2976,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 15,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2516,8 +2990,8 @@ export const resistanceBuildings = [
             time: 22,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2530,9 +3004,9 @@ export const resistanceBuildings = [
             time: 29,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2550,7 +3024,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2562,8 +3038,8 @@ export const resistanceBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2576,9 +3052,9 @@ export const resistanceBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2596,7 +3072,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2608,8 +3086,8 @@ export const resistanceBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2622,9 +3100,9 @@ export const resistanceBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2642,7 +3120,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2654,8 +3134,8 @@ export const resistanceBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2668,9 +3148,9 @@ export const resistanceBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2688,7 +3168,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2700,8 +3182,8 @@ export const resistanceBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2714,9 +3196,9 @@ export const resistanceBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2734,7 +3216,9 @@ export const resistanceBuildings = [
             cost: 80,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Rifleman', icon: rifleman }],
+            produces: [
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+            ],
           },
           {
             subLevel: 2,
@@ -2746,8 +3230,8 @@ export const resistanceBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
             ],
           },
           {
@@ -2760,9 +3244,9 @@ export const resistanceBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Rifleman', icon: rifleman },
-              { type: 'Grenadier', icon: grenadier },
-              { type: 'Sniper', icon: sniper },
+              { type: 'units.resistUnits.rifleman.name', icon: rifleman },
+              { type: 'units.resistUnits.grenadier.name', icon: grenadier },
+              { type: 'units.resistUnits.sniper.name', icon: sniper },
             ],
           },
         ],
@@ -2791,7 +3275,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 27,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -2803,8 +3287,8 @@ export const resistanceBuildings = [
             time: 40,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -2817,9 +3301,9 @@ export const resistanceBuildings = [
             time: 53,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -2837,7 +3321,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 26,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -2849,8 +3333,8 @@ export const resistanceBuildings = [
             time: 38,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -2863,9 +3347,9 @@ export const resistanceBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -2883,7 +3367,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -2895,8 +3379,8 @@ export const resistanceBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -2909,9 +3393,9 @@ export const resistanceBuildings = [
             time: 48,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -2929,7 +3413,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -2941,8 +3425,8 @@ export const resistanceBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -2955,9 +3439,9 @@ export const resistanceBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -2975,7 +3459,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -2987,8 +3471,8 @@ export const resistanceBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3001,9 +3485,9 @@ export const resistanceBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3021,7 +3505,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3033,8 +3517,8 @@ export const resistanceBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3047,9 +3531,9 @@ export const resistanceBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3067,7 +3551,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3079,8 +3563,8 @@ export const resistanceBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3093,9 +3577,9 @@ export const resistanceBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3113,7 +3597,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3125,8 +3609,8 @@ export const resistanceBuildings = [
             time: 34,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3139,9 +3623,9 @@ export const resistanceBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3159,7 +3643,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3171,8 +3655,8 @@ export const resistanceBuildings = [
             time: 34,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3185,9 +3669,9 @@ export const resistanceBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3205,7 +3689,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 22,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3217,8 +3701,8 @@ export const resistanceBuildings = [
             time: 33,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3231,9 +3715,9 @@ export const resistanceBuildings = [
             time: 44,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3251,7 +3735,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3263,8 +3747,8 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3277,9 +3761,9 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3297,7 +3781,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3309,8 +3793,8 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3323,9 +3807,9 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3343,7 +3827,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3355,8 +3839,8 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3369,9 +3853,9 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3389,7 +3873,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3401,8 +3885,8 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3415,9 +3899,9 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3435,7 +3919,7 @@ export const resistanceBuildings = [
             cost: 160,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Coyote', icon: coyote }],
+            produces: [{ type: 'units.resistUnits.coyote.name', icon: coyote }],
           },
           {
             subLevel: 2,
@@ -3447,8 +3931,8 @@ export const resistanceBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
             ],
           },
           {
@@ -3461,9 +3945,9 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Coyote', icon: coyote },
-              { type: 'Armadillo', icon: armadillo },
-              { type: 'Jaguar', icon: jaguar },
+              { type: 'units.resistUnits.coyote.name', icon: coyote },
+              { type: 'units.resistUnits.armadillo.name', icon: armadillo },
+              { type: 'units.resistUnits.jaguar.name', icon: jaguar },
             ],
           },
         ],
@@ -3492,7 +3976,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 36,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3504,8 +3990,8 @@ export const resistanceBuildings = [
             time: 53,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3518,9 +4004,9 @@ export const resistanceBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3538,7 +4024,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 34,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3550,8 +4038,8 @@ export const resistanceBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3564,9 +4052,9 @@ export const resistanceBuildings = [
             time: 68,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3584,7 +4072,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3596,8 +4086,8 @@ export const resistanceBuildings = [
             time: 48,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3610,9 +4100,9 @@ export const resistanceBuildings = [
             time: 64,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3630,7 +4120,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3642,8 +4134,8 @@ export const resistanceBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3656,9 +4148,9 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3676,7 +4168,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3688,8 +4182,8 @@ export const resistanceBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3702,9 +4196,9 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3722,7 +4216,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3734,8 +4230,8 @@ export const resistanceBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3748,9 +4244,9 @@ export const resistanceBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3768,7 +4264,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3780,8 +4278,8 @@ export const resistanceBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3794,9 +4292,9 @@ export const resistanceBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3814,7 +4312,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3826,8 +4326,8 @@ export const resistanceBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3840,9 +4340,9 @@ export const resistanceBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3860,7 +4360,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3872,8 +4374,8 @@ export const resistanceBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3886,9 +4388,9 @@ export const resistanceBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3906,7 +4408,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 29,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3918,8 +4422,8 @@ export const resistanceBuildings = [
             time: 44,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3932,9 +4436,9 @@ export const resistanceBuildings = [
             time: 58,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3952,7 +4456,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -3964,8 +4470,8 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -3978,9 +4484,9 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -3998,7 +4504,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -4010,8 +4518,8 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -4024,9 +4532,9 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -4044,7 +4552,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -4056,8 +4566,8 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -4070,9 +4580,9 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -4090,7 +4600,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -4102,8 +4614,8 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -4116,9 +4628,9 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -4136,7 +4648,9 @@ export const resistanceBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Porcupine', icon: porcupine }],
+            produces: [
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+            ],
           },
           {
             subLevel: 2,
@@ -4148,8 +4662,8 @@ export const resistanceBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
             ],
           },
           {
@@ -4162,9 +4676,9 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Porcupine', icon: porcupine },
-              { type: 'Mammoth', icon: mammoth },
-              { type: 'Chameleon', icon: chameleon },
+              { type: 'units.resistUnits.porcupine.name', icon: porcupine },
+              { type: 'units.resistUnits.mammoth.name', icon: mammoth },
+              { type: 'units.resistUnits.chameleon.name', icon: chameleon },
             ],
           },
         ],
@@ -4193,7 +4707,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 53,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4205,8 +4721,8 @@ export const resistanceBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4219,9 +4735,9 @@ export const resistanceBuildings = [
             time: 88,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4239,7 +4755,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 51,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4251,8 +4769,8 @@ export const resistanceBuildings = [
             time: 68,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4265,9 +4783,9 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4285,7 +4803,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 48,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4297,8 +4817,8 @@ export const resistanceBuildings = [
             time: 64,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4311,9 +4831,9 @@ export const resistanceBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4331,7 +4851,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4343,8 +4865,8 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4357,9 +4879,9 @@ export const resistanceBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4377,7 +4899,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4389,8 +4913,8 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4403,9 +4927,9 @@ export const resistanceBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4423,7 +4947,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4435,8 +4961,8 @@ export const resistanceBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4449,9 +4975,9 @@ export const resistanceBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4469,7 +4995,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4481,8 +5009,8 @@ export const resistanceBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4495,9 +5023,9 @@ export const resistanceBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4515,7 +5043,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4527,8 +5057,8 @@ export const resistanceBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4541,9 +5071,9 @@ export const resistanceBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4561,7 +5091,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4573,8 +5105,8 @@ export const resistanceBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4587,9 +5119,9 @@ export const resistanceBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4607,7 +5139,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 44,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4619,8 +5153,8 @@ export const resistanceBuildings = [
             time: 58,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4633,9 +5167,9 @@ export const resistanceBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4653,7 +5187,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4665,8 +5201,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4679,9 +5215,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4699,7 +5235,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4711,8 +5249,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4725,9 +5263,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4745,7 +5283,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4757,8 +5297,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4771,9 +5311,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4791,7 +5331,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4803,8 +5345,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4817,9 +5359,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -4837,7 +5379,9 @@ export const resistanceBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Dragonfly', icon: dragonfly }],
+            produces: [
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+            ],
           },
           {
             subLevel: 2,
@@ -4849,8 +5393,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
             ],
           },
           {
@@ -4863,9 +5407,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Dragonfly', icon: dragonfly },
-              { type: 'Hawk', icon: hawk },
-              { type: 'Albatross', icon: albatross },
+              { type: 'units.resistUnits.dragonfly.name', icon: dragonfly },
+              { type: 'units.resistUnits.hawk.name', icon: hawk },
+              { type: 'units.resistUnits.albatross.name', icon: albatross },
             ],
           },
         ],
@@ -5160,7 +5704,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 53,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5172,8 +5716,8 @@ export const resistanceBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5186,9 +5730,9 @@ export const resistanceBuildings = [
             time: 88,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5206,7 +5750,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 51,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5218,8 +5762,8 @@ export const resistanceBuildings = [
             time: 68,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5232,9 +5776,9 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5252,7 +5796,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 48,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5264,8 +5808,8 @@ export const resistanceBuildings = [
             time: 64,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5278,9 +5822,9 @@ export const resistanceBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5298,7 +5842,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5310,8 +5854,8 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5324,9 +5868,9 @@ export const resistanceBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5344,7 +5888,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5356,8 +5900,8 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5370,9 +5914,9 @@ export const resistanceBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5390,7 +5934,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5402,8 +5946,8 @@ export const resistanceBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5416,9 +5960,9 @@ export const resistanceBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5436,7 +5980,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5448,8 +5992,8 @@ export const resistanceBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5462,9 +6006,9 @@ export const resistanceBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5482,7 +6026,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5494,8 +6038,8 @@ export const resistanceBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5508,9 +6052,9 @@ export const resistanceBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5528,7 +6072,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5540,8 +6084,8 @@ export const resistanceBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5554,9 +6098,9 @@ export const resistanceBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5574,7 +6118,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 44,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5586,8 +6130,8 @@ export const resistanceBuildings = [
             time: 58,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5600,9 +6144,9 @@ export const resistanceBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5620,7 +6164,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5632,8 +6176,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5646,9 +6190,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5666,7 +6210,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5678,8 +6222,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5692,9 +6236,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5712,7 +6256,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5724,8 +6268,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5738,9 +6282,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5758,7 +6302,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5770,8 +6314,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5784,9 +6328,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5804,7 +6348,7 @@ export const resistanceBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Caiman', icon: caiman }],
+            produces: [{ type: 'units.resistUnits.caiman.name', icon: caiman }],
           },
           {
             subLevel: 2,
@@ -5816,8 +6360,8 @@ export const resistanceBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
             ],
           },
           {
@@ -5830,9 +6374,9 @@ export const resistanceBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Caiman', icon: caiman },
-              { type: 'Alligator', icon: alligator },
-              { type: 'Barracuda', icon: barracuda },
+              { type: 'units.resistUnits.caiman.name', icon: caiman },
+              { type: 'units.resistUnits.alligator.name', icon: alligator },
+              { type: 'units.resistUnits.barracuda.name', icon: barracuda },
             ],
           },
         ],
@@ -5861,7 +6405,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 62,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -5873,9 +6417,9 @@ export const resistanceBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -5888,10 +6432,10 @@ export const resistanceBuildings = [
             time: 97,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -5909,7 +6453,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 59,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -5921,9 +6465,9 @@ export const resistanceBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -5936,10 +6480,10 @@ export const resistanceBuildings = [
             time: 93,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -5957,7 +6501,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 56,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -5969,9 +6513,9 @@ export const resistanceBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -5984,10 +6528,10 @@ export const resistanceBuildings = [
             time: 88,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6005,7 +6549,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 55,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -6017,9 +6561,9 @@ export const resistanceBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6032,10 +6576,10 @@ export const resistanceBuildings = [
             time: 86,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6053,7 +6597,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 55,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -6065,9 +6609,9 @@ export const resistanceBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6080,10 +6624,10 @@ export const resistanceBuildings = [
             time: 86,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6101,7 +6645,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 54,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -6113,9 +6657,9 @@ export const resistanceBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6128,10 +6672,10 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6149,7 +6693,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 54,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -6161,9 +6705,9 @@ export const resistanceBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6176,10 +6720,10 @@ export const resistanceBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6197,7 +6741,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 52,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -6209,9 +6753,9 @@ export const resistanceBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6224,10 +6768,10 @@ export const resistanceBuildings = [
             time: 82,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6245,7 +6789,7 @@ export const resistanceBuildings = [
             cost: 270,
             time: 52,
             weapons: null,
-            produces: [{ type: 'Wasp', icon: wasp }],
+            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
           },
           {
             subLevel: 2,
@@ -6257,9 +6801,9 @@ export const resistanceBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6272,10 +6816,10 @@ export const resistanceBuildings = [
             time: 82,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6294,8 +6838,8 @@ export const resistanceBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
             ],
           },
           {
@@ -6308,9 +6852,9 @@ export const resistanceBuildings = [
             time: 65,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6323,10 +6867,10 @@ export const resistanceBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6345,8 +6889,8 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
             ],
           },
           {
@@ -6359,9 +6903,9 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6374,10 +6918,10 @@ export const resistanceBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6396,8 +6940,8 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
             ],
           },
           {
@@ -6410,9 +6954,9 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6425,10 +6969,10 @@ export const resistanceBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6447,8 +6991,8 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
             ],
           },
           {
@@ -6461,9 +7005,9 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6476,10 +7020,10 @@ export const resistanceBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6498,8 +7042,8 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
             ],
           },
           {
@@ -6512,9 +7056,9 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6527,10 +7071,10 @@ export const resistanceBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],
@@ -6549,8 +7093,8 @@ export const resistanceBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
             ],
           },
           {
@@ -6563,9 +7107,9 @@ export const resistanceBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
             ],
           },
           {
@@ -6578,10 +7122,10 @@ export const resistanceBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Wasp', icon: wasp },
-              { type: 'Wolverine', icon: wolverine },
-              { type: 'Mole', icon: mole },
-              { type: 'Leviathan', icon: leviathan },
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+              { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
         ],

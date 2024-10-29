@@ -68,7 +68,7 @@ const BuildingsDetails = ({ building }) => {
         >
           {building.levels.map(level => (
             <option key={level.level} value={level.level}>
-              {t('main.level')} {level.level}
+              {t('main.rank')} {level.level}
             </option>
           ))}
         </select>
@@ -86,7 +86,7 @@ const BuildingsDetails = ({ building }) => {
             >
               {selectedLevelData.subLevels.map(subLevel => (
                 <option key={subLevel.subLevel} value={subLevel.subLevel}>
-                  {subLevel.subLevel}
+                  {t('main.level')} {subLevel.subLevel}
                 </option>
               ))}
             </select>

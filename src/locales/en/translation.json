@@ -4,7 +4,8 @@
     "resistance": "Resistance",
     "other": "Other",
     "class": "Class",
-    "selectLevel": "Select Level:",
+    "selectLevel": "Select Rank:",
+    "rank": "Rank",
     "level": "Level",
     "selectLevelBuilding": "Select the building Level:"
   },
@@ -411,6 +412,9 @@
       "name": "WASP",
       "type": "ELight Support Helicopter",
       "weapons": "'STING' CAPSULE MISSILES"
+    },
+    "wolverine": {
+      "name": "WOLVERINE"
     },
     "mole": {
       "name": "MOLE",

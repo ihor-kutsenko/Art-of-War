@@ -34,6 +34,7 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
   cursor: pointer;
   @include tablet {
     width: auto;
@@ -44,7 +45,7 @@
   margin-bottom: 10px;
   text-align: center;
 
-  @include font(16px, 700, 1.19);
+  @include font(14px, 700, 1.19);
   @include tablet {
     @include font(28px, 700, 1.28);
   }

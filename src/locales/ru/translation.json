@@ -5,7 +5,8 @@
     "other": "Другие",
     "class": "Класс",
     "selectLevel": "Выбрать ранг:",
-    "level": "Ранг",
+    "rank": "Ранг",
+    "level": "Уровень",
     "selectLevelBuilding": "Выбрать уровень здания:"
   },
   "header": {
@@ -349,7 +350,7 @@
     "confBuildings": {
       "headquarters": "Штаб",
       "constructionYard": "Строительный Двор",
-      "powerPlant": "Электростанция",
+      "powerPlant": "Электро станция",
       "supplyCenter": "Центр Снабжения",
       "barracks": "Казарма",
       "assaultVehicleFactory": "Завод Штурмовых Машин",
@@ -368,7 +369,7 @@
     "resistBuildings": {
       "headquarters": "Штаб",
       "constructionYard": "Строительный Двор",
-      "powerPlant": "Электростанция",
+      "powerPlant": "Электро станция",
       "supplyCenter": "Центр Снабжения",
       "barracks": "Казарма",
       "assaultVehicleFactory": "Завод Штурмовых Машин",
@@ -411,6 +412,9 @@
       "name": "ОСА",
       "type": "Легкий вертолет поддержки",
       "weapons": "КАПСУЛЬНЫЕ РАКЕТЫ 'ЖАЛО' "
+    },
+    "wolverine": {
+      "name": "РОСОМАХА"
     },
     "mole": {
       "name": "КРОТ",
