@@ -58,7 +58,7 @@ const BuildingsDetails = ({ building }) => {
 
       <div className={styles.rightSection}>
         <label htmlFor="levelSelect" className={styles.levelSelectLabel}>
-          Select Level:{' '}
+          {t('main.selectLevel')}
         </label>
         <select
           id="levelSelect"
@@ -68,7 +68,7 @@ const BuildingsDetails = ({ building }) => {
         >
           {building.levels.map(level => (
             <option key={level.level} value={level.level}>
-              Level {level.level}
+              {t('main.level')} {level.level}
             </option>
           ))}
         </select>
@@ -76,7 +76,7 @@ const BuildingsDetails = ({ building }) => {
         {selectedLevelData && selectedLevelData.subLevels.length > 1 && (
           <>
             <label htmlFor="subLevelSelect" className={styles.levelSelectLabel}>
-              Select the building Level:{' '}
+              {t('main.selectLevelBuilding')}
             </label>
             <select
               id="subLevelSelect"

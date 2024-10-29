@@ -50,7 +50,11 @@ export const confederationBuildings = [
     image: hq,
     description: '',
     weapons: null,
-    produces: [{ type: 'CP' }, { type: 'Resources' }, { type: 'Energy' }],
+    produces: [
+      { type: 'buildings.stats.cp' },
+      { type: 'buildings.stats.resources' },
+      { type: 'buildings.stats.energy' },
+    ],
     levels: [
       // 7
       {
@@ -66,9 +70,13 @@ export const confederationBuildings = [
             time: 44,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 23, icon: cp },
-              { type: 'Resources', amount: 25, icon: resources },
-              { type: 'Energy', amount: 52, icon: energy },
+              { type: 'buildings.stats.cp', amount: 23, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 25,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 52, icon: energy },
             ],
           },
           {
@@ -81,9 +89,13 @@ export const confederationBuildings = [
             time: 62,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 45, icon: cp },
-              { type: 'Resources', amount: 40, icon: resources },
-              { type: 'Energy', amount: 77, icon: energy },
+              { type: 'buildings.stats.cp', amount: 45, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 40,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 77, icon: energy },
             ],
           },
           {
@@ -96,9 +108,13 @@ export const confederationBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 67, icon: cp },
-              { type: 'Resources', amount: 55, icon: resources },
-              { type: 'Energy', amount: 104, icon: energy },
+              { type: 'buildings.stats.cp', amount: 67, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 55,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 104, icon: energy },
             ],
           },
           {
@@ -111,9 +127,13 @@ export const confederationBuildings = [
             time: 106,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 89, icon: cp },
-              { type: 'Resources', amount: 70, icon: resources },
-              { type: 'Energy', amount: 129, icon: energy },
+              { type: 'buildings.stats.cp', amount: 89, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 70,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 129, icon: energy },
             ],
           },
           {
@@ -126,9 +146,13 @@ export const confederationBuildings = [
             time: 124,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 111, icon: cp },
-              { type: 'Resources', amount: 85, icon: resources },
-              { type: 'Energy', amount: 157, icon: energy },
+              { type: 'buildings.stats.cp', amount: 111, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 85,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 157, icon: energy },
             ],
           },
         ],
@@ -147,9 +171,13 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 26, icon: cp },
-              { type: 'Resources', amount: 28, icon: resources },
-              { type: 'Energy', amount: 58, icon: energy },
+              { type: 'buildings.stats.cp', amount: 26, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 28,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 58, icon: energy },
             ],
           },
           {
@@ -162,9 +190,13 @@ export const confederationBuildings = [
             time: 59,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 50, icon: cp },
-              { type: 'Resources', amount: 45, icon: resources },
-              { type: 'Energy', amount: 86, icon: energy },
+              { type: 'buildings.stats.cp', amount: 50, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 45,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 86, icon: energy },
             ],
           },
           {
@@ -177,9 +209,13 @@ export const confederationBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 74, icon: cp },
-              { type: 'Resources', amount: 62, icon: resources },
-              { type: 'Energy', amount: 117, icon: energy },
+              { type: 'buildings.stats.cp', amount: 74, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 62,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 117, icon: energy },
             ],
           },
           {
@@ -192,9 +228,13 @@ export const confederationBuildings = [
             time: 101,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 98, icon: cp },
-              { type: 'Resources', amount: 79, icon: resources },
-              { type: 'Energy', amount: 145, icon: energy },
+              { type: 'buildings.stats.cp', amount: 98, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 79,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 145, icon: energy },
             ],
           },
           {
@@ -207,9 +247,13 @@ export const confederationBuildings = [
             time: 118,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 122, icon: cp },
-              { type: 'Resources', amount: 96, icon: resources },
-              { type: 'Energy', amount: 175, icon: energy },
+              { type: 'buildings.stats.cp', amount: 122, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 96,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 175, icon: energy },
             ],
           },
         ],
@@ -228,9 +272,13 @@ export const confederationBuildings = [
             time: 41,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 28, icon: cp },
-              { type: 'Resources', amount: 30, icon: resources },
-              { type: 'Energy', amount: 62, icon: energy },
+              { type: 'buildings.stats.cp', amount: 28, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 30,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 62, icon: energy },
             ],
           },
           {
@@ -243,9 +291,13 @@ export const confederationBuildings = [
             time: 58,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 52, icon: cp },
-              { type: 'Resources', amount: 48, icon: resources },
-              { type: 'Energy', amount: 91, icon: energy },
+              { type: 'buildings.stats.cp', amount: 52, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 48,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 91, icon: energy },
             ],
           },
           {
@@ -258,9 +310,13 @@ export const confederationBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 76, icon: cp },
-              { type: 'Resources', amount: 66, icon: resources },
-              { type: 'Energy', amount: 124, icon: energy },
+              { type: 'buildings.stats.cp', amount: 76, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 66,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 124, icon: energy },
             ],
           },
           {
@@ -273,9 +329,13 @@ export const confederationBuildings = [
             time: 99,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 84, icon: resources },
-              { type: 'Energy', amount: 154, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 84,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 154, icon: energy },
             ],
           },
           {
@@ -288,9 +348,13 @@ export const confederationBuildings = [
             time: 115,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 124, icon: cp },
-              { type: 'Resources', amount: 102, icon: resources },
-              { type: 'Energy', amount: 186, icon: energy },
+              { type: 'buildings.stats.cp', amount: 124, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 102,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 186, icon: energy },
             ],
           },
         ],
@@ -309,9 +373,13 @@ export const confederationBuildings = [
             time: 40,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 30, icon: cp },
-              { type: 'Resources', amount: 32, icon: resources },
-              { type: 'Energy', amount: 66, icon: energy },
+              { type: 'buildings.stats.cp', amount: 30, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 32,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 66, icon: energy },
             ],
           },
           {
@@ -324,9 +392,13 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 55, icon: cp },
-              { type: 'Resources', amount: 51, icon: resources },
-              { type: 'Energy', amount: 97, icon: energy },
+              { type: 'buildings.stats.cp', amount: 55, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 51,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 97, icon: energy },
             ],
           },
           {
@@ -339,9 +411,13 @@ export const confederationBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 80, icon: cp },
-              { type: 'Resources', amount: 70, icon: resources },
-              { type: 'Energy', amount: 131, icon: energy },
+              { type: 'buildings.stats.cp', amount: 80, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 70,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 131, icon: energy },
             ],
           },
           {
@@ -354,9 +430,13 @@ export const confederationBuildings = [
             time: 96,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 105, icon: cp },
-              { type: 'Resources', amount: 89, icon: resources },
-              { type: 'Energy', amount: 163, icon: energy },
+              { type: 'buildings.stats.cp', amount: 105, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 89,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 163, icon: energy },
             ],
           },
           {
@@ -369,9 +449,13 @@ export const confederationBuildings = [
             time: 112,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 108, icon: resources },
-              { type: 'Energy', amount: 197, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 108,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 197, icon: energy },
             ],
           },
         ],
@@ -390,9 +474,13 @@ export const confederationBuildings = [
             time: 39,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 30, icon: cp },
-              { type: 'Resources', amount: 34, icon: resources },
-              { type: 'Energy', amount: 70, icon: energy },
+              { type: 'buildings.stats.cp', amount: 30, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 34,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 70, icon: energy },
             ],
           },
           {
@@ -405,9 +493,13 @@ export const confederationBuildings = [
             time: 55,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 55, icon: cp },
-              { type: 'Resources', amount: 55, icon: resources },
-              { type: 'Energy', amount: 104, icon: energy },
+              { type: 'buildings.stats.cp', amount: 55, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 55,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 104, icon: energy },
             ],
           },
           {
@@ -420,9 +512,13 @@ export const confederationBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 80, icon: cp },
-              { type: 'Resources', amount: 76, icon: resources },
-              { type: 'Energy', amount: 140, icon: energy },
+              { type: 'buildings.stats.cp', amount: 80, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 76,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 140, icon: energy },
             ],
           },
           {
@@ -435,9 +531,13 @@ export const confederationBuildings = [
             time: 94,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 105, icon: cp },
-              { type: 'Resources', amount: 97, icon: resources },
-              { type: 'Energy', amount: 174, icon: energy },
+              { type: 'buildings.stats.cp', amount: 105, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 97,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 174, icon: energy },
             ],
           },
           {
@@ -450,9 +550,13 @@ export const confederationBuildings = [
             time: 110,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 118, icon: resources },
-              { type: 'Energy', amount: 210, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 118,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 210, icon: energy },
             ],
           },
         ],
@@ -471,9 +575,13 @@ export const confederationBuildings = [
             time: 39,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 32, icon: cp },
-              { type: 'Resources', amount: 34, icon: resources },
-              { type: 'Energy', amount: 70, icon: energy },
+              { type: 'buildings.stats.cp', amount: 32, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 34,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 70, icon: energy },
             ],
           },
           {
@@ -486,9 +594,13 @@ export const confederationBuildings = [
             time: 55,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 58, icon: cp },
-              { type: 'Resources', amount: 55, icon: resources },
-              { type: 'Energy', amount: 104, icon: energy },
+              { type: 'buildings.stats.cp', amount: 58, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 55,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 104, icon: energy },
             ],
           },
           {
@@ -501,9 +613,13 @@ export const confederationBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 84, icon: cp },
-              { type: 'Resources', amount: 76, icon: resources },
-              { type: 'Energy', amount: 140, icon: energy },
+              { type: 'buildings.stats.cp', amount: 84, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 76,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 140, icon: energy },
             ],
           },
           {
@@ -516,9 +632,13 @@ export const confederationBuildings = [
             time: 94,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 110, icon: cp },
-              { type: 'Resources', amount: 97, icon: resources },
-              { type: 'Energy', amount: 174, icon: energy },
+              { type: 'buildings.stats.cp', amount: 110, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 97,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 174, icon: energy },
             ],
           },
           {
@@ -531,9 +651,13 @@ export const confederationBuildings = [
             time: 110,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 136, icon: cp },
-              { type: 'Resources', amount: 118, icon: resources },
-              { type: 'Energy', amount: 210, icon: energy },
+              { type: 'buildings.stats.cp', amount: 136, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 118,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 210, icon: energy },
             ],
           },
         ],
@@ -552,9 +676,13 @@ export const confederationBuildings = [
             time: 38,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 32, icon: cp },
-              { type: 'Resources', amount: 37, icon: resources },
-              { type: 'Energy', amount: 75, icon: energy },
+              { type: 'buildings.stats.cp', amount: 32, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 37,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 75, icon: energy },
             ],
           },
           {
@@ -567,9 +695,13 @@ export const confederationBuildings = [
             time: 54,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 58, icon: cp },
-              { type: 'Resources', amount: 60, icon: resources },
-              { type: 'Energy', amount: 112, icon: energy },
+              { type: 'buildings.stats.cp', amount: 58, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 60,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 112, icon: energy },
             ],
           },
           {
@@ -582,9 +714,13 @@ export const confederationBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 84, icon: cp },
-              { type: 'Resources', amount: 83, icon: resources },
-              { type: 'Energy', amount: 150, icon: energy },
+              { type: 'buildings.stats.cp', amount: 84, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 83,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
             ],
           },
           {
@@ -597,9 +733,13 @@ export const confederationBuildings = [
             time: 92,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 110, icon: cp },
-              { type: 'Resources', amount: 106, icon: resources },
-              { type: 'Energy', amount: 187, icon: energy },
+              { type: 'buildings.stats.cp', amount: 110, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 106,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 187, icon: energy },
             ],
           },
           {
@@ -612,9 +752,13 @@ export const confederationBuildings = [
             time: 107,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 136, icon: cp },
-              { type: 'Resources', amount: 129, icon: resources },
-              { type: 'Energy', amount: 225, icon: energy },
+              { type: 'buildings.stats.cp', amount: 136, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 129,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 225, icon: energy },
             ],
           },
         ],
@@ -633,9 +777,13 @@ export const confederationBuildings = [
             time: 38,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 34, icon: cp },
-              { type: 'Resources', amount: 40, icon: resources },
-              { type: 'Energy', amount: 75, icon: energy },
+              { type: 'buildings.stats.cp', amount: 34, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 40,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 75, icon: energy },
             ],
           },
           {
@@ -648,9 +796,13 @@ export const confederationBuildings = [
             time: 54,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 61, icon: cp },
-              { type: 'Resources', amount: 65, icon: resources },
-              { type: 'Energy', amount: 112, icon: energy },
+              { type: 'buildings.stats.cp', amount: 61, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 65,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 112, icon: energy },
             ],
           },
           {
@@ -663,9 +815,13 @@ export const confederationBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 88, icon: cp },
-              { type: 'Resources', amount: 90, icon: resources },
-              { type: 'Energy', amount: 150, icon: energy },
+              { type: 'buildings.stats.cp', amount: 88, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 90,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
             ],
           },
           {
@@ -678,9 +834,13 @@ export const confederationBuildings = [
             time: 92,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 115, icon: cp },
-              { type: 'Resources', amount: 115, icon: resources },
-              { type: 'Energy', amount: 187, icon: energy },
+              { type: 'buildings.stats.cp', amount: 115, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 115,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 187, icon: energy },
             ],
           },
           {
@@ -693,9 +853,13 @@ export const confederationBuildings = [
             time: 107,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 142, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 225, icon: energy },
+              { type: 'buildings.stats.cp', amount: 142, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 225, icon: energy },
             ],
           },
         ],
@@ -714,9 +878,13 @@ export const confederationBuildings = [
             time: 37,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 34, icon: cp },
-              { type: 'Resources', amount: 42, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 34, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 42,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -729,9 +897,13 @@ export const confederationBuildings = [
             time: 52,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 61, icon: cp },
-              { type: 'Resources', amount: 68, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 61, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 68,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -744,9 +916,13 @@ export const confederationBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 88, icon: cp },
-              { type: 'Resources', amount: 94, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 88, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 94,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -759,9 +935,13 @@ export const confederationBuildings = [
             time: 89,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 115, icon: cp },
-              { type: 'Resources', amount: 120, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 115, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 120,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -774,9 +954,13 @@ export const confederationBuildings = [
             time: 104,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 142, icon: cp },
-              { type: 'Resources', amount: 146, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 142, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 146,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -795,9 +979,13 @@ export const confederationBuildings = [
             time: 37,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 34, icon: cp },
-              { type: 'Resources', amount: 44, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 34, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 44,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -810,9 +998,13 @@ export const confederationBuildings = [
             time: 52,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 61, icon: cp },
-              { type: 'Resources', amount: 71, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 61, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 71,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -825,9 +1017,13 @@ export const confederationBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 88, icon: cp },
-              { type: 'Resources', amount: 98, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 88, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 98,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -840,9 +1036,13 @@ export const confederationBuildings = [
             time: 89,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 115, icon: cp },
-              { type: 'Resources', amount: 125, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 115, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 125,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -855,9 +1055,13 @@ export const confederationBuildings = [
             time: 104,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 142, icon: cp },
-              { type: 'Resources', amount: 152, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 142, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 152,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -876,9 +1080,13 @@ export const confederationBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 37, icon: cp },
-              { type: 'Resources', amount: 48, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 37, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 48,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -891,9 +1099,13 @@ export const confederationBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 65, icon: cp },
-              { type: 'Resources', amount: 77, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 65, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 77,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -906,9 +1118,13 @@ export const confederationBuildings = [
             time: 65,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 93, icon: cp },
-              { type: 'Resources', amount: 106, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 93, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 106,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -921,9 +1137,13 @@ export const confederationBuildings = [
             time: 87,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 121, icon: cp },
-              { type: 'Resources', amount: 135, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 121, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 135,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -936,9 +1156,13 @@ export const confederationBuildings = [
             time: 101,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 149, icon: cp },
-              { type: 'Resources', amount: 164, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 149, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 164,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -957,9 +1181,13 @@ export const confederationBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 37, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 37, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -972,9 +1200,13 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 65, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 65, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -987,9 +1219,13 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 93, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 93, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1002,9 +1238,13 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 121, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 121, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1017,9 +1257,13 @@ export const confederationBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 149, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 149, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1038,9 +1282,13 @@ export const confederationBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -1053,9 +1301,13 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -1068,9 +1320,13 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1083,9 +1339,13 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1098,9 +1358,13 @@ export const confederationBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1119,9 +1383,13 @@ export const confederationBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -1134,9 +1402,13 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -1149,9 +1421,13 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1164,9 +1440,13 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1179,9 +1459,13 @@ export const confederationBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1200,9 +1484,13 @@ export const confederationBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -1215,9 +1503,13 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -1230,9 +1522,13 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1245,9 +1541,13 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1260,9 +1560,13 @@ export const confederationBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1281,9 +1585,13 @@ export const confederationBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 40, icon: cp },
-              { type: 'Resources', amount: 50, icon: resources },
-              { type: 'Energy', amount: 80, icon: energy },
+              { type: 'buildings.stats.cp', amount: 40, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 50,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 80, icon: energy },
             ],
           },
           {
@@ -1296,9 +1604,13 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 70, icon: cp },
-              { type: 'Resources', amount: 80, icon: resources },
-              { type: 'Energy', amount: 120, icon: energy },
+              { type: 'buildings.stats.cp', amount: 70, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 80,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 120, icon: energy },
             ],
           },
           {
@@ -1311,9 +1623,13 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 100, icon: cp },
-              { type: 'Resources', amount: 110, icon: resources },
-              { type: 'Energy', amount: 160, icon: energy },
+              { type: 'buildings.stats.cp', amount: 100, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 110,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 160, icon: energy },
             ],
           },
           {
@@ -1326,9 +1642,13 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 130, icon: cp },
-              { type: 'Resources', amount: 140, icon: resources },
-              { type: 'Energy', amount: 200, icon: energy },
+              { type: 'buildings.stats.cp', amount: 130, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 140,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 200, icon: energy },
             ],
           },
           {
@@ -1341,9 +1661,13 @@ export const confederationBuildings = [
             time: 98,
             weapons: null,
             produces: [
-              { type: 'CP', amount: 160, icon: cp },
-              { type: 'Resources', amount: 170, icon: resources },
-              { type: 'Energy', amount: 240, icon: energy },
+              { type: 'buildings.stats.cp', amount: 160, icon: cp },
+              {
+                type: 'buildings.stats.resources',
+                amount: 170,
+                icon: resources,
+              },
+              { type: 'buildings.stats.energy', amount: 240, icon: energy },
             ],
           },
         ],
@@ -1357,7 +1681,7 @@ export const confederationBuildings = [
     image: constructionYard,
     description: '',
     weapons: null,
-    produces: [{ type: 'Radius' }],
+    produces: [{ type: 'buildings.stats.radius' }],
     levels: [
       // 7
       {
@@ -1372,7 +1696,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 27,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 9, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 9, icon: radius },
+            ],
           },
         ],
       },
@@ -1389,7 +1715,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 26,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 10, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 10, icon: radius },
+            ],
           },
         ],
       },
@@ -1406,7 +1734,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 25,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 10, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 10, icon: radius },
+            ],
           },
         ],
       },
@@ -1423,7 +1753,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1440,7 +1772,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1457,7 +1791,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1474,7 +1810,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1491,7 +1829,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1508,7 +1848,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1525,7 +1867,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1542,7 +1886,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 22,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1559,7 +1905,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1576,7 +1924,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1593,7 +1943,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1610,7 +1962,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1627,7 +1981,9 @@ export const confederationBuildings = [
             cost: 300,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Radius', amount: 11, icon: radius }],
+            produces: [
+              { type: 'buildings.stats.radius', amount: 11, icon: radius },
+            ],
           },
         ],
       },
@@ -1640,7 +1996,7 @@ export const confederationBuildings = [
     image: powerPlant,
     description: '',
     weapons: null,
-    produces: [{ type: 'Energy' }],
+    produces: [{ type: 'buildings.stats.energy' }],
     levels: [
       // 7
       {
@@ -1655,7 +2011,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 27,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 121, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 121, icon: energy },
+            ],
           },
         ],
       },
@@ -1672,7 +2030,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 26,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 135, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 135, icon: energy },
+            ],
           },
         ],
       },
@@ -1689,7 +2049,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 25,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 138, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 138, icon: energy },
+            ],
           },
         ],
       },
@@ -1706,7 +2068,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 143, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 143, icon: energy },
+            ],
           },
         ],
       },
@@ -1723,7 +2087,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 143, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 143, icon: energy },
+            ],
           },
         ],
       },
@@ -1740,7 +2106,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 146, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 146, icon: energy },
+            ],
           },
         ],
       },
@@ -1757,7 +2125,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1774,7 +2144,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1791,7 +2163,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1808,7 +2182,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1825,7 +2201,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 22,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1842,7 +2220,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1859,7 +2239,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1876,7 +2258,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1893,7 +2277,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1910,7 +2296,9 @@ export const confederationBuildings = [
             cost: 250,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Energy', amount: 150, icon: energy }],
+            produces: [
+              { type: 'buildings.stats.energy', amount: 150, icon: energy },
+            ],
           },
         ],
       },
@@ -1923,7 +2311,7 @@ export const confederationBuildings = [
     image: supplyCenter,
     description: '',
     weapons: null,
-    produces: [{ type: 'Resources' }],
+    produces: [{ type: 'buildings.stats.resources' }],
     levels: [
       // 7
       {
@@ -1938,7 +2326,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 36,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 185, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 185,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1955,7 +2349,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 34,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 202, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 202,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1972,7 +2372,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 33,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 211, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 211,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -1989,7 +2395,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 220, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 220,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2006,7 +2418,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 230, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 230,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2023,7 +2441,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 230, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 230,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2040,7 +2464,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 240, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 240,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2057,7 +2487,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 240, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 240,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2074,7 +2510,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2091,7 +2533,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2108,7 +2556,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 29,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2125,7 +2579,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2142,7 +2602,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2159,7 +2625,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2176,7 +2648,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2193,7 +2671,13 @@ export const confederationBuildings = [
             cost: 300,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Resources', amount: 250, icon: resources }],
+            produces: [
+              {
+                type: 'buildings.stats.resources',
+                amount: 250,
+                icon: resources,
+              },
+            ],
           },
         ],
       },
@@ -2221,7 +2705,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 18,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2233,8 +2717,8 @@ export const confederationBuildings = [
             time: 27,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2247,9 +2731,9 @@ export const confederationBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2267,7 +2751,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 17,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2279,8 +2763,8 @@ export const confederationBuildings = [
             time: 26,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2293,9 +2777,9 @@ export const confederationBuildings = [
             time: 34,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2313,7 +2797,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 17,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2325,8 +2809,8 @@ export const confederationBuildings = [
             time: 25,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2339,9 +2823,9 @@ export const confederationBuildings = [
             time: 33,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2359,7 +2843,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2371,8 +2855,8 @@ export const confederationBuildings = [
             time: 24,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2385,9 +2869,9 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2405,7 +2889,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2417,8 +2901,8 @@ export const confederationBuildings = [
             time: 24,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2431,9 +2915,9 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2451,7 +2935,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2463,8 +2947,8 @@ export const confederationBuildings = [
             time: 24,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2477,9 +2961,9 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2497,7 +2981,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2509,8 +2993,8 @@ export const confederationBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2523,9 +3007,9 @@ export const confederationBuildings = [
             time: 31,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2543,7 +3027,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 16,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2555,8 +3039,8 @@ export const confederationBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2569,9 +3053,9 @@ export const confederationBuildings = [
             time: 31,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2589,7 +3073,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 15,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2601,8 +3085,8 @@ export const confederationBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2615,9 +3099,9 @@ export const confederationBuildings = [
             time: 30,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2635,7 +3119,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 15,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2647,8 +3131,8 @@ export const confederationBuildings = [
             time: 23,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2661,9 +3145,9 @@ export const confederationBuildings = [
             time: 30,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2681,7 +3165,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 15,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2693,8 +3177,8 @@ export const confederationBuildings = [
             time: 22,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2707,9 +3191,9 @@ export const confederationBuildings = [
             time: 29,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2727,7 +3211,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2739,8 +3223,8 @@ export const confederationBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2753,9 +3237,9 @@ export const confederationBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2773,7 +3257,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2785,8 +3269,8 @@ export const confederationBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2799,9 +3283,9 @@ export const confederationBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2819,7 +3303,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2831,8 +3315,8 @@ export const confederationBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2845,9 +3329,9 @@ export const confederationBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2865,7 +3349,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2877,8 +3361,8 @@ export const confederationBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2891,9 +3375,9 @@ export const confederationBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2911,7 +3395,7 @@ export const confederationBuildings = [
             cost: 100,
             time: 14,
             weapons: null,
-            produces: [{ type: 'Assault', icon: assault }],
+            produces: [{ type: 'units.confUnits.assault.name', icon: assault }],
           },
           {
             subLevel: 2,
@@ -2923,8 +3407,8 @@ export const confederationBuildings = [
             time: 21,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
             ],
           },
           {
@@ -2937,9 +3421,9 @@ export const confederationBuildings = [
             time: 28,
             weapons: null,
             produces: [
-              { type: 'Assault', icon: assault },
-              { type: 'Heavy-assault', icon: heavyAssault },
-              { type: 'Fire-assault', icon: fireAssault },
+              { type: 'units.confUnits.assault.name', icon: assault },
+              { type: 'units.confUnits.heavyAssault.name', icon: heavyAssault },
+              { type: 'units.confUnits.fireAssault.name', icon: fireAssault },
             ],
           },
         ],
@@ -2968,7 +3452,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 27,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -2980,8 +3466,8 @@ export const confederationBuildings = [
             time: 40,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -2994,9 +3480,9 @@ export const confederationBuildings = [
             time: 53,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3014,7 +3500,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 26,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3026,8 +3514,8 @@ export const confederationBuildings = [
             time: 38,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3040,9 +3528,9 @@ export const confederationBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3060,7 +3548,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 25,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3072,8 +3562,8 @@ export const confederationBuildings = [
             time: 37,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3086,9 +3576,9 @@ export const confederationBuildings = [
             time: 50,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3106,7 +3596,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3118,8 +3610,8 @@ export const confederationBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3132,9 +3624,9 @@ export const confederationBuildings = [
             time: 48,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3152,7 +3644,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3164,8 +3658,8 @@ export const confederationBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3178,9 +3672,9 @@ export const confederationBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3198,7 +3692,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 24,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3210,8 +3706,8 @@ export const confederationBuildings = [
             time: 36,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3224,9 +3720,9 @@ export const confederationBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3244,7 +3740,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3256,8 +3754,8 @@ export const confederationBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3270,9 +3768,9 @@ export const confederationBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3290,7 +3788,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3302,8 +3802,8 @@ export const confederationBuildings = [
             time: 35,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3316,9 +3816,9 @@ export const confederationBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3336,7 +3836,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3348,8 +3850,8 @@ export const confederationBuildings = [
             time: 34,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3362,9 +3864,9 @@ export const confederationBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3382,7 +3884,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 23,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3394,8 +3898,8 @@ export const confederationBuildings = [
             time: 34,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3408,9 +3912,9 @@ export const confederationBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3428,7 +3932,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 22,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3440,8 +3946,8 @@ export const confederationBuildings = [
             time: 33,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3454,9 +3960,9 @@ export const confederationBuildings = [
             time: 44,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3474,7 +3980,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3486,8 +3994,8 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3500,9 +4008,9 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3520,7 +4028,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3532,8 +4042,8 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3546,9 +4056,9 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3566,7 +4076,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3578,8 +4090,8 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3592,9 +4104,9 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3612,7 +4124,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3624,8 +4138,8 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3638,9 +4152,9 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3658,7 +4172,9 @@ export const confederationBuildings = [
             cost: 180,
             time: 21,
             weapons: null,
-            produces: [{ type: 'Fortress', icon: fortress }],
+            produces: [
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+            ],
           },
           {
             subLevel: 2,
@@ -3670,8 +4186,8 @@ export const confederationBuildings = [
             time: 32,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
             ],
           },
           {
@@ -3684,9 +4200,9 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Fortress', icon: fortress },
-              { type: 'Hammer', icon: hammer },
-              { type: 'Zeus', icon: zeus },
+              { type: 'units.confUnits.fortress.name', icon: fortress },
+              { type: 'units.confUnits.hammer.name', icon: hammer },
+              { type: 'units.confUnits.zeus.name', icon: zeus },
             ],
           },
         ],
@@ -3715,7 +4231,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 36,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -3727,8 +4243,8 @@ export const confederationBuildings = [
             time: 53,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -3741,9 +4257,9 @@ export const confederationBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -3761,7 +4277,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 34,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -3773,8 +4289,8 @@ export const confederationBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -3787,9 +4303,9 @@ export const confederationBuildings = [
             time: 68,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -3807,7 +4323,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 33,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -3819,8 +4335,8 @@ export const confederationBuildings = [
             time: 50,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -3833,9 +4349,9 @@ export const confederationBuildings = [
             time: 66,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -3853,7 +4369,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -3865,8 +4381,8 @@ export const confederationBuildings = [
             time: 48,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -3879,9 +4395,9 @@ export const confederationBuildings = [
             time: 64,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -3899,7 +4415,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -3911,8 +4427,8 @@ export const confederationBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -3925,9 +4441,9 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -3945,7 +4461,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 32,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -3957,8 +4473,8 @@ export const confederationBuildings = [
             time: 47,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -3971,9 +4487,9 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -3991,7 +4507,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4003,8 +4519,8 @@ export const confederationBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4017,9 +4533,9 @@ export const confederationBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4037,7 +4553,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 31,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4049,8 +4565,8 @@ export const confederationBuildings = [
             time: 46,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4063,9 +4579,9 @@ export const confederationBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4083,7 +4599,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4095,8 +4611,8 @@ export const confederationBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4109,9 +4625,9 @@ export const confederationBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4129,7 +4645,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 30,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4141,8 +4657,8 @@ export const confederationBuildings = [
             time: 45,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4155,9 +4671,9 @@ export const confederationBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4175,7 +4691,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 29,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4187,8 +4703,8 @@ export const confederationBuildings = [
             time: 44,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4201,9 +4717,9 @@ export const confederationBuildings = [
             time: 58,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4221,7 +4737,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4233,8 +4749,8 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4247,9 +4763,9 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4267,7 +4783,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4279,8 +4795,8 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4293,9 +4809,9 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4313,7 +4829,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4325,8 +4841,8 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4339,9 +4855,9 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4359,7 +4875,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4371,8 +4887,8 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4385,9 +4901,9 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4405,7 +4921,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 28,
             weapons: null,
-            produces: [{ type: 'Typhon', icon: typhoon }],
+            produces: [{ type: 'units.confUnits.typhoon.name', icon: typhoon }],
           },
           {
             subLevel: 2,
@@ -4417,8 +4933,8 @@ export const confederationBuildings = [
             time: 42,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
             ],
           },
           {
@@ -4431,9 +4947,9 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Typhon', icon: typhoon },
-              { type: 'Torrent', icon: torrent },
-              { type: 'Energy Shield', icon: energyShield },
+              { type: 'units.confUnits.typhoon.name', icon: typhoon },
+              { type: 'units.confUnits.torrent.name', icon: torrent },
+              { type: 'units.confUnits.energyShield.name', icon: energyShield },
             ],
           },
         ],
@@ -4462,7 +4978,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 53,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4474,8 +4990,8 @@ export const confederationBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4488,9 +5004,9 @@ export const confederationBuildings = [
             time: 88,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4508,7 +5024,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 51,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4520,8 +5036,8 @@ export const confederationBuildings = [
             time: 68,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4534,9 +5050,9 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4554,7 +5070,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 50,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4566,8 +5082,8 @@ export const confederationBuildings = [
             time: 66,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4580,9 +5096,9 @@ export const confederationBuildings = [
             time: 82,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4600,7 +5116,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 48,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4612,8 +5128,8 @@ export const confederationBuildings = [
             time: 64,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4626,9 +5142,9 @@ export const confederationBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4646,7 +5162,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4658,8 +5174,8 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4672,9 +5188,9 @@ export const confederationBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4692,7 +5208,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4704,8 +5220,8 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4718,9 +5234,9 @@ export const confederationBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4738,7 +5254,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4750,8 +5266,8 @@ export const confederationBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4764,9 +5280,9 @@ export const confederationBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4784,7 +5300,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4796,8 +5312,8 @@ export const confederationBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4810,9 +5326,9 @@ export const confederationBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4830,7 +5346,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4842,8 +5358,8 @@ export const confederationBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4856,9 +5372,9 @@ export const confederationBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4876,7 +5392,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4888,8 +5404,8 @@ export const confederationBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4902,9 +5418,9 @@ export const confederationBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4922,7 +5438,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 44,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4934,8 +5450,8 @@ export const confederationBuildings = [
             time: 58,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4948,9 +5464,9 @@ export const confederationBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -4968,7 +5484,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -4980,8 +5496,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -4994,9 +5510,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -5014,7 +5530,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -5026,8 +5542,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -5040,9 +5556,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -5060,7 +5576,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -5072,8 +5588,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -5086,9 +5602,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -5106,7 +5622,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -5118,8 +5634,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -5132,9 +5648,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -5152,7 +5668,7 @@ export const confederationBuildings = [
             cost: 250,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Cyclone', icon: cyclone }],
+            produces: [{ type: 'units.confUnits.cyclone.name', icon: cyclone }],
           },
           {
             subLevel: 2,
@@ -5164,8 +5680,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
             ],
           },
           {
@@ -5178,9 +5694,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Cyclone', icon: cyclone },
-              { type: 'Vertex', icon: vertex },
-              { type: 'Thor', icon: thor },
+              { type: 'units.confUnits.cyclone.name', icon: cyclone },
+              { type: 'units.confUnits.vertex.name', icon: vertex },
+              { type: 'units.confUnits.thor.name', icon: thor },
             ],
           },
         ],
@@ -5492,7 +6008,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 53,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5504,8 +6020,8 @@ export const confederationBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5518,9 +6034,9 @@ export const confederationBuildings = [
             time: 88,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5538,7 +6054,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 51,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5550,8 +6066,8 @@ export const confederationBuildings = [
             time: 68,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5564,9 +6080,9 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5584,7 +6100,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 50,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5596,8 +6112,8 @@ export const confederationBuildings = [
             time: 66,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5610,9 +6126,9 @@ export const confederationBuildings = [
             time: 82,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5630,7 +6146,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 48,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5642,8 +6158,8 @@ export const confederationBuildings = [
             time: 64,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5656,9 +6172,9 @@ export const confederationBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5676,7 +6192,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5688,8 +6204,8 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5702,9 +6218,9 @@ export const confederationBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5722,7 +6238,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 47,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5734,8 +6250,8 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5748,9 +6264,9 @@ export const confederationBuildings = [
             time: 78,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5768,7 +6284,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5780,8 +6296,8 @@ export const confederationBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5794,9 +6310,9 @@ export const confederationBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5814,7 +6330,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 46,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5826,8 +6342,8 @@ export const confederationBuildings = [
             time: 61,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5840,9 +6356,9 @@ export const confederationBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5860,7 +6376,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5872,8 +6388,8 @@ export const confederationBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5886,9 +6402,9 @@ export const confederationBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5906,7 +6422,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 45,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5918,8 +6434,8 @@ export const confederationBuildings = [
             time: 60,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5932,9 +6448,9 @@ export const confederationBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5952,7 +6468,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 44,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -5964,8 +6480,8 @@ export const confederationBuildings = [
             time: 58,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -5978,9 +6494,9 @@ export const confederationBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -5998,7 +6514,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -6010,8 +6526,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -6024,9 +6540,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -6044,7 +6560,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -6056,8 +6572,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -6070,9 +6586,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -6090,7 +6606,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -6102,8 +6618,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -6116,9 +6632,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -6136,7 +6652,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -6148,8 +6664,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -6162,9 +6678,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -6182,7 +6698,7 @@ export const confederationBuildings = [
             cost: 200,
             time: 42,
             weapons: null,
-            produces: [{ type: 'Delta', icon: delta }],
+            produces: [{ type: 'units.confUnits.delta.name', icon: delta }],
           },
           {
             subLevel: 2,
@@ -6194,8 +6710,8 @@ export const confederationBuildings = [
             time: 56,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
             ],
           },
           {
@@ -6208,9 +6724,9 @@ export const confederationBuildings = [
             time: 70,
             weapons: null,
             produces: [
-              { type: 'Delta', icon: delta },
-              { type: 'Viking', icon: viking },
-              { type: 'Poseidon', icon: poseidon },
+              { type: 'units.confUnits.delta.name', icon: delta },
+              { type: 'units.confUnits.viking.name', icon: viking },
+              { type: 'units.confUnits.poseidon.name', icon: poseidon },
             ],
           },
         ],
@@ -6239,7 +6755,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 62,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6251,9 +6767,9 @@ export const confederationBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6266,10 +6782,10 @@ export const confederationBuildings = [
             time: 97,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6287,7 +6803,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 59,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6299,9 +6815,9 @@ export const confederationBuildings = [
             time: 76,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6314,10 +6830,10 @@ export const confederationBuildings = [
             time: 93,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6335,7 +6851,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 58,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6347,9 +6863,9 @@ export const confederationBuildings = [
             time: 74,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6362,10 +6878,10 @@ export const confederationBuildings = [
             time: 91,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6383,7 +6899,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 56,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6395,9 +6911,9 @@ export const confederationBuildings = [
             time: 72,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6410,10 +6926,10 @@ export const confederationBuildings = [
             time: 88,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6431,7 +6947,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 55,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6443,9 +6959,9 @@ export const confederationBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6458,10 +6974,10 @@ export const confederationBuildings = [
             time: 86,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6479,7 +6995,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 55,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6491,9 +7007,9 @@ export const confederationBuildings = [
             time: 71,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6506,10 +7022,10 @@ export const confederationBuildings = [
             time: 86,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6527,7 +7043,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 54,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6539,9 +7055,9 @@ export const confederationBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6554,10 +7070,10 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6575,7 +7091,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 54,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6587,9 +7103,9 @@ export const confederationBuildings = [
             time: 69,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6602,10 +7118,10 @@ export const confederationBuildings = [
             time: 84,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6623,7 +7139,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 52,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6635,9 +7151,9 @@ export const confederationBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6650,10 +7166,10 @@ export const confederationBuildings = [
             time: 82,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6671,7 +7187,7 @@ export const confederationBuildings = [
             cost: 270,
             time: 52,
             weapons: null,
-            produces: [{ type: 'Cerberus', icon: cerberus }],
+            produces: [{ type: 'heroes.cerberus.name', icon: cerberus }],
           },
           {
             subLevel: 2,
@@ -6683,9 +7199,9 @@ export const confederationBuildings = [
             time: 67,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6698,10 +7214,10 @@ export const confederationBuildings = [
             time: 82,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6720,8 +7236,8 @@ export const confederationBuildings = [
             time: 51,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
             ],
           },
           {
@@ -6734,9 +7250,9 @@ export const confederationBuildings = [
             time: 65,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6749,10 +7265,10 @@ export const confederationBuildings = [
             time: 80,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6771,8 +7287,8 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
             ],
           },
           {
@@ -6785,9 +7301,9 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6800,10 +7316,10 @@ export const confederationBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6822,8 +7338,8 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
             ],
           },
           {
@@ -6836,9 +7352,9 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6851,10 +7367,10 @@ export const confederationBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6873,8 +7389,8 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
             ],
           },
           {
@@ -6887,9 +7403,9 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6902,10 +7418,10 @@ export const confederationBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6924,8 +7440,8 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
             ],
           },
           {
@@ -6938,9 +7454,9 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -6953,10 +7469,10 @@ export const confederationBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],
@@ -6975,8 +7491,8 @@ export const confederationBuildings = [
             time: 49,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
             ],
           },
           {
@@ -6989,9 +7505,9 @@ export const confederationBuildings = [
             time: 63,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
             ],
           },
           {
@@ -7004,10 +7520,10 @@ export const confederationBuildings = [
             time: 77,
             weapons: null,
             produces: [
-              { type: 'Cerberus', icon: cerberus },
-              { type: 'Beholder', icon: beholder },
-              { type: 'Seraphim', icon: seraphim },
-              { type: 'Solaris', icon: solaris },
+              { type: 'heroes.cerberus.name', icon: cerberus },
+              { type: 'heroes.beholder.name', icon: beholder },
+              { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
         ],

@@ -41,7 +41,7 @@ const UnitDetails = ({ unit }) => {
 
       <div className={styles.rightSection}>
         <label htmlFor="levelSelect" className={styles.levelSelectLabel}>
-          Select Level:{' '}
+          {t('main.selectLevel')}
         </label>
         <select
           id="levelSelect"
@@ -51,7 +51,7 @@ const UnitDetails = ({ unit }) => {
         >
           {unit.levels.map(level => (
             <option key={level.level} value={level.level}>
-              Level {level.level}
+              {t('main.level')} {level.level}
             </option>
           ))}
         </select>

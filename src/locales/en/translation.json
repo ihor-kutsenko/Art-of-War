@@ -3,7 +3,10 @@
     "confederation": "Confederation",
     "resistance": "Resistance",
     "other": "Other",
-    "class": "Class"
+    "class": "Class",
+    "selectLevel": "Select Level:",
+    "level": "Level",
+    "selectLevelBuilding": "Select the building Level:"
   },
   "header": {
     "maps": "Maps",
@@ -151,6 +154,15 @@
   },
   "units": {
     "info": "The characteristics of the units and heroes are maxed out for each rank as of 01/08/2024. A bit later some changes have occurred both for units and heroes and they’re still ongoing till today. After the feature changes, the information about it will be collected, processed and updated.",
+    "stats": {
+      "hp": "HP",
+      "armor": "Armor",
+      "speed": "Speed",
+      "view": "View",
+      "cost": "Cost",
+      "time": "Time",
+      "cp": "CP"
+    },
     "confUnits": {
       "assault": {
         "name": "Assault",
@@ -322,6 +334,18 @@
     }
   },
   "buildings": {
+    "stats": {
+      "hp": "HP",
+      "armor": "Armor",
+      "energy": "Energy",
+      "size": "Size",
+      "cost": "Cost",
+      "time": "Time",
+      "cp": "CP",
+      "produces": "Produces",
+      "resources": "Resources",
+      "radius": "Radius"
+    },
     "confBuildings": {
       "headquarters": "Headquarters",
       "constructionYard": "Construction Yard",
@@ -368,6 +392,9 @@
       "weapons1": "MULTI_GUN 'MATHILDA'",
       "weapons2": "VIBRO BAYONET",
       "weapons3": "CR3T2 HE ROCKETS"
+    },
+    "beholder": {
+      "name": "BEHOLDER"
     },
     "seraphim": {
       "name": "SERAPHIM",
