@@ -1,10 +1,13 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import SvgIcon from 'components/SvgIcon/SvgIcon';
 import BuildingWeaponsStats from '../BuildingWeaponsStats/BuildingWeaponsStats';
 import styles from '../../UnitWeapons/UnitWeapons.module.scss';
 
 const BuildingWeapons = ({ weapons }) => {
+  const { t } = useTranslation();
+
   const [selectedWeapons, setSelectedWeapons] = useState({});
 
   const handleWeaponClick = weaponIndex => {
@@ -31,7 +34,7 @@ const BuildingWeapons = ({ weapons }) => {
               className={styles.title}
               onClick={() => handleWeaponClick(index)}
             >
-              {weapon.title}
+              {t(weapon.title)}
               <button className={buttonClass} type="button">
                 <SvgIcon className={iconClass} iconId="icon-previous" />
               </button>

@@ -364,7 +364,15 @@
       "bunker": "Бункер",
       "rocketTower": "Ракетная Установка",
       "airDefense": "Установка ПВО",
-      "torpedoPlatform": "Торпедная Платформа"
+      "torpedoPlatform": "Торпедная Платформа",
+      "weapons": {
+        "spaceSystem": "Космический Удар",
+        "bunker": "Станковый пулемет",
+        "rocketTower": "Ракетная установка RT-2LR",
+        "airDefense": "Зенитно-ракетная установка",
+        "torpedoPlatform1": "Торпедная установка",
+        "torpedoPlatform2": "Зенитно-ракетная установка"
+      }
     },
     "resistBuildings": {
       "headquarters": "Штаб",

@@ -7536,7 +7536,7 @@ export const confederationBuildings = [
     name: 'buildings.confBuildings.spaceSystem',
     image: spaceSystem,
     description: '',
-    weapons: [{ type: 'Space Strike' }],
+    weapons: [{ type: 'buildings.confBuildings.weapons.spaceSystem' }],
     produces: null,
     levels: [
       // 7
@@ -7553,7 +7553,7 @@ export const confederationBuildings = [
             time: 110,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 21200,
                 damageArmor2: 21200,
                 damageArmor3: 21200,
@@ -7582,7 +7582,7 @@ export const confederationBuildings = [
             time: 110,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 21200,
                 damageArmor2: 21200,
                 damageArmor3: 21200,
@@ -7611,7 +7611,7 @@ export const confederationBuildings = [
             time: 103,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 25388,
                 damageArmor2: 25388,
                 damageArmor3: 25388,
@@ -7640,7 +7640,7 @@ export const confederationBuildings = [
             time: 100,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 27708,
                 damageArmor2: 27708,
                 damageArmor3: 27708,
@@ -7669,7 +7669,7 @@ export const confederationBuildings = [
             time: 98,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 28925,
                 damageArmor2: 28925,
                 damageArmor3: 28925,
@@ -7698,7 +7698,7 @@ export const confederationBuildings = [
             time: 98,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 30180,
                 damageArmor2: 30180,
                 damageArmor3: 30180,
@@ -7727,7 +7727,7 @@ export const confederationBuildings = [
             time: 95,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 31472,
                 damageArmor2: 31472,
                 damageArmor3: 31472,
@@ -7756,7 +7756,7 @@ export const confederationBuildings = [
             time: 95,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 32802,
                 damageArmor2: 32802,
                 damageArmor3: 32802,
@@ -7785,7 +7785,7 @@ export const confederationBuildings = [
             time: 93,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 34170,
                 damageArmor2: 34170,
                 damageArmor3: 34170,
@@ -7814,7 +7814,7 @@ export const confederationBuildings = [
             time: 93,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 35577,
                 damageArmor2: 35577,
                 damageArmor3: 35577,
@@ -7843,7 +7843,7 @@ export const confederationBuildings = [
             time: 90,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 41583,
                 damageArmor2: 41583,
                 damageArmor3: 41583,
@@ -7872,7 +7872,7 @@ export const confederationBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 44813,
                 damageArmor2: 44813,
                 damageArmor3: 44813,
@@ -7901,7 +7901,7 @@ export const confederationBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 47084,
                 damageArmor2: 47084,
                 damageArmor3: 47084,
@@ -7930,7 +7930,7 @@ export const confederationBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 49507,
                 damageArmor2: 49507,
                 damageArmor3: 49507,
@@ -7959,7 +7959,7 @@ export const confederationBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 52081,
                 damageArmor2: 52081,
                 damageArmor3: 52081,
@@ -7988,7 +7988,7 @@ export const confederationBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Space Strike',
+                title: 'buildings.confBuildings.weapons.spaceSystem',
                 damageArmor1: 53425,
                 damageArmor2: 53425,
                 damageArmor3: 53425,
@@ -8294,7 +8294,7 @@ export const confederationBuildings = [
     name: 'buildings.confBuildings.bunker',
     image: bunker,
     description: '',
-    weapons: [{ type: 'Stationary Machine Gun' }],
+    weapons: [{ type: 'buildings.confBuildings.weapons.bunker' }],
     produces: null,
     levels: [
       // 7
@@ -8311,7 +8311,7 @@ export const confederationBuildings = [
             time: 44,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 68,
                 damageArmor2: 30,
                 damageArmor3: 23,
@@ -8340,7 +8340,7 @@ export const confederationBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 76,
                 damageArmor2: 34,
                 damageArmor3: 27,
@@ -8369,7 +8369,7 @@ export const confederationBuildings = [
             time: 41,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 80,
                 damageArmor2: 36,
                 damageArmor3: 29,
@@ -8398,7 +8398,7 @@ export const confederationBuildings = [
             time: 40,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 84,
                 damageArmor2: 38,
                 damageArmor3: 30,
@@ -8427,7 +8427,7 @@ export const confederationBuildings = [
             time: 39,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 88,
                 damageArmor2: 40,
                 damageArmor3: 31,
@@ -8456,7 +8456,7 @@ export const confederationBuildings = [
             time: 39,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 88,
                 damageArmor2: 40,
                 damageArmor3: 31,
@@ -8485,7 +8485,7 @@ export const confederationBuildings = [
             time: 38,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 92,
                 damageArmor2: 42,
                 damageArmor3: 32,
@@ -8514,7 +8514,7 @@ export const confederationBuildings = [
             time: 38,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 92,
                 damageArmor2: 42,
                 damageArmor3: 32,
@@ -8543,7 +8543,7 @@ export const confederationBuildings = [
             time: 37,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 97,
                 damageArmor2: 44,
                 damageArmor3: 34,
@@ -8572,7 +8572,7 @@ export const confederationBuildings = [
             time: 37,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 97,
                 damageArmor2: 44,
                 damageArmor3: 34,
@@ -8601,7 +8601,7 @@ export const confederationBuildings = [
             time: 36,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 107,
                 damageArmor2: 48,
                 damageArmor3: 38,
@@ -8630,7 +8630,7 @@ export const confederationBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 112,
                 damageArmor2: 50,
                 damageArmor3: 40,
@@ -8659,7 +8659,7 @@ export const confederationBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 112,
                 damageArmor2: 50,
                 damageArmor3: 40,
@@ -8688,7 +8688,7 @@ export const confederationBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 112,
                 damageArmor2: 50,
                 damageArmor3: 40,
@@ -8717,7 +8717,7 @@ export const confederationBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 112,
                 damageArmor2: 50,
                 damageArmor3: 40,
@@ -8746,7 +8746,7 @@ export const confederationBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Stationary Machine Gun',
+                title: 'buildings.confBuildings.weapons.bunker',
                 damageArmor1: 112,
                 damageArmor2: 50,
                 damageArmor3: 40,
@@ -8769,7 +8769,7 @@ export const confederationBuildings = [
     name: 'buildings.confBuildings.rocketTower',
     image: rocketTower,
     description: '',
-    weapons: [{ type: 'Stationary Rocket Launcher RT-2LR' }],
+    weapons: [{ type: 'buildings.confBuildings.weapons.rocketTower' }],
     produces: null,
     levels: [
       // 7
@@ -8786,7 +8786,7 @@ export const confederationBuildings = [
             time: 71,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 357,
                 damageArmor2: 696,
                 damageArmor3: 656,
@@ -8815,7 +8815,7 @@ export const confederationBuildings = [
             time: 68,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 399,
                 damageArmor2: 778,
                 damageArmor3: 731,
@@ -8844,7 +8844,7 @@ export const confederationBuildings = [
             time: 66,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 422,
                 damageArmor2: 822,
                 damageArmor3: 772,
@@ -8873,7 +8873,7 @@ export const confederationBuildings = [
             time: 64,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 471,
                 damageArmor2: 918,
                 damageArmor3: 860,
@@ -8902,7 +8902,7 @@ export const confederationBuildings = [
             time: 63,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 497,
                 damageArmor2: 968,
                 damageArmor3: 908,
@@ -8931,7 +8931,7 @@ export const confederationBuildings = [
             time: 63,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 524,
                 damageArmor2: 1020,
                 damageArmor3: 958,
@@ -8960,7 +8960,7 @@ export const confederationBuildings = [
             time: 61,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 552,
                 damageArmor2: 1074,
                 damageArmor3: 1011,
@@ -8989,7 +8989,7 @@ export const confederationBuildings = [
             time: 61,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 581,
                 damageArmor2: 1131,
                 damageArmor3: 1067,
@@ -9018,7 +9018,7 @@ export const confederationBuildings = [
             time: 60,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 604,
                 damageArmor2: 1175,
                 damageArmor3: 1109,
@@ -9047,7 +9047,7 @@ export const confederationBuildings = [
             time: 60,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 628,
                 damageArmor2: 1222,
                 damageArmor3: 1153,
@@ -9076,7 +9076,7 @@ export const confederationBuildings = [
             time: 58,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 680,
                 damageArmor2: 1322,
                 damageArmor3: 1249,
@@ -9105,7 +9105,7 @@ export const confederationBuildings = [
             time: 56,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 708,
                 damageArmor2: 1376,
                 damageArmor3: 1301,
@@ -9134,7 +9134,7 @@ export const confederationBuildings = [
             time: 56,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 737,
                 damageArmor2: 1433,
                 damageArmor3: 1355,
@@ -9163,7 +9163,7 @@ export const confederationBuildings = [
             time: 56,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 768,
                 damageArmor2: 1492,
                 damageArmor3: 1412,
@@ -9192,7 +9192,7 @@ export const confederationBuildings = [
             time: 56,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 768,
                 damageArmor2: 1492,
                 damageArmor3: 1412,
@@ -9221,7 +9221,7 @@ export const confederationBuildings = [
             time: 56,
             weapons: [
               {
-                title: 'Stationary Rocket Launcher RT-2LR',
+                title: 'buildings.confBuildings.weapons.rocketTower',
                 damageArmor1: 768,
                 damageArmor2: 1492,
                 damageArmor3: 1412,
@@ -9244,7 +9244,7 @@ export const confederationBuildings = [
     name: 'buildings.confBuildings.airDefense',
     image: airDefense,
     description: '',
-    weapons: [{ type: 'Stationary Sam Launcher' }],
+    weapons: [{ type: 'buildings.confBuildings.weapons.airDefense' }],
     produces: null,
     levels: [
       // 7
@@ -9261,7 +9261,7 @@ export const confederationBuildings = [
             time: 53,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 118,
                 damageArmor2: 271,
                 damageArmor3: 202,
@@ -9290,7 +9290,7 @@ export const confederationBuildings = [
             time: 51,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 143,
                 damageArmor2: 343,
                 damageArmor3: 245,
@@ -9319,7 +9319,7 @@ export const confederationBuildings = [
             time: 50,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 152,
                 damageArmor2: 370,
                 damageArmor3: 260,
@@ -9348,7 +9348,7 @@ export const confederationBuildings = [
             time: 48,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 170,
                 damageArmor2: 427,
                 damageArmor3: 291,
@@ -9377,7 +9377,7 @@ export const confederationBuildings = [
             time: 47,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 180,
                 damageArmor2: 457,
                 damageArmor3: 307,
@@ -9406,7 +9406,7 @@ export const confederationBuildings = [
             time: 47,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 190,
                 damageArmor2: 488,
                 damageArmor3: 323,
@@ -9435,7 +9435,7 @@ export const confederationBuildings = [
             time: 46,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 200,
                 damageArmor2: 521,
                 damageArmor3: 340,
@@ -9464,7 +9464,7 @@ export const confederationBuildings = [
             time: 46,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 210,
                 damageArmor2: 555,
                 damageArmor3: 357,
@@ -9493,7 +9493,7 @@ export const confederationBuildings = [
             time: 45,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 218,
                 damageArmor2: 575,
                 damageArmor3: 351,
@@ -9522,7 +9522,7 @@ export const confederationBuildings = [
             time: 45,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 226,
                 damageArmor2: 595,
                 damageArmor3: 385,
@@ -9551,7 +9551,7 @@ export const confederationBuildings = [
             time: 44,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 242,
                 damageArmor2: 636,
                 damageArmor3: 413,
@@ -9580,7 +9580,7 @@ export const confederationBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 250,
                 damageArmor2: 657,
                 damageArmor3: 427,
@@ -9609,7 +9609,7 @@ export const confederationBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 258,
                 damageArmor2: 678,
                 damageArmor3: 441,
@@ -9638,7 +9638,7 @@ export const confederationBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 267,
                 damageArmor2: 700,
                 damageArmor3: 456,
@@ -9667,7 +9667,7 @@ export const confederationBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 267,
                 damageArmor2: 700,
                 damageArmor3: 456,
@@ -9696,7 +9696,7 @@ export const confederationBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.airDefense',
                 damageArmor1: 267,
                 damageArmor2: 700,
                 damageArmor3: 456,
@@ -9720,8 +9720,8 @@ export const confederationBuildings = [
     image: torpedoPlatform,
     description: '',
     weapons: [
-      { type: 'Stationary Sam Launcher' },
-      { type: 'Stationary Sam Launcher' },
+      { type: 'buildings.confBuildings.weapons.torpedoPlatform1' },
+      { type: 'buildings.confBuildings.weapons.torpedoPlatform2' },
     ],
     produces: null,
     levels: [
@@ -9739,7 +9739,7 @@ export const confederationBuildings = [
             time: 62,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 552,
                 damageArmor2: 1200,
                 damageArmor3: 1440,
@@ -9750,7 +9750,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.20',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 104,
                 damageArmor2: 230,
                 damageArmor3: 176,
@@ -9779,7 +9779,7 @@ export const confederationBuildings = [
             time: 59,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 734,
                 damageArmor2: 1592,
                 damageArmor3: 1911,
@@ -9790,7 +9790,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.26',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 132,
                 damageArmor2: 334,
                 damageArmor3: 231,
@@ -9819,7 +9819,7 @@ export const confederationBuildings = [
             time: 58,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 775,
                 damageArmor2: 1681,
                 damageArmor3: 2017,
@@ -9830,7 +9830,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.28',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 140,
                 damageArmor2: 356,
                 damageArmor3: 245,
@@ -9859,7 +9859,7 @@ export const confederationBuildings = [
             time: 56,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 818,
                 damageArmor2: 1775,
                 damageArmor3: 2129,
@@ -9870,7 +9870,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.30',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 156,
                 damageArmor2: 402,
                 damageArmor3: 274,
@@ -9899,7 +9899,7 @@ export const confederationBuildings = [
             time: 55,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 863,
                 damageArmor2: 1871,
                 damageArmor3: 2245,
@@ -9910,7 +9910,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.32',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 166,
                 damageArmor2: 425,
                 damageArmor3: 289,
@@ -9939,7 +9939,7 @@ export const confederationBuildings = [
             time: 55,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 910,
                 damageArmor2: 1972,
                 damageArmor3: 2366,
@@ -9950,7 +9950,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.34',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 176,
                 damageArmor2: 449,
                 damageArmor3: 305,
@@ -9979,7 +9979,7 @@ export const confederationBuildings = [
             time: 54,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 958,
                 damageArmor2: 2076,
                 damageArmor3: 2491,
@@ -9990,7 +9990,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.36',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 187,
                 damageArmor2: 473,
                 damageArmor3: 321,
@@ -10019,7 +10019,7 @@ export const confederationBuildings = [
             time: 54,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1008,
                 damageArmor2: 2185,
                 damageArmor3: 2621,
@@ -10030,7 +10030,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.38',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 198,
                 damageArmor2: 497,
                 damageArmor3: 337,
@@ -10059,7 +10059,7 @@ export const confederationBuildings = [
             time: 52,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1061,
                 damageArmor2: 2298,
                 damageArmor3: 2757,
@@ -10070,7 +10070,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 206,
                 damageArmor2: 515,
                 damageArmor3: 350,
@@ -10099,7 +10099,7 @@ export const confederationBuildings = [
             time: 52,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1098,
                 damageArmor2: 2376,
                 damageArmor3: 2852,
@@ -10110,7 +10110,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 214,
                 damageArmor2: 533,
                 damageArmor3: 363,
@@ -10139,7 +10139,7 @@ export const confederationBuildings = [
             time: 51,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1177,
                 damageArmor2: 2542,
                 damageArmor3: 3052,
@@ -10150,7 +10150,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 230,
                 damageArmor2: 569,
                 damageArmor3: 389,
@@ -10179,7 +10179,7 @@ export const confederationBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1218,
                 damageArmor2: 2630,
                 damageArmor3: 3158,
@@ -10190,7 +10190,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 239,
                 damageArmor2: 587,
                 damageArmor3: 402,
@@ -10219,7 +10219,7 @@ export const confederationBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1260,
                 damageArmor2: 2722,
                 damageArmor3: 3268,
@@ -10230,7 +10230,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 248,
                 damageArmor2: 605,
                 damageArmor3: 416,
@@ -10259,7 +10259,7 @@ export const confederationBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1303,
                 damageArmor2: 2817,
                 damageArmor3: 3381,
@@ -10270,7 +10270,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 257,
                 damageArmor2: 624,
                 damageArmor3: 430,
@@ -10299,7 +10299,7 @@ export const confederationBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1348,
                 damageArmor2: 2917,
                 damageArmor3: 3498,
@@ -10310,7 +10310,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 257,
                 damageArmor2: 624,
                 damageArmor3: 430,
@@ -10339,7 +10339,7 @@ export const confederationBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform1',
                 damageArmor1: 1348,
                 damageArmor2: 2917,
                 damageArmor3: 3498,
@@ -10350,7 +10350,7 @@ export const confederationBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.confBuildings.weapons.torpedoPlatform2',
                 damageArmor1: 257,
                 damageArmor2: 624,
                 damageArmor3: 430,

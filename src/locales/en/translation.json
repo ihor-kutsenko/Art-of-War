@@ -364,7 +364,15 @@
       "bunker": "Bunker",
       "rocketTower": "Rocket Tower",
       "airDefense": "Air Defense",
-      "torpedoPlatform": "Torpedo Platform"
+      "torpedoPlatform": "Torpedo Platform",
+      "weapons": {
+        "spaceSystem": "Space Strike",
+        "bunker": "Stationary Machine Gun",
+        "rocketTower": "Stationary Rocket Launcher RT-2LR",
+        "airDefense": "Stationary Sam Launcher",
+        "torpedoPlatform1": "Stationary Sam Launcher",
+        "torpedoPlatform2": "Stationary Sam Launcher"
+      }
     },
     "resistBuildings": {
       "headquarters": "Headquarters",
