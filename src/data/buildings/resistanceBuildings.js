@@ -7138,7 +7138,7 @@ export const resistanceBuildings = [
     name: 'buildings.resistBuildings.nuclearLauncher',
     image: nuclearLauncher,
     description: '',
-    weapons: [{ type: 'Nuclear Missile' }],
+    weapons: [{ type: 'buildings.resistBuildings.weapons.nuclearLauncher' }],
     produces: null,
     levels: [
       // 7
@@ -7155,7 +7155,7 @@ export const resistanceBuildings = [
             time: 105,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 20200,
                 damageArmor2: 20200,
                 damageArmor3: 20200,
@@ -7184,7 +7184,7 @@ export const resistanceBuildings = [
             time: 105,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 20200,
                 damageArmor2: 20200,
                 damageArmor3: 20200,
@@ -7213,7 +7213,7 @@ export const resistanceBuildings = [
             time: 100,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 26384,
                 damageArmor2: 26384,
                 damageArmor3: 26384,
@@ -7242,7 +7242,7 @@ export const resistanceBuildings = [
             time: 98,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 27545,
                 damageArmor2: 27545,
                 damageArmor3: 27545,
@@ -7271,7 +7271,7 @@ export const resistanceBuildings = [
             time: 98,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 28736,
                 damageArmor2: 28736,
                 damageArmor3: 28736,
@@ -7300,7 +7300,7 @@ export const resistanceBuildings = [
             time: 95,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 29968,
                 damageArmor2: 29968,
                 damageArmor3: 29968,
@@ -7329,7 +7329,7 @@ export const resistanceBuildings = [
             time: 95,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 31237,
                 damageArmor2: 31237,
                 damageArmor3: 31237,
@@ -7358,7 +7358,7 @@ export const resistanceBuildings = [
             time: 93,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 32542,
                 damageArmor2: 32542,
                 damageArmor3: 32542,
@@ -7387,7 +7387,7 @@ export const resistanceBuildings = [
             time: 93,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 33884,
                 damageArmor2: 33884,
                 damageArmor3: 33884,
@@ -7416,7 +7416,7 @@ export const resistanceBuildings = [
             time: 90,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 39614,
                 damageArmor2: 39614,
                 damageArmor3: 39614,
@@ -7445,7 +7445,7 @@ export const resistanceBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 42698,
                 damageArmor2: 42698,
                 damageArmor3: 42698,
@@ -7474,7 +7474,7 @@ export const resistanceBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 44858,
                 damageArmor2: 44858,
                 damageArmor3: 44858,
@@ -7503,7 +7503,7 @@ export const resistanceBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 47166,
                 damageArmor2: 47166,
                 damageArmor3: 47166,
@@ -7532,7 +7532,7 @@ export const resistanceBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 49621,
                 damageArmor2: 49621,
                 damageArmor3: 49621,
@@ -7561,7 +7561,7 @@ export const resistanceBuildings = [
             time: 88,
             weapons: [
               {
-                title: 'Nuclear Missile',
+                title: 'buildings.resistBuildings.weapons.nuclearLauncher',
                 damageArmor1: 50903,
                 damageArmor2: 50903,
                 damageArmor3: 50903,
@@ -7850,7 +7850,7 @@ export const resistanceBuildings = [
     name: 'buildings.resistBuildings.sniperTower',
     image: sniperTower,
     description: '',
-    weapons: [{ type: 'Sniper Rifle' }],
+    weapons: [{ type: 'buildings.resistBuildings.weapons.sniperTower' }],
     produces: null,
     levels: [
       // 7
@@ -7867,7 +7867,7 @@ export const resistanceBuildings = [
             time: 44,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 393,
                 damageArmor2: 148,
                 damageArmor3: 96,
@@ -7896,7 +7896,7 @@ export const resistanceBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 466,
                 damageArmor2: 174,
                 damageArmor3: 114,
@@ -7925,7 +7925,7 @@ export const resistanceBuildings = [
             time: 40,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 516,
                 damageArmor2: 192,
                 damageArmor3: 126,
@@ -7954,7 +7954,7 @@ export const resistanceBuildings = [
             time: 39,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 516,
                 damageArmor2: 192,
                 damageArmor3: 126,
@@ -7983,7 +7983,7 @@ export const resistanceBuildings = [
             time: 39,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 541,
                 damageArmor2: 202,
                 damageArmor3: 133,
@@ -8012,7 +8012,7 @@ export const resistanceBuildings = [
             time: 38,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 541,
                 damageArmor2: 202,
                 damageArmor3: 133,
@@ -8041,7 +8041,7 @@ export const resistanceBuildings = [
             time: 38,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 566,
                 damageArmor2: 213,
                 damageArmor3: 140,
@@ -8070,7 +8070,7 @@ export const resistanceBuildings = [
             time: 37,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 591,
                 damageArmor2: 224,
                 damageArmor3: 147,
@@ -8099,7 +8099,7 @@ export const resistanceBuildings = [
             time: 37,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 616,
                 damageArmor2: 235,
                 damageArmor3: 154,
@@ -8128,7 +8128,7 @@ export const resistanceBuildings = [
             time: 36,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 667,
                 damageArmor2: 257,
                 damageArmor3: 168,
@@ -8157,7 +8157,7 @@ export const resistanceBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 677,
                 damageArmor2: 261,
                 damageArmor3: 171,
@@ -8186,7 +8186,7 @@ export const resistanceBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 677,
                 damageArmor2: 261,
                 damageArmor3: 171,
@@ -8215,7 +8215,7 @@ export const resistanceBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 677,
                 damageArmor2: 261,
                 damageArmor3: 171,
@@ -8244,7 +8244,7 @@ export const resistanceBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 677,
                 damageArmor2: 261,
                 damageArmor3: 171,
@@ -8273,7 +8273,7 @@ export const resistanceBuildings = [
             time: 35,
             weapons: [
               {
-                title: 'Sniper Rifle',
+                title: 'buildings.resistBuildings.weapons.sniperTower',
                 damageArmor1: 677,
                 damageArmor2: 261,
                 damageArmor3: 171,
@@ -8296,7 +8296,7 @@ export const resistanceBuildings = [
     name: 'buildings.resistBuildings.gunTower',
     image: gunTower,
     description: '',
-    weapons: [{ type: '200MM Stationary Gun' }],
+    weapons: [{ type: 'buildings.resistBuildings.weapons.gunTower' }],
     produces: null,
     levels: [
       // 7
@@ -8313,7 +8313,7 @@ export const resistanceBuildings = [
             time: 71,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 404,
                 damageArmor2: 864,
                 damageArmor3: 911,
@@ -8342,7 +8342,7 @@ export const resistanceBuildings = [
             time: 68,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 452,
                 damageArmor2: 968,
                 damageArmor3: 1021,
@@ -8371,7 +8371,7 @@ export const resistanceBuildings = [
             time: 64,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 529,
                 damageArmor2: 1130,
                 damageArmor3: 1192,
@@ -8400,7 +8400,7 @@ export const resistanceBuildings = [
             time: 63,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 556,
                 damageArmor2: 1187,
                 damageArmor3: 1250,
@@ -8429,7 +8429,7 @@ export const resistanceBuildings = [
             time: 63,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 583,
                 damageArmor2: 1244,
                 damageArmor3: 1310,
@@ -8458,7 +8458,7 @@ export const resistanceBuildings = [
             time: 61,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 612,
                 damageArmor2: 1301,
                 damageArmor3: 1370,
@@ -8487,7 +8487,7 @@ export const resistanceBuildings = [
             time: 61,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 641,
                 damageArmor2: 1358,
                 damageArmor3: 1433,
@@ -8516,7 +8516,7 @@ export const resistanceBuildings = [
             time: 60,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 669,
                 damageArmor2: 1419,
                 damageArmor3: 1498,
@@ -8545,7 +8545,7 @@ export const resistanceBuildings = [
             time: 60,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 697,
                 damageArmor2: 1480,
                 damageArmor3: 1563,
@@ -8574,7 +8574,7 @@ export const resistanceBuildings = [
             time: 58,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 753,
                 damageArmor2: 1602,
                 damageArmor3: 1694,
@@ -8603,7 +8603,7 @@ export const resistanceBuildings = [
             time: 56,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 783,
                 damageArmor2: 1666,
                 damageArmor3: 1761,
@@ -8632,7 +8632,7 @@ export const resistanceBuildings = [
             time: 56,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 813,
                 damageArmor2: 1730,
                 damageArmor3: 1828,
@@ -8661,7 +8661,7 @@ export const resistanceBuildings = [
             time: 56,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 843,
                 damageArmor2: 1794,
                 damageArmor3: 1895,
@@ -8690,7 +8690,7 @@ export const resistanceBuildings = [
             time: 56,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 843,
                 damageArmor2: 1794,
                 damageArmor3: 1895,
@@ -8719,7 +8719,7 @@ export const resistanceBuildings = [
             time: 56,
             weapons: [
               {
-                title: '200MM Stationary Gun',
+                title: 'buildings.resistBuildings.weapons.gunTower',
                 damageArmor1: 843,
                 damageArmor2: 1794,
                 damageArmor3: 1895,
@@ -8742,7 +8742,7 @@ export const resistanceBuildings = [
     name: 'buildings.resistBuildings.antiAirTower',
     image: antiAirTower,
     description: '',
-    weapons: [{ type: 'Stationary Sam Launcher' }],
+    weapons: [{ type: 'buildings.resistBuildings.weapons.antiAirTower' }],
     produces: null,
     levels: [
       // 7
@@ -8759,7 +8759,7 @@ export const resistanceBuildings = [
             time: 53,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 110,
                 damageArmor2: 262,
                 damageArmor3: 182,
@@ -8788,7 +8788,7 @@ export const resistanceBuildings = [
             time: 51,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 133,
                 damageArmor2: 333,
                 damageArmor3: 218,
@@ -8817,7 +8817,7 @@ export const resistanceBuildings = [
             time: 48,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 158,
                 damageArmor2: 414,
                 damageArmor3: 261,
@@ -8846,7 +8846,7 @@ export const resistanceBuildings = [
             time: 47,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 167,
                 damageArmor2: 443,
                 damageArmor3: 276,
@@ -8875,7 +8875,7 @@ export const resistanceBuildings = [
             time: 47,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 176,
                 damageArmor2: 473,
                 damageArmor3: 291,
@@ -8904,7 +8904,7 @@ export const resistanceBuildings = [
             time: 46,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 185,
                 damageArmor2: 504,
                 damageArmor3: 307,
@@ -8933,7 +8933,7 @@ export const resistanceBuildings = [
             time: 46,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 194,
                 damageArmor2: 538,
                 damageArmor3: 323,
@@ -8962,7 +8962,7 @@ export const resistanceBuildings = [
             time: 45,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 201,
                 damageArmor2: 558,
                 damageArmor3: 335,
@@ -8991,7 +8991,7 @@ export const resistanceBuildings = [
             time: 45,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 208,
                 damageArmor2: 578,
                 damageArmor3: 347,
@@ -9020,7 +9020,7 @@ export const resistanceBuildings = [
             time: 44,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 223,
                 damageArmor2: 618,
                 damageArmor3: 371,
@@ -9049,7 +9049,7 @@ export const resistanceBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 231,
                 damageArmor2: 638,
                 damageArmor3: 383,
@@ -9078,7 +9078,7 @@ export const resistanceBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 239,
                 damageArmor2: 658,
                 damageArmor3: 395,
@@ -9107,7 +9107,7 @@ export const resistanceBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 247,
                 damageArmor2: 678,
                 damageArmor3: 407,
@@ -9136,7 +9136,7 @@ export const resistanceBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 247,
                 damageArmor2: 678,
                 damageArmor3: 407,
@@ -9165,7 +9165,7 @@ export const resistanceBuildings = [
             time: 42,
             weapons: [
               {
-                title: 'Stationary Sam Launcher',
+                title: 'buildings.resistBuildings.weapons.antiAirTower',
                 damageArmor1: 247,
                 damageArmor2: 678,
                 damageArmor3: 407,
@@ -9188,7 +9188,10 @@ export const resistanceBuildings = [
     name: 'buildings.resistBuildings.navalPlatform',
     image: navalPlatform,
     description: '',
-    weapons: [{ type: 'Torpedo Launcher' }, { type: '30MM Flack Cannon' }],
+    weapons: [
+      { type: 'buildings.resistBuildings.weapons.navalPlatform1' },
+      { type: 'buildings.resistBuildings.weapons.navalPlatform2' },
+    ],
     produces: null,
     levels: [
       // 7
@@ -9205,7 +9208,7 @@ export const resistanceBuildings = [
             time: 62,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 320,
                 damageArmor2: 1328,
                 damageArmor3: 1576,
@@ -9216,7 +9219,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.20',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 64,
                 damageArmor2: 115,
                 damageArmor3: 80,
@@ -9245,7 +9248,7 @@ export const resistanceBuildings = [
             time: 59,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 423,
                 damageArmor2: 1762,
                 damageArmor3: 2091,
@@ -9256,7 +9259,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.30',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 81,
                 damageArmor2: 165,
                 damageArmor3: 103,
@@ -9285,7 +9288,7 @@ export const resistanceBuildings = [
             time: 56,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 472,
                 damageArmor2: 1963,
                 damageArmor3: 2330,
@@ -9296,7 +9299,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.35',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 94,
                 damageArmor2: 198,
                 damageArmor3: 119,
@@ -9325,7 +9328,7 @@ export const resistanceBuildings = [
             time: 55,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 498,
                 damageArmor2: 2069,
                 damageArmor3: 2457,
@@ -9336,7 +9339,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.35',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 99,
                 damageArmor2: 209,
                 damageArmor3: 125,
@@ -9365,7 +9368,7 @@ export const resistanceBuildings = [
             time: 55,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 525,
                 damageArmor2: 2180,
                 damageArmor3: 2590,
@@ -9376,7 +9379,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.35',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 104,
                 damageArmor2: 220,
                 damageArmor3: 131,
@@ -9405,7 +9408,7 @@ export const resistanceBuildings = [
             time: 54,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 554,
                 damageArmor2: 2296,
                 damageArmor3: 2726,
@@ -9416,7 +9419,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 109,
                 damageArmor2: 232,
                 damageArmor3: 137,
@@ -9445,7 +9448,7 @@ export const resistanceBuildings = [
             time: 54,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 583,
                 damageArmor2: 2416,
                 damageArmor3: 2869,
@@ -9456,7 +9459,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 115,
                 damageArmor2: 244,
                 damageArmor3: 144,
@@ -9485,7 +9488,7 @@ export const resistanceBuildings = [
             time: 52,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 613,
                 damageArmor2: 2542,
                 damageArmor3: 3018,
@@ -9496,7 +9499,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 120,
                 damageArmor2: 253,
                 damageArmor3: 150,
@@ -9525,7 +9528,7 @@ export const resistanceBuildings = [
             time: 52,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 634,
                 damageArmor2: 2628,
                 damageArmor3: 3122,
@@ -9536,7 +9539,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 125,
                 damageArmor2: 262,
                 damageArmor3: 156,
@@ -9565,7 +9568,7 @@ export const resistanceBuildings = [
             time: 51,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 680,
                 damageArmor2: 2812,
                 damageArmor3: 3341,
@@ -9576,7 +9579,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 135,
                 damageArmor2: 280,
                 damageArmor3: 168,
@@ -9605,7 +9608,7 @@ export const resistanceBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 704,
                 damageArmor2: 2909,
                 damageArmor3: 3458,
@@ -9616,7 +9619,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 140,
                 damageArmor2: 289,
                 damageArmor3: 174,
@@ -9645,7 +9648,7 @@ export const resistanceBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 728,
                 damageArmor2: 3011,
                 damageArmor3: 3578,
@@ -9656,7 +9659,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 145,
                 damageArmor2: 298,
                 damageArmor3: 180,
@@ -9685,7 +9688,7 @@ export const resistanceBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 753,
                 damageArmor2: 3116,
                 damageArmor3: 3702,
@@ -9696,7 +9699,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 150,
                 damageArmor2: 308,
                 damageArmor3: 187,
@@ -9725,7 +9728,7 @@ export const resistanceBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 778,
                 damageArmor2: 3226,
                 damageArmor3: 3830,
@@ -9736,7 +9739,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 150,
                 damageArmor2: 308,
                 damageArmor3: 187,
@@ -9765,7 +9768,7 @@ export const resistanceBuildings = [
             time: 49,
             weapons: [
               {
-                title: 'Torpedo Launcher',
+                title: 'buildings.resistBuildings.weapons.navalPlatform1',
                 damageArmor1: 778,
                 damageArmor2: 3226,
                 damageArmor3: 3830,
@@ -9776,7 +9779,7 @@ export const resistanceBuildings = [
                 explosionRadius: '1.40',
               },
               {
-                title: '30MM Flack Cannon',
+                title: 'buildings.resistBuildings.weapons.navalPlatform2',
                 damageArmor1: 150,
                 damageArmor2: 308,
                 damageArmor3: 187,

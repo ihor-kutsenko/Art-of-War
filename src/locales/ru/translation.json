@@ -366,12 +366,12 @@
       "airDefense": "Установка ПВО",
       "torpedoPlatform": "Торпедная Платформа",
       "weapons": {
-        "spaceSystem": "Космический Удар",
-        "bunker": "Станковый пулемет",
-        "rocketTower": "Ракетная установка RT-2LR",
-        "airDefense": "Зенитно-ракетная установка",
-        "torpedoPlatform1": "Торпедная установка",
-        "torpedoPlatform2": "Зенитно-ракетная установка"
+        "spaceSystem": "КОСМИЧЕСКИЙ УДАР",
+        "bunker": "СТАНКОВЫЙ ПУЛЕМЕТ",
+        "rocketTower": "РАКЕТНАЯ УСТАНОВКА RT-2LR",
+        "airDefense": "ЗЕНИТНО-РАКЕТНАЯ УСТАНОВКА",
+        "torpedoPlatform1": "ТОРПЕДНАЯ УСТАНОВКА",
+        "torpedoPlatform2": "ЗЕНИТНО-РАКЕТНАЯ УСТАНОВКА"
       }
     },
     "resistBuildings": {
@@ -391,7 +391,15 @@
       "sniperTower": "Снайперская Вышка",
       "gunTower": "Стационарная Пушка",
       "antiAirTower": "Установка ПВО",
-      "navalPlatform": "Морская Установка"
+      "navalPlatform": "Морская Установка",
+      "weapons": {
+        "nuclearLauncher": "ЯДЕРНАЯ РАКЕТА",
+        "sniperTower": "СНАЙПЕРСКАЯ ВИНТОВКА",
+        "gunTower": "200MM СТАЦИОНАРНАЯ ПУШКА",
+        "antiAirTower": "ЗЕНИТНО-РАКЕТНАЯ УСТАНОВКА",
+        "navalPlatform1": "ТОРПЕДНАЯ УСТАНОВКА",
+        "navalPlatform2": "30MM ЗЕНИТНАЯ АВТОПУШКА"
+      }
     }
   },
   "heroes": {
