@@ -428,5 +428,16 @@
       "weapons2": "SIDE AUTOCANNONS",
       "weapons3": "ANTI-AIR LAUNCHER 'SCOURGE'"
     }
+  },
+  "weaponsStats": {
+    "damageArmor1": "Damage vs armor I",
+    "damageArmor2": "Damage vs armor II",
+    "damageArmor3": "Damage vs armor III",
+    "firingRange": "Firing Range",
+    "rateOfFire": "Rate of fire",
+    "firingAccuracy": "Firing accuracy",
+    "explosionRadius": "Explosion radius",
+    "cost": "Cost",
+    "settingTime": "Setting Time"
   }
 }

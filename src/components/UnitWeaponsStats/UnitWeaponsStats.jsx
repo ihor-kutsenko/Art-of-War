@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import armor1 from '../../images/icons/armor1.png';
 import armor2 from '../../images/icons/armor2.png';
 import armor3 from '../../images/icons/armor3.png';
@@ -11,6 +13,8 @@ import time from '../../images/icons/time.png';
 import styles from './UnitWeaponsStats.module.scss';
 
 const UnitWeaponsStats = ({ selectedLevelData }) => {
+  const { t } = useTranslation();
+
   const isMine =
     selectedLevelData.costPerMine >= 0 || selectedLevelData.timeToLayMine >= 0;
 
@@ -19,7 +23,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
           <img src={armor1} alt="armor" className={styles.statIcon} />
-          Damage vs armor I:
+          {t('weaponsStats.damageArmor1')}:
         </span>
         <span className={styles.statValue}>
           {selectedLevelData.damageArmor1}{' '}
@@ -28,7 +32,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
           <img src={armor2} alt="armor" className={styles.statIcon} />
-          Damage vs armor II:
+          {t('weaponsStats.damageArmor2')}:
         </span>
         <span className={styles.statValue}>
           {selectedLevelData.damageArmor2}
@@ -37,7 +41,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
       <div className={styles.statItem}>
         <span className={styles.statLabel}>
           <img src={armor3} alt="armor" className={styles.statIcon} />
-          Damage vs armor III:
+          {t('weaponsStats.damageArmor3')}:
         </span>
         <span className={styles.statValue}>
           {selectedLevelData.damageArmor3}
@@ -49,7 +53,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
           <div className={styles.statItem}>
             <span className={styles.statLabel}>
               <img src={cost} alt="Cost" className={styles.statIcon} />
-              Cost:
+              {t('weaponsStats.cost')}:
             </span>
             <span className={styles.statValue}>
               {selectedLevelData.costPerMine}
@@ -58,7 +62,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
           <div className={styles.statItem}>
             <span className={styles.statLabel}>
               <img src={time} alt="Setting Time" className={styles.statIcon} />
-              Setting Time:
+              {t('weaponsStats.settingTime')}:
             </span>
             <span className={styles.statValue}>
               {selectedLevelData.timeToLayMine}
@@ -75,7 +79,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
                 alt="double Arrows"
                 className={styles.statIcon}
               />
-              Firing range:
+              {t('weaponsStats.firingRange')}:
             </span>
             <span className={styles.statValue}>
               {selectedLevelData.firingRange}
@@ -84,7 +88,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
           <div className={styles.statItem}>
             <span className={styles.statLabel}>
               <img src={bullets} alt="bullets" className={styles.statIcon} />
-              Rate of fire:
+              {t('weaponsStats.rateOfFire')}:
             </span>
             <span className={styles.statValue}>
               {selectedLevelData.rateOfFire}{' '}
@@ -93,7 +97,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
           <div className={styles.statItem}>
             <span className={styles.statLabel}>
               <img src={target} alt="target" className={styles.statIcon} />
-              Firing accuracy:
+              {t('weaponsStats.firingAccuracy')}:
             </span>
             <div>
               <span className={styles.statValue}>
@@ -114,7 +118,7 @@ const UnitWeaponsStats = ({ selectedLevelData }) => {
             alt="diagonal Arrow"
             className={styles.statIcon}
           />
-          Explosion radius:
+          {t('weaponsStats.explosionRadius')}:
         </span>
         <span className={styles.statValue}>
           {selectedLevelData.explosionRadius}

@@ -428,5 +428,16 @@
       "weapons2": "БОКОВЫЕ АВТОПУШКИ",
       "weapons3": "УСТАНОВКА ПВО 'ПЛЕТЬ'"
     }
+  },
+  "weaponsStats": {
+    "damageArmor1": "Урон по броне I",
+    "damageArmor2": "Урон по броне II",
+    "damageArmor3": "Урон по броне III",
+    "firingRange": "Дальность стрельбы",
+    "rateOfFire": "Скорострельность",
+    "firingAccuracy": "Меткость",
+    "explosionRadius": "Радиус взрыва",
+    "cost": "Стоимость",
+    "settingTime": "Время укладки"
   }
 }
