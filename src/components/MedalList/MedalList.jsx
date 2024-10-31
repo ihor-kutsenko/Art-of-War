@@ -1,24 +1,34 @@
 import styles from './MedalList.module.scss';
+import { useTranslation } from 'react-i18next';
 
 const MedalList = ({ onSelect, activeMedal }) => {
-  const handleClick = medal => {
-    onSelect(medal);
+  const { t } = useTranslation();
+
+  const handleClick = medalKey => {
+    onSelect(medalKey);
   };
 
-  const medals = ['Steel', 'Bronze', 'Silver', 'Gold', 'Diamond', 'Star'];
+  const medals = [
+    { key: 'steel', name: 'Steel' },
+    { key: 'bronze', name: 'Bronze' },
+    { key: 'silver', name: 'Silver' },
+    { key: 'gold', name: 'Gold' },
+    { key: 'diamond', name: 'Diamond' },
+    { key: 'star', name: 'Star' },
+  ];
 
   return (
     <div className={styles.container}>
       <ul className={styles.list}>
-        {medals.map(medal => (
+        {medals.map(({ key, name }) => (
           <li
-            key={medal}
-            onClick={() => handleClick(medal)}
+            key={key}
+            onClick={() => handleClick(key)}
             className={`${styles.link} ${
-              activeMedal === medal ? styles.active : ''
+              activeMedal === key ? styles.active : ''
             }`}
           >
-            {medal}
+            {t(`medals.${key}`)}
           </li>
         ))}
       </ul>
