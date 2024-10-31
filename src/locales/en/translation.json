@@ -640,5 +640,43 @@
       "name": "Zombie Apocalypse",
       "info": "The Zombie apocalypse kicks off! Hordes of zombies managed to break free out of underground Syndicate labs. Zombies are piling up! But a shared enemy doesn't mean a ceasefire between the Confederation and Resistance. So your task remains — destroy an enemy base before the zombies eat your brains!"
     }
+  },
+  "skirmish": {
+    "ai": {
+      "name": "AI",
+      "info": ""
+    },
+    "survial": {
+      "name": "Survial",
+      "info": "To live or to survive; that is the question... If you choose to live, an enemy will annihilate you! So you'd better think about surviving. Hopefully, this mindset may help you hold for a while longer. Fight as if it's the final battle of your entire life! Fight to the last breath as if you're a wounded beast! Prove everybody that you do worth something. Now is the time to stay alive!"
+    },
+    "testOfStrength": {
+      "name": "Test of Strength",
+      "info": "This time, Joker wants to check your defensive skills. Your aim is to survive as long as you can. A tough battle awaits you, as Joker always has an ace up his sleeve. Show him that you have some trump cards, too. The test of strength begins!"
+    },
+    "birthdayGame": {
+      "name": "Birthday Game",
+      "info": ""
+    },
+    "summerHeat": {
+      "name": "Summer Heat",
+      "info": ""
+    },
+    "pumpkinHunt": {
+      "name": "Pumpkin Hunt",
+      "info": "This unassailable base creates big problems for us. Therefore, two commanders will take part in the coming assault. Only jointly coordinated actions will lead you to victory!"
+    },
+    "syndicateTrap": {
+      "name": "Syndicate Trap",
+      "info": "Intelligence has identified a significant concentration of Data Cells in sector K-537. The enemy reached the area before us and established an airbase to maintain control. Take the initiative by capturing all the Data Cells to gain crucial information on the enemy's latest technologies. Be cautious of enemy air raids."
+    },
+    "christmasCargo": {
+      "name": "Christmas Cargo",
+      "info": "To celebrate Christmas and the New Year, we will need Christmas trees. We must take them out from under the enemy's nose."
+    },
+    "battleForTheChristmasTrees": {
+      "name": "Battle for the Christmas Trees",
+      "info": "Our army is pretty exhausted from this endless conflict. To raise morale, we must organize a good celebration of Christmas and the New Year. Capture Christmas trees!"
+    }
   }
 }
