@@ -7,11 +7,11 @@ import contribution from '../images/orders/award-for-Contribution-to-Game-Develo
 import correspondent from '../images/orders/award-for-the-Best-War-Correspondent.png';
 
 export const orders = [
-  { name: 'Award for a Contest Winner 1', image: winner1 },
-  { name: 'Award for a Contest Winner 2', image: winner2 },
-  { name: 'Award for a Contest Winner 3', image: winner3 },
-  { name: 'Award for a best Topographer', image: topographer },
-  { name: 'Award for Persistence', image: persistence },
-  { name: 'Award for Contribution to Game Development', image: contribution },
-  { name: 'Award for the Best War Correspondent', image: correspondent },
+  { name: 'orders.winner1', image: winner1 },
+  { name: 'orders.winner2', image: winner2 },
+  { name: 'orders.winner3', image: winner3 },
+  { name: 'orders.topograpfer', image: topographer },
+  { name: 'orders.persistence', image: persistence },
+  { name: 'orders.development', image: contribution },
+  { name: 'orders.correspondent', image: correspondent },
 ];

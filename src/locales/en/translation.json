@@ -678,5 +678,14 @@
       "name": "Battle for the Christmas Trees",
       "info": "Our army is pretty exhausted from this endless conflict. To raise morale, we must organize a good celebration of Christmas and the New Year. Capture Christmas trees!"
     }
+  },
+  "orders": {
+    "winner1": "Award for a Contest Winner 1",
+    "winner2": "Award for a Contest Winner 2",
+    "winner3": "Award for a Contest Winner 3",
+    "topograpfer": "Award for a best Topographer",
+    "persistence": "Award for Persistence",
+    "development": "Award for Contribution to Game Development",
+    "correspondent": "Award for the Best War Correspondent"
   }
 }
