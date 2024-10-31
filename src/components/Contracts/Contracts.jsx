@@ -1,29 +1,50 @@
+import { useTranslation } from 'react-i18next';
+
 import styles from './Contracts.module.scss';
 
 const Contracts = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* Syndicate Event Table */}
-      <h2 className={styles.eventTitle}>Syndicate Event</h2>
+      <h2 className={styles.eventTitle}>{t('events.syndicate')} 2024</h2>
       <table className={styles.table}>
         <thead>
           <tr>
-            <td className={`${styles.title} ${styles.contract}`}>Contract</td>
-            <td className={`${styles.title} ${styles.amount}`}>Amount</td>
-            <td className={`${styles.title} ${styles.gold}`}>Gold</td>
-            <td className={`${styles.title} ${styles.token}`}>Token</td>
+            <td className={`${styles.title} ${styles.contract}`}>
+              {t('events.contract')}
+            </td>
+            <td className={`${styles.title} ${styles.amount}`}>
+              {t('events.amount')}
+            </td>
+            <td className={`${styles.title} ${styles.gold}`}>
+              {t('events.gold')}
+            </td>
+            <td className={`${styles.title} ${styles.token}`}>
+              {t('events.token')}
+            </td>
             <td className={`${styles.title} ${styles.blueSkills}`}>
-              Blue skills
+              {t('events.blueSkills')}
             </td>
             <td className={`${styles.title} ${styles.rareSkills}`}>
-              Rare skills
+              {t('events.rareSkills')}
             </td>
             <td className={`${styles.title} ${styles.epicSkills}`}>
-              Epic skills
+              {t('events.epicSkills')}
             </td>
-            <td className={`${styles.title} ${styles.blueHero}`}>Blue hero</td>
-            <td className={`${styles.title} ${styles.rareHero}`}>Rare hero</td>
-            <td className={`${styles.title} ${styles.epicHero}`}>Epic hero</td>
+            <td className={`${styles.title} ${styles.blueHero}`}>
+              {' '}
+              {t('events.blueHero')}
+            </td>
+            <td className={`${styles.title} ${styles.rareHero}`}>
+              {' '}
+              {t('events.rareHero')}
+            </td>
+            <td className={`${styles.title} ${styles.epicHero}`}>
+              {' '}
+              {t('events.epicHero')}
+            </td>
           </tr>
         </thead>
         <tbody>
@@ -113,7 +134,7 @@ const Contracts = () => {
           </tr>
           {/* Total row */}
           <tr className={styles.totalRow}>
-            <td>Total</td>
+            <td> {t('events.total')}</td>
             <td>13375</td>
             <td>13875</td>
             <td>25750</td>
@@ -128,26 +149,43 @@ const Contracts = () => {
       </table>
 
       {/* Halloween Event Table */}
-      <h2 className={styles.eventTitle}>Halloween Event</h2>
+      <h2 className={styles.eventTitle}>{t('events.halloween')} 2024</h2>
       <table className={styles.table}>
         <thead>
           <tr>
-            <td className={`${styles.title} ${styles.contract}`}>Contract</td>
-            <td className={`${styles.title} ${styles.amount}`}>Amount</td>
-            <td className={`${styles.title} ${styles.gold}`}>Gold</td>
-            <td className={`${styles.title} ${styles.token}`}>Token</td>
+            <td className={`${styles.title} ${styles.contract}`}>
+              {t('events.contract')}
+            </td>
+            <td className={`${styles.title} ${styles.amount}`}>
+              {t('events.amount')}
+            </td>
+            <td className={`${styles.title} ${styles.gold}`}>
+              {t('events.gold')}
+            </td>
+            <td className={`${styles.title} ${styles.token}`}>
+              {t('events.token')}
+            </td>
             <td className={`${styles.title} ${styles.blueSkills}`}>
-              Blue skills
+              {t('events.blueSkills')}
             </td>
             <td className={`${styles.title} ${styles.rareSkills}`}>
-              Rare skills
+              {t('events.rareSkills')}
             </td>
             <td className={`${styles.title} ${styles.epicSkills}`}>
-              Epic skills
+              {t('events.epicSkills')}
             </td>
-            <td className={`${styles.title} ${styles.blueHero}`}>Blue hero</td>
-            <td className={`${styles.title} ${styles.rareHero}`}>Rare hero</td>
-            <td className={`${styles.title} ${styles.epicHero}`}>Epic hero</td>
+            <td className={`${styles.title} ${styles.blueHero}`}>
+              {' '}
+              {t('events.blueHero')}
+            </td>
+            <td className={`${styles.title} ${styles.rareHero}`}>
+              {' '}
+              {t('events.rareHero')}
+            </td>
+            <td className={`${styles.title} ${styles.epicHero}`}>
+              {' '}
+              {t('events.epicHero')}
+            </td>
           </tr>
         </thead>
         <tbody>
@@ -237,7 +275,7 @@ const Contracts = () => {
           </tr>
           {/* Total row */}
           <tr className={styles.totalRow}>
-            <td>Total</td>
+            <td>{t('events.total')}</td>
             <td>13375</td>
             <td>34400</td>
             <td>13700</td>

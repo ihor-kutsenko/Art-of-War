@@ -695,5 +695,20 @@
     "gold": "Gold league",
     "diamond": "Diamond league",
     "star": "Star league"
+  },
+  "events": {
+    "contract": "Contract",
+    "amount": "Amount",
+    "gold": "Gold",
+    "token": "Token",
+    "blueSkills": "Blue skills",
+    "rareSkills": "Rare skills",
+    "epicSkills": "Epic skills",
+    "blueHero": "Blue hero",
+    "rareHero": "Rare hero",
+    "epicHero": "Epic hero",
+    "total": "Total",
+    "syndicate": "Syndicate event",
+    "halloween": "Halloween event"
   }
 }
