@@ -23,7 +23,6 @@ const Blitz = () => {
             key={index}
             title={blitz.title}
             imageUrl={blitz.imageUrl}
-            buttonText={blitz.buttonText}
             medals={blitz.medals}
             info={blitz.info}
             disabled={blitz.medals.length === 0}
