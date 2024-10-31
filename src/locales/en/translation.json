@@ -687,5 +687,13 @@
     "persistence": "Award for Persistence",
     "development": "Award for Contribution to Game Development",
     "correspondent": "Award for the Best War Correspondent"
+  },
+  "leagues": {
+    "steel": "Steel league",
+    "bronze": "Bronze league",
+    "silver": "Silver league",
+    "gold": "Gold league",
+    "diamond": "Diamond league",
+    "star": "Star league"
   }
 }
