@@ -5,7 +5,7 @@ import NavigationPage from 'components/NavigationPage/NavigationPage';
 import {
   CONF_HEROES_ROUTE,
   RESIST_HEROES_ROUTE,
-  // BLUEPRINTS_ROUTE,
+  BLUEPRINTS_ROUTE,
 } from 'routes/routes';
 
 const HeroesPage = () => {
@@ -14,7 +14,7 @@ const HeroesPage = () => {
   const links = [
     { path: CONF_HEROES_ROUTE, label: t('main.confederation') },
     { path: RESIST_HEROES_ROUTE, label: t('main.resistance') },
-    // { path: BLUEPRINTS_ROUTE, label: 'Blueprints' },
+    { path: BLUEPRINTS_ROUTE, label: t('heroes.blueprints.blueprints') },
   ];
 
   return (

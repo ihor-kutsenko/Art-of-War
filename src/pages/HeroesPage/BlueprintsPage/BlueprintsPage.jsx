@@ -1,11 +1,11 @@
-// import Blueprints from 'components/Blueprints/Blueprints';
+import Blueprints from 'components/Blueprints/Blueprints';
 
-// const BlueprintsPage = () => {
-//   return (
-//     <>
-//       <Blueprints />
-//     </>
-//   );
-// };
+const BlueprintsPage = () => {
+  return (
+    <>
+      <Blueprints />
+    </>
+  );
+};
 
-// export default BlueprintsPage;
+export default BlueprintsPage;

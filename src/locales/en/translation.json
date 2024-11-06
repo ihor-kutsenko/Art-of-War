@@ -452,6 +452,13 @@
       "weapons1": "FRONTAL AUTOCANNONS",
       "weapons2": "SIDE AUTOCANNONS",
       "weapons3": "ANTI-AIR LAUNCHER 'SCOURGE'"
+    },
+    "blueprints": {
+      "blueprints": "Blueprints",
+      "hero": "Hero",
+      "classHero": "Class hero",
+      "amount": "Amount of blueprints",
+      "total": "Total"
     }
   },
   "weaponsStats": {
