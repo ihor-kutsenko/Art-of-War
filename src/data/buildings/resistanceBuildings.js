@@ -41,6 +41,7 @@ import barracuda from '../../images/units/resistance/barracuda.webp';
 import wasp from '../../images/hero/wasp.webp';
 import wolverine from '../../images/hero/wolverine.webp';
 import mole from '../../images/hero/mole.webp';
+import salamander from '../../images/hero/salamander.webp';
 import leviathan from '../../images/hero/leviathan.webp';
 
 export const resistanceBuildings = [
@@ -6453,7 +6454,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 59,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6468,6 +6472,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6483,6 +6488,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6501,7 +6507,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 56,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6516,6 +6525,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6531,6 +6541,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6549,7 +6560,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 55,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6564,6 +6578,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6579,6 +6594,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6597,7 +6613,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 55,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6612,6 +6631,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6627,6 +6647,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6645,7 +6666,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 54,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6660,6 +6684,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6675,6 +6700,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6693,7 +6719,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 54,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6708,6 +6737,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6723,6 +6753,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6741,7 +6772,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 52,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6756,6 +6790,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6771,6 +6806,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6789,7 +6825,10 @@ export const resistanceBuildings = [
             cost: 270,
             time: 52,
             weapons: null,
-            produces: [{ type: 'heroes.wasp.name', icon: wasp }],
+            produces: [
+              { type: 'heroes.wasp.name', icon: wasp },
+              { type: 'heroes.wolverine.name', icon: wolverine },
+            ],
           },
           {
             subLevel: 2,
@@ -6804,6 +6843,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6819,6 +6859,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6855,6 +6896,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6870,6 +6912,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6906,6 +6949,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6921,6 +6965,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -6957,6 +7002,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -6972,6 +7018,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -7008,6 +7055,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -7023,6 +7071,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -7059,6 +7108,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -7074,6 +7124,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },
@@ -7110,6 +7161,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
             ],
           },
           {
@@ -7125,6 +7177,7 @@ export const resistanceBuildings = [
               { type: 'heroes.wasp.name', icon: wasp },
               { type: 'heroes.wolverine.name', icon: wolverine },
               { type: 'heroes.mole.name', icon: mole },
+              { type: 'heroes.salamander.name', icon: salamander },
               { type: 'heroes.leviathan.name', icon: leviathan },
             ],
           },

@@ -40,6 +40,7 @@ import poseidon from '../../images/units/confederation/poseidon.webp';
 import cerberus from '../../images/hero/cerberus.webp';
 import beholder from '../../images/hero/beholder.webp';
 import seraphim from '../../images/hero/seraphim1.webp';
+import psion from '../../images/hero/psion.webp';
 import solaris from '../../images/hero/solaris.webp';
 
 export const confederationBuildings = [
@@ -6818,6 +6819,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -6833,6 +6835,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -6866,6 +6869,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -6881,6 +6885,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -6914,6 +6919,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -6929,6 +6935,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -6962,6 +6969,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -6977,6 +6985,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7010,6 +7019,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7025,6 +7035,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7058,6 +7069,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7073,6 +7085,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7106,6 +7119,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7121,6 +7135,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7154,6 +7169,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7169,6 +7185,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7202,6 +7219,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7217,6 +7235,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7253,6 +7272,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7268,6 +7288,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7304,6 +7325,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7319,6 +7341,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7355,6 +7378,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7370,6 +7394,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7406,6 +7431,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7421,6 +7447,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7457,6 +7484,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7472,6 +7500,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },
@@ -7508,6 +7537,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
             ],
           },
           {
@@ -7523,6 +7553,7 @@ export const confederationBuildings = [
               { type: 'heroes.cerberus.name', icon: cerberus },
               { type: 'heroes.beholder.name', icon: beholder },
               { type: 'heroes.seraphim.name', icon: seraphim },
+              { type: 'heroes.psion.name', icon: psion },
               { type: 'heroes.solaris.name', icon: solaris },
             ],
           },

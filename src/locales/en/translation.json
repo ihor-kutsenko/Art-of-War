@@ -420,7 +420,9 @@
       "weapons3": "CR3T2 HE ROCKETS"
     },
     "beholder": {
-      "name": "BEHOLDER"
+      "name": "BEHOLDER",
+      "type": "Stealth scout helicopter",
+      "weapons1": "PAIRED 'FLASH' LASER SYSTEMS"
     },
     "seraphim": {
       "name": "SERAPHIM",
@@ -429,7 +431,9 @@
       "weapons2": "ENERGY AUTOCANNONS 'LAZARUS' - in ground mode"
     },
     "psion": {
-      "name": "PSION"
+      "name": "PSION",
+      "type": "Vehicle of heavy psychic impact",
+      "weapons1": "PSI-EMITTER 'OVERLORD'"
     },
     "solaris": {
       "name": "SOLARIS",
@@ -442,7 +446,9 @@
       "weapons": "'STING' CAPSULE MISSILES"
     },
     "wolverine": {
-      "name": "WOLVERINE"
+      "name": "WOLVERINE",
+      "type": "Universal combat vehicle",
+      "weapons1": "'FURY' LARGE CALIBER MULTI-BARREL MACHINE GUN"
     },
     "mole": {
       "name": "MOLE",
@@ -450,7 +456,9 @@
       "weapons": "'CRUSHER' DRILL"
     },
     "salamander": {
-      "name": "SALAMANDER"
+      "name": "SALAMANDER",
+      "type": "Missile Submarine Amphibian",
+      "weapons1": "MISSILE SYSTEM 'FIRESTORM'"
     },
     "leviathan": {
       "name": "LEVIATHAN",

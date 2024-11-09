@@ -1,5 +1,7 @@
 import wasp from '../../images/hero/wasp.webp';
+import wolverine from '../../images/hero/wolverine1.webp';
 import mole from '../../images/hero/mole.webp';
+import salamander from '../../images/hero/salamander.webp';
 import leviathan from '../../images/hero/leviathan.webp';
 // icons
 // import armor1 from '../../images/icons/armor1.png';
@@ -379,6 +381,42 @@ export const resistanceHeroes = [
       },
     ],
   },
+  //Wolverine
+  {
+    id: 1,
+    name: 'heroes.wolverine.name',
+    type: 'heroes.wolverine.type',
+    image: wolverine,
+    iconArmor: armor2,
+    description: '',
+    weapons: [{ type: 'heroes.wolverine.weapons1' }],
+    levels: [
+      // 7
+      {
+        level: 7,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0.0',
+            firingAccuracy2: '0.0',
+            explosionRadius: '0.00',
+          },
+        ],
+      },
+    ],
+  },
   // Mole
   {
     id: 2,
@@ -746,6 +784,42 @@ export const resistanceHeroes = [
             firingAccuracy: '100',
             firingAccuracy2: '0.00',
             explosionRadius: '0.45',
+          },
+        ],
+      },
+    ],
+  },
+  //Salamander
+  {
+    id: 1,
+    name: 'heroes.salamander.name',
+    type: 'heroes.salamander.type',
+    image: salamander,
+    iconArmor: armor2,
+    description: '',
+    weapons: [{ type: 'heroes.salamander.weapons1' }],
+    levels: [
+      // 7
+      {
+        level: 7,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0.0',
+            firingAccuracy2: '0.0',
+            explosionRadius: '0.00',
           },
         ],
       },

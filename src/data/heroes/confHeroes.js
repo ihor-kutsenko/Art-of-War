@@ -1,6 +1,7 @@
 import cerberus from '../../images/hero/cerberus.webp';
-
+import beholder from '../../images/hero/beholder.webp';
 import seraphim from '../../images/hero/seraphim1.webp';
+import psion from '../../images/hero/psion.webp';
 import solaris from '../../images/hero/solaris.webp';
 // icons
 // import armor1 from '../../images/icons/armor1.png';
@@ -684,6 +685,42 @@ export const confederationHeroes = [
       },
     ],
   },
+  //BEHOLDER
+  {
+    id: 1,
+    name: 'heroes.beholder.name',
+    type: 'heroes.beholder.type',
+    image: beholder,
+    iconArmor: armor2,
+    description: '',
+    weapons: [{ type: 'heroes.beholder.weapons1' }],
+    levels: [
+      // 7
+      {
+        level: 7,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0.0',
+            firingAccuracy2: '0.0',
+            explosionRadius: '0.00',
+          },
+        ],
+      },
+    ],
+  },
   // SERAPHIM
   {
     id: 2,
@@ -1204,6 +1241,42 @@ export const confederationHeroes = [
             firingAccuracy: '84.0',
             firingAccuracy2: '74.9',
             explosionRadius: '0.70',
+          },
+        ],
+      },
+    ],
+  },
+  // PSION
+  {
+    id: 1,
+    name: 'heroes.psion.name',
+    type: 'heroes.psion.type',
+    image: psion,
+    iconArmor: armor2,
+    description: '',
+    weapons: [{ type: 'heroes.psion.weapons1' }],
+    levels: [
+      // 7
+      {
+        level: 7,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0.0',
+            firingAccuracy2: '0.0',
+            explosionRadius: '0.00',
           },
         ],
       },
