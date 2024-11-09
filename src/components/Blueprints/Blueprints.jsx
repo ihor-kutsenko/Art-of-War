@@ -39,7 +39,7 @@ const Blueprints = () => {
         </tr>
         <tr>
           <td className={`${styles.hero} ${styles.t1}`}>
-            {t('heroes.cerberus.name')}/ <br />
+            {t('heroes.cerberus.name')} / <br />
             {t('heroes.wasp.name')}
           </td>
           <td>250</td>
@@ -57,8 +57,27 @@ const Blueprints = () => {
           <td>153550</td>
         </tr>
         <tr>
+          <td className={`${styles.hero} ${styles.t1}`}>
+            {t('heroes.beholder.name')} / <br />
+            {t('heroes.wolverine.name')}
+          </td>
+          <td>1000</td>
+          <td>600</td>
+          <td>1200</td>
+          <td>2100</td>
+          <td>3600</td>
+          <td>6000</td>
+          <td>11000</td>
+          <td>21000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>46500</td>
+        </tr>
+        <tr>
           <td className={`${styles.hero} ${styles.t2}`}>
-            {t('heroes.seraphim.name')}/ <br />
+            {t('heroes.seraphim.name')} / <br />
             {t('heroes.mole.name')}
           </td>
           <td>70</td>
@@ -76,8 +95,27 @@ const Blueprints = () => {
           <td>41810</td>
         </tr>
         <tr>
+          <td className={`${styles.hero} ${styles.t2}`}>
+            {t('heroes.psion.name')} / <br />
+            {t('heroes.salamander.name')}
+          </td>
+          <td>280</td>
+          <td>175</td>
+          <td>360</td>
+          <td>625</td>
+          <td>1000</td>
+          <td>1700</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>4140</td>
+        </tr>
+        <tr>
           <td className={`${styles.hero} ${styles.t3}`}>
-            {t('heroes.solaris.name')}/ <br /> {t('heroes.leviathan.name')}
+            {t('heroes.solaris.name')} / <br /> {t('heroes.leviathan.name')}
           </td>
           <td>25</td>
           <td>60</td>

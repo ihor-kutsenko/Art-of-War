@@ -428,6 +428,9 @@
       "weapons1": "ENERGY AUTOCANNONS 'LAZARUS' - in avia mode",
       "weapons2": "ENERGY AUTOCANNONS 'LAZARUS' - in ground mode"
     },
+    "psion": {
+      "name": "PSION"
+    },
     "solaris": {
       "name": "SOLARIS",
       "type": "Antigravity Heavy Tank",
@@ -445,6 +448,9 @@
       "name": "MOLE",
       "type": "Engineering Machine",
       "weapons": "'CRUSHER' DRILL"
+    },
+    "salamander": {
+      "name": "SALAMANDER"
     },
     "leviathan": {
       "name": "LEVIATHAN",
