@@ -5,8 +5,8 @@ export const articles = [
     title: 'articles.1.title',
     content: 'articles.1.content',
     imageUrl: null,
-    videoUrl: null,
-    tags: ['strategies', 'help'],
+    videoId: null,
+    tags: ['news', 'help'],
   },
   // {
   //   id: '2',

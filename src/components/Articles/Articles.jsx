@@ -24,6 +24,7 @@ const Articles = () => {
             title={article.title}
             date={article.date}
             content={article.content}
+            videoId={article.videoId}
           />
         ))}
 

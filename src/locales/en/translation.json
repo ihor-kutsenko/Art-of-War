@@ -738,7 +738,11 @@
     "readMore": "Read more...",
     "1": {
       "title": "New section of the article",
-      "content": "Hello friends. Soon I plan to launch a new section - articles. They will be dedicated to game moments, as well as help players better understand the game. If you have interesting ideas, wishes, articles, reviews - contact me in the game nickname --DOMINATOR-- or telegram @Rammbest and your article will be published on the website"
+      "content": [
+        "Hello friends. Soon I plan to launch a new section - articles.",
+        "They will be dedicated to game moments, as well as help players better understand the game.",
+        "If you have interesting ideas, wishes, articles, reviews - contact me in the game nickname --DOMINATOR-- or Telegram @Rammbest and your article will be published on the website."
+      ]
     }
   }
 }
