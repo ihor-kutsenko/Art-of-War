@@ -1,0 +1,10 @@
+@import '../../../sass/styles.scss';
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  @include tablet {
+    gap: 15px;
+  }
+}

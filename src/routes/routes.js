@@ -79,8 +79,11 @@ const OtherAvatarsPage = lazy(() =>
   import('../pages/AvatarsPage/OtherAvatarsPage/OtherAvatarsPage')
 );
 
-// Invents
+// Events
 const EventsPage = lazy(() => import('../pages/EventsPage/EventsPage'));
+
+// Articles
+const ArticlesPage = lazy(() => import('../pages/ArticlesPage/ArticlesPage'));
 
 // Routes
 export const WELCOME_PAGE_ROUTE = '/';
@@ -118,6 +121,8 @@ export const RESIST_AVATARS_ROUTE = 'resistance';
 export const OTHER_AVATARS_ROUTE = 'other';
 
 export const EVENTS_ROUTE = '/events';
+
+export const ARTICLES_ROUTE = '/articles';
 
 export const mapsRoutes = [
   { path: AUTUMN_ROUTE, element: <AutumnPage /> },
@@ -213,5 +218,9 @@ export const appRoutes = [
   {
     path: EVENTS_ROUTE,
     element: <EventsPage />,
+  },
+  {
+    path: ARTICLES_ROUTE,
+    element: <ArticlesPage />,
   },
 ];

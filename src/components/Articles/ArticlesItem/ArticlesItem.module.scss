@@ -1,0 +1,64 @@
+@import '../../../sass/styles.scss';
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  font-weight: bold;
+  @include font(24px, 700, 1.19);
+  @include tablet {
+    @include font(28px, 700, 1.28);
+  }
+  @include desktop {
+    @include font(36px, 700, 1.28);
+  }
+}
+
+.date {
+  font-size: 10px;
+  @include tablet {
+    font-size: 14px;
+  }
+}
+
+.content {
+  margin: 10px 0;
+  @include font(16px, 400, 1.5);
+  @include tablet {
+    @include font(18px, 400, 1.5);
+  }
+  @include desktop {
+    @include font(20px, 400, 1.5);
+  }
+}
+
+.readMoreButton {
+  align-self: flex-start;
+  background-color: $blue-4-color;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  @include hover {
+    background-color: $green-color;
+  }
+}

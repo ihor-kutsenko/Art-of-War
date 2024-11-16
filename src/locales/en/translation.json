@@ -19,7 +19,8 @@
     "units": "Units",
     "buildings": "Buildings",
     "avatars": "Avatars",
-    "events": "Events"
+    "events": "Events",
+    "articles": "Articles"
   },
   "home": {
     "description": "This site is dedicated to the game Art Of War 3: Global Conflict - real-time strategy with direct control in battle. Here you will find information about maps, tournaments, blitz tournaments, medals, avatars, events, maximum leveling of units, buildings and heroes for each rank."
@@ -731,5 +732,13 @@
     "total": "Total",
     "syndicate": "Syndicate event",
     "halloween": "Halloween event"
+  },
+  "articles": {
+    "showLess": "Show less",
+    "readMore": "Read more...",
+    "1": {
+      "title": "New section of the article",
+      "content": "Hello friends. Soon I plan to launch a new section - articles. They will be dedicated to game moments, as well as help players better understand the game. If you have interesting ideas, wishes, articles, reviews - contact me in the game nickname --DOMINATOR-- or telegram @Rammbest and your article will be published on the website"
+    }
   }
 }

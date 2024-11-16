@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Button = ({ text, className, disabled, type, onClick }) => {
+const Button = ({ text, children, className, disabled, type, onClick }) => {
   return (
     <button
       className={className}
@@ -8,7 +8,7 @@ const Button = ({ text, className, disabled, type, onClick }) => {
       type={type}
       onClick={onClick}
     >
-      {text}
+      {children || text}
     </button>
   );
 };
@@ -16,7 +16,8 @@ const Button = ({ text, className, disabled, type, onClick }) => {
 export default Button;
 
 Button.propTypes = {
-  text: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  children: PropTypes.node,
   className: PropTypes.string,
   type: PropTypes.string,
   disabled: PropTypes.bool,
