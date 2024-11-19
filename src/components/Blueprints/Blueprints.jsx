@@ -69,11 +69,11 @@ const Blueprints = () => {
           <td>6000</td>
           <td>11000</td>
           <td>21000</td>
+          <td>41000</td>
+          <td>80000</td>
           <td></td>
           <td></td>
-          <td></td>
-          <td></td>
-          <td>46500</td>
+          <td>167500</td>
         </tr>
         <tr>
           <td className={`${styles.hero} ${styles.t2}`}>
@@ -106,12 +106,12 @@ const Blueprints = () => {
           <td>1000</td>
           <td>1700</td>
           <td>3200</td>
+          <td>6000</td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
-          <td></td>
-          <td>7340</td>
+          <td>13340</td>
         </tr>
         <tr>
           <td className={`${styles.hero} ${styles.t3}`}>
