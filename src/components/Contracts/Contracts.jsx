@@ -135,7 +135,7 @@ const Contracts = () => {
           {/* Total row */}
           <tr className={styles.totalRow}>
             <td> {t('events.total')}</td>
-            <td>13375</td>
+            <td>6000</td>
             <td>13875</td>
             <td>25750</td>
             <td>125</td>
@@ -276,7 +276,7 @@ const Contracts = () => {
           {/* Total row */}
           <tr className={styles.totalRow}>
             <td>{t('events.total')}</td>
-            <td>13375</td>
+            <td>6000</td>
             <td>34400</td>
             <td>13700</td>
             <td>650</td>
