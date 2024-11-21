@@ -288,6 +288,147 @@ const Contracts = () => {
           </tr>
         </tbody>
       </table>
+
+      {/* New Year Table */}
+      <h2 className={styles.eventTitle}>{t('events.newYear')} 2025</h2>
+      <table className={styles.table}>
+        <thead>
+          <tr>
+            <td className={`${styles.title} ${styles.contract}`}>
+              {t('events.contract')}
+            </td>
+            <td className={`${styles.title} ${styles.amount}`}>
+              {t('events.amount')}
+            </td>
+            <td className={`${styles.title} ${styles.gold}`}>
+              {t('events.gold')}
+            </td>
+            <td className={`${styles.title} ${styles.token}`}>
+              {t('events.token')}
+            </td>
+            <td className={`${styles.title} ${styles.blueSkills}`}>
+              {t('events.blueSkills')}
+            </td>
+            <td className={`${styles.title} ${styles.rareSkills}`}>
+              {t('events.rareSkills')}
+            </td>
+            <td className={`${styles.title} ${styles.epicSkills}`}>
+              {t('events.epicSkills')}
+            </td>
+            <td className={`${styles.title} ${styles.blueHero}`}>
+              {' '}
+              {t('events.blueHero')}
+            </td>
+            <td className={`${styles.title} ${styles.rareHero}`}>
+              {' '}
+              {t('events.rareHero')}
+            </td>
+            <td className={`${styles.title} ${styles.epicHero}`}>
+              {' '}
+              {t('events.epicHero')}
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          {/* Total row */}
+          <tr className={styles.totalRow}>
+            <td>{t('events.total')}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </>
   );
 };
