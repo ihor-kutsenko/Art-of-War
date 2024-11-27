@@ -23,7 +23,8 @@
     "articles": "Articles"
   },
   "home": {
-    "description": "This site is dedicated to the game Art Of War 3: Global Conflict - real-time strategy with direct control in battle. Here you will find information about maps, tournaments, blitz tournaments, medals, avatars, events, maximum leveling of units, buildings and heroes for each rank."
+    "description": "This site is dedicated to the game Art Of War 3: Global Conflict - real-time strategy with direct control in battle. Here you will find information about maps, tournaments, blitz tournaments, medals, avatars, events, maximum leveling of units, buildings and heroes for each rank.",
+    "watchTrailer": "Watch trailer"
   },
   "maps": {
     "type1": "Autumn",

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import YoutubeTrailer from 'components/YoutubeTrailer/YoutubeTrailer';
 import { useTranslation } from 'react-i18next';
 
@@ -7,6 +8,11 @@ import styles from './WelcomePage.module.scss';
 
 const WelcomePage = () => {
   const { t } = useTranslation();
+  const [showTrailer, setShowTrailer] = useState(false);
+
+  const toggleTrailer = () => {
+    setShowTrailer(!showTrailer);
+  };
 
   return (
     <>
@@ -18,7 +24,13 @@ const WelcomePage = () => {
             </div>
           </div>
           <div className={styles.trailerWrapper}>
-            <YoutubeTrailer videoId="4AfmuU7vW08" />
+            {showTrailer ? (
+              <YoutubeTrailer videoId="4AfmuU7vW08" />
+            ) : (
+              <button onClick={toggleTrailer} className={styles.trailerButton}>
+                {t('home.watchTrailer')}
+              </button>
+            )}
           </div>{' '}
           <div className={styles.counter}>
             {' '}
