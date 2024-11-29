@@ -750,10 +750,13 @@
   "news": {
     "news": "News",
     "1": {
-      "content": "Add heroes - salamander, wolverine for 18 rank and psion for 12 rank."
+      "content": "Add heroes - Salamander, Wolverine for 18 rank and psion for 12 rank."
     },
     "2": {
       "content": "Add  hero beholder for 19 rank."
+    },
+    "3": {
+      "content": "Add heroes - Cerberus, Beholder, Seraphim and Solaris for 15 rank."
     }
   }
 }
