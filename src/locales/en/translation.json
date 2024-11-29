@@ -746,5 +746,14 @@
         "If you have interesting ideas, wishes, articles, reviews - contact me in the game nickname --DOMINATOR-- or Telegram @Rammbest and your article will be published on the website."
       ]
     }
+  },
+  "news": {
+    "news": "News",
+    "1": {
+      "content": "Add heroes - salamander, wolverine for 18 rank and psion for 12 rank."
+    },
+    "2": {
+      "content": "Add  hero beholder for 19 rank."
+    }
   }
 }

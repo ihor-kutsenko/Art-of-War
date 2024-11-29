@@ -16,6 +16,7 @@ import {
   CONF_BUILDINGS_ROUTE,
   EVENTS_ROUTE,
   ARTICLES_ROUTE,
+  NEWS_ROUTE,
 } from 'routes/routes';
 import logo from '../../images/logo/aow_logo_04.webp';
 import styles from './Header.module.scss';
@@ -95,6 +96,13 @@ const Header = () => {
           to={`${ARTICLES_ROUTE}`}
         >
           {t('header.articles')}
+        </Link>
+
+        <Link
+          className={`${styles.nav_link} ${isActive(NEWS_ROUTE)}`}
+          to={`${NEWS_ROUTE}`}
+        >
+          {t('news.news')}
         </Link>
       </nav>
     </div>

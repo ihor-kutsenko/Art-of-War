@@ -85,6 +85,9 @@ const EventsPage = lazy(() => import('../pages/EventsPage/EventsPage'));
 // Articles
 const ArticlesPage = lazy(() => import('../pages/ArticlesPage/ArticlesPage'));
 
+// News
+const NewsPage = lazy(() => import('../pages/NewsPage/NewsPage'));
+
 // Routes
 export const WELCOME_PAGE_ROUTE = '/';
 
@@ -123,6 +126,8 @@ export const OTHER_AVATARS_ROUTE = 'other';
 export const EVENTS_ROUTE = '/events';
 
 export const ARTICLES_ROUTE = '/articles';
+
+export const NEWS_ROUTE = '/news';
 
 export const mapsRoutes = [
   { path: AUTUMN_ROUTE, element: <AutumnPage /> },
@@ -222,5 +227,9 @@ export const appRoutes = [
   {
     path: ARTICLES_ROUTE,
     element: <ArticlesPage />,
+  },
+  {
+    path: NEWS_ROUTE,
+    element: <NewsPage />,
   },
 ];
