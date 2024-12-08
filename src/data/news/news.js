@@ -19,4 +19,9 @@ export const news = [
     date: '2024-12-05',
     content: 'news.4.content',
   },
+  {
+    id: '5',
+    date: '2024-12-08',
+    content: 'news.5.content',
+  },
 ];
