@@ -763,6 +763,9 @@
     },
     "5": {
       "content": "Add heroes - Wolverine, Salamander for 20 rank."
+    },
+    "6": {
+      "content": "Updated hero blueprint table."
     }
   }
 }
