@@ -726,9 +726,9 @@ export const confederationUnits = [
             damageArmor1: 134,
             damageArmor2: 454,
             damageArmor3: 362,
-            firingRange: 6,
+            firingRange: 6.5,
             rateOfFire: 37,
-            firingAccuracy: '85.0',
+            firingAccuracy: '83.8',
             firingAccuracy2: '0.00',
             explosionRadius: '0.90',
           },
@@ -3003,7 +3003,7 @@ export const confederationUnits = [
       // 19
       {
         level: 19,
-        hp: 3844,
+        hp: 4200,
         armor: '57 / 53',
         speed: 46,
         view: '9 / 11',
@@ -4695,7 +4695,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 54,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1122,
@@ -4718,7 +4718,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 52,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1360,
@@ -4741,7 +4741,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 51,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1426,
@@ -4764,7 +4764,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 50,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1497,
@@ -4787,7 +4787,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 48,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1534,
@@ -4810,7 +4810,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 48,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1573,
@@ -4833,7 +4833,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 47,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1613,
@@ -4856,7 +4856,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 47,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1654,
@@ -4879,7 +4879,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 46,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1696,
@@ -4902,7 +4902,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 46,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1739,
@@ -4925,7 +4925,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 45,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1833,
@@ -4948,7 +4948,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 44,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1890,
@@ -4971,7 +4971,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 44,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1954,
@@ -4994,7 +4994,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 42,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 2103,
@@ -5017,7 +5017,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 42,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 2188,
@@ -5040,7 +5040,7 @@ export const confederationUnits = [
         view: 13,
         cost: 450,
         time: 42,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 2188,

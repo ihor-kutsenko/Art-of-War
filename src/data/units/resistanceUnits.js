@@ -4931,7 +4931,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 62,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 935,
@@ -4954,7 +4954,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 59,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1153,
@@ -4977,7 +4977,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 56,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1279,
@@ -5000,7 +5000,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 55,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1313,
@@ -5023,7 +5023,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 55,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1348,
@@ -5046,7 +5046,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 53,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1384,
@@ -5069,7 +5069,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 53,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1421,
@@ -5092,7 +5092,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 52,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1460,
@@ -5115,7 +5115,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 52,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1500,
@@ -5138,7 +5138,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 51,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1584,
@@ -5161,7 +5161,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 49,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1633,
@@ -5184,7 +5184,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 49,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1688,
@@ -5207,7 +5207,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 48,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1889,
@@ -5230,7 +5230,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 48,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1889,
@@ -5253,7 +5253,7 @@ export const resistanceUnits = [
         view: 13,
         cost: 450,
         time: 48,
-        cp: 7,
+        cp: 6,
         weapons: [
           {
             damageArmor1: 1889,
