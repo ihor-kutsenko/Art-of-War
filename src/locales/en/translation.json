@@ -766,6 +766,9 @@
     },
     "6": {
       "content": "Updated hero blueprint table."
+    },
+    "7": {
+      "content": "Today, changes have been made to the balance of units in the game - Thors and Albatrosses have reduced their CP by 1 and fuel consumption by 25%, the attack range of torpedo launchers has been reduced by 1 cell, the strength of stationary and mobile air defense has been added, the attack range of infantry (heavy assault and grenadiers) has been added by 0,5 cells. Now information on units will be collected again and gradually updated on the website. If you have Full leveling under the rank, you can share this information and I will add it to the site."
     }
   }
 }
