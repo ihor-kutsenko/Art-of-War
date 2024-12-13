@@ -647,7 +647,7 @@ export const resistanceUnits = [
             damageArmor1: 140,
             damageArmor2: 342,
             damageArmor3: 316,
-            firingRange: 6,
+            firingRange: 6.5,
             rateOfFire: 42,
             firingAccuracy: '81.3',
             firingAccuracy2: '0.00',
@@ -2948,7 +2948,7 @@ export const resistanceUnits = [
       // 17
       {
         level: 17,
-        hp: 3121,
+        hp: 3451,
         armor: 52,
         speed: 50,
         view: 11,
@@ -2981,7 +2981,7 @@ export const resistanceUnits = [
       // 18
       {
         level: 18,
-        hp: 3251,
+        hp: 3578,
         armor: 57,
         speed: 50,
         view: 11,

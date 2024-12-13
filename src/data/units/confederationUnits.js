@@ -703,9 +703,9 @@ export const confederationUnits = [
             damageArmor1: 127,
             damageArmor2: 430,
             damageArmor3: 344,
-            firingRange: 6,
+            firingRange: 6.5,
             rateOfFire: 37,
-            firingAccuracy: '83.5',
+            firingAccuracy: '83.8',
             firingAccuracy2: '0.00',
             explosionRadius: '0.90',
           },
@@ -2937,7 +2937,7 @@ export const confederationUnits = [
       // 17
       {
         level: 17,
-        hp: 3551,
+        hp: 3909,
         armor: '52 / 48',
         speed: 46,
         view: '9 / 11',
@@ -2970,7 +2970,7 @@ export const confederationUnits = [
       // 18
       {
         level: 18,
-        hp: 3695,
+        hp: 4053,
         armor: '57 / 53',
         speed: 46,
         view: '9 / 11',

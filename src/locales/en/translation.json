@@ -165,7 +165,7 @@
     "star": "Star"
   },
   "units": {
-    "info": "The characteristics of the units and heroes are maxed out for each rank as of 01/08/2024. A bit later some changes have occurred both for units and heroes and they’re still ongoing till today. After the feature changes, the information about it will be collected, processed and updated.",
+    "info": "The characteristics of the units and heroes are maxed out for each rank as of 12/12/2024. On this day, there were changes in the characteristics of units and buildings. Information about them is collected and added to the site. If you have a full pump for the rank - you can share this information and I will add it to the site.",
     "stats": {
       "hp": "HP",
       "armor": "Armor",
@@ -510,7 +510,7 @@
       "info": "The Syndicate hackers have breached the security system and stolen data from both factions. Encrypted Data Cells containing classified files have appeared on the battlefield. Capture as many Data Cells as possible to access the enemy's information system. Don't let the enemy get there first."
     },
     "corsairs": {
-      "name": "Corsairs",
+      "name": "Caribbean Crisis",
       "info": "Bloody hell! There's a new peril in these waters. Mutineers have established their pirate fleet and are pillaging everyone in sight. Now, they want to capture our strategic stockpile in the port. Defend the port from pirates. After every successful attack, the pirates will take a part of the stockpile from your port. If the strategic stockpile gets depleted in your port, you will lose."
     },
     "crossfire": {
@@ -772,6 +772,9 @@
     },
     "8": {
       "content": "Updated heavy assault, typhoon, air defense and torpedo for rank 19 confederation, and also changed KO for Thor and Albatross"
+    },
+    "9": {
+      "content": "Updated 17 and 18 rank units and buildings. Add resistance heroes for 14 rank."
     }
   }
 }
