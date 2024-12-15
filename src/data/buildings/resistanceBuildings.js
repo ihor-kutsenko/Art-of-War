@@ -9181,7 +9181,7 @@ export const resistanceBuildings = [
         subLevels: [
           {
             subLevel: 1,
-            hp: 5702,
+            hp: 6273,
             armor: 126,
             energy: 35,
             size: '1x1',
@@ -9785,7 +9785,7 @@ export const resistanceBuildings = [
                 damageArmor1: 778,
                 damageArmor2: 3226,
                 damageArmor3: 3830,
-                firingRange: 11,
+                firingRange: 10,
                 rateOfFire: 33,
                 firingAccuracy: '95.0',
                 firingAccuracy2: '0.00',
