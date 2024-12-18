@@ -3168,7 +3168,7 @@ export const confederationUnits = [
       // 25
       {
         level: 25,
-        hp: 4689,
+        hp: 5152,
         armor: '75 / 69',
         speed: 46,
         view: '9 / 11',
