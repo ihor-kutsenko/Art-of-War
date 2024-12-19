@@ -332,100 +332,100 @@ const Contracts = () => {
         <tbody>
           <tr>
             <td>1</td>
+            <td>80</td>
+            <td>400</td>
+            <td>300</td>
+            <td>50</td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>60</td>
             <td></td>
           </tr>
           <tr>
             <td>2</td>
+            <td>180</td>
+            <td>800</td>
+            <td>600</td>
             <td></td>
+            <td>30</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>300</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td>3</td>
+            <td>380</td>
+            <td>1200</td>
+            <td>900</td>
+            <td>100</td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>20</td>
           </tr>
           <tr>
             <td>4</td>
+            <td>760</td>
+            <td>3000</td>
+            <td>1800</td>
             <td></td>
             <td></td>
+            <td>25</td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>300</td>
             <td></td>
           </tr>
           <tr>
             <td>5</td>
+            <td>1550</td>
+            <td>5000</td>
+            <td>3500</td>
+            <td>330</td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>1550</td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td>6</td>
+            <td>2800</td>
+            <td>7000</td>
+            <td>5000</td>
+            <td></td>
+            <td>210</td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>550</td>
             <td></td>
           </tr>
           <tr>
             <td>7</td>
+            <td>5200</td>
+            <td>10000</td>
+            <td>9500</td>
             <td></td>
             <td></td>
+            <td>50</td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>90</td>
           </tr>
           {/* Total row */}
           <tr className={styles.totalRow}>
             <td>{t('events.total')}</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>5200</td>
+            <td>27400</td>
+            <td>21600</td>
+            <td>480</td>
+            <td>240</td>
+            <td>75</td>
+            <td>1850</td>
+            <td>910</td>
+            <td>110</td>
           </tr>
         </tbody>
       </table>
