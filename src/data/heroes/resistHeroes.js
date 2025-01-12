@@ -46,7 +46,7 @@ export const resistanceHeroes = [
       // 10
       {
         level: 10,
-        class: 0,
+        class: 1,
         hp: 0,
         armor: 0,
         speed: 0,
@@ -886,7 +886,7 @@ export const resistanceHeroes = [
       // 10
       {
         level: 10,
-        class: 0,
+        class: 1,
         hp: 0,
         armor: '0 / 0',
         speed: 0,
