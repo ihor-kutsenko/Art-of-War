@@ -43,6 +43,30 @@ export const resistanceHeroes = [
           },
         ],
       },
+      // 9
+      {
+        level: 9,
+        class: 3,
+        hp: 3416,
+        armor: 33,
+        speed: 100,
+        view: 11,
+        cost: 300,
+        time: 56,
+        cp: 3,
+        weapons: [
+          {
+            damageArmor1: 130,
+            damageArmor2: 157,
+            damageArmor3: 130,
+            firingRange: 5.5,
+            rateOfFire: 114,
+            firingAccuracy: '78.0',
+            firingAccuracy2: '78.0',
+            explosionRadius: '1.00',
+          },
+        ],
+      },
       // 10
       {
         level: 10,
@@ -442,6 +466,30 @@ export const resistanceHeroes = [
       // 7
       {
         level: 7,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0.0',
+            firingAccuracy2: '0.0',
+            explosionRadius: '0.00',
+          },
+        ],
+      },
+      // 9
+      {
+        level: 9,
         class: 1,
         hp: 0,
         armor: 0,
@@ -883,6 +931,30 @@ export const resistanceHeroes = [
           },
         ],
       },
+      // 9
+      {
+        level: 9,
+        class: 2,
+        hp: 5462,
+        armor: '82 / 116',
+        speed: 50,
+        view: '6 / 8',
+        cost: 550,
+        time: 65,
+        cp: 6,
+        weapons: [
+          {
+            damageArmor1: 133,
+            damageArmor2: 244,
+            damageArmor3: 387,
+            firingRange: 1.5,
+            rateOfFire: 240,
+            firingAccuracy: '100',
+            firingAccuracy2: '0.00',
+            explosionRadius: '0.45',
+          },
+        ],
+      },
       // 10
       {
         level: 10,
@@ -1282,6 +1354,30 @@ export const resistanceHeroes = [
       // 7
       {
         level: 7,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0.0',
+            firingAccuracy2: '0.0',
+            explosionRadius: '0.00',
+          },
+        ],
+      },
+      // 9
+      {
+        level: 9,
         class: 1,
         hp: 0,
         armor: 0,
@@ -1706,6 +1802,50 @@ export const resistanceHeroes = [
       // 7
       {
         level: 7,
+        class: 1,
+        hp: 8300,
+        armor: 66,
+        speed: 40,
+        view: 9,
+        cost: 1100,
+        time: 106,
+        cp: 13,
+        weapons: [
+          {
+            damageArmor1: 212,
+            damageArmor2: 275,
+            damageArmor3: 254,
+            firingRange: 7,
+            rateOfFire: 206,
+            firingAccuracy: '75.5',
+            firingAccuracy2: '72.0',
+            explosionRadius: '0.90',
+          },
+          {
+            damageArmor1: 128,
+            damageArmor2: 160,
+            damageArmor3: 149,
+            firingRange: 5,
+            rateOfFire: 200,
+            firingAccuracy: '82.5',
+            firingAccuracy2: '80.0',
+            explosionRadius: '0.90',
+          },
+          {
+            damageArmor1: 159,
+            damageArmor2: 318,
+            damageArmor3: 265,
+            firingRange: 7,
+            rateOfFire: 82,
+            firingAccuracy: '80.0',
+            firingAccuracy2: '80.0',
+            explosionRadius: '0.90',
+          },
+        ],
+      },
+      // 9
+      {
+        level: 9,
         class: 1,
         hp: 8300,
         armor: 66,
