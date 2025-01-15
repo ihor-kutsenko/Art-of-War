@@ -3179,7 +3179,7 @@ export const resistanceUnits = [
       // 25
       {
         level: 25,
-        hp: 4136,
+        hp: 4548,
         armor: 75,
         speed: 54,
         view: 11,
