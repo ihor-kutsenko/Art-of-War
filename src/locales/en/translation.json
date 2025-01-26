@@ -745,6 +745,33 @@
         "They will be dedicated to game moments, as well as help players better understand the game.",
         "If you have interesting ideas, wishes, articles, reviews - contact me in the game nickname --DOMINATOR-- or Telegram @Rammbest and your article will be published on the website."
       ]
+    },
+    "2": {
+      "title": "Clan Statuses",
+      "content": [
+        "Rookie:",
+        "Conditions: 0 days in the clan. Gives: +5% additional to the reward for PvP-battles.",
+        "------------------------------------------------------------",
+        "Trainee:",
+        "Conditions: over 10 days in the clan, earn 30 stars for the clan. Gives: +6% additional to the reward for PvP-battles.",
+        "------------------------------------------------------------",
+        "Expert:",
+        "Conditions: over 30 days in the clan, earn 150 stars for the clan. Gives: +8% additional to the reward for PvP-battles.",
+        "------------------------------------------------------------",
+        "Master:",
+        "Conditions: over 60 days in the clan, earn 600 stars for the clan. Gives: +10% additional to the reward for PvP-battles.",
+        "------------------------------------------------------------",
+        "Veteran:",
+        "Conditions: over 150 days in the clan, earn 3000 stars for the clan. Gives: +12% additional to the reward for PvP-battles.",
+        "------------------------------------------------------------",
+        "Elite:",
+        "Conditions: over 300 days in the clan, earn 10,000 stars for the clan. Gives: +15% additional to the reward for PvP-battles.",
+        "------------------------------------------------------------",
+        "Legend:",
+        "Conditions: over 500 days in the clan, earn 20,000 stars for the clan. Gives: +20% additional to the reward for PvP-battles.",
+        "------------------------------------------------------------",
+        "Author: Masterskoy"
+      ]
     }
   },
   "news": {
@@ -789,13 +816,16 @@
       "content": "Add confederation units and buildings for 10 rank. Seraphim 10 and 11 rank. "
     },
     "14": {
-      "content": "Add heroes - Wolverine, Salamander for 10 rank. "
+      "content": "Add heroes - Wolverine, Salamander for 10 rank."
     },
     "15": {
-      "content": "Add heroes and units for 9 rank resistance. "
+      "content": "Add heroes and units for 9 rank resistance."
     },
     "16": {
-      "content": "Add hero Psion  for 24 rank . "
+      "content": "Add hero Psion  for 24 rank."
+    },
+    "17": {
+      "content": "Add an article about clan statuses."
     }
   }
 }

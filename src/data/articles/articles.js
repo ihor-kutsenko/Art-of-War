@@ -8,13 +8,13 @@ export const articles = [
     videoId: null,
     tags: ['news', 'help'],
   },
-  // {
-  //   id: '2',
-  //   date: '2024-11-16',
-  //   title: 'articles.2.title',
-  //   content: 'articles.2.content',
-  //   imageUrl: null,
-  //   videoUrl: null,
-  //   tags: ['events'],
-  // },
+  {
+    id: '2',
+    date: '2025-01-27',
+    title: 'articles.2.title',
+    content: 'articles.2.content',
+    imageUrl: null,
+    videoUrl: null,
+    tags: ['events'],
+  },
 ];
