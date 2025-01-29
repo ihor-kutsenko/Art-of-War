@@ -733,7 +733,8 @@
     "total": "Total",
     "syndicate": "Syndicate event",
     "halloween": "Halloween event",
-    "newYear": "New Year event"
+    "newYear": "New Year event",
+    "lunarNewYear": "Lunar New Year event"
   },
   "articles": {
     "showLess": "Show less",
@@ -826,6 +827,9 @@
     },
     "17": {
       "content": "Add an article about clan statuses."
+    },
+    "18": {
+      "content": "Add contracts to Lunar New Year event."
     }
   }
 }
