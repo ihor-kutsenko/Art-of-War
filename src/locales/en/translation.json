@@ -56,6 +56,7 @@
       "iceHouse": "Ice House",
       "icyMountain": "Icy Mountain",
       "longCrusade": "Long Crusade",
+      "mountainVillage": "Mountain Village",
       "northernTransit": "Northern Transit",
       "severeCold": "Severe Cold",
       "subZeroLands": "Sub-Zero Lands",
@@ -830,6 +831,9 @@
     },
     "18": {
       "content": "Add contracts to Lunar New Year event."
+    },
+    "19": {
+      "content": "Add heroes - Beholder and Psion for 17 rank, and new map Mountain Village."
     }
   }
 }

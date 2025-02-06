@@ -65,6 +65,11 @@ export const winterMaps = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346051/long-crusade_kgxf4f.webp',
   },
   {
+    title: 'maps.winterMaps.mountainVillage',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1738857670/mountain_village_frcj8t.webp',
+  },
+  {
     title: 'maps.winterMaps.northernTransit',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727346053/northern-transit_bav1hl.webp',
