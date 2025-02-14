@@ -91,6 +91,30 @@ export const resistanceHeroes = [
           },
         ],
       },
+      // 11
+      {
+        level: 11,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0',
+            firingAccuracy2: '0',
+            explosionRadius: '0',
+          },
+        ],
+      },
       // 12
       {
         level: 12,
@@ -535,6 +559,30 @@ export const resistanceHeroes = [
           },
         ],
       },
+      // 11
+      {
+        level: 11,
+        class: 3,
+        hp: 5583,
+        armor: 52,
+        speed: 54,
+        view: 9,
+        cost: 300,
+        time: 58,
+        cp: 4,
+        weapons: [
+          {
+            damageArmor1: 104,
+            damageArmor2: 85,
+            damageArmor3: 66,
+            firingRange: 7,
+            rateOfFire: 600,
+            firingAccuracy: '79.0',
+            firingAccuracy2: '30.8',
+            explosionRadius: '0.00',
+          },
+        ],
+      },
       // 12
       {
         level: 12,
@@ -958,6 +1006,30 @@ export const resistanceHeroes = [
       // 10
       {
         level: 10,
+        class: 1,
+        hp: 0,
+        armor: '0 / 0',
+        speed: 0,
+        view: '0 / 0',
+        cost: 550,
+        time: 0,
+        cp: 6,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0',
+            firingAccuracy2: '0',
+            explosionRadius: '0',
+          },
+        ],
+      },
+      // 11
+      {
+        level: 11,
         class: 1,
         hp: 0,
         armor: '0 / 0',
@@ -1423,6 +1495,30 @@ export const resistanceHeroes = [
           },
         ],
       },
+      // 11
+      {
+        level: 11,
+        class: 2,
+        hp: 7310,
+        armor: 65,
+        speed: 66,
+        view: 10,
+        cost: 550,
+        time: 62,
+        cp: 6,
+        weapons: [
+          {
+            damageArmor1: 461,
+            damageArmor2: 520,
+            damageArmor3: 543,
+            firingRange: 7.5,
+            rateOfFire: 70,
+            firingAccuracy: '67.9',
+            firingAccuracy2: '59.2',
+            explosionRadius: '1.25',
+          },
+        ],
+      },
       // 12
       {
         level: 12,
@@ -1463,7 +1559,7 @@ export const resistanceHeroes = [
             damageArmor1: 533,
             damageArmor2: 609,
             damageArmor3: 636,
-            firingRange: 7 / 75,
+            firingRange: 7.75,
             rateOfFire: 71,
             firingAccuracy: '69.9',
             firingAccuracy2: '61.8',
@@ -1928,6 +2024,50 @@ export const resistanceHeroes = [
             firingAccuracy: '80.0',
             firingAccuracy2: '80.0',
             explosionRadius: '0.90',
+          },
+        ],
+      },
+      // 11
+      {
+        level: 11,
+        class: 1,
+        hp: 0,
+        armor: 0,
+        speed: 0,
+        view: 0,
+        cost: 0,
+        time: 0,
+        cp: 0,
+        weapons: [
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0',
+            firingAccuracy2: '0',
+            explosionRadius: '0',
+          },
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0',
+            firingAccuracy2: '0',
+            explosionRadius: '0',
+          },
+          {
+            damageArmor1: 0,
+            damageArmor2: 0,
+            damageArmor3: 0,
+            firingRange: 0,
+            rateOfFire: 0,
+            firingAccuracy: '0',
+            firingAccuracy2: '0',
+            explosionRadius: '0',
           },
         ],
       },
