@@ -90,13 +90,18 @@ export const news = [
     content: 'news.18.content',
   },
   {
-    id: '18',
+    id: '19',
     date: '2025-02-06',
     content: 'news.19.content',
   },
   {
-    id: '19',
+    id: '20',
     date: '2025-02-14',
     content: 'news.20.content',
+  },
+  {
+    id: '21',
+    date: '2025-02-14',
+    content: 'news.21.content',
   },
 ];
