@@ -839,7 +839,19 @@
       "content": "Add heroes - Wolverine, Salamander for 11 rank."
     },
     "21": {
-      "content": "Soon it will be possible to support the author of the site. Donatello link in development https://donatello.to/DOMINATOR and https://dominator.donatik.io/en"
+      "content": " Dear Friends! I am happy to announce that we’ve added a new section 'Support the site'. 🎉 Now you can support the project and help develop the site even faster."
     }
+  },
+  "support": {
+    "support": "Support the site",
+    "title": "Support the Site",
+    "description": "Our website Art of War: Global Conflict is created for game fans who want access to up-to-date information, statistics, and guides. We continuously work on updating content, adding new sections, and improving functionality.",
+    "why_donate": "🔹 Why donate?",
+    "donate_2": "✔ Adding new materials and updating the database.",
+    "donate_3": "✔ Improving design and usability.",
+    "cta": "If you like our site and want to support its development, you can make a donation. Your support motivates us to continue working on the project!",
+    "cta2": " If you have interesting ideas, wishes, articles, reviews or information on units or heroes that is not on the site, contact me: in-game nickname --DOMINATOR-- or telegram @Rammbest and your information will be published on the site.",
+    "thanks": "💙 Thank you for your support! 💙",
+    "donate_button": "Make a Donation"
   }
 }

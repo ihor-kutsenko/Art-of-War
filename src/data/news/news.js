@@ -101,7 +101,7 @@ export const news = [
   },
   {
     id: '21',
-    date: '2025-02-14',
+    date: '2025-02-16',
     content: 'news.21.content',
   },
 ];

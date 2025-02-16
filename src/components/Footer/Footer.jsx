@@ -17,7 +17,7 @@ const Footer = () => {
     <>
       <div className={styles.footer}>
         <span className={styles.text}>
-          &copy; 2024 | All Rights Reserved |&#160;
+          &copy; 2024-2025 | All Rights Reserved |&#160;
         </span>
         <span>
           Developed&nbsp;
