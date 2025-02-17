@@ -852,6 +852,9 @@
     "cta": "If you like our site and want to support its development, you can make a donation. Your support motivates us to continue working on the project!",
     "cta2": " If you have interesting ideas, wishes, articles, reviews or information on units or heroes that is not on the site, contact me: in-game nickname --DOMINATOR-- or telegram @Rammbest and your information will be published on the site.",
     "thanks": "💙 Thank you for your support! 💙",
-    "donate_button": "Make a Donation"
+    "donatik_info": "For donations from Ukraine, Europe, and the USA:",
+    "donationalerts_info": "For donations from Russia, Kazakhstan, Belarus, and other countries:",
+    "donatik_button": "Support via Donatik",
+    "donationalerts_button": "Support via DonationAlerts"
   }
 }

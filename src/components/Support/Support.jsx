@@ -18,16 +18,33 @@ const Support = () => {
 
       <p className={styles.marginBottom}>{t('support.cta')}</p>
       <p className={styles.marginBottom}>{t('support.cta2')}</p>
-      <h2>{t('support.thanks')}</h2>
+      <h2 className={styles.marginBottom}>{t('support.thanks')}</h2>
 
-      <a
-        href="https://dominator.donatik.io/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.donateButton}
-      >
-        {t('support.donate_button')}
-      </a>
+      {/*  Donatik */}
+      <div className={styles.marginBottom}>
+        <p className={styles.bold}>{t('support.donatik_info')}</p>
+        <a
+          href="https://dominator.donatik.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.donateButton}
+        >
+          {t('support.donatik_button')}
+        </a>
+      </div>
+
+      {/*  Donationalerts */}
+      <div className={styles.donateOption}>
+        <p className={styles.bold}>{t('support.donationalerts_info')}</p>
+        <a
+          href="https://www.donationalerts.com/r/rammbest"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.donateButton}
+        >
+          {t('support.donationalerts_button')}
+        </a>
+      </div>
 
       {/*  Support total */}
       <div className={styles.widgetContainer}>
