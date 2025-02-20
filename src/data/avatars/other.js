@@ -8,4 +8,6 @@ export const avatarsOther = [
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727285458/7_darols.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727285460/8_uocu5g.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727285459/9_ltrjel.webp',
+  'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036799/Ava_Jester_v2b_eeraoo.webp',
+  'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036799/Ava_syndicate_conf_crop_fu6gqs.webp',
 ];
