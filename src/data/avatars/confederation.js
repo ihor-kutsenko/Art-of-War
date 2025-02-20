@@ -33,6 +33,8 @@ export const avatarsConfederations = [
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727288656/32_da4ff2.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727288658/33_pigcpe.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727288658/34_rtv0zk.webp',
+  'https://res.cloudinary.com/dsy8hantq/image/upload/v1740039270/Avatar_halloween_smiley_conf_oo7vaz.webp',
+  'https://res.cloudinary.com/dsy8hantq/image/upload/v1740039270/Avatar_halloween_evil_conf_kr5krq.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036524/ava_halloween_zombie_crop_f1_mzxwav.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036525/Avatar_Psycho_512_crop_final_pwlm6e.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036525/Ava_solaris_crop_512_bvjtv5.webp',

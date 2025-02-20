@@ -33,6 +33,8 @@ export const avatarsResistance = [
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727287496/32_gypvm1.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727287497/33_ftbc2w.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1727287497/34_hnwhnd.webp',
+  'https://res.cloudinary.com/dsy8hantq/image/upload/v1740039197/Avatar_halloween_evil_sopr_kgjrua.webp',
+  'https://res.cloudinary.com/dsy8hantq/image/upload/v1740039197/Avatar_halloween_smiley_sopr_fgwokb.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036896/ava_halloween_zombie_crop_f2_1_evoyle.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036897/Ava_salamandra_crop_ilehv0.webp',
   'https://res.cloudinary.com/dsy8hantq/image/upload/v1740036896/Ava_leviafan_crop_d5u1mw.webp',
