@@ -5,6 +5,7 @@ import UnitStats from 'components/UnitStats/UnitStats';
 import UnitWeapons from 'components/UnitWeapons/UnitWeapons';
 import HeroBadge from 'components/HeroBadge/HeroBadge';
 import styles from './UnitDetails.module.scss';
+import HeroAbilities from 'components/HeroAbilities/HeroAbilities';
 
 const UnitDetails = ({ unit }) => {
   const { t } = useTranslation();
@@ -57,13 +58,43 @@ const UnitDetails = ({ unit }) => {
         </select>
 
         {selectedLevelData && (
-          <UnitStats selectedLevelData={selectedLevelData} unit={unit} />
+          <>
+            <UnitStats selectedLevelData={selectedLevelData} unit={unit} />
+          </>
         )}
+
+        {unit.abilitiesKey && (
+          <>
+            <HeroAbilities
+              abilities={selectedLevelData.active}
+              title={
+                <span className={styles.titleActive}>
+                  {t('main.active_abilities')}
+                </span>
+              }
+              name={t(unit.activeKey)}
+              abilityKey={unit.abilitiesKey}
+            />
+            <HeroAbilities
+              abilities={selectedLevelData.passive}
+              title={
+                <span className={styles.titlePassive}>
+                  {t('main.passive_abilities')}
+                </span>
+              }
+              name={t(unit.passiveKey)}
+              abilityKey={unit.abilitiesKey}
+            />
+          </>
+        )}
+
         {unit.weapons && (
-          <UnitWeapons
-            selectedLevelData={selectedLevelData}
-            weapons={unit.weapons}
-          />
+          <>
+            <UnitWeapons
+              selectedLevelData={selectedLevelData}
+              weapons={unit.weapons}
+            />
+          </>
         )}
 
         <div className={styles.unitDescriptionMobile}>

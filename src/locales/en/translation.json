@@ -10,7 +10,9 @@
     "selectLevelBuilding": "Select the building Level:",
     "medals": "Medals",
     "info": "Info",
-    "loadMore": "Load more"
+    "loadMore": "Load more",
+    "active_abilities": "ACTIVE ABILITIES",
+    "passive_abilities": "PASSIVE ABILITIES"
   },
   "header": {
     "maps": "Maps",
@@ -420,55 +422,236 @@
       "type": "Elite Exoskeleton Assault",
       "weapons1": "MULTI_GUN 'MATHILDA'",
       "weapons2": "VIBRO BAYONET",
-      "weapons3": "CR3T2 HE ROCKETS"
+      "weapons3": "CR3T2 HE ROCKETS",
+      "active": "Jetpack Jump",
+      "passive": "Emergency Energy Shell",
+      "abilities": {
+        "active_1": "Jumps on a jetpack to the specified point at a distance of cup to {{distance}} cells. In the air fires a salvo of {{amount}} rockets with his rocket launcher into the landing point. When landing, Cerberus deals devastating damage in the area. If there are no enemy units in the landing zone, Cerberus jumps without attacking.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I  {{damage}}",
+        "active_4": "Damage vs armor II  {{damage}}",
+        "active_5": "Damage vs armor III  {{damage}}",
+        "active_6": "Explosion radius {{radius}} cell.",
+        "active_7": "Distance of activation {{view}} cell.",
+        "passive_1": "If the HP is lower than {{percent}} %, when taken damage, activates energy protection that blocks {{percent2}} % of incoming damage.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Duration {{time}} sec.",
+        "passive_4": "Damage decrease {{damage}} %"
+      }
     },
     "beholder": {
       "name": "BEHOLDER",
       "type": "Stealth scout helicopter",
-      "weapons1": "PAIRED 'FLASH' LASER SYSTEMS"
+      "weapons1": "PAIRED 'FLASH' LASER SYSTEMS",
+      "active": "Vulnerability Scanner",
+      "passive": "Holographic camouflage",
+      "abilities": {
+        "active_1": "Scans the designated area for {{time}} sec, revealing all hidden units. Identifies weaknesses in enemy armor, increasing the damage dealt to them by {{percent}} %. This debuff of enemy units persists throughout the scanning process and remains for {{time2}} sec. after it concludes.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Radius of action {{radius}} cell",
+        "active_4": "Duration {{time}} sec.",
+        "active_5": "Distance of activation {{range}} cell",
+        "active_6": "Damage increase {{damage}}%",
+        "passive_1": "When Beholder is attacked, it creates a holographic projection that cloaks Beholder, making it appear like its surroundings for {{time}} seconds. While invisible, Beholder can attack and use its active ability. However, upon nearing enemy units or structures, the invisibility fades, although the reduction in damage from direct attacks persists, lowered by {{percent}} % until the ability’s duration concludes.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Duration {{time}} sec.",
+        "passive_4": "Damage decrease {{damage}}%"
+      }
     },
     "seraphim": {
       "name": "SERAPHIM",
       "type": "Transformer Fighter",
       "weapons1": "ENERGY AUTOCANNONS 'LAZARUS' - in avia mode",
-      "weapons2": "ENERGY AUTOCANNONS 'LAZARUS' - in ground mode"
+      "weapons2": "ENERGY AUTOCANNONS 'LAZARUS' - in ground mode",
+      "active": "Punishment",
+      "passive": "Overdrive",
+      "abilities": {
+        "active_1": "Performs a rocket salvo with {{amount}} energy warheads, dealing massive damage in the area. Works both in land air modes.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I  {{damage}}",
+        "active_4": "Damage vs armor II  {{damage}}",
+        "active_5": "Damage vs armor III  {{damage}}",
+        "active_6": "Explosion radius {{radius}} cell ",
+        "active_7": "Distance of activation {{distance}} cell.",
+        "active_8": "Time to prepare to fire {{time}} sec. ",
+        "passive_1": "At the beginning of an attack, enables Overdrive mode, temporarily increasing movement speed by {{percent}} %. and increasing rate of fire.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Duration {{time}} sec.",
+        "passive_4": "Rate of fire {{rateOfFire}}"
+      }
     },
     "psion": {
       "name": "PSION",
       "type": "Vehicle of heavy psychic impact",
-      "weapons1": "PSI-EMITTER 'OVERLORD'"
+      "weapons1": "PSI-EMITTER 'OVERLORD'",
+      "active": "Mind Control",
+      "passive": "Overwhelming Wave",
+      "abilities": {
+        "active_1": "Unleashes a burst of psionic energy, generating a powerful psi-pulse. Deals damage to all units within the impact zone and bends up to {{amount}} enemy units will. Enthralled units follow the Psion, attacking nearby targets while gradually losing durability until they eventually self-destruct. Enemy Heroes and aircraft located at an airfield cannot be enthralled, but they are stunned for an extended duration.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Explosion radius {{radius}} cell",
+        "active_7": "Distance of activation {{distance}} cell",
+        "active_8": "Time to prepare to fire {{time}} sec.",
+        "active_9": "Number of enthralled units {{amount}} ",
+        "active_10": "Durability loss of enthralled units {{percent}} % per sec.",
+        "active_11": "Stun duration {{time}} sec.",
+        "passive_1": "If there are {{amount}} or more enemy units within the attack area, it unleashes an enhanced psi-wave that deals increased damage and stuns the units for a short duration.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Damage vs armor I {{damage1}}",
+        "passive_4": "Damage vs armor II {{damage2}}",
+        "passive_5": "Damage vs armor III {{damage3}}",
+        "passive_6": "Stun duration {{time}} sec."
+      }
     },
     "solaris": {
       "name": "SOLARIS",
       "type": "Antigravity Heavy Tank",
-      "weapons": "SPE-2.0 WEAPON SYSTEM"
+      "weapons": "SPE-2.0 WEAPON SYSTEM",
+      "active": "EM-Strike",
+      "passive": "Chain Lightning",
+      "abilities": {
+        "active_1": "Releases a powerful stream of charged particles {{width}} cells wide, dealing massive damage to all land and above-water targets in the line of fire at a distance up to {{distance}} cells.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Distance of activation {{distance}} cell",
+        "active_7": "Time to prepare to fire {{time}} sec.",
+        "active_8": " Stream width {{width}} cell",
+        "passive_1": "Strikes up to {{amount}} enemy units around the main target with chain lightning. The damage dealt is reduced by {{percent}} % with every consecutive strike in a chain.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Damage vs armor I {{damage1}}",
+        "passive_4": "Damage vs armor II {{damage2}}",
+        "passive_5": "Damage vs armor III {{damage3}}",
+        "passive_6": "Distance of activation {{distance}} cell",
+        "passive_7": "Explosion radius {{radius}} cell",
+        "passive_8": "Distance of chain lightning strike {{distance}} cell",
+        "passive_9": "Reduction of consecutive strike damage {{percent}} %",
+        "passive_10": "Number of strikes of chain lightning {{amount}}"
+      }
     },
     "wasp": {
       "name": "WASP",
       "type": "ELight Support Helicopter",
-      "weapons": "'STING' CAPSULE MISSILES"
+      "weapons": "'STING' CAPSULE MISSILES",
+      "active": "Acid Burst",
+      "passive": "Mist Disguise",
+      "abilities": {
+        "active_1": "Fires an acid shell at a set point. Deals damage to all units and buildings in the explosion radius and corrodes their armor, increasing the damage at them by {{percent}} % for {{time}} sec.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Explosion radius {{radius}} cell",
+        "active_7": "Distance of activation {{distance}} cell",
+        "active_8": "Duration {{time}} sec.",
+        "active_9": "Damage increase {{percent}} %",
+        "active_10": "Time to prepare to fire {{time}} sec.",
+        "passive_1": "If Wasp or allied air units in the radius of {{radius}} cells get damaged, Wasp uses a mist disguise that decreases enemies firing accuracy by {{percent}} % at all air units inside the mist disguise.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Radius of action {{radius}} cell",
+        "passive_4": "Duration {{time}} sec.",
+        "passive_5": "Decrease of accuracy on units under the Mist Disguise {{percent}} %"
+      }
     },
     "wolverine": {
       "name": "WOLVERINE",
       "type": "Universal combat vehicle",
-      "weapons1": "'FURY' LARGE CALIBER MULTI-BARREL MACHINE GUN"
+      "weapons1": "'FURY' LARGE CALIBER MULTI-BARREL MACHINE GUN",
+      "active": "Carnage",
+      "passive": "Wall of Smoke",
+      "abilities": {
+        "active_1": "Launches a barrage of {{amount}} frag grenades into the designated area spanning up to {{distance}} cells. Units positioned at the center of the target area endure concentrated damage from multiple grenades.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Explosion radius {{radius}} cell",
+        "active_7": "Distance of activation {{distance}} cell",
+        "active_8": "Time to prepare to fire {{time}} sec.",
+        "passive_1": "Launches six smoke grenades toward a group of enemy units aligned with the primary weapons target. The smoke screen diminishes the firing accuracy of enemy units by {{percent}} % and remains effective for {{time}} sec.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Damage vs armor I {{damage1}}",
+        "passive_4": "Damage vs armor II {{damage2}}",
+        "passive_5": "Damage vs armor III {{damage3}}",
+        "passive_6": "Explosion radius {{radius}} cell",
+        "passive_7": "Duration {{time}} sec.",
+        "passive_8": "Decrease of accuracy {{percent}} %"
+      }
     },
     "mole": {
       "name": "MOLE",
       "type": "Engineering Machine",
-      "weapons": "'CRUSHER' DRILL"
+      "weapons": "'CRUSHER' DRILL",
+      "active": "Automatic Turret",
+      "passive": "Shelter",
+      "abilities": {
+        "active_1": "Deploys a turret with an autocannon in the set cell. It automatically attacks targets within a radius of {{radius}} cells. Turret lifetime is {{time}} sec. Turrets can only be deployed in a stationary mode. Ability has several charges.",
+        "active_2": "Turret HP {{hp}}",
+        "active_3": "Turret armor {{armor}}",
+        "active_4": "Turret sight range {{view}}",
+        "active_5": "Damage vs armor I {{damage1}}",
+        "active_6": "Damage vs armor II {{damage2}}",
+        "active_7": "Damage vs armor III {{damage3}}",
+        "active_8": "Explosion radius {{radius}} cell",
+        "active_9": "Firing range {{distance}} cell",
+        "active_10": "Rate of fire {{rateOfFire}}",
+        "active_11": "Time to cooldown the ability {{time}} sec.",
+        "active_12": "Distance of activation {{distance}} cell",
+        "active_13": "Duration {{time}}",
+        "passive_1": "When HP is reduced to {{percent}} %, it completely goes underground, decreasing incoming damage by {{percent2}} %",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Duration {{time}} sec.",
+        "passive_4": "Damage decrease {{percent}} %"
+      }
     },
     "salamander": {
       "name": "SALAMANDER",
       "type": "Missile Submarine Amphibian",
-      "weapons1": "MISSILE SYSTEM 'FIRESTORM'"
+      "weapons1": "MISSILE SYSTEM 'FIRESTORM'",
+      "active": "Lethal Burn",
+      "passive": "Survial Instinct",
+      "abilities": {
+        "active_1": "The Salamander aims at a designated enemy within a radius of {{radius}} cells and launches a Termite-X5 guided missile with an enhanced thermite warhead, capable of burning through any armor and dealing devastating damage. Once targeted, the enemy cannot escape the missile’s strike.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Explosion radius {{radius}} cell",
+        "active_7": "Distance of activation {{distance}} cell",
+        "active_8": "Time to prepare to fire {{time}} sec.",
+        "passive_1": "If the Salamander’s durability drops below {{percent}} %, emergency repairs are triggered upon taking damage, and movement speed is increased for {{time}} sec.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Duration {{time}} sec.",
+        "passive_4": "Movement speed bonus {{percent}} %",
+        "passive_5": "Durability recovery {{percent}} % per second"
+      }
     },
     "leviathan": {
       "name": "LEVIATHAN",
       "type": "Heavy Air Crusher",
       "weapons1": "FRONTAL AUTOCANNONS",
       "weapons2": "SIDE AUTOCANNONS",
-      "weapons3": "ANTI-AIR LAUNCHER 'SCOURGE'"
+      "weapons3": "ANTI-AIR LAUNCHER 'SCOURGE'",
+      "active": "Devastation",
+      "passive": "Thermal Traps",
+      "abilities": {
+        "active_1": "Launches a tactical nuclear missile at the set point at the distance up to {{distance}} cells.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Explosion radius {{radius}} cell",
+        "active_7": "Distance of activation {{distance}} cell",
+        "active_8": "Time to prepare to fire {{time}} sec.",
+        "passive_1": "Deploys thermal traps to distract enemy incoming self-guided missiles during {{time}} sec., decreasing incoming damage by {{percent}} % ",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Duration {{time}} sec.",
+        "passive_4": "Damage decrease {{percent}} %"
+      }
     },
     "blueprints": {
       "blueprints": "Blueprints",
@@ -843,6 +1026,9 @@
     },
     "22": {
       "content": "Added new avatars: Joker, Syndicate, Halloween, Salamander and Leviathan, Psion and Solaris."
+    },
+    "23": {
+      "content": "At your request, functionality has been added to display the active and passive abilities of heroes. Soon I will start adding information on the abilities of the heroes that is available."
     }
   },
   "support": {
