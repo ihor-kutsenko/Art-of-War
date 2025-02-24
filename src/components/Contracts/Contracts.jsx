@@ -1,577 +1,190 @@
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
+import LoadMoreBtn from 'components/LoadMoreBtn/LoadMoreBtn.jsx';
+
+import { events } from 'data/events/events';
 import styles from './Contracts.module.scss';
 
 const Contracts = () => {
   const { t } = useTranslation();
+  const [selectedEvent1, setSelectedEvent1] = useState(events[0].id);
+  const [selectedEvent2, setSelectedEvent2] = useState(events[1].id);
+  const [showMore, setShowMore] = useState(null);
+
+  const handleLoadMore = () => {
+    setShowMore(prevState => prevState + 2);
+  };
+
+  const resetFilters = () => {
+    setSelectedEvent1(events[0].id);
+    setSelectedEvent2(events[1].id);
+    setShowMore(false);
+  };
+
+  const calculateTotal = data => {
+    return data.reduce(
+      (acc, row) => ({
+        contract: 'Total',
+        amount: data.length > 0 ? data[data.length - 1].amount : 0,
+        gold: acc.gold + row.gold,
+        token: acc.token + row.token,
+        blueSkills: acc.blueSkills + row.blueSkills,
+        rareSkills: acc.rareSkills + row.rareSkills,
+        epicSkills: acc.epicSkills + row.epicSkills,
+        blueHero: acc.blueHero + row.blueHero,
+        rareHero: acc.rareHero + row.rareHero,
+        epicHero: acc.epicHero + row.epicHero,
+      }),
+      {
+        contract: 'Total',
+        amount: 0,
+        gold: 0,
+        token: 0,
+        blueSkills: 0,
+        rareSkills: 0,
+        epicSkills: 0,
+        blueHero: 0,
+        rareHero: 0,
+        epicHero: 0,
+      }
+    );
+  };
+
+  const renderTable = event => {
+    if (!event) return null;
+    const total = calculateTotal(event.data);
+    return (
+      <div key={event.id} className={styles.tableContainer}>
+        <h2 className={styles.eventTitle}>
+          {t(event.name)} {event.year}
+        </h2>
+        <table className={styles.table}>
+          <thead>
+            <tr>
+              <td className={`${styles.title} ${styles.contract}`}>
+                {t('events.contract')}
+              </td>
+              <td className={`${styles.title} ${styles.amount}`}>
+                {t('events.amount')}
+              </td>
+              <td className={`${styles.title} ${styles.gold}`}>
+                {t('events.gold')}
+              </td>
+              <td className={`${styles.title} ${styles.token}`}>
+                {t('events.token')}
+              </td>
+              <td className={`${styles.title} ${styles.blueSkills}`}>
+                {t('events.blueSkills')}
+              </td>
+              <td className={`${styles.title} ${styles.rareSkills}`}>
+                {t('events.rareSkills')}
+              </td>
+              <td className={`${styles.title} ${styles.epicSkills}`}>
+                {t('events.epicSkills')}
+              </td>
+              <td className={`${styles.title} ${styles.blueHero}`}>
+                {t('events.blueHero')}
+              </td>
+              <td className={`${styles.title} ${styles.rareHero}`}>
+                {t('events.rareHero')}
+              </td>
+              <td className={`${styles.title} ${styles.epicHero}`}>
+                {t('events.epicHero')}
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            {event.data.map((row, index) => (
+              <tr key={index}>
+                <td>{row.contract}</td>
+                <td>{row.amount}</td>
+                <td>{row.gold}</td>
+                <td>{row.token}</td>
+                <td>{row.blueSkills}</td>
+                <td>{row.rareSkills}</td>
+                <td>{row.epicSkills}</td>
+                <td>{row.blueHero}</td>
+                <td>{row.rareHero}</td>
+                <td>{row.epicHero}</td>
+              </tr>
+            ))}
+            <tr className={styles.totalRow}>
+              <td>{t('events.total')}</td>
+              <td>{total.amount}</td>
+              <td>{total.gold}</td>
+              <td>{total.token}</td>
+              <td>{total.blueSkills}</td>
+              <td>{total.rareSkills}</td>
+              <td>{total.epicSkills}</td>
+              <td>{total.blueHero}</td>
+              <td>{total.rareHero}</td>
+              <td>{total.epicHero}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    );
+  };
+
+  const filteredEvents = events.filter(
+    event => event.id !== selectedEvent1 && event.id !== selectedEvent2
+  );
 
   return (
-    <>
-      {/* Syndicate Event Table */}
-      <h2 className={styles.eventTitle}>{t('events.syndicate')} 2024</h2>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <td className={`${styles.title} ${styles.contract}`}>
-              {t('events.contract')}
-            </td>
-            <td className={`${styles.title} ${styles.amount}`}>
-              {t('events.amount')}
-            </td>
-            <td className={`${styles.title} ${styles.gold}`}>
-              {t('events.gold')}
-            </td>
-            <td className={`${styles.title} ${styles.token}`}>
-              {t('events.token')}
-            </td>
-            <td className={`${styles.title} ${styles.blueSkills}`}>
-              {t('events.blueSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.rareSkills}`}>
-              {t('events.rareSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.epicSkills}`}>
-              {t('events.epicSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.blueHero}`}>
-              {' '}
-              {t('events.blueHero')}
-            </td>
-            <td className={`${styles.title} ${styles.rareHero}`}>
-              {' '}
-              {t('events.rareHero')}
-            </td>
-            <td className={`${styles.title} ${styles.epicHero}`}>
-              {' '}
-              {t('events.epicHero')}
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>125</td>
-            <td>125</td>
-            <td>250</td>
-            <td>40</td>
-            <td></td>
-            <td></td>
-            <td>150</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>250</td>
-            <td>250</td>
-            <td>500</td>
-            <td>85</td>
-            <td></td>
-            <td></td>
-            <td>400</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>500</td>
-            <td>500</td>
-            <td>1000</td>
-            <td></td>
-            <td>40</td>
-            <td></td>
-            <td></td>
-            <td>80</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>1000</td>
-            <td>1000</td>
-            <td>2000</td>
-            <td></td>
-            <td></td>
-            <td>25</td>
-            <td></td>
-            <td></td>
-            <td>50</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>2000</td>
-            <td>2000</td>
-            <td>4000</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>2000</td>
-            <td>180</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>3500</td>
-            <td>4000</td>
-            <td>8000</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>320</td>
-            <td>100</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>6000</td>
-            <td>6000</td>
-            <td>10000</td>
-            <td></td>
-            <td></td>
-            <td>50</td>
-            <td></td>
-            <td></td>
-            <td>150</td>
-          </tr>
-          {/* Total row */}
-          <tr className={styles.totalRow}>
-            <td> {t('events.total')}</td>
-            <td>6000</td>
-            <td>13875</td>
-            <td>25750</td>
-            <td>125</td>
-            <td>40</td>
-            <td>75</td>
-            <td>2550</td>
-            <td>580</td>
-            <td>300</td>
-          </tr>
-        </tbody>
-      </table>
+    <div className={styles.contracts}>
+      <div className={styles.tablesWrapper}>
+        <div className={styles.selectWrapper}>
+          <label className={styles.label}>{t('events.selectEvent')}</label>
+          <select
+            value={selectedEvent1}
+            onChange={e => setSelectedEvent1(Number(e.target.value))}
+            className={styles.select}
+          >
+            {events
+              .filter(event => event.id !== selectedEvent2)
+              .map(ev => (
+                <option key={ev.id} value={ev.id}>
+                  {t(ev.name)}
+                </option>
+              ))}
+          </select>
 
-      {/* Halloween Event Table */}
-      <h2 className={styles.eventTitle}>{t('events.halloween')} 2024</h2>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <td className={`${styles.title} ${styles.contract}`}>
-              {t('events.contract')}
-            </td>
-            <td className={`${styles.title} ${styles.amount}`}>
-              {t('events.amount')}
-            </td>
-            <td className={`${styles.title} ${styles.gold}`}>
-              {t('events.gold')}
-            </td>
-            <td className={`${styles.title} ${styles.token}`}>
-              {t('events.token')}
-            </td>
-            <td className={`${styles.title} ${styles.blueSkills}`}>
-              {t('events.blueSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.rareSkills}`}>
-              {t('events.rareSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.epicSkills}`}>
-              {t('events.epicSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.blueHero}`}>
-              {' '}
-              {t('events.blueHero')}
-            </td>
-            <td className={`${styles.title} ${styles.rareHero}`}>
-              {' '}
-              {t('events.rareHero')}
-            </td>
-            <td className={`${styles.title} ${styles.epicHero}`}>
-              {' '}
-              {t('events.epicHero')}
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>125</td>
-            <td>400</td>
-            <td>200</td>
-            <td>50</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>60</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>250</td>
-            <td>800</td>
-            <td>400</td>
-            <td></td>
-            <td>30</td>
-            <td></td>
-            <td>300</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>500</td>
-            <td>1200</td>
-            <td>600</td>
-            <td>100</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>20</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>1000</td>
-            <td>3500</td>
-            <td>1500</td>
-            <td></td>
-            <td></td>
-            <td>25</td>
-            <td></td>
-            <td>300</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>2000</td>
-            <td>5500</td>
-            <td>2500</td>
-            <td></td>
-            <td>100</td>
-            <td></td>
-            <td>1500</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>3500</td>
-            <td>8000</td>
-            <td>3500</td>
-            <td>500</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>80</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>6000</td>
-            <td>15000</td>
-            <td>5000</td>
-            <td></td>
-            <td></td>
-            <td>50</td>
-            <td></td>
-            <td>700</td>
-            <td></td>
-          </tr>
-          {/* Total row */}
-          <tr className={styles.totalRow}>
-            <td>{t('events.total')}</td>
-            <td>6000</td>
-            <td>34400</td>
-            <td>13700</td>
-            <td>650</td>
-            <td>130</td>
-            <td>75</td>
-            <td>1800</td>
-            <td>1060</td>
-            <td>100</td>
-          </tr>
-        </tbody>
-      </table>
+          <button className={styles.clearFilter} onClick={resetFilters}>
+            {t('events.clearFilter')}
+          </button>
+        </div>
+        {renderTable(events.find(e => e.id === selectedEvent1))}
 
-      {/* New Year Table */}
-      <h2 className={styles.eventTitle}>{t('events.newYear')} 2025</h2>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <td className={`${styles.title} ${styles.contract}`}>
-              {t('events.contract')}
-            </td>
-            <td className={`${styles.title} ${styles.amount}`}>
-              {t('events.amount')}
-            </td>
-            <td className={`${styles.title} ${styles.gold}`}>
-              {t('events.gold')}
-            </td>
-            <td className={`${styles.title} ${styles.token}`}>
-              {t('events.token')}
-            </td>
-            <td className={`${styles.title} ${styles.blueSkills}`}>
-              {t('events.blueSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.rareSkills}`}>
-              {t('events.rareSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.epicSkills}`}>
-              {t('events.epicSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.blueHero}`}>
-              {' '}
-              {t('events.blueHero')}
-            </td>
-            <td className={`${styles.title} ${styles.rareHero}`}>
-              {' '}
-              {t('events.rareHero')}
-            </td>
-            <td className={`${styles.title} ${styles.epicHero}`}>
-              {' '}
-              {t('events.epicHero')}
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>80</td>
-            <td>400</td>
-            <td>300</td>
-            <td>50</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>60</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>180</td>
-            <td>800</td>
-            <td>600</td>
-            <td></td>
-            <td>30</td>
-            <td></td>
-            <td>300</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>380</td>
-            <td>1200</td>
-            <td>900</td>
-            <td>100</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>20</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>760</td>
-            <td>3000</td>
-            <td>1800</td>
-            <td></td>
-            <td></td>
-            <td>25</td>
-            <td></td>
-            <td>300</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>1550</td>
-            <td>5000</td>
-            <td>3500</td>
-            <td>330</td>
-            <td></td>
-            <td></td>
-            <td>1550</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>2800</td>
-            <td>7000</td>
-            <td>5000</td>
-            <td></td>
-            <td>210</td>
-            <td></td>
-            <td></td>
-            <td>550</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>5200</td>
-            <td>10000</td>
-            <td>9500</td>
-            <td></td>
-            <td></td>
-            <td>50</td>
-            <td></td>
-            <td></td>
-            <td>90</td>
-          </tr>
-          {/* Total row */}
-          <tr className={styles.totalRow}>
-            <td>{t('events.total')}</td>
-            <td>5200</td>
-            <td>27400</td>
-            <td>21600</td>
-            <td>480</td>
-            <td>240</td>
-            <td>75</td>
-            <td>1850</td>
-            <td>910</td>
-            <td>110</td>
-          </tr>
-        </tbody>
-      </table>
+        <div className={styles.selectWrapper}>
+          <label className={styles.label}>{t('events.selectEvent')}</label>
+          <select
+            value={selectedEvent2}
+            onChange={e => setSelectedEvent2(Number(e.target.value))}
+            className={styles.select}
+          >
+            {events
+              .filter(event => event.id !== selectedEvent1)
+              .map(ev => (
+                <option key={ev.id} value={ev.id}>
+                  {t(ev.name)}
+                </option>
+              ))}
+          </select>
 
-      {/* Lunar New Year Table */}
-      <h2 className={styles.eventTitle}>{t('events.lunarNewYear')} 2025</h2>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <td className={`${styles.title} ${styles.contract}`}>
-              {t('events.contract')}
-            </td>
-            <td className={`${styles.title} ${styles.amount}`}>
-              {t('events.amount')}
-            </td>
-            <td className={`${styles.title} ${styles.gold}`}>
-              {t('events.gold')}
-            </td>
-            <td className={`${styles.title} ${styles.token}`}>
-              {t('events.token')}
-            </td>
-            <td className={`${styles.title} ${styles.blueSkills}`}>
-              {t('events.blueSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.rareSkills}`}>
-              {t('events.rareSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.epicSkills}`}>
-              {t('events.epicSkills')}
-            </td>
-            <td className={`${styles.title} ${styles.blueHero}`}>
-              {' '}
-              {t('events.blueHero')}
-            </td>
-            <td className={`${styles.title} ${styles.rareHero}`}>
-              {' '}
-              {t('events.rareHero')}
-            </td>
-            <td className={`${styles.title} ${styles.epicHero}`}>
-              {' '}
-              {t('events.epicHero')}
-            </td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>75</td>
-            <td>360</td>
-            <td>250</td>
-            <td>50</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>60</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>160</td>
-            <td>720</td>
-            <td>500</td>
-            <td></td>
-            <td>30</td>
-            <td></td>
-            <td>300</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>330</td>
-            <td>1080</td>
-            <td>750</td>
-            <td>100</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>20</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>670</td>
-            <td>2700</td>
-            <td>1500</td>
-            <td></td>
-            <td></td>
-            <td>25</td>
-            <td></td>
-            <td>300</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>1350</td>
-            <td>4500</td>
-            <td>2800</td>
-            <td>330</td>
-            <td></td>
-            <td></td>
-            <td>1550</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>2440</td>
-            <td>6300</td>
-            <td>4200</td>
-            <td></td>
-            <td>210</td>
-            <td></td>
-            <td></td>
-            <td>550</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>4500</td>
-            <td>9000</td>
-            <td>8000</td>
-            <td></td>
-            <td></td>
-            <td>50</td>
-            <td></td>
-            <td></td>
-            <td>90</td>
-          </tr>
-          {/* Total row */}
-          <tr className={styles.totalRow}>
-            <td>{t('events.total')}</td>
-            <td>4500</td>
-            <td>24660</td>
-            <td>18000</td>
-            <td>480</td>
-            <td>240</td>
-            <td>75</td>
-            <td>1850</td>
-            <td>910</td>
-            <td>110</td>
-          </tr>
-        </tbody>
-      </table>
-    </>
+          <button className={styles.clearFilter} onClick={resetFilters}>
+            {t('events.clearFilter')}
+          </button>
+        </div>
+        {renderTable(events.find(e => e.id === selectedEvent2))}
+      </div>
+
+      {!showMore && filteredEvents.length > 0 && (
+        <LoadMoreBtn handleLoadMore={handleLoadMore} />
+      )}
+
+      {showMore && filteredEvents.map(event => renderTable(event))}
+    </div>
   );
 };
-
 export default Contracts;

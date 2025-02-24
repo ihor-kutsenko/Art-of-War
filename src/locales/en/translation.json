@@ -904,6 +904,8 @@
     "star": "Star league"
   },
   "events": {
+    "selectEvent": "Select event",
+    "clearFilter": "Clear Filter",
     "contract": "Contract",
     "amount": "Amount",
     "gold": "Gold",
@@ -1029,6 +1031,9 @@
     },
     "23": {
       "content": "At your request, functionality has been added to display the active and passive abilities of heroes. Soon I will start adding information on the abilities of the heroes that is available."
+    },
+    "24": {
+      "content": "The interface of the Event page has been updated. Now you can use the filter to select the desired event and compare it with another event. Added buttons to clear filter and show more."
     }
   },
   "support": {

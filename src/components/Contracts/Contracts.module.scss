@@ -70,3 +70,45 @@
 .epicHero {
   background-color: $t3-hero-color;
 }
+
+.selectWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  select {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: $border-active;
+    outline: none;
+    background-color: $white-color;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+
+    &:focus {
+      border-color: $orange-2-color;
+    }
+  }
+}
+
+.label {
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: $blue-4-color;
+  color: $white-color;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  @include hover {
+    background-color: $blue-2-color;
+  }
+}
