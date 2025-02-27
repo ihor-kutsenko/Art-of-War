@@ -3328,7 +3328,7 @@ export const resistanceUnits = [
       // 22
       {
         level: 22,
-        hp: 3758,
+        hp: 4116,
         armor: 69,
         speed: 54,
         view: 11,
