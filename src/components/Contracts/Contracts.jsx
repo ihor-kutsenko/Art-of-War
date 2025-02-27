@@ -56,9 +56,7 @@ const Contracts = () => {
     const total = calculateTotal(event.data);
     return (
       <div key={event.id} className={styles.tableContainer}>
-        <h2 className={styles.eventTitle}>
-          {t(event.name)} {event.year}
-        </h2>
+        <h2 className={styles.eventTitle}>{t(event.name)}</h2>
         <table className={styles.table}>
           <thead>
             <tr>

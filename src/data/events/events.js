@@ -1,7 +1,8 @@
 export const events = [
+  // Syndicate 2024
   {
     id: 1,
-    name: 'events.syndicate',
+    name: 'events.syndicate2024',
     year: 2024,
     data: [
       {
@@ -90,6 +91,7 @@ export const events = [
       },
     ],
   },
+  // Halloween  2024
   {
     id: 2,
     name: 'events.halloween',
@@ -181,6 +183,7 @@ export const events = [
       },
     ],
   },
+  // New Year event 2025
   {
     id: 3,
     name: 'events.newYear',
@@ -272,9 +275,102 @@ export const events = [
       },
     ],
   },
+  // Lunar New Year event 2025
   {
     id: 4,
     name: 'events.lunarNewYear',
+    year: 2025,
+    data: [
+      {
+        contract: 1,
+        amount: 75,
+        gold: 360,
+        token: 250,
+        blueSkills: 50,
+        rareSkills: 0,
+        epicSkills: 0,
+        blueHero: 0,
+        rareHero: 60,
+        epicHero: 0,
+      },
+      {
+        contract: 2,
+        amount: 160,
+        gold: 720,
+        token: 500,
+        blueSkills: 0,
+        rareSkills: 30,
+        epicSkills: 0,
+        blueHero: 300,
+        rareHero: 0,
+        epicHero: 0,
+      },
+      {
+        contract: 3,
+        amount: 330,
+        gold: 1080,
+        token: 750,
+        blueSkills: 100,
+        rareSkills: 0,
+        epicSkills: 0,
+        blueHero: 0,
+        rareHero: 0,
+        epicHero: 20,
+      },
+      {
+        contract: 4,
+        amount: 670,
+        gold: 2700,
+        token: 1500,
+        blueSkills: 0,
+        rareSkills: 0,
+        epicSkills: 25,
+        blueHero: 0,
+        rareHero: 300,
+        epicHero: 0,
+      },
+      {
+        contract: 5,
+        amount: 1350,
+        gold: 4500,
+        token: 2800,
+        blueSkills: 330,
+        rareSkills: 0,
+        epicSkills: 0,
+        blueHero: 1550,
+        rareHero: 0,
+        epicHero: 0,
+      },
+      {
+        contract: 6,
+        amount: 2440,
+        gold: 6300,
+        token: 4200,
+        blueSkills: 0,
+        rareSkills: 210,
+        epicSkills: 0,
+        blueHero: 0,
+        rareHero: 550,
+        epicHero: 0,
+      },
+      {
+        contract: 7,
+        amount: 4500,
+        gold: 9000,
+        token: 8000,
+        blueSkills: 0,
+        rareSkills: 0,
+        epicSkills: 50,
+        blueHero: 0,
+        rareHero: 0,
+        epicHero: 90,
+      },
+    ],
+  },
+  // Syndicate 2025
+  {
+    id: 5,
+    name: 'events.syndicate2025',
     year: 2025,
     data: [
       {
