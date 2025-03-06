@@ -57,3 +57,27 @@
 .bold {
   font-size: large;
 }
+
+.youtubeContainer {
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.youtubeTitle {
+  padding-bottom: 5px;
+}
+
+.youtubeButton {
+  display: inline-block;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #cc0000;
+  }
+}

@@ -18,6 +18,18 @@ const Support = () => {
 
       <p className={styles.marginBottom}>{t('support.cta')}</p>
       <p className={styles.marginBottom}>{t('support.cta2')}</p>
+      {/*  YouTube */}
+      <div className={styles.youtubeContainer}>
+        <h3 className={styles.youtubeTitle}>{t('support.youtube_info')}</h3>
+        <a
+          href="https://www.youtube.com/@--DOMINATOR--"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.youtubeButton}
+        >
+          {t('support.youtube_button')}
+        </a>
+      </div>
       <h2 className={styles.marginBottom}>{t('support.thanks')}</h2>
 
       {/*  Donatik */}

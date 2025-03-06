@@ -13,7 +13,11 @@ const Articles = () => {
     setVisibleItems(prevState => prevState + 5);
   };
 
-  const currentItems = articles.slice(0, visibleItems);
+  const sortedArticles = [...articles].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
+  const currentItems = sortedArticles.slice(0, visibleItems);
 
   return (
     <>

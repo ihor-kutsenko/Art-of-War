@@ -960,6 +960,47 @@
         "------------------------------------------------------------",
         "Author: Masterskoy"
       ]
+    },
+    "3": {
+      "title": "T1 and T2 Blueprint Drop Statistics for the Month",
+      "content": [
+        "I was curious about how often and in what quantities blueprints drop out for heroes. Therefore, for a month, from 02.02.2025 to 03.02.2025, I recorded data on blueprint drops.",
+        "Right away, I want to note that I did not track T3 blueprints (Solaris / Leviathan) because the main goal was to analyze the drop rate of new and old heroes for the first two tiers. During this period, parts of the Lunar New Year and Syndicate events took place.",
+        "------------------------------------------------------------",
+        "Blueprints can be obtained from:",
+        "- advertising and clan boxes,",
+        "- personal supplies,",
+        "- line of daily rewards,",
+        "- competition rewards (tournament, skirmish, blitz),",
+        "- boxes for completing contracts,",
+        "- contracts for events,",
+        "- scrolling tokens.",
+        "------------------------------------------------------------",
+        "Statistics for Two Accounts:",
+        "--DOMINATOR-- 20 rank confederation (a more active account with a premium subscription, which provides access to VIP rewards in daily tasks, blitz tournaments, and allows more contracts to be completed).",
+        "-P R E D A T O R-- 18 rank confederation (a standard, average account without premium).",
+        "------------------------------------------------------------",
+        "--DOMINATOR--",
+        "Cerberus: dropped 48 times, totaling 715 blueprints.",
+        "Beholder: dropped 72 times, totaling 3098 blueprints (300 and 1,550 from event contracts).",
+        "Seraphim: dropped 26 times, totaling 304 blueprints.",
+        "Psion: dropped 30 times, totaling 612 blueprints (300 from event contracts).",
+        "------------------------------------------------------------",
+        "-P R E D A T O R--",
+        "Cerberus: dropped 41 times, totaling 739 blueprints (300 from event contracts).",
+        "Beholder: dropped 39 times, totaling 367 blueprints.",
+        "Seraphim: dropped 18 times, totaling 421 blueprints (300 from event contracts).",
+        "Psion: dropped 18 times, totaling 167 blueprints.",
+        "------------------------------------------------------------",
+        "Summary:",
+        "If we exclude blueprints obtained from contracts (where 300 and 1550 units dropped, significantly affecting the total count), the results are as follows:",
+        "On the --DOMINATOR-- account:",
+        " - Beholder drops twice as often as the others and almost twice as much in quantity;",
+        " - Seraphim and Psion drop at an approximately 50/50 rate.",
+
+        "On the -P R E D A T O R-- account:",
+        " - There is an almost perfect balance: Cerberus / Beholder and Seraphim / Psion drop at a 50/50 rate."
+      ]
     }
   },
   "news": {
@@ -1038,6 +1079,9 @@
     },
     "25": {
       "content": "Add contracts to Syndicate event 2025."
+    },
+    "26": {
+      "content": "Add an article ``T1 and T2 Blueprint Drop Statistics for the Month``."
     }
   },
   "support": {
@@ -1053,6 +1097,8 @@
     "donatik_info": "For donations from Ukraine, Europe, and the USA:",
     "donationalerts_info": "For donations from Russia, Kazakhstan, Belarus, and other countries:",
     "donatik_button": "Support via Donatik",
-    "donationalerts_button": "Support via DonationAlerts"
+    "donationalerts_button": "Support via DonationAlerts",
+    "youtube_info": "Subscribe to my YouTube channel:",
+    "youtube_button": "Go to YouTube"
   }
 }
