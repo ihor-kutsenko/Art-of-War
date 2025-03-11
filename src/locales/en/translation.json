@@ -1003,6 +1003,23 @@
       ]
     }
   },
+  "support": {
+    "support": "Support the site",
+    "title": "Support the Site",
+    "description": "Our website Art of War: Global Conflict is created for game fans who want access to up-to-date information, statistics, and guides. We continuously work on updating content, adding new sections, and improving functionality.",
+    "why_donate": "🔹 Why donate?",
+    "donate_2": "✔ Adding new materials and updating the database.",
+    "donate_3": "✔ Improving design and usability.",
+    "cta": "If you like our site and want to support its development, you can make a donation. Your support motivates us to continue working on the project!",
+    "cta2": " If you have interesting ideas, wishes, articles, reviews or information on units or heroes that is not on the site, contact me: in-game nickname --DOMINATOR-- or telegram @Rammbest and your information will be published on the site.",
+    "thanks": "💙 Thank you for your support! 💙",
+    "donatik_info": "For donations from Ukraine, Europe, and the USA:",
+    "donationalerts_info": "For donations from Russia, Kazakhstan, Belarus, and other countries:",
+    "donatik_button": "Support via Donatik",
+    "donationalerts_button": "Support via DonationAlerts",
+    "youtube_info": "Subscribe to my YouTube channel:",
+    "youtube_button": "Go to YouTube"
+  },
   "news": {
     "news": "News",
     "1": {
@@ -1082,23 +1099,9 @@
     },
     "26": {
       "content": "Add an article ``T1 and T2 Blueprint Drop Statistics for the Month``."
+    },
+    "27": {
+      "content": "Add some active and passive abilities for heroes up to rank 21."
     }
-  },
-  "support": {
-    "support": "Support the site",
-    "title": "Support the Site",
-    "description": "Our website Art of War: Global Conflict is created for game fans who want access to up-to-date information, statistics, and guides. We continuously work on updating content, adding new sections, and improving functionality.",
-    "why_donate": "🔹 Why donate?",
-    "donate_2": "✔ Adding new materials and updating the database.",
-    "donate_3": "✔ Improving design and usability.",
-    "cta": "If you like our site and want to support its development, you can make a donation. Your support motivates us to continue working on the project!",
-    "cta2": " If you have interesting ideas, wishes, articles, reviews or information on units or heroes that is not on the site, contact me: in-game nickname --DOMINATOR-- or telegram @Rammbest and your information will be published on the site.",
-    "thanks": "💙 Thank you for your support! 💙",
-    "donatik_info": "For donations from Ukraine, Europe, and the USA:",
-    "donationalerts_info": "For donations from Russia, Kazakhstan, Belarus, and other countries:",
-    "donatik_button": "Support via Donatik",
-    "donationalerts_button": "Support via DonationAlerts",
-    "youtube_info": "Subscribe to my YouTube channel:",
-    "youtube_button": "Go to YouTube"
   }
 }
