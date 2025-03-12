@@ -1102,6 +1102,9 @@
     },
     "27": {
       "content": "Add some active and passive abilities for heroes up to rank 21."
+    },
+    "28": {
+      "content": "Add units, buildings and heroes rank 23 resistance."
     }
   }
 }
