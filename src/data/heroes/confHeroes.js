@@ -3603,8 +3603,8 @@ export const confederationHeroes = [
       {
         level: 22,
         class: 8,
-        hp: 12257,
-        armor: 142,
+        hp: 11961,
+        armor: 137,
         speed: 50,
         view: 7,
         cost: 650,
