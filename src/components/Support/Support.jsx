@@ -59,22 +59,22 @@ const Support = () => {
       </div>
 
       {/*  Support total */}
-      {/* <div className={styles.widgetContainer}>
+      <div className={styles.widgetContainer}>
         <iframe
           src="https://widget.donatik.io/e10e6286-76a0-478c-8104-3f17c9f213c7"
           className={styles.iframeWidget}
           title="Donatik Widget"
         ></iframe>
-      </div> */}
+      </div>
 
       {/* Top donators */}
-      <div className={styles.topContainer}>
+      {/* <div className={styles.topContainer}>
         <iframe
           src="https://widget.donatik.io/29cff589-6749-4ac3-aaa5-915899a6657a"
           className={styles.iframeTop}
           title="Top Donors"
         ></iframe>
-      </div>
+      </div> */}
 
       {/* Last donators */}
       <div className={styles.topContainer}>
