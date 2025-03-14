@@ -59,13 +59,13 @@ const Support = () => {
       </div>
 
       {/*  Support total */}
-      <div className={styles.widgetContainer}>
+      {/* <div className={styles.widgetContainer}>
         <iframe
           src="https://widget.donatik.io/e10e6286-76a0-478c-8104-3f17c9f213c7"
           className={styles.iframeWidget}
           title="Donatik Widget"
         ></iframe>
-      </div>
+      </div> */}
 
       {/* Top donators */}
       <div className={styles.topContainer}>
