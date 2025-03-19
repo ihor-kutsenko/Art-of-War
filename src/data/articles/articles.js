@@ -26,4 +26,13 @@ export const articles = [
     videoUrl: null,
     tags: ['events'],
   },
+  {
+    id: '4',
+    date: '2025-03-19',
+    title: 'articles.4.title',
+    content: 'articles.4.content',
+    imageUrl: null,
+    videoUrl: null,
+    tags: ['events'],
+  },
 ];

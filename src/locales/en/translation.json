@@ -1001,6 +1001,37 @@
         "On the -P R E D A T O R-- account:",
         " - There is an almost perfect balance: Cerberus / Beholder and Seraphim / Psion drop at a 50/50 rate."
       ]
+    },
+    "4": {
+      "title": "Rewards for new quests `Win the Tournaments and Blitz Tournaments`",
+      "content": [
+        "Recently, new quests have appeared in the game, to win a certain number of times in Tournament and Blitz Tournament battles, and for completing which you can get a reward in the form of gold. As the developers reported, there will be 9 quests with rewards for each competition.",
+        "At the request of players, we will collect information and update it.",
+        "Tournament:",
+        "1 win - 200 gold;",
+        "10 wins - 1000 gold;",
+        "25 wins - 2000 gold;",
+        "50 wins -  ? gold;",
+        "100 wins - ? gold;",
+        "? wins -   ? gold;",
+        "? wins -   ? gold;",
+        "? wins -   ? gold;",
+        "? wins -   ? gold;",
+
+        "------------------------------------------------------------",
+        "Blitz Tournament:",
+        "1 win - 150 gold;",
+        "10 wins - 800 gold;",
+        "25 wins - 1000 gold;",
+        "50 wins - 2000 gold;",
+        "100 wins - 3000 gold;",
+        "? wins - ? gold;",
+        "? wins - ? gold;",
+        "? wins - ? gold;",
+        "? wins - ? gold;",
+        "------------------------------------------------------------",
+        "Authors: Masterskoy, --DOMINATOR--"
+      ]
     }
   },
   "support": {
@@ -1105,6 +1136,9 @@
     },
     "28": {
       "content": "Add units, buildings and heroes rank 23 resistance."
+    },
+    "29": {
+      "content": "Add an article `Rewards for new quests `Win the Tournaments and Blitz Tournaments``"
     }
   }
 }
