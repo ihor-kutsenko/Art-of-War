@@ -11350,7 +11350,7 @@ export const confederationBuildings = [
         subLevels: [
           {
             subLevel: 1,
-            hp: 5399,
+            hp: 5941,
             armor: 118,
             energy: 40,
             size: '1x1',
@@ -12070,7 +12070,7 @@ export const confederationBuildings = [
                 damageArmor1: 1177,
                 damageArmor2: 2542,
                 damageArmor3: 3052,
-                firingRange: 11,
+                firingRange: 10,
                 rateOfFire: 42,
                 firingAccuracy: '95.0',
                 firingAccuracy2: '0.00',
