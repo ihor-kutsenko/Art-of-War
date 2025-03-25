@@ -68,13 +68,13 @@ const Support = () => {
       </div>
 
       {/* Top donators */}
-      {/* <div className={styles.topContainer}>
+      <div className={styles.topContainer}>
         <iframe
-          src="https://widget.donatik.io/29cff589-6749-4ac3-aaa5-915899a6657a"
+          src="https://widget.donatik.io/caebb5e2-0276-470c-af9b-75dbb42dcb70"
           className={styles.iframeTop}
           title="Top Donors"
         ></iframe>
-      </div> */}
+      </div>
 
       {/* Last donators */}
       <div className={styles.topContainer}>
