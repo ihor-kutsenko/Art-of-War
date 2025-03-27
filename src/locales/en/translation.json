@@ -921,7 +921,8 @@
     "halloween": "Halloween 2024",
     "newYear": "New Year 2025",
     "lunarNewYear": "Lunar New Year 2025",
-    "syndicate2025": "Syndicate 2025"
+    "syndicate2025": "Syndicate 2025",
+    "joker2025": "Joker 2025"
   },
   "articles": {
     "showLess": "Show less",
@@ -1139,6 +1140,9 @@
     },
     "29": {
       "content": "Add an article `Rewards for new quests `Win the Tournaments and Blitz Tournaments``"
+    },
+    "30": {
+      "content": "Add contracts to Joker event 2025."
     }
   }
 }

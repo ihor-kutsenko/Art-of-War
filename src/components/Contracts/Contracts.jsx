@@ -22,20 +22,30 @@ const Contracts = () => {
     setShowMore(false);
   };
 
+  const isNumeric = value => /^\d+$/.test(value);
+
   const calculateTotal = data => {
     return data.reduce(
-      (acc, row) => ({
-        contract: 'Total',
-        amount: data.length > 0 ? data[data.length - 1].amount : 0,
-        gold: acc.gold + row.gold,
-        token: acc.token + row.token,
-        blueSkills: acc.blueSkills + row.blueSkills,
-        rareSkills: acc.rareSkills + row.rareSkills,
-        epicSkills: acc.epicSkills + row.epicSkills,
-        blueHero: acc.blueHero + row.blueHero,
-        rareHero: acc.rareHero + row.rareHero,
-        epicHero: acc.epicHero + row.epicHero,
-      }),
+      (acc, row, index) => {
+        let amount = 0;
+        if (data.length >= 7 && isNumeric(data[6].amount)) {
+          amount = data[6].amount;
+        } else if (data.length >= 5) {
+          amount = data[4].amount;
+        }
+        return {
+          contract: 'Total',
+          amount: amount,
+          gold: acc.gold + row.gold,
+          token: acc.token + row.token,
+          blueSkills: acc.blueSkills + row.blueSkills,
+          rareSkills: acc.rareSkills + row.rareSkills,
+          epicSkills: acc.epicSkills + row.epicSkills,
+          blueHero: acc.blueHero + row.blueHero,
+          rareHero: acc.rareHero + row.rareHero,
+          epicHero: acc.epicHero + row.epicHero,
+        };
+      },
       {
         contract: 'Total',
         amount: 0,
