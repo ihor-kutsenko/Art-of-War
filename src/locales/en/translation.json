@@ -42,7 +42,8 @@
       "ironCurtain": "Iron Curtain",
       "ravensHill": "Ravens Hill",
       "goldenRing": "Gold Ring",
-      "steelGrip": "Steel Grip"
+      "steelGrip": "Steel Grip",
+      "newRoswell": "New Roswell"
     },
     "winterMaps": {
       "backwaterLike": "Backwater Like",
@@ -1146,6 +1147,9 @@
     },
     "31": {
       "content": "Add heroes and units for 15 rank confederation."
+    },
+    "32": {
+      "content": "Add new map New Roswell."
     }
   }
 }

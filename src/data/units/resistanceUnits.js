@@ -4244,7 +4244,7 @@ export const resistanceUnits = [
             damageArmor2: 1069,
             damageArmor3: 1072,
             firingRange: 16,
-            rateOfFire: 16,
+            rateOfFire: 20,
             firingAccuracy: '84.0',
             firingAccuracy2: '0.00',
             explosionRadius: '2.00',

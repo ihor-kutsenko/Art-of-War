@@ -15,15 +15,21 @@ export const autumnMaps = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341475/iron-curtain_blo0oi.webp',
   },
   {
-    title: 'maps.autumnMaps.ravensHill',
-    image:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341476/ravens-hill_bmgiqj.webp',
-  },
-  {
     title: 'maps.autumnMaps.goldenRing',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341482/golden-ring_elnsgd.webp',
   },
+  {
+    title: 'maps.autumnMaps.newRoswell',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1743678135/new-roswell_pwq0oy.webp',
+  },
+  {
+    title: 'maps.autumnMaps.ravensHill',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341476/ravens-hill_bmgiqj.webp',
+  },
+
   {
     title: 'maps.autumnMaps.steelGrip',
     image:
