@@ -48,36 +48,12 @@ export const blitz = [
     info: 'blitz.evacuation.info',
   },
   {
-    title: 'blitz.ffa3.name',
-    imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1728228084/ffa3_rzbgaz.webp',
-    buttonText: 'Medals',
-    medals: [],
-    info: 'blitz.ffa3.info',
-  },
-  {
-    title: 'blitz.ffa4.name',
-    imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/ffa4_eqgqul.webp',
-    buttonText: 'Medals',
-    medals: [],
-    info: 'blitz.ffa4.info',
-  },
-  {
-    title: 'blitz.ffa5.name',
+    title: 'blitz.ffa.name',
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1728227399/ffa5_kxelnv.webp',
     buttonText: 'Medals',
     medals: [],
-    info: 'blitz.ffa5.info',
-  },
-  {
-    title: 'blitz.ffa6.name',
-    imageUrl:
-      'https://res.cloudinary.com/dsy8hantq/image/upload/v1727420360/ffa4_eqgqul.webp',
-    buttonText: 'Medals',
-    medals: [],
-    info: 'blitz.ffa6.info',
+    info: 'blitz.ffa.info',
   },
   {
     title: 'blitz.findAndDestroy.name',

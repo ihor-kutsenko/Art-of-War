@@ -796,20 +796,8 @@
       "name": "Evacuation",
       "info": "An abandoned Uranium processing factory of the Syndicate has been found. The factory's warehouse is still full of tanks. Be quick! The enemies hope to seize Uranium before we do. Take control of the factory and be the first to evacuate the transport with the tank."
     },
-    "ffa3": {
-      "name": "FFA3",
-      "info": ""
-    },
-    "ffa4": {
-      "name": "FFA4",
-      "info": ""
-    },
-    "ffa5": {
-      "name": "FFA5",
-      "info": ""
-    },
-    "ffa6": {
-      "name": "FFA6",
+    "ffa": {
+      "name": "FFA",
       "info": ""
     },
     "findAndDestroy": {
