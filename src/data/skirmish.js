@@ -1,4 +1,6 @@
 import { aiMedals } from './skirmish/ai';
+import { summerHeatMedals } from './skirmish/summerHeatAI';
+import { syndicateMedals } from './skirmish/syndicateAI';
 
 export const skirmish = [
   {
@@ -38,7 +40,7 @@ export const skirmish = [
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1728225351/summer-heat_ykf48m.webp',
     buttonText: 'Medals',
-    medals: [],
+    medals: summerHeatMedals,
     info: 'skirmish.summerHeat.info',
   },
   {
@@ -54,7 +56,7 @@ export const skirmish = [
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1728225584/syndicate-trap_ovvbqw.webp',
     buttonText: 'Medals',
-    medals: [],
+    medals: syndicateMedals,
     info: 'skirmish.syndicateTrap.info',
   },
   {

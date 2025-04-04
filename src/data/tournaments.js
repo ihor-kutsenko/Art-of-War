@@ -20,6 +20,9 @@ import { totalControlMedals } from './tournaments/totalControl';
 import { twoCitadelsMedals } from './tournaments/twoCitadels';
 import { vanguardMedals } from './tournaments/vanguard';
 import { fifthAnniversaryMedals } from './tournaments/fifthAnniversary';
+import { classifiedFilesMedals } from './tournaments/classified-files';
+import { summerHeatMedals } from './tournaments/summer-heat';
+import { victoryLightsMedals } from './tournaments/victory-lights';
 
 export const tournaments = [
   {
@@ -59,7 +62,7 @@ export const tournaments = [
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1728226772/classified_failes_zdm09m.webp',
 
-    medals: [],
+    medals: classifiedFilesMedals,
     info: 'tournaments.classifiedFiles.info',
   },
   {
@@ -179,7 +182,7 @@ export const tournaments = [
     imageUrl:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1728226141/summer-heat_vtlw6u.webp',
 
-    medals: [],
+    medals: summerHeatMedals,
     info: '',
   },
   {
@@ -212,6 +215,14 @@ export const tournaments = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727349624/5th-anniversary_xgspub.webp',
 
     medals: fifthAnniversaryMedals,
+    info: '',
+  },
+  {
+    title: 'tournaments.victoryLights.name',
+    imageUrl:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1743757364/lunar-new-year_zbzgro.webp',
+
+    medals: victoryLightsMedals,
     info: '',
   },
 ];

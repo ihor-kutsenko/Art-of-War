@@ -769,6 +769,10 @@
     "5thAnniversary": {
       "name": "5th Anniversary",
       "info": ""
+    },
+    "victoryLights": {
+      "name": "Victory Lights",
+      "info": ""
     }
   },
   "blitz": {
@@ -804,9 +808,25 @@
       "name": "Find and Destroy",
       "info": "The Syndicate drops containers with special scientific vehicles onto the battlefield to decrypt secret messages. Capture and hold as many of these special vehicles as possible to speed up the decryption and gain access to crucial secret information. Remember, your opponents are also trying to capture the vehicles. Find and destroy their vehicles to finish the decryption faster than anyone else!"
     },
+    "gameBirthday": {
+      "name": "Game Birthday",
+      "info": ""
+    },
+    "lunarNewYear": {
+      "name": "Lunar New Year",
+      "info": ""
+    },
     "mexicanSlaughter": {
       "name": "Mexican-Slaughter",
       "info": "Engineers had too much tequila and deployed the bases close to each other. A heavy melee awaits us! Only one winner is possible in this massacre. Destroy all enemies."
+    },
+    "royalBattle": {
+      "name": "Royal Battle",
+      "info": "You have no base in this tournament. Just a squad only. That's hardcore! Capture containers to get new units. Beware of the battle zone that reduces. The yellow zone is safe, but soon it'll become red. Units in the red zone get damaged."
+    },
+    "seaBattle": {
+      "name": "Sea Battle",
+      "info": ""
     },
     "signalForTheAttack": {
       "name": "Signal for the Attack",
@@ -816,9 +836,9 @@
       "name": "Supply Crisis",
       "info": "In this region, there are difficulties with supply. You can not build Supply Centers. However, there are resource warehouses scattered across the area. Capture them and deliver transports to the evacuation zone. Each transport you evacuate brings resources."
     },
-    "royalBattle": {
-      "name": "Royal Battle",
-      "info": "You have no base in this tournament. Just a squad only. That's hardcore! Capture containers to get new units. Beware of the battle zone that reduces. The yellow zone is safe, but soon it'll become red. Units in the red zone get damaged."
+    "syndicate": {
+      "name": "Syndicate",
+      "info": ""
     },
     "territorialDispute": {
       "name": "Territorial Dispute",
@@ -1002,7 +1022,7 @@
         "10 wins - 1000 gold;",
         "25 wins - 2000 gold;",
         "50 wins - 3000 gold;",
-        "100 wins - ? gold;",
+        "100 wins - 4000 gold;",
         "? wins -   ? gold;",
         "? wins -   ? gold;",
         "? wins -   ? gold;",
