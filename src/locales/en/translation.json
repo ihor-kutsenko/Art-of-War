@@ -14,6 +14,12 @@
     "active_abilities": "ACTIVE ABILITIES",
     "passive_abilities": "PASSIVE ABILITIES"
   },
+  "select": {
+    "tournament": "Select Tournament",
+    "blitz": "Select Blitz",
+    "skirmish": "Select Skirmish",
+    "clear": "Clear Filter"
+  },
   "header": {
     "maps": "Maps",
     "medals": "Medals",
@@ -1158,6 +1164,9 @@
     },
     "32": {
       "content": "Add new map New Roswell."
+    },
+    "33": {
+      "content": "Add new medals for tournaments, blitz and skirmish. A new feature has also been introduced on the competition tabs – now you can quickly select or find the desired blitz, tournament, or skirmish using the filter."
     }
   }
 }
