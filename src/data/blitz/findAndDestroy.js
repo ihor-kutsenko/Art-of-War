@@ -1,4 +1,4 @@
-// import steel1 from '../../images/blitz/medals/find-and-destroy/find-and-destroy-steel.webp';
+import steel1 from '../../images/blitz/medals/find-and-destroy/find-and-destroy-steel.webp';
 
 import bronze1 from '../../images/blitz/medals/find-and-destroy/find-and-destroy-bronze.webp';
 
@@ -11,7 +11,7 @@ import diamond1 from '../../images/blitz/medals/find-and-destroy/find-and-destro
 import star1 from '../../images/blitz/medals/find-and-destroy/find-and-destroy-star.webp';
 
 export const findAndDestroyMedals = {
-  steel: [bronze1],
+  steel: [steel1],
   bronze: [bronze1],
   silver: [silver1],
   gold: [gold1],
