@@ -316,7 +316,7 @@ export const resistanceHeroes = [
           { key: 'active_10', values: { time: 0.3 } },
         ],
         passive: [
-          { key: 'passive_1', values: { percent: 2.75, radius: 47 } },
+          { key: 'passive_1', values: { percent: 47, radius: 2.75 } },
           { key: 'passive_2', values: { time: 29.4 } },
           { key: 'passive_3', values: { radius: 2.75 } },
           { key: 'passive_4', values: { time: 6.5 } },
