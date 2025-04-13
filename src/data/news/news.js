@@ -164,4 +164,9 @@ export const news = [
     date: '2025-04-05',
     content: 'news.33.content',
   },
+  {
+    id: '34',
+    date: '2025-04-13',
+    content: 'news.34.content',
+  },
 ];

@@ -1048,6 +1048,41 @@
         "------------------------------------------------------------",
         "Authors: Masterskoy, --DOMINATOR--"
       ]
+    },
+    "5": {
+      "title": "List of ranks in the game",
+      "content": [
+        "1. Lieutenant I--------------------------------0 stars",
+        "2. Lieutenant II-------------------------------6 stars",
+        "3. Lieutenant III----------------------------15 stars",
+        "4. Captain Grade I-------------------------30 stars",
+        "5. Captain Grade II------------------------50 stars",
+        "6. Captain Grade III-----------------------75 stars",
+        "7. Major Grade I--------------------------110 stars",
+        "8. Major Grade II-------------------------160 stars",
+        "9. Major Grade III------------------------240 stars",
+        "10. Primary Major Grade I-------------360 stars",
+        "11. Primary Major Grade II------------520 stars",
+        "12. Primary Major Grade III-----------740 stars",
+        "13. Commander Grade I-------------1000 stars",
+        "14. Commander Grade II-------------1300 stars",
+        "15. Commander Grade III------------1700 stars",
+        "16. Lt. Colonel Grade I----------------2200 stars",
+        "17. Lt. Colonel Grade II---------------2800 stars",
+        "18. Lt. Colonel Grade III--------------3600 stars",
+        "19. Colonel Grade I--------------------4600 stars",
+        "20. Colonel Grade II-------------------6000 stars",
+        "21. Colonel Grade III------------------7800 stars",
+        "22. Brigadier General----------------10000 stars",
+        "23. Major General--------------------13000 stars",
+        "24. Lieutenant General--------------17000 stars",
+        "25. Colonel General-----------------22000 stars",
+        "26. General of the Army------------30000 stars",
+        "27. Marshal----------------------------40000 stars",
+        "28. Field Marshal---------------------55000 stars",
+        "29. Grand Marshal-------------------75000 stars",
+        "30. Commander-in-Chief----------100000 stars"
+      ]
     }
   },
   "support": {
@@ -1167,6 +1202,9 @@
     },
     "33": {
       "content": "Add new medals for tournaments, blitz and skirmish. A new feature has also been introduced on the competition tabs – now you can quickly select or find the desired blitz, tournament, or skirmish using the filter."
+    },
+    "34": {
+      "content": "Add an article `List of ranks in the game`."
     }
   }
 }
