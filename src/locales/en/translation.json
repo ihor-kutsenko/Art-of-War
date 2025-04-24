@@ -937,7 +937,8 @@
     "newYear": "New Year 2025",
     "lunarNewYear": "Lunar New Year 2025",
     "syndicate2025": "Syndicate 2025",
-    "joker2025": "Joker 2025"
+    "joker2025": "Joker 2025",
+    "gameBirthday2025": "Game Birthday 2025"
   },
   "articles": {
     "showLess": "Show less",
@@ -1205,6 +1206,9 @@
     },
     "34": {
       "content": "Add an article `List of ranks in the game`."
+    },
+    "35": {
+      "content": "Add contracts to Game Birthday event 2025."
     }
   }
 }
