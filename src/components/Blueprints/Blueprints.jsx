@@ -71,9 +71,9 @@ const Blueprints = () => {
           <td>21000</td>
           <td>41000</td>
           <td>80000</td>
+          <td>157000</td>
           <td></td>
-          <td></td>
-          <td>167500</td>
+          <td>324500</td>
         </tr>
         <tr>
           <td className={`${styles.hero} ${styles.t2}`}>

@@ -5577,7 +5577,7 @@ export const confederationUnits = [
         level: 19,
         hp: 4576,
         armor: 50,
-        speed: 420,
+        speed: 450,
         view: 14,
         cost: 300,
         time: 39,
