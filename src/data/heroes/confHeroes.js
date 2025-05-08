@@ -3627,7 +3627,7 @@ export const confederationHeroes = [
             damageArmor1: 70,
             damageArmor2: 178,
             damageArmor3: 162,
-            firingRange: 6.75,
+            firingRange: 7.25,
             rateOfFire: 105,
             firingAccuracy: '100',
             firingAccuracy2: '100',
@@ -3714,14 +3714,14 @@ export const confederationHeroes = [
         cp: 8,
         weapons: [
           {
-            damageArmor1: 68,
-            damageArmor2: 172,
-            damageArmor3: 157,
-            firingRange: 7.25,
+            damageArmor1: 76,
+            damageArmor2: 196,
+            damageArmor3: 177,
+            firingRange: 7.75,
             rateOfFire: 105,
             firingAccuracy: '100',
             firingAccuracy2: '100',
-            explosionRadius: '7.25',
+            explosionRadius: '7.75',
           },
         ],
         active: [
