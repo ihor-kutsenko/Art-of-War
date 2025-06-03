@@ -4661,6 +4661,7 @@ export const resistanceUnits = [
     iconArmor: armor2,
     description: '',
     weapons: null,
+    specialStatsKey: 'units.resistUnits.chameleon.stats',
     levels: [
       // 7
       {
@@ -4673,6 +4674,14 @@ export const resistanceUnits = [
         time: 68,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 8
       {
@@ -4685,6 +4694,14 @@ export const resistanceUnits = [
         time: 66,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 9
       {
@@ -4697,6 +4714,14 @@ export const resistanceUnits = [
         time: 66,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 12
       {
@@ -4709,6 +4734,14 @@ export const resistanceUnits = [
         time: 63,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 14
       {
@@ -4721,6 +4754,14 @@ export const resistanceUnits = [
         time: 62,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 16
       {
@@ -4733,6 +4774,14 @@ export const resistanceUnits = [
         time: 60,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 17
       {
@@ -4745,6 +4794,14 @@ export const resistanceUnits = [
         time: 60,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 18
       {
@@ -4757,6 +4814,14 @@ export const resistanceUnits = [
         time: 59,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 4.33 } },
+          { key: 'stats_2', values: { reserve: 203 } },
+          { key: 'stats_3', values: { consumption: 200 } },
+          { key: 'stats_4', values: { regeneration: 103 } },
+          { key: 'stats_5', values: { activation: 1.6 } },
+          { key: 'stats_6', values: { deactivation: 1.6 } },
+        ],
       },
       // 19
       {
@@ -4769,6 +4834,14 @@ export const resistanceUnits = [
         time: 59,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 20
       {
@@ -4781,6 +4854,14 @@ export const resistanceUnits = [
         time: 57,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 21
       {
@@ -4793,6 +4874,14 @@ export const resistanceUnits = [
         time: 57,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 22
       {
@@ -4805,6 +4894,14 @@ export const resistanceUnits = [
         time: 56,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 23
       {
@@ -4817,6 +4914,14 @@ export const resistanceUnits = [
         time: 56,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 24
       {
@@ -4829,6 +4934,14 @@ export const resistanceUnits = [
         time: 54,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 25
       {
@@ -4841,6 +4954,14 @@ export const resistanceUnits = [
         time: 54,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 26
       {
@@ -4853,6 +4974,14 @@ export const resistanceUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 27
       {
@@ -4865,6 +4994,14 @@ export const resistanceUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 28
       {
@@ -4877,6 +5014,14 @@ export const resistanceUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
       // 29
       {
@@ -4889,6 +5034,14 @@ export const resistanceUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { radius: 0 } },
+          { key: 'stats_2', values: { reserve: 0 } },
+          { key: 'stats_3', values: { consumption: 0 } },
+          { key: 'stats_4', values: { regeneration: 0 } },
+          { key: 'stats_5', values: { activation: 0 } },
+          { key: 'stats_6', values: { deactivation: 0 } },
+        ],
       },
     ],
   },

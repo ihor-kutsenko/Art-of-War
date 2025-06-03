@@ -232,7 +232,17 @@
       },
       "energyShield": {
         "name": "Energy Shield",
-        "type": "Support Combat Vehicle"
+        "type": "Support Combat Vehicle",
+        "info": "Information",
+        "stats": {
+          "stats_1": "Damage reduction {{damage}} %",
+          "stats_2": "Protective field radius {{radius}} cells",
+          "stats_3": "Energy reserve {{reserve}}",
+          "stats_4": "Energy consumption {{consumption}} per minute",
+          "stats_5": "Energy regeneration {{regeneration}} per minute",
+          "stats_6": "Activation time {{activation}} sec",
+          "stats_7": "Deactivation time {{deactivation}} sec"
+        }
       },
       "cyclone": {
         "name": "Cyclone",
@@ -316,7 +326,15 @@
       },
       "chameleon": {
         "name": "Chameleon",
-        "type": "Active Camouflage System"
+        "type": "Active Camouflage System",
+        "stats": {
+          "stats_1": "Fog radius {{radius}} cells",
+          "stats_2": "Energy reserve {{reserve}}",
+          "stats_3": "Energy consumption {{consumption}} per minute",
+          "stats_4": "Energy regeneration {{regeneration}} per minute",
+          "stats_5": "Activation time {{activation}} sec",
+          "stats_6": "Deactivation time {{deactivation}} sec"
+        }
       },
       "dragonfly": {
         "name": "Dragonfly",
@@ -1209,6 +1227,9 @@
     },
     "35": {
       "content": "Add contracts to Game Birthday event 2025."
+    },
+    "36": {
+      "content": "Added fields with characteristics for the chameleon and shield."
     }
   }
 }

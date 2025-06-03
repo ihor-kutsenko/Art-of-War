@@ -6,6 +6,7 @@ import UnitWeapons from 'components/UnitWeapons/UnitWeapons';
 import HeroBadge from 'components/HeroBadge/HeroBadge';
 import styles from './UnitDetails.module.scss';
 import HeroAbilities from 'components/HeroAbilities/HeroAbilities';
+import UnitSpecialStats from 'components/UnitSpecialStats/UnitSpecialStats';
 
 const UnitDetails = ({ unit }) => {
   const { t } = useTranslation();
@@ -95,6 +96,14 @@ const UnitDetails = ({ unit }) => {
               weapons={unit.weapons}
             />
           </>
+        )}
+
+        {selectedLevelData.specialStats && (
+          <UnitSpecialStats
+            stats={selectedLevelData.specialStats}
+            statKey={unit.specialStatsKey}
+            title={t('units.confUnits.energyShield.info')}
+          />
         )}
 
         <div className={styles.unitDescriptionMobile}>

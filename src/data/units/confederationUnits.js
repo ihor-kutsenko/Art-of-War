@@ -4617,6 +4617,7 @@ export const confederationUnits = [
     iconArmor: armor3,
     description: '',
     weapons: null,
+    specialStatsKey: 'units.confUnits.energyShield.stats',
     levels: [
       // 7
       {
@@ -4629,6 +4630,15 @@ export const confederationUnits = [
         time: 68,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 8
       {
@@ -4641,6 +4651,15 @@ export const confederationUnits = [
         time: 66,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 9
       {
@@ -4653,6 +4672,15 @@ export const confederationUnits = [
         time: 66,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 10
       {
@@ -4665,6 +4693,15 @@ export const confederationUnits = [
         time: 65,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 12
       {
@@ -4677,6 +4714,15 @@ export const confederationUnits = [
         time: 63,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 14
       {
@@ -4689,6 +4735,15 @@ export const confederationUnits = [
         time: 62,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 15
       {
@@ -4701,6 +4756,15 @@ export const confederationUnits = [
         time: 62,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 16
       {
@@ -4713,6 +4777,15 @@ export const confederationUnits = [
         time: 60,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 17
       {
@@ -4725,6 +4798,15 @@ export const confederationUnits = [
         time: 60,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 18
       {
@@ -4737,6 +4819,15 @@ export const confederationUnits = [
         time: 59,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 42 } },
+          { key: 'stats_2', values: { radius: 4.33 } },
+          { key: 'stats_3', values: { reserve: 203 } },
+          { key: 'stats_4', values: { consumption: 200 } },
+          { key: 'stats_5', values: { regeneration: 103 } },
+          { key: 'stats_6', values: { activation: 1.6 } },
+          { key: 'stats_7', values: { deactivation: 1.6 } },
+        ],
       },
       // 19
       {
@@ -4749,6 +4840,15 @@ export const confederationUnits = [
         time: 59,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 20
       {
@@ -4761,6 +4861,15 @@ export const confederationUnits = [
         time: 57,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 44 } },
+          { key: 'stats_2', values: { radius: 4.33 } },
+          { key: 'stats_3', values: { reserve: 210 } },
+          { key: 'stats_4', values: { consumption: 200 } },
+          { key: 'stats_5', values: { regeneration: 110 } },
+          { key: 'stats_6', values: { activation: 1.4 } },
+          { key: 'stats_7', values: { deactivation: 1.4 } },
+        ],
       },
       // 21
       {
@@ -4773,6 +4882,15 @@ export const confederationUnits = [
         time: 57,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 22
       {
@@ -4785,6 +4903,15 @@ export const confederationUnits = [
         time: 56,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 24
       {
@@ -4797,6 +4924,15 @@ export const confederationUnits = [
         time: 54,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 25
       {
@@ -4809,6 +4945,15 @@ export const confederationUnits = [
         time: 54,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 26
       {
@@ -4821,6 +4966,15 @@ export const confederationUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 27
       {
@@ -4833,6 +4987,15 @@ export const confederationUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 28
       {
@@ -4845,6 +5008,15 @@ export const confederationUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
       // 29
       {
@@ -4857,6 +5029,15 @@ export const confederationUnits = [
         time: 53,
         cp: 5,
         weapons: null,
+        specialStats: [
+          { key: 'stats_1', values: { damage: 0 } },
+          { key: 'stats_2', values: { radius: 0 } },
+          { key: 'stats_3', values: { reserve: 0 } },
+          { key: 'stats_4', values: { consumption: 0 } },
+          { key: 'stats_5', values: { regeneration: 0 } },
+          { key: 'stats_6', values: { activation: 0 } },
+          { key: 'stats_7', values: { deactivation: 0 } },
+        ],
       },
     ],
   },
