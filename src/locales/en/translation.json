@@ -1049,8 +1049,8 @@
         "50 wins - 3000 gold;",
         "100 wins - 4000 gold;",
         "150 wins - 6000 gold;",
-        "? wins -   ? gold;",
-        "? wins -   ? gold;",
+        "200 wins - 8000 gold;",
+        "300 wins - 10000 gold;",
         "? wins -   ? gold;",
 
         "------------------------------------------------------------",
@@ -1062,7 +1062,7 @@
         "100 wins - 3000 gold;",
         "150 wins - 4000 gold;",
         "200 wins - 6000 gold;",
-        "? wins - ? gold;",
+        "300 wins - 8000 gold;",
         "? wins - ? gold;",
         "------------------------------------------------------------",
         "Authors: Masterskoy, --DOMINATOR--"
