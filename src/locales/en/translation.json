@@ -1229,7 +1229,10 @@
       "content": "Add contracts to Game Birthday event 2025."
     },
     "36": {
-      "content": "Added fields with characteristics for the chameleon and shield."
+      "content": "Add fields with characteristics for the chameleon and shield."
+    },
+    "37": {
+      "content": "Add units for resistance 13 rank."
     }
   }
 }
