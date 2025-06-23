@@ -4391,7 +4391,7 @@ export const confederationUnits = [
             damageArmor1: 397,
             damageArmor2: 737,
             damageArmor3: 737,
-            firingRange: 13,
+            firingRange: 13.5,
             rateOfFire: 33,
             firingAccuracy: '50.5',
             firingAccuracy2: '0.00',
