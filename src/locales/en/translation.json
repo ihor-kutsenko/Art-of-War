@@ -956,7 +956,8 @@
     "lunarNewYear": "Lunar New Year 2025",
     "syndicate2025": "Syndicate 2025",
     "joker2025": "Joker 2025",
-    "gameBirthday2025": "Game Birthday 2025"
+    "gameBirthday2025": "Game Birthday 2025",
+    "summerHeat2025": "Summer heat 2025"
   },
   "articles": {
     "showLess": "Show less",
@@ -1233,6 +1234,9 @@
     },
     "37": {
       "content": "Add units for resistance 13 rank."
+    },
+    "38": {
+      "content": "Add contracts to Summer Heat event 2025."
     }
   }
 }
