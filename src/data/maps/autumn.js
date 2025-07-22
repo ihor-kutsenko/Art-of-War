@@ -15,9 +15,19 @@ export const autumnMaps = [
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341475/iron-curtain_blo0oi.webp',
   },
   {
+    title: 'maps.autumnMaps.fortressRampart',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1753209949/fortress-rampart_pnofyb.webp',
+  },
+  {
     title: 'maps.autumnMaps.goldenRing',
     image:
       'https://res.cloudinary.com/dsy8hantq/image/upload/v1727341482/golden-ring_elnsgd.webp',
+  },
+  {
+    title: 'maps.autumnMaps.mapleGroves',
+    image:
+      'https://res.cloudinary.com/dsy8hantq/image/upload/v1753209949/maple-groves_klfdqb.webp',
   },
   {
     title: 'maps.autumnMaps.newRoswell',

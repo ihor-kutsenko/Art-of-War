@@ -49,7 +49,9 @@
       "ravensHill": "Ravens Hill",
       "goldenRing": "Gold Ring",
       "steelGrip": "Steel Grip",
-      "newRoswell": "New Roswell"
+      "newRoswell": "New Roswell",
+      "fortressRampart": "Fortress Rampart",
+      "mapleGroves": "Maple Groves"
     },
     "winterMaps": {
       "backwaterLike": "Backwater Like",
@@ -558,6 +560,9 @@
         "passive_10": "Number of strikes of chain lightning {{amount}}"
       }
     },
+    "atlas": {
+      "name": "ATLAS"
+    },
     "wasp": {
       "name": "WASP",
       "type": "ELight Support Helicopter",
@@ -677,6 +682,9 @@
         "passive_3": "Duration {{time}} sec.",
         "passive_4": "Damage decrease {{percent}} %"
       }
+    },
+    "bison": {
+      "name": "BISON"
     },
     "blueprints": {
       "blueprints": "Blueprints",
@@ -1237,6 +1245,9 @@
     },
     "38": {
       "content": "Add contracts to Summer Heat event 2025."
+    },
+    "39": {
+      "content": "Add blueprints to the table for the new heroes: Atlas and Bison. Also added 2 new maps: Fortress Rampart and Maple Groves."
     }
   }
 }

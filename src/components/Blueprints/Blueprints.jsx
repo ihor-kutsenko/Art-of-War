@@ -131,6 +131,24 @@ const Blueprints = () => {
           <td>4900</td>
           <td>15025</td>
         </tr>
+        <tr>
+          <td className={`${styles.hero} ${styles.t3}`}>
+            {t('heroes.atlas.name')} / <br /> {t('heroes.bison.name')}
+          </td>
+          <td>100</td>
+          <td>65</td>
+          <td>130</td>
+          <td>215</td>
+          <td></td>
+          <td>600</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1100</td>
+        </tr>
       </tbody>
     </table>
   );
