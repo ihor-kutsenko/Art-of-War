@@ -147,7 +147,7 @@ const Blueprints = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td>1100</td>
+          <td>1110</td>
         </tr>
       </tbody>
     </table>
