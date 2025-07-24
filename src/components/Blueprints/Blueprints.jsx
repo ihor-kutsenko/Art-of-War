@@ -139,7 +139,7 @@ const Blueprints = () => {
           <td>65</td>
           <td>130</td>
           <td>215</td>
-          <td></td>
+          <td>400</td>
           <td>600</td>
           <td>1100</td>
           <td></td>
@@ -147,7 +147,7 @@ const Blueprints = () => {
           <td></td>
           <td></td>
           <td></td>
-          <td>2210</td>
+          <td>2610</td>
         </tr>
       </tbody>
     </table>
