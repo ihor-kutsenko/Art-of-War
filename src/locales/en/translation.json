@@ -561,7 +561,27 @@
       }
     },
     "atlas": {
-      "name": "ATLAS"
+      "name": "ATLAS",
+      "type": "Heavy Combat Mech",
+      "weapons1": "TWIN THERMOELECTRIC CANNONS M259-MK.II",
+      "weapons2": "'SKY DOME' AIR DEFENSE SYSTEM",
+      "active": "Titans fury",
+      "passive": "Frontal defense matrix",
+      "abilities": {
+        "active_1": "Fires a volley of {{amount}} shells with enhanced thermal and kinetic effects at a targeted area within a radius of up to {{radius}} cells. Units caught in the center of the strike zone take massive damage from multiple explosions.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Explosion radius {{radius}} cell",
+        "active_7": "Distance of activation {{distance}} cell",
+        "active_8": "Time to prepare to fire {{time}} sec.",
+        "passive_1": "When incoming damage exceeds {{amount}} per second, a defensive energy matrix is activated. It absorbs {{point1}} points of damage from each hit coming from the front of Atlas’s hull. If the damage from a single shot is less than {{point2}}, it is fully absorbed. ",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Angle of protection {{degree}}°",
+        "passive_4": "Duration {{duration}} sec",
+        "passive_5": "Damage absorption {{point}} points"
+      }
     },
     "wasp": {
       "name": "WASP",
@@ -1248,6 +1268,9 @@
     },
     "39": {
       "content": "Add blueprints to the table for the new heroes: Atlas and Bison. Also added 2 new maps: Fortress Rampart and Maple Groves."
+    },
+    "40": {
+      "content": "Add new heroes Atlas"
     }
   }
 }
