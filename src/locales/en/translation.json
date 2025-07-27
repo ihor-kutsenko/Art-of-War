@@ -704,7 +704,31 @@
       }
     },
     "bison": {
-      "name": "BISON"
+      "name": "BISON",
+      "type": "Heavy Tesla Tank",
+      "weapons1": "'BREAKDOWN' SHOCK ELECTRODES",
+      "weapons2": "TESLA’S 'STORM' COMBAT TRANSFORMER",
+      "active": "Ball Lightning",
+      "passive": "Electro Tsunami",
+      "abilities": {
+        "active_1": "Fires a ball lightning at a designated point up to {{radius}} cells away. The lightning damages all units along its path and explodes on impact, dealing heavy damage. Buildings in the blast zone are disabled for {{time}} seconds, while Energy Shields and Chameleons lose up to {{percent}}% of their maximum energy.",
+        "active_2": "Time to cooldown the ability {{time}} sec.",
+        "active_3": "Damage vs armor I {{damage1}}",
+        "active_4": "Damage vs armor II {{damage2}}",
+        "active_5": "Damage vs armor III {{damage3}}",
+        "active_6": "Explosion radius {{radius}} cell",
+        "active_7": "Distance of activation {{distance}} cell",
+        "active_8": "Time to prepare to fire {{time}} sec",
+        "active_9": "Building shutdown duration {{duration}} sec ",
+        "active_10": "Energy reduction of special vehicles {{percent}} % of max",
+        "passive_1": "When three or more enemy targets are nearby, the Tesla Coil releases a powerful circular electric surge within a radius of {{radius}} cells. All affected units are stunned for {{time}} seconds.",
+        "passive_2": "Time to cooldown the ability {{time}} sec.",
+        "passive_3": "Damage vs armor I {{damage1}}",
+        "passive_4": "Damage vs armor II {{damage2}}",
+        "passive_5": "Damage vs armor III {{damage3}}",
+        "passive_6": "Radius of action {{radius}} cell",
+        "passive_7": "Stun duration {{time}} sec"
+      }
     },
     "blueprints": {
       "blueprints": "Blueprints",
@@ -1270,7 +1294,7 @@
       "content": "Add blueprints to the table for the new heroes: Atlas and Bison. Also added 2 new maps: Fortress Rampart and Maple Groves."
     },
     "40": {
-      "content": "Add new heroes Atlas"
+      "content": "Add new heroes: Atlas and Bison"
     }
   }
 }
