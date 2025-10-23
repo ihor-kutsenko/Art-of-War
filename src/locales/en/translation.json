@@ -1011,7 +1011,8 @@
     "gameBirthday2025": "Game Birthday 2025",
     "summerHeat2025": "Summer heat 2025",
     "syndicate22025": "Syndicate2 2025",
-    "gearGamesBirthday2025": "Gear Games Birthday 2025"
+    "gearGamesBirthday2025": "Gear Games Birthday 2025",
+    "halloween2025": "Halloween 2025"
   },
   "articles": {
     "showLess": "Show less",
@@ -1303,6 +1304,9 @@
     },
     "42": {
       "content": "Add contracts to Gear Games Birthday event 2025."
+    },
+    "43": {
+      "content": "Add contracts to Halloween event 2025."
     }
   }
 }
